@@ -20,7 +20,7 @@ description: Department of Mathematics
 
 # List of links in the navigation bar
 navbar-links:
-  Home: /
+  Home: "https://uwomathgrad.github.io/"
   About Me: "aboutme"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
