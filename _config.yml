@@ -21,7 +21,7 @@ description: Department of Mathematics
 # List of links in the navigation bar
 navbar-links:
   Home: "https://uwomathgrad.github.io/"
-  Fall 2019: "fall2019"
+  Fall 2019: "/editions/fall2019"
   Past Editions: "/editions/Winter2019"
   Legacy: "legacy"
 
