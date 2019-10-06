@@ -37,4 +37,8 @@ The development of the website in GitHub started with the **Fall 2019** committe
 
 ## Credits
 
-The GitHub project has no direct relation with the official Mathematics Deparment [Website](https://www.math.uwo.ca/) or any other dependency at [Western University](https://www.uwo.ca/)
+The GitHub project has no direct relation with the official Mathematics Deparment [Website](https://www.math.uwo.ca/) or any other dependency at [Western University](https://www.uwo.ca/); yet the Graduate Students thank to the Department for their support and funding througout the several editions of this project.
+
+The template of the website and all its development belong to  [Dean Attali](https://deanattali.com/) who made possible the nice current style that this website has with his open source project [Beautiful-Jekyll](https://github.com/daattali/beautiful-jekyll).
+
+The migration of the legacy website from GoogleSites to the current version in GitHub, the support of LaTeX into the theme and the development of the website were made by [@slchavesr](https://github.com/slchavesr).
