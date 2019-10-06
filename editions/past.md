@@ -10,7 +10,7 @@ Previous instances of the Graduate Seminar can be found here.
 
 <style>
          .button {
-         background-color: #1c87c9;
+         background-color: #7332A8;
          border: none;
          color: white;
          padding: 20px 34px;
@@ -22,6 +22,8 @@ Previous instances of the Graduate Seminar can be found here.
          cursor: pointer;
          }
       </style>
+      
    <body>
       <a href="/editions/fall2019" class="button">Fall 2019</a>
+      <a href="/editions/winter2019" class="button">Winter 2019</a>
    </body>
