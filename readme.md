@@ -13,7 +13,7 @@ The theme for the website is based on [Beautiful-Jekyll](https://github.com/daat
 - The **navigation bar** can be modified in [`_config.yml`](./_config.yml) as well and the logo file must be updated in the **img** folder.
 - The folder **editions** contains the Markdown Files to each edition of the seminar. The navigation bar must be updated each time a new edition occurs; and move the recently finished edition to the **past editions** tab.
 - The folder **docs** contains the documents related to the seminar. (abstracts, tex or pdf files, etc)
-- Any other folder/file are elements for building the website under the chosen theme.
+- Any others folders/files are elements for building the website under the chosen theme and modify them in case the layout of the website wants to be changed.
 
 
 ## Organization
@@ -30,6 +30,8 @@ The current version **Fall 2019** is currently organized by the graduate student
 - Sergio Chaves (schavesr)
 - Brandon Doherty (bdoher)
 - Marios Velivasakis (mvelivas)
+
+And the mantainance of the website is currently under the charge of [schavesr](https://github.com/slchavesr).
 
 ### Previous Organizers
 
