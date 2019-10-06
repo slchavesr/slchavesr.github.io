@@ -17,11 +17,11 @@ If $X$ is a presheaf of Kan complexes, we describe the maps $\[\*, X\]$, in the 
 This talk is based on original research by the speaker.
 </p>
 
-### Sergio Chaves, Freeness of equivariant cohomology as a module over $H*(BG)$ (Tuesday Feb 13, 2018)
+### Sergio Chaves, Freeness of equivariant cohomology as a module over $H^*(BG)$ (Tuesday Feb 13, 2018)
 <p style='text-align: justify;'>
 The talk will start with a brief introduction to the classical Borel's construction of equivariant cohomology for topological spaces together with an action of a group $G$, and as an extension of the ordinary singular cohomology in algebraic topology. 
 
-Such cohomology inherits naturally a module structure over the cohomology ring $H^{\*}(BG)$ where $BG$ is a model for the classifying space of $G$; it is natural to ask whether the equivariant cohomology is a free module over $H^{\*}(BG)$ or not.
+Such cohomology inherits naturally a module structure over the cohomology ring $H^{*}(BG)$ where $BG$ is a model for the classifying space of $G$; it is natural to ask whether the equivariant cohomology is a free module over $H^{*}(BG)$ or not.
 
 We will see that the fixed point subspace plays a crucial role in the core of this question, and the main results involving this problem which are due to Atiyah, Borel, Dieck, Seagal and recent progress made by Guillemin, Haussmann, Franz and myself will be discussed.
 </p>
