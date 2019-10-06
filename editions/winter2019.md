@@ -1,3 +1,11 @@
+---
+layout : page
+mathjax : true
+---
+{% include mathjax.html %}
+
+<center> <h1 style="font-size:80px">Winter 2019 </h1> </center>
+
 ### Ahmed Ashraf, The Tutte polynomial of a matroid (Tuesday Feb 19, 2019)
 <p style='text-align: justify;'>
 The Tutte polynomial is a universal Tutte-Grothendieck invariant of a matroid. We introduce this polynomial for a matroid and show how it is a generalization of characteristic polynomial of a geometric lattice and chromatic polynomial of a graph. We use this topic to briefly introduce the audience to matroids, as a generalization of graphs. 
