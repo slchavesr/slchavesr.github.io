@@ -12,7 +12,7 @@ Motivated by geometric models of concurrency, we introduce the path category of 
 
 We introduce cocycle categories as a way of talking about the homotopy category of a right proper model category, and produce a sheaf theoretic version of the Bergner model structure which is right proper. The Quillen equivalence of the Joyal and Bergner model structure extends to the sheaf theoretic level. 
 
-If $X$ is a presheaf of Kan complexes, we describe the maps $\[\*, X\]$, in the homotopy category of the Jardine model structure. This is a consequence of the cocycle theory. We interpret this as non-abelian $H^{1}$ with coefficients in a sheaf of $\infty$-groupoids, generalizing Giraud’s non-abelian $H^{1}$.
+If $X$ is a presheaf of Kan complexes, we describe the maps $[*, X]$, in the homotopy category of the Jardine model structure. This is a consequence of the cocycle theory. We interpret this as non-abelian $H^{1}$ with coefficients in a sheaf of $\infty$-groupoids, generalizing Giraud’s non-abelian $H^{1}$.
 
 This talk is based on original research by the speaker.
 </p>
