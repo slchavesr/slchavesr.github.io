@@ -1,3 +1,11 @@
+---
+layout : page
+mathjax : true
+---
+{% include mathjax.html %}
+
+<center> <h1 style="font-size:80px">Winter 2018 </h1> </center>
+
 ### Nicholas Meadows, Local Higher Category Theory, Cocycles and Torsors (Tuesday Jan 16, 2018)
 <p style='text-align: justify;'>
 Motivated by geometric models of concurrency, we introduce the path category of a simplicial set, and the Joyal model structure on simplicial sets. We explain the sheaf theoretic extension of the Joyal model structure. 
