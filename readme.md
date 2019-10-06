@@ -1,4 +1,4 @@
-# Graduate Student Seminar Oficial Website
+# Graduate Student Seminar Official Website
 
 ## Description
 
@@ -20,7 +20,7 @@ The theme for the website is based on [Beautiful-Jekyll](https://github.com/daat
 
 The 2019 organizers started implementing a [Google Docs spreadhseet](https://docs.google.com/spreadsheets/d/1xmKC9H9zwDQFBtqjQcaKW6DqvJvyuQSYxZIxEgGOeFo/edit#gid=0) to keep track of the funding used, dates and potential speakers for the seminar.
 It is expected that after every change of committee, the ownership of this document is transfered to the new members. If you are a new organizing member and still have no access to the document, please contact a commitee member from the previous edition.
-It is also expected that the new comitte keep mantaining the website and keep the next information up to date. Ask the current commitee to be added to the [official repository](https://github.com/UWOMathGrad) in GitHub and give continuity to the project.
+It is also expected that the new comitte keep mantaining the website and keep the next information up to date. Ask the current commitee for being added to the [official repository](https://github.com/UWOMathGrad) in GitHub and please give continuity to the project.
 
 ## Commitee and Mantainance
 
