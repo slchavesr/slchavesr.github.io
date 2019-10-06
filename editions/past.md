@@ -22,7 +22,6 @@ Previous instances of the Graduate Seminar can be found here.
          cursor: pointer;
          }
       </style>
-   </head>
    <body>
-      <a href="https://www.w3docs.com/" class="button">Click Here</a>
+      <a href="/editions/fall2019" class="button">Fall 2019</a>
    </body>
