@@ -29,7 +29,6 @@ The current version **Fall 2019** is currently organized by the graduate student
 - Félix Baril Boudreau (fbarilbo)
 - Sergio Chaves (schavesr)
 - Brandon Doherty (bdoher)
-- Marios Velivasakis (mvelivas)
 
 And the mantainance of the website is currently under the charge of [schavesr](https://github.com/slchavesr).
 
