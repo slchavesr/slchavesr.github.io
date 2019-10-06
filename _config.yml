@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: UWO Graduate Student Seminar
+title: Graduate Student Seminar
 
 # Short description of your site
-description: Department of Mathematics
+description: Department of Mathematics. Western University
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
