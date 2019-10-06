@@ -32,6 +32,6 @@ Previous instances of the Graduate Seminar can be found here.
   <br/>
     
   <body>
-      <a href="/editions/fall2018" class="button">Fall 2019</a>
+      <a href="/editions/fall2019" class="button">Fall 2019</a>
   </body>
 
