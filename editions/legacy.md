@@ -10,4 +10,4 @@ The 2019 Organizers (Félix Baril Boudreau, Sergio Chaves, Brandon Doherty, Mari
 
 ## Credits
 
-The official website for the **Graduate Student Seminar** is hosted in GitHub. The implementation was made by the student [Sergio Chaves](https://github.com/slchavesr) based on the open-source template [Beautiful-Jekyll](https://github.com/daattali/beautiful-jekyll) created by [Dean Attali](https://deanattali.com/). It is also important to credit Brandon Doherty for transfering abstracts from previous editions hosted in the legacy site into the current format.
+The official website for the **Graduate Student Seminar** is hosted in GitHub. The implementation was made by the student [Sergio Chaves](https://github.com/slchavesr) based on the open-source template [Beautiful-Jekyll](https://github.com/daattali/beautiful-jekyll) created by [Dean Attali](https://deanattali.com/). It is also important to credit Brandon Doherty for transfering the abstracts hosted in the legacy site into the current format.
