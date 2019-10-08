@@ -1,11 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Graduate Student Seminar
+title: Sergio Chaves
 
 # Short description of your site
-description: Department of Mathematics. Western University
-
+description: Personal Website
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
@@ -20,14 +19,14 @@ description: Department of Mathematics. Western University
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "https://uwomathgrad.github.io/"
-  Fall 2019: "/editions/fall2019"
-  Past Editions: "/editions/past"
-  Legacy: "/editions/legacy"
-
+  Home: "index"
+  Research: "/research/research"
+  Teaching: "/teaching/teaching"
+  CV: "/cv.pdf"
+  Gaming: "/gaming/gaming
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/logo.jpeg"
+# avatar: "/img/logo.jpeg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -37,7 +36,7 @@ avatar: "/img/logo.jpeg"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#7332A8"
+navbar-col: "black"
 navbar-text-col: "#F5F5F5"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
@@ -59,18 +58,17 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Graduate Student Comittee
-
+  name: Sergio Chaves
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
 # rss: true
-  email: "fbarilbo, bdoher, schavesr @uwo.ca"
+  email: "schavesr@uwo.ca"
 # email: "someone@example.com"
 # facebook: deanattali
-# github: daattali
+ github: slchavesr
 #  twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
