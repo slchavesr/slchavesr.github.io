@@ -11,7 +11,7 @@ mathjax : true
 The Tutte polynomial is a universal Tutte-Grothendieck invariant of a matroid. We introduce this polynomial for a matroid and show how it is a generalization of characteristic polynomial of a geometric lattice and chromatic polynomial of a graph. We use this topic to briefly introduce the audience to matroids, as a generalization of graphs. 
 </p>
 
-<h2 style="color:darkviolet"> Babak Beheshti Vadequan, A Conceptual Introduction to Quantum Mechanics <br/> (Friday Mar 15, 2019) </h2>
+<h2 style="color:darkviolet"> Babak Beheshti Vadeqan, A Conceptual Introduction to Quantum Mechanics <br/> (Friday Mar 15, 2019) </h2>
 <p style='text-align: justify;'>
 The aim of this talk is to discuss some basic concepts of quantum mechanics such as the concept of state space, observables, measurement, etc. with comparison to their classical counterparts. We then proceed to explore the logical structure underlying propositional calculus for quantum mechanics and we will see how it differs from classical logic.
 </p>
