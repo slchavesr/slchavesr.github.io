@@ -19,7 +19,7 @@ description: Personal Website
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "index"
+  Home: "/index"
   Research: "/research/research"
   Teaching: "/teaching/teaching"
   CV: "/cv.pdf"
@@ -36,7 +36,7 @@ navbar-links:
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "black"
+navbar-col: "#000000"
 navbar-text-col: "#F5F5F5"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
