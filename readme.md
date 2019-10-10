@@ -42,4 +42,4 @@ This GitHub project has no direct relation with the official Mathematics Deparme
 
 The template of the website and all its development belong to  [Dean Attali](https://deanattali.com/) who made possible the nice  style that this website currently has with his open source project [Beautiful-Jekyll](https://github.com/daattali/beautiful-jekyll).
 
-The migration of the legacy website from GoogleSites to the current version in GitHub, the support of LaTeX into the theme, and the development of the website were done by [@slchavesr](https://github.com/slchavesr).
+The migration of the legacy website from GoogleSites to the current version in GitHub, the support of LaTeX into the theme, and the development of the website were done by [@slchavesr](https://github.com/slchavesr). The abstracts from the legacy site were transfered to this version by [@BBFelix](https://github.com/bbfelix) and [@bcldoherty](https://github.com/bcldoherty).
