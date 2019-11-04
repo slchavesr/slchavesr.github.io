@@ -19,7 +19,7 @@ description: Personal Website
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "/index"
+  Home: "/"
   Research: "/research/research"
   Teaching: "/teaching/teaching"
   CV: "/Sergio Chaves - CV.pdf"
