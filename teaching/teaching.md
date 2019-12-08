@@ -8,7 +8,7 @@ On Fall 2019 I am a teaching assistant for [Math 1600](https://www.math.uwo.ca/f
 
 I am pursuing the [Western Certificate in University Teaching and Learning](https://teaching.uwo.ca/programs/certificates/cutl.html). 
 
-For previous courses that I have thaught, refer to my [CV](https://slchavesr.github.io/Sergio%20Chaves%20-%20CV.pdf).
+For previous courses that I have taught, refer to my [CV](https://slchavesr.github.io/Sergio%20Chaves%20-%20CV.pdf).
 
 For my Teaching Philosophy statement and a detailed statement of my teaching experience, professional development and reflections on mathematical teaching, visit my [Teaching Dossier](/docs/Teaching_Dossier.pdf).
 
