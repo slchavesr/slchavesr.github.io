@@ -21,7 +21,7 @@ description: Department of Mathematics. Western University
 # List of links in the navigation bar
 navbar-links:
   Home: "https://uwomathgrad.github.io/"
-  Fall 2019: "/editions/fall2019"
+  Winter 2020: "/editions/winter2020"
   Past Editions: "/editions/past"
   Legacy: "/editions/legacy"
 
@@ -67,7 +67,7 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
 # rss: true
-  email: "fbarilbo, bdoher, schavesr @uwo.ca"
+  email: "fbarilbo, mvelivas, umavinku @uwo.ca"
 # email: "someone@example.com"
 # facebook: deanattali
 # github: daattali
