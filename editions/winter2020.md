@@ -10,7 +10,7 @@ The seminar will run on **Fridays** from **3:30** to **4:30** PM in **MC 107**.
 
 Coffee and Snacks are usually provided. 
 
-A list of **suggested topics** for expository talks of MSc Students can be accessed [here](https://uwomathgrad.github.io/docs/MSc Topics list.pdf).
+A list of **suggested topics** for expository talks of MSc Students can be accessed [here](https://uwomathgrad.github.io/docs/MScWinter2020.pdf).
 
 The PDF version of the abstracts can be accessed [here](https://uwomathgrad.github.io/docs/main.pdf).
 
