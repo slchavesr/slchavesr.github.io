@@ -26,7 +26,7 @@ Simplicial categories, categories enriched over simplicial sets, are one of the 
 
 <h2 style="color:darkviolet"> Prakash Singh, Hofer's geometry on the group of Hamilton diffeomorphism of the 2-sphere <br/> (Friday Jan 31, 2020) </h2>
 <p style='text-align: justify;'>
-Given an isotopy (or flow of a vector field) on a Symplectic manifold (M,w), the trajectories of this isotopy may form a complicated system of curves, but one can study the isotopy as a curve in some topological group (Ham (M,w)). In fact, we can put a metric (Hofer's metric) on Ham(M,w) and study the geometric properties of this metric itself. We will look at some basic questions that one can ask about this metric and discuss the diameter of this topological group under this metric. In particular, we will try to prove that Ham(S^2) has infinite diameter with respect to this metric.
+Given an isotopy (or flow of a vector field) on a Symplectic manifold $(M,w)$, the trajectories of this isotopy may form a complicated system of curves, but one can study the isotopy as a curve in some topological group $(Ham (M,w))$. In fact, we can put a metric (Hofer's metric) on $Ham(M,w)$ and study the geometric properties of this metric itself. We will look at some basic questions that one can ask about this metric and discuss the diameter of this topological group under this metric. In particular, we will try to prove that $Ham(S^2)$ has infinite diameter with respect to this metric.
 </p>
 
 <h2 style="color:darkviolet"> Mohabat Tarkeshian, TBA <br/> (Friday Feb 7, 2020) </h2>
