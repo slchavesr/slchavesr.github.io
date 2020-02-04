@@ -29,8 +29,9 @@ Simplicial categories, categories enriched over simplicial sets, are one of the 
 Given an isotopy (or flow of a vector field) on a Symplectic manifold $(M,w)$, the trajectories of this isotopy may form a complicated system of curves, but one can study the isotopy as a curve in some topological group $(Ham (M,w))$. In fact, we can put a metric (Hofer's metric) on $Ham(M,w)$ and study the geometric properties of this metric itself. We will look at some basic questions that one can ask about this metric and discuss the diameter of this topological group under this metric. In particular, we will try to prove that $Ham(S^2)$ has infinite diameter with respect to this metric.
 </p>
 
-<h2 style="color:darkviolet"> Mohabat Tarkeshian, TBA <br/> (Friday Feb 7, 2020) </h2>
+<h2 style="color:darkviolet"> Mohabat Tarkeshian, Jacobians of graphs and starfish <br/> (Friday Feb 7, 2020) </h2>
 <p style='text-align: justify;'>
+Graphs can be viewed as discrete analogues of various mathematical structures, such as algebraic curves and Riemann surfaces. A finite graph has an associated finite abelian group called the \textit{Jacobian group}, denoted $Jac(G)$ (also called the \textit{critical, sandpile, or Picard group}). We will discuss these groups and a special type of $k$-regular graph called a \textit{starfish graph}. A starfish is similar to a hyperelliptic curve since each can be viewed as a (ramified) double-cover of a simply connected object. It is a graph $S$ exhibited as a double-cover $S \to T$ of a tree $T$ with ramification locus equal to the leaves of $T$.  We will discuss how varying the starfish can give rise to natural questions such as how often $S$ is Ramanujan and how $S \to T$ can be viewed as a harmonic morphism of graphs. We will also briefly examine induced maps on Jacobians and their connection to harmonic morphisms.
 </p>
 
 <h2 style="color:darkviolet"> Luis Scoccola, TBA <br/> (Friday Feb 14, 2020) </h2>
