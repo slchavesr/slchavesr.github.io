@@ -54,6 +54,6 @@ Graphs can be viewed as discrete analogues of various mathematical structures, s
 <p style='text-align: justify;'>
 </p>
 
-<h2 style="color:darkviolet"> TBA, TBA <br/> (Friday Mar 27, 2020) </h2>
+<h2 style="color:darkviolet"> Luke Broemeling, TBA <br/> (Friday Mar 27, 2020) </h2>
 <p style='text-align: justify;'>
 </p>
