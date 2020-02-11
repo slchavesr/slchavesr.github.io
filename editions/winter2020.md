@@ -34,8 +34,11 @@ Given an isotopy (or flow of a vector field) on a Symplectic manifold $(M,w)$, t
 Graphs can be viewed as discrete analogues of various mathematical structures, such as algebraic curves and Riemann surfaces. A finite graph has an associated finite abelian group called the Jacobian group, denoted $Jac(G)$ (also called the critical, sandpile, or Picard group). We will discuss these groups and a special type of $k$-regular graph called a starfish graph. A starfish is similar to a hyperelliptic curve since each can be viewed as a (ramified) double-cover of a simply connected object. It is a graph $S$ exhibited as a double-cover $S \to T$ of a tree $T$ with ramification locus equal to the leaves of $T$.  We will discuss how varying the starfish can give rise to natural questions such as how often $S$ is Ramanujan and how $S \to T$ can be viewed as a harmonic morphism of graphs. We will also briefly examine induced maps on Jacobians and their connection to harmonic morphisms.
 </p>
 
-<h2 style="color:darkviolet"> Luis Scoccola, TBA <br/> (Friday Feb 14, 2020) </h2>
+<h2 style="color:darkviolet"> Luis Scoccola, Monoidal categories, string diagrams, and Markov categories <br/> (Friday Feb 14, 2020) </h2>
 <p style='text-align: justify;'>
+Monoidal categories are categories with a notion of product that is weaker than the categorical product. This relaxation allows for many interesting examples coming from topology, logic, physics, and probability theory.
+
+I will introduce monoidal categories and string diagrams, a graphical calculus to work with diagrams in monoidal categories, and I will go over several examples, paying particular attention to the ones coming from probability theory. This will motivate the definition of Markov category, an abstraction that lets us study probabilistic concepts such as marginalization, conditionals, Markov processes, almost sure equality, and deterministic maps diagrammatically.  
 </p>
 
 <h2 style="color:darkviolet"> Andrew Herring, TBA <br/> (Friday Feb 28, 2020) </h2>
