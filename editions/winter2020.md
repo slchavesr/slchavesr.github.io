@@ -53,7 +53,7 @@ I will introduce monoidal categories and string diagrams, a graphical calculus t
 <p style='text-align: justify;'>
 </p>
 
-<h2 style="color:darkviolet"> TBA, TBA <br/> (Friday Mar 20, 2020) </h2>
+<h2 style="color:darkviolet"> Nathan Joseph Pagliaroli, TBA <br/> (Friday Mar 20, 2020) </h2>
 <p style='text-align: justify;'>
 </p>
 
