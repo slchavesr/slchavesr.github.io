@@ -10,5 +10,5 @@ I am pursuing the [Western Certificate in University Teaching and Learning](http
 
 For previous courses that I have taught, refer to my [CV](https://slchavesr.github.io/Sergio%20Chaves%20-%20CV.pdf).
 
-For my Teaching Philosophy statement and a detailed statement of my teaching experience, professional development and reflections on mathematical teaching, visit my [Teaching Dossier](/docs/Teaching_Dossier.pdf).
+For my Teaching Philosophy statement and a detailed statement of my teaching experience, professional development and reflections on mathematical teaching, visit my [Teaching Dossier](/teaching/teaching_dossier.md).
 
