@@ -12,7 +12,7 @@ Updated: Mar 2020.
 1. [Brief Biography](#briefbiography)
 2. [Teaching Philosophy](#teachingphilosphy)
 3. [Teaching Experience](#teachingexperience)
-    3.1. [Western University](#western)
+    1. [Western University](#western)
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
