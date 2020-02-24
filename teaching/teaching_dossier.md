@@ -36,8 +36,8 @@ Finally, I make of mathematics a lively and exciting subject. I base my teaching
 As a final point, I completely perceive teaching as a process that goes beyond the classroom; it is a whole compendium of one's preparation, experience, motivation and philosophy that reflects on student's mindset towards the subject, and each day I pursue an improvement on every aspect. I regard teaching as an essential stage of learning and forming character; and more than teaching the contents of a syllabus during a course, I establish on my teaching philosophy and methods the significance of the teaching-learning connection based on strengthening the process of reading, interpreting, applying and explaining on each student.  Even though some of the students will eventually forget the explicit contents of the course, I want to be a professor that prints a permanent mark on each student's professional and personal development, and one that they will always remember.
 </p>
 
-## Teaching Experience<a name="teaching experience"></a>
+## Teaching Experience<a name="teachingexperience"></a>
 
-## Western University. Teaching Assistant (2015-2020) <a name="briefbiography"></a>
+## Western University. Teaching Assistant (2015-2020) <a name="western"></a>
 
 
