@@ -1,15 +1,14 @@
 ---
 layout: page
-title: Teaching
+title: Teaching Dossier
 use-site-title: true
 ---
+Updated: Mar 2020.
 
-# Teaching Dossier (Updated: Mar 2020)
-
-## Contents
+# Contents
 
 1. [Brief Biography](#briefbiography)
 
-## Brief Biography < a name="briefbiography"></a>
+## Brief Biography <a name="briefbiography"></a>
 
 
