@@ -10,8 +10,10 @@ Updated: Mar 2020.
 
 
 1. [Brief Biography](#briefbiography)
-2. [Teaching Philosophy](#teachingphilosophy)
-
+2. [Teaching Philosophy](#teachingphilosphy)
+3. [Teaching Experience](#teachingexperience)
+  3.1 [Western University](#western)
+  
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
 My teaching experience begins in 2011 as a Master’s student in Mathematics at the Universidad de los Andes where I was a teaching assistant for several first and second years courses. After I earned my Master’s degree in 2013, I had the opportunity to teach several introductory courses at the Universidad de Los Andes as well as other two universities in Bogotá, Colombia. These courses included Calculus, Algebra, Logic and Probability.  In 2015 I began my doctorate degree in Mathematics at the University of Western Ontario where I have been a teaching assistant for more than 10 different courses. I have also been actively involved in the development of the Directed Reading Program at the Department of Mathematics mentoring undergraduate students into interesting mathematical projects and help them to achieve their goals pursuing a major in this area. Finally, my background and diverse experience have help me to success  as a passionate teacher; as it is outlined in this Dossier, I enjoy teaching and look forward to developing my skills further as I pursue my academic career.
@@ -33,5 +35,9 @@ Finally, I make of mathematics a lively and exciting subject. I base my teaching
 <p style="text-align: justify"> 
 As a final point, I completely perceive teaching as a process that goes beyond the classroom; it is a whole compendium of one's preparation, experience, motivation and philosophy that reflects on student's mindset towards the subject, and each day I pursue an improvement on every aspect. I regard teaching as an essential stage of learning and forming character; and more than teaching the contents of a syllabus during a course, I establish on my teaching philosophy and methods the significance of the teaching-learning connection based on strengthening the process of reading, interpreting, applying and explaining on each student.  Even though some of the students will eventually forget the explicit contents of the course, I want to be a professor that prints a permanent mark on each student's professional and personal development, and one that they will always remember.
 </p>
+
+## Teaching Experience<a name="teaching experience"></a>
+
+## Western University. Teaching Assistant (2015-2020) <a name="briefbiography"></a>
 
 
