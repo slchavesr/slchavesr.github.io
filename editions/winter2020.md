@@ -41,8 +41,9 @@ Monoidal categories are categories with a notion of product that is weaker than 
 I will introduce monoidal categories and string diagrams, a graphical calculus to work with diagrams in monoidal categories, and I will go over several examples, paying particular attention to the ones coming from probability theory. This will motivate the definition of Markov category, an abstraction that lets us study probabilistic concepts such as marginalization, conditionals, Markov processes, almost sure equality, and deterministic maps diagrammatically.  
 </p>
 
-<h2 style="color:darkviolet"> Andrew Herring, TBA <br/> (Friday Feb 28, 2020) </h2>
+<h2 style="color:darkviolet"> Andrew Herring, Arithmetic Dynamics: Uniform Boundedness, and two Galois Representations <br/> (Friday Feb 28, 2020) </h2>
 <p style='text-align: justify;'>
+Arithmetic dynamics is a relatively new area of research in which we ask number theoretic questions about dynamical systems.  An easy source of problems is by analogy with arithmetic geometry: starting from some problem in arithmetic geometry (solved or not), we can consider its dynamical analogue (for example by replacing the words "torsion points on an abelian variety" with the words "(pre)periodic points of a rational map.")  In this talk we'll look at the (dynamical) uniform boundedness conjecture of Morton and Silverman (an analogy of Merel's Theorem on the uniform bound on torsion of an elliptic curve), and two Galois representations-the arboreal Galois representation,  and the dynatomic Galois representation, each of which might be regarded as an analogy of the l-adic representation of an abelian variety.  This talk is meant to be a gentle introduction to some of the basic problems in arithmetic dynamics; the only pre-requisites are an open heart and an open mind.
 </p>
 
 <h2 style="color:darkviolet"> Jeremy Gamble, TBA <br/> (Friday Mar 6, 2020) </h2>
