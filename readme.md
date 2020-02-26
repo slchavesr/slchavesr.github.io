@@ -24,13 +24,13 @@ It is also expected that each new comittee will keep mantaining the website and 
 
 ## Commitee and Mantainance
 
-The current edition, **Fall 2019**, is currently organized by the following graduate students:
+The current edition, **Winter 2020**, is currently organized by the following graduate students:
 
 - Félix Baril Boudreau (fbarilbo)
-- Sergio Chaves (schavesr)
-- Brandon Doherty (bdoher)
+- Udit Ajit Mavinkurve (umavinku)
+- Marios Velivasakis (mvelivas)
 
-And [schavesr](https://github.com/slchavesr) is currently in charge of maintaining the website.
+And [BBFelix](https://github.com/BBFelix) is currently in charge of maintaining the website.
 
 ### Previous Organizers
 
@@ -38,8 +38,8 @@ The development of the website in GitHub started with the **Fall 2019** committe
 
 ## Credits
 
-This GitHub project has no direct relation with the official Mathematics Deparment [Website](https://www.math.uwo.ca/) or any other dependency at [Western University](https://www.uwo.ca/), but the organizers thank the Department for their support and funding througout the many editions of this project.
+This GitHub project has no direct relation with the official Mathematics Deparment [Website](https://www.math.uwo.ca/) or any other dependency at [Western University](https://www.uwo.ca/), but the organizers thank the Department for their support and funding throughout the many editions of this project.
 
-The template of the website and all its development belong to  [Dean Attali](https://deanattali.com/) who made possible the nice  style that this website currently has with his open source project [Beautiful-Jekyll](https://github.com/daattali/beautiful-jekyll).
+The template of the website and all its development belong to  [Dean Attali](https://deanattali.com/) who made possible the nice style that this website currently has with his open source project [Beautiful-Jekyll](https://github.com/daattali/beautiful-jekyll).
 
 The migration of the legacy website from GoogleSites to the current version in GitHub, the support of LaTeX into the theme, and the development of the website were done by [@slchavesr](https://github.com/slchavesr). The abstracts from the legacy site were transfered to this version by [@BBFelix](https://github.com/bbfelix) and [@bcldoherty](https://github.com/bcldoherty).
