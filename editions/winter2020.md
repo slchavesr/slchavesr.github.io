@@ -46,8 +46,13 @@ I will introduce monoidal categories and string diagrams, a graphical calculus t
 Arithmetic dynamics is a relatively new area of research in which we ask number theoretic questions about dynamical systems.  An easy source of problems is by analogy with arithmetic geometry: starting from some problem in arithmetic geometry (solved or not), we can consider its dynamical analogue (for example by replacing the words "torsion points on an abelian variety" with the words "(pre)periodic points of a rational map.")  In this talk we'll look at the (dynamical) uniform boundedness conjecture of Morton and Silverman (an analogy of Merel's Theorem on the uniform bound on torsion of an elliptic curve), and two Galois representations-the arboreal Galois representation,  and the dynatomic Galois representation, each of which might be regarded as an analogy of the l-adic representation of an abelian variety.  This talk is meant to be a gentle introduction to some of the basic problems in arithmetic dynamics; the only pre-requisites are an open heart and an open mind.
 </p>
 
-<h2 style="color:darkviolet"> Jeremy Gamble, TBA <br/> (Friday Mar 6, 2020) </h2>
+<h2 style="color:darkviolet"> Jeremy Gamble, Spin structures and Dirac operators <br/> (Friday Mar 6, 2020) </h2>
 <p style='text-align: justify;'>
+Spin structures and Dirac operators play an important role in many areas of mathematics, such as mathematical physics, index theory and differential geometry. The Dirac operator is like a "square root" of the Laplacian, and can always be defined on a manifold which has a spin structure.
+
+In the talk, I will introduce Clifford algebras, Spin and some elements from differential geometry in order to define spin structures and Dirac operators. I will motivate these objects with some examples from physics, and present some theorems such as an obstruction for the existence of a spin structure, some basic properties of Dirac operators.
+
+Some familiarity with differential geometry will be assumed.
 </p>
 
 <h2 style="color:darkviolet"> Alejandro Santacruz, TBA <br/> (Friday Mar 13, 2020) </h2>
