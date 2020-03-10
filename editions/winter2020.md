@@ -55,8 +55,19 @@ In the talk, I will introduce Clifford algebras, Spin and some elements from dif
 Some familiarity with differential geometry will be assumed.
 </p>
 
-<h2 style="color:darkviolet"> Alejandro Santacruz, TBA <br/> (Friday Mar 13, 2020) </h2>
+<h2 style="color:darkviolet"> Alejandro Santacruz, The compensated compactness method applied to a system of balance laws <br/> (Friday Mar 13, 2020) </h2>
 <p style='text-align: justify;'>
+Systems of balance laws are composed by partial differential equations in the form
+
+$$
+U_t - F(u)_x = g,
+$$
+
+where $u(x,t)$ is a vector valued function usually interpreted as densities of quantities balanced in a physical system. When the function $F$ is non-linear this systems usually have no classical solution, a standard method used to prove the existence of weak solutions is to study an approximated perturbed system, solve it, and then form a sequence of solutions converging to a solution for the original problem.
+
+When the flux function $F$ is non-linear, proving the weak continuity of the flux is a major source of complications, this is where the compensated compactness method can be applied for some of this systems.
+
+In this talk I will give an example of a system associated with the ARG (Aw-Rascle-Greenberg) traffic model whose solution can be proven using this method and I will briefly explain each major step in its application. No previous knowledge in PDE's will be assumed.  
 </p>
 
 <h2 style="color:darkviolet"> Nathan Joseph Pagliaroli, TBA <br/> (Friday Mar 20, 2020) </h2>
