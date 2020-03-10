@@ -60,10 +60,10 @@ Some familiarity with differential geometry will be assumed.
 Systems of balance laws are composed by partial differential equations in the form
 
 $$
-U_t - F(u)_x = g,
+u(x,t)_t - F(u)_x = g,
 $$
 
-where $u(x,t)$ is a vector valued function usually interpreted as densities of quantities balanced in a physical system. When the function $F$ is non-linear this systems usually have no classical solution, a standard method used to prove the existence of weak solutions is to study an approximated perturbed system, solve it, and then form a sequence of solutions converging to a solution for the original problem.
+where $u(x,t)$ is a vector valued function usually interpreted as densities of quantities balanced in a physical system. When the function $F$ is non-linear these systems usually have no classical solution, a standard method used to prove the existence of weak solutions is to study an approximated perturbed system, solve it, and then form a sequence of solutions converging to a solution for the original problem.
 
 When the flux function $F$ is non-linear, proving the weak continuity of the flux is a major source of complications, this is where the compensated compactness method can be applied for some of this systems.
 
