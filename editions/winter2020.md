@@ -55,7 +55,7 @@ In the talk, I will introduce Clifford algebras, Spin and some elements from dif
 Some familiarity with differential geometry will be assumed.
 </p>
 
-<h2 style="color:darkviolet"> Alejandro Santacruz, The compensated compactness method applied to a system of balance laws <br/> (Friday Mar 13, 2020) </h2>
+<h2 style="color:darkviolet"> Alejandro Santacruz, The compensated compactness method applied to a system of balance laws <br/> (Friday Mar 13, 2020) (Cancelled or posponed to next season) </h2>
 <p style='text-align: justify;'>
 Systems of balance laws are composed by partial differential equations in the form
 
@@ -70,10 +70,11 @@ When the flux function $F$ is non-linear, proving the weak continuity of the flu
 In this talk I will give an example of a system associated with the ARG (Aw-Rascle-Greenberg) traffic model whose solution can be proven using this method and I will briefly explain each major step in its application. No previous knowledge in PDE's will be assumed.  
 </p>
 
-<h2 style="color:darkviolet"> Nathan Joseph Pagliaroli, TBA <br/> (Friday Mar 20, 2020) </h2>
+<h2 style="color:darkviolet"> Nathan Joseph Pagliaroli, Applying Random Matrix Theory to Noncommutative Geometry <br/> (Friday Mar 20, 2020) (Cancelled or posponed to next season)</h2>
 <p style='text-align: justify;'>
+A probability measure can be constructed on the space of Dirac operators that form a spectral triple with a specified Hilbert space and algebra. For certain cases the Dirac operators can be expressed in terms of random matrices. This allows us to deduce the statistical behaviour of the spectrum of Dirac operators by analyzing the behaviour of the eigenvalues of random matrices. Using well known techniques from Random Matrix Theory (RMT) we were able to explicitly find the distribution of certain Dirac operators’ spectrums. This talk will focus much more on RMT than NCG. I will first give a very brief introduction to RMT then talk about the ideas and techniques used to find the aforementioned results. The only background needed will be linear algebra and basic probability theory.
 </p>
 
-<h2 style="color:darkviolet"> Luke Broemeling, TBA <br/> (Friday Mar 27, 2020) </h2>
+<h2 style="color:darkviolet"> Luke Broemeling, TBA <br/> (Friday Mar 27, 2020) (Cancelled or posponed to next season) </h2>
 <p style='text-align: justify;'>
 </p>
