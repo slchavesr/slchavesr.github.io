@@ -6,7 +6,7 @@ use-site-title: true
 
 **Last Teaching Experience**
 
-I was Teaching Fellow in Summer-2020 supporting the implementation of [WeBWork](https://webwork.maa.org/) at Western and authoring problems for Logic, Set Theory and Combinatorics.
+I was a Teaching Fellow in Summer-2020 supporting the implementation of [WeBWork](https://webwork.maa.org/) at Western and authoring problems for Logic, Set Theory and Combinatorics.
 
 I completed the [Western Certificate in University Teaching and Learning](https://teaching.uwo.ca/programs/certificates/cutl.html) on Feb 2020. 
 
