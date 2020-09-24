@@ -13,5 +13,6 @@ This site contains reviews, insights, discussion and gameplays of my hobby.
 <div style="text-align: center">
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/Super_Mario_3D_All_Stars.jpg/220px-Super_Mario_3D_All_Stars.jpg" alt="Super Mario 3D All Stars"/>
+  <figcaption>Super Mario 3D All Stars - Nintendo Switch</figcaption>
 </figure>
  </div>
