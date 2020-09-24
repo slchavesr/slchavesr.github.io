@@ -6,7 +6,7 @@ use-site-title: true
 
 Gaming has been one of my life-time passions. I have played videogames since I have memory, and I still do it up to this day! 
 
-This site contains reviews, insights, discussion and gameplays of my hobby.
+This site (still under construction) contains reviews, insights, discussions and gameplays of my hobby.
 
 ## Currently playing: 
 
