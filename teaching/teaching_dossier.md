@@ -55,6 +55,24 @@ function myFunction(id) {
 </script>
 
 
+<button onclick="myFunction('M4123')">
+➢ Mathematics 4123/9023: Rings and Modules (Fall 2020)
+</button>
+
+<div id="M4123" style="display: none;">
+<p style="text-align: justify">
+
+Graduate course offered to students pursuing a major in pure Mathematics or a Master program. The main contents of
+this course are: Unique Factorization Domains, Euclidean Domains, Principal Ideal Domains, Factorization in Polynomial Rings, Generation of Modules, Direct Products and Sums, Free Modules, Tensor Products, Exact Sequences, Injective and Projective Modules.
+The course consisted of an approximate  20 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
+set sent by the instructor as well as the exams. I also held office hours once per week intended to help
+students with questions from the lectures or problem sets.
+ </p>
+</div> 
+
+
+
 <button onclick="myFunction('M1600')">
 ➢ Mathematics 1600: Linear Algebra I (Fall 2019, Winter 2020)
 </button>
@@ -154,13 +172,11 @@ students with questions from the lectures or problem sets.
 
 
 <button onclick="myFunction('M1229')">
-➢ Mathematics 3020: Introduction to Abstract Algebra (Fall 2018)
+➢ Math 1229: Methods of Matrix Algebra (Winter 2018, Winter 2016)
 </button>
 
 <div id="M1229" style="display: none;">
 <p style="text-align: justify">
-➢ Math 1229: Methods of Matrix Algebra (Winter 2018, Winter 2016)Sergio Chaves – Teaching Dossier
-Page 8
 First year course offered to any student in the university and affiliate Colleges. The main contents of
 this course are Vectors in Rm; Equations of lines and planes; Linear Equations; Solution of Linear
 Systems; Matrix Algebra; Matrix Multiplication and Inverses; Determinants.
