@@ -4,7 +4,7 @@ title: Teaching Dossier
 use-site-title: true
 ---
 
-Updated: Mar 2020.
+Updated: Oct 2020.
 
 
 
@@ -72,6 +72,19 @@ students with questions from the lectures or problem sets.
 </div> 
 
 
+<button onclick="myFunction('M2151')">
+➢ Mathematics 2151: Mathematical Structures (Summer 2020, Fall 2020)
+</button>
+
+<div id="M4123" style="display: none;">
+<p style="text-align: justify">
+
+Second year course offered to students pursuing a science or engineering degree. The main contents of
+this course are: Logic, Proofs, Sets, Relations and functions, Mathematical Induction, Modular arithmetic, Combinatorics. Introductory graph theory.
+The course consisted of an approximate  150 students and the lectures followed an asynchronous.online delivery mode during 12 weeks. My main role was to create and implement questions into WeBWork to facilitate the grading for the online delivery of the course. 
+ </p>
+</div> 
+
 
 <button onclick="myFunction('M1600')">
 ➢ Mathematics 1600: Linear Algebra I (Fall 2019, Winter 2020)
@@ -114,7 +127,7 @@ grade. I was also in charge of grading the exams.
 
 
 <button onclick="myFunction('M3159')">
-➢ Math 3159: Introduction to Cryptography (Winter 2019)
+➢ Mathematics 3159: Introduction to Cryptography (Winter 2019)
 </button>
 
 <div id="M3159" style="display: none;">
@@ -172,7 +185,7 @@ students with questions from the lectures or problem sets.
 
 
 <button onclick="myFunction('M1229')">
-➢ Math 1229: Methods of Matrix Algebra (Winter 2018, Winter 2016)
+➢ Mathematics 1229: Methods of Matrix Algebra (Winter 2018, Winter 2016)
 </button>
 
 <div id="M1229" style="display: none;">
