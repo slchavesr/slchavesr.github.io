@@ -4,16 +4,6 @@ title: Teaching Dossier
 use-site-title: true
 ---
 
-<head>
-	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="all" />
-	<link rel="stylesheet" type="text/css" href="scrollUpButton.css" media="all" />
-	
-	<!-- Javascript -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="scrollUpButton.js"></script>
-
-</head>
 
 Updated: Mar 2020.
 
@@ -175,5 +165,27 @@ year students to get help with any course in mathematics. The help centre is ava
 during the afternoon (1pm-5pm) and it staffed by graduate students with a passion for teaching.
 Students come to the help centre to deal with specific questions, review from lectures, or they use it
 as a study space with help on hand in case they get stuck on.
+
+<script>
+.scrollUpButton {
+ display: none;
+ opacity: 0.6;
+ position: fixed;
+ bottom: 10px;
+ right: 10px;
+ display: none;
+ background: #000;
+ color: #fff;
+ font-size: 1.5em;
+ text-decoration: none;
+ padding: 5px 10px 5px 10px;
+}
+.scrollUpButton:hover, .scrollUpButton:focus {
+ outline: none;
+ text-decoration: none;
+ color: #fff;
+ opacity: 1;
+}
+</script>
 
 <a href="#" class="scrollUpButton">&#9650</a>
