@@ -17,6 +17,7 @@ Updated: Oct 2020.
 3. [Teaching Experience](#teachingexperience)
     1. [Western University](#western)
     2. [Universidad de los Andes](#uniandes)
+    3. [Universidad del Rosario](#urosario)
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
@@ -387,7 +388,54 @@ the Pentagon (Mathematics Help Centre) which runs Monday to Friday from 8am to 4
 instructor/teaching assistant stays in average 4 hours/week in this help space.
    </p>
 
+## Universidad del Rosario: Instructor (2013) <a name = "urosario"> </a>
 
+<p style="text-align: justify">
+During 2013 I served as an instructor at la Universidad del Rosario in the growing department of
+mathematics at that institution. Universidad del Rosario is a private university in Colombia known for its
+strong programs in business, administration and economics; therefore, the direction of the courses was
+driven towards that area. I was the main instructor for 2 courses each semester, helping to develop the
+program outline and assessment methods. Each course consisted of approximate 150 students divided into
+sections of around 35 students each. The lectures were held in two 2-hour sessions per week during 16
+weeks. Even though the course assessment was the same for all sections, each instructor had the freedom
+to develop their own assignments, quizzes and midterm exams; as well as responsible for all the preparation,
+grading and evaluation. The final exam was made considering an end-of-the-term meeting among all the
+instructors for the course.
+ </p>
+ 
+<button onclick="myFunction('U:Pr')">
+➢ Probability
+</button>
+<div id="U:Pr" style="display: none;">
+<p style="text-align: justify">
+
+I was the instructor for two groups of 30 students each semester for this course. The main contents of
+this course are: introduction to statistics (measures of central tendency), combinatorics, random
+variables, discrete and continuous distributions, sampling and hypothesis testing. Three midterms exam
+are held during the semester (20% each), an accumulative final exam (25 % each) and the remaining
+15% was open to the criterion of each instructor. In my case, I delivered assignments (5% total) and
+apply quizzes (5% total) before each exam. The remaining grade 5% was devoted to attending class and
+participating.
+
+   </p>
+</div> 
+
+<button onclick="myFunction('U:Pr')">
+➢ Matrix Algebra and Linear Optimization
+</button>
+<div id="U:Pr" style="display: none;">
+<p style="text-align: justify">
+I was the instructor for one group of 25 students each semester for this course. The main contents of
+this course are: Matrix operations, Gauss-Jordan elimination, Inverse Matrices and Determinants,
+Linear programing, the simplex method and sensitivity analysis. Applications to real world problems
+Two midterms exams are held during the semester (20 % each), assignments (15 % total), class
+participation in case-study problem (15% total) and a final project (30% total). The final project was
+an independent activity for groups of 4-5 students applying the main contents of the course into
+optimization problems in the Colombian society. A list of suggested problems is prepared by the
+instructor and students choose what is more appealing for them. A final report (15%) and group presentation (15%) was held at the end of the semester. See Appendix (p.36) for a sample (in Spanish)
+of such reports.
+   </p>
+</div> 
 
 <p>
 <a href="#" class="scrollUpButton">▲</a>
