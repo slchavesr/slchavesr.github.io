@@ -165,6 +165,6 @@ during the afternoon (1pm-5pm) and it staffed by graduate students with a passio
 Students come to the help centre to deal with specific questions, review from lectures, or they use it
 as a study space with help on hand in case they get stuck on.
 
-<pre>
+<p>
 <a href="#" class="scrollUpButton">&#9650</a>
-</pre>
+</p>
