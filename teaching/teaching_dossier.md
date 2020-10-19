@@ -38,6 +38,128 @@ As a final point, <em>I completely perceive teaching as a process that goes beyo
 
 ## Teaching Experience<a name="teachingexperience"></a>
 
-## Western University. Teaching Assistant (2015-2020) <a name="western"></a>
+## Western University. Teaching Assistant and Teaching Fellow (2015- Present) <a name="western"></a>
+
+<button onclick="myFunction()">
+➢ Mathematics 1600: Linear Algebra I (Fall 2019, Winter 2020)
+</button>
+
+<div id="M1600">
+<p style="text-align: justify"> 
+First year linear algebra course offered for students intended to major in the Faculty of Science. The
+main contents of the course are: properties and applications of vectors; matrix algebra; solving systems
+of linear equations; determinants; vector spaces; orthogonality; eigenvalues and eigenvectors.
+The course consisted of an approximate 200 students and the main lectures held twice per week during
+12 weeks. The students are divided into 6 or 7 tutorial groups of approximate 30 students each. Each
+group meets one hour per week and I was in charge of running two of these groups. My main roles
+during these sessions were to review material from the course, answer questions, and run group activities
+such as problem-solving suggested questions for exam preparation. There were weekly meetings with
+the instructor and other teaching assistant to discuss the progress of the groups and discuss potential
+problems to bring to the session. An example of a worksheet of prepared problems to the sessions can
+be found in Appendix (p.31)
+    </p>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("M1600");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+➢ Mathematics 3124: Complex Analysis (Fall 2019)
+Third year course offered to students pursing a major in pure Mathematics. The main contents of this
+course are: The Cauchy-Riemann equations, Cauchy’s integral theorem and formula, the identity
+theorem, the maximum modulus theorem, Taylor and Laurent expansions, isolated singularities, the
+residue theorem and the argument principle.
+The course consisted of an approximate 25 students and the main lectures held twice per week during
+12 weeks. My main role was to provide effective feedback to the weekly suggested problem set sent
+by the instructor. The grade for these assignments only serves as feedback; they did not affect the final
+grade. I was also in charge of grading the exams.
+➢ Math 3159B: Introduction to Cryptography (Winter 2019)
+Third year course offered to students pursuing a major in Mathematical sciences. The main contents
+of this course are: Elementary Number Theory, Introduction to Computational Complexity, Discrete
+Logarithm Problem and Diffie-Hellman Key Exchange, RSA Encryption, Primality Test, Factorization
+Algorithms, and Quadratic Reciprocity, Elliptic Curve Cryptography.
+The course consisted of an approximate 30 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly quizzes as well as
+the exams. I also held office hours once per week intended to help students with questions from the
+lectures.
+➢ Mathematics 1120: Fundamental Concepts in Mathematics (Winter 2019)
+It is an introduction to rigorous mathematical thinking. The main purpose of the course is to teach
+students to understand mathematical reasoning and write mathematical proofs. Primarily intended for
+students interested in pursuing a degree in one of the mathematical sciences. The contents of this
+course include logic, set theory, relations, functions and operations, careful study of the integers,
+discussion of the real and complex numbers, polynomials, and infinite sets.
+The course consisted of an approximate 50 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
+set sent by the instructor as well as the exams. I also held office hours once per week intended to help
+students with questions from the lectures or problem sets.
+➢ Mathematics 3020: Introduction to Abstract Algebra (Fall 2018)
+Third year course offered to students pursuing a major in pure Mathematics. The main contents of
+this course are: numbers and polynomials, binary operations and useful axiom of rings and ideals,
+factorization, introduction to field theory, introduction to groups.
+The course consisted of an approximate 30 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
+set sent by the instructor as well as the exams. I also held office hours once per week intended to help
+students with questions from the lectures or problem sets.
+➢ Math 1229: Methods of Matrix Algebra (Winter 2018, Winter 2016)Sergio Chaves – Teaching Dossier
+Page 8
+First year course offered to any student in the university and affiliate Colleges. The main contents of
+this course are Vectors in Rm; Equations of lines and planes; Linear Equations; Solution of Linear
+Systems; Matrix Algebra; Matrix Multiplication and Inverses; Determinants.
+The course consisted of an approximate 300 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
+set and assignments sent by the instructor as well as the exams. I also held office hours once per week
+intended to help students with questions from the lectures or problem sets.
+➢ Calculus 2302: Intermediate Calculus I (Fall 2018, Fall 2017)
+Second year course offered to students pursuing a major in any of the Mathematical sciences. The
+main contents of this course are: three-dimensional analytic geometry, quadric surfaces, vector
+functions and space curves; arc length, curvature and Differential calculus of functions of several
+variables.
+The course consisted of an approximate 40 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
+set and assignments sent by the instructor as well as the exams. I also held office hours once per week
+intended to help students with questions from the lectures or problem sets.
+➢ Calculus 1501: Calculus II for Mathematical and Physical Sciences (Winter 2017)
+First year course offered to students pursuing a major in any of the Mathematical sciences. The main
+contents of this course are: techniques of integration; The Mean Value Theorem and its consequences;
+series, Taylor series with applications; parametric and polar curves with applications; first order linear
+and separable differential equations with applications.
+The course consisted of an approximate 70 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
+set and assignments sent by the instructor as well as the exams. I also held office hours once per week
+intended to help students with questions from the lectures or problem sets.
+➢ Calculus 0110: Introductory Calculus (Winter 2016)
+First year course offered to any student in the university and affiliate colleges that need to strength their
+mathematical bases from high school. The main contents of this course are: Limits, continuity, definition
+of derivative, rules for differentiation, higher-order derivatives, velocity, acceleration, implicit
+differentiation, related rates, exponential functions, logarithmic functions, differentiation of
+exponential and logarithmic functions, maxima and minima, concavity, curve sketching, optimization.
+The course consisted of an approximate 100 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
+set and assignments sent by the instructor as well as the exams. I also held office hours once per week
+intended to help students with questions from the lectures or problem sets
+➢ Calculus 1000: Calculus I (Fall 2015, Fall 2016)
+First year course offered to any student in the university and affiliate colleges. The main contents of this
+course are: Review of limits and derivatives of exponential, logarithmic and rational functions.
+Trigonometric functions and their inverses. The derivatives of the trig functions and their inverses.
+L’Hospital’s rules. The definite integral. Fundamental Theorem of Calculus. Simple substitution.
+Applications of integration, including areas of regions and volumes of solids of revolution.Sergio Chaves – Teaching Dossier
+Page 9
+The course consisted of an approximate 200 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
+set and assignments sent by the instructor as well as the exams. I also held office hours once per week
+intended to help students with questions from the lectures or problem sets.
+➢ Mathematics General Help Centre (4 hours / week)
+The Math Help Centre is a space offered by the Department of Mathematics for all first- and second-
+year students to get help with any course in mathematics. The help centre is available 5 days a week
+during the afternoon (1pm-5pm) and it staffed by graduate students with a passion for teaching.
+Students come to the help centre to deal with specific questions, review from lectures, or they use it
+as a study space with help on hand in case they get stuck on.
 
 
