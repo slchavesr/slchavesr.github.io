@@ -166,5 +166,5 @@ Students come to the help centre to deal with specific questions, review from le
 as a study space with help on hand in case they get stuck on.
 
 <p>
-<a href="#" class="scrollUpButton">&#9650</a>
+<a href="#" class="scrollUpButton">▲</a>
 </p>
