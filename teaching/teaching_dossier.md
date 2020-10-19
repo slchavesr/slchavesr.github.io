@@ -25,7 +25,7 @@ Updated: Oct 2020.
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
-My teaching experience begins in 2011 as a Master’s student in Mathematics at the Universidad de los Andes where I was a teaching assistant for several first and second years courses. After I earned my Master’s degree in 2013, I had the opportunity to teach several introductory courses at the Universidad de Los Andes as well as other two universities in Bogotá, Colombia. These courses included Calculus, Algebra, Logic and Probability.  In 2015 I began my doctorate degree in Mathematics at the University of Western Ontario where I have been a teaching assistant for more than 10 different courses. I have also been actively involved in the development of the Directed Reading Program at the Department of Mathematics mentoring undergraduate students into interesting mathematical projects and help them to achieve their goals pursuing a major in this area. Finally, my background and diverse experience have help me to success  as a passionate teacher; as it is outlined in this Dossier, I enjoy teaching and look forward to developing my skills further as I pursue my academic career.
+My teaching experience begins in 2011 as a Master’s student in Mathematics at the Universidad de los Andes where I was a teaching assistant for several first and second years courses. After I earned my Master’s degree in 2013, I had the opportunity to teach several introductory courses at the Universidad de Los Andes as well as other two universities in Bogotá, Colombia. These courses included Calculus, Algebra, Logic and Probability.  In 2015 I began my doctorate degree in Mathematics at the University of Western Ontario where I have been a teaching assistant for several different courses. I have also been actively involved in the development of the Directed Reading Program at the Department of Mathematics mentoring undergraduate students into interesting mathematical projects and help them to achieve their goals pursuing a major in this area. Finally, my background and diverse experience have help me to success  as a passionate teacher; as it is outlined in this Dossier, I enjoy teaching and look forward to developing my skills further as I pursue my academic career.
 </p>
 
 ## Teaching Philosophy <a name="teachingphilosphy"></a>
@@ -48,6 +48,8 @@ As a final point, <em>I completely perceive teaching as a process that goes beyo
 ## Teaching Experience<a name="teachingexperience"></a>
 
 ## Western University: Teaching Assistant and Teaching Fellow (2015- Present) <a name="western"></a>
+
+While pursuing my doctorate degree at [Western University](https://www.math.uwo.ca/) I was a teaching assistant for both graduate and undergraduate courses. After completing my Ph.D. in July 2020, I was appointed as a Teaching Fellow supporting the implementation of online teaching due to the COVID-19 limitations for on-site classrooms.
 
 <script>
 function myFunction(id) {
@@ -295,7 +297,7 @@ as a study space with help on hand in case they get stuck on.
 ## Universidad de los Andes: Instructor and Teaching Assistant (2011-2015) <a name = "uniandes"> </a>
 
 <p style="text-align: justify"> 
-The Universidad de los Andes is a private university in Colombia ranked among the top-10 in Latin America. The student
+    <a href="https://matematicas.uniandes.edu.co"> The Universidad de los Andes </a> is a private university in Colombia ranked among the top-10 in Latin America. The student
 population consists of the Top 1% high school graduates and they enjoy a diversity of backgrounds in terms
 of race, socioeconomic status, religion, sex. The university provide strong economic support to the top
 students with financial needs.
@@ -395,7 +397,7 @@ instructor/teaching assistant stays in average 4 hours/week in this help space.
 ## Universidad del Rosario: Instructor (2013) <a name = "urosario"> </a>
 
 <p style="text-align: justify">
-During 2013 I served as an instructor at la Universidad del Rosario in the growing department of
+    During 2013 I served as an instructor at  <a href="https://www.urosario.edu.co"> Universidad del Rosario </a> in the growing department of
 mathematics at that institution. Universidad del Rosario is a private university in Colombia known for its
 strong programs in business, administration and economics; therefore, the direction of the courses was
 driven towards that area. I was the main instructor for 2 courses each semester, helping to develop the
@@ -448,7 +450,7 @@ of such reports.
 
 <p style="text-align: justify">
     
-During 2013 I also served as an instructor at la Universidad Central de Colombia in the department of
+During 2013 I also served as an instructor at the <a href="https://www.ucentral.edu.co/"> Universidad Central de Colombia </a> in the department of
 engineering and mathematics at that institution. I belonged to the roster of Instructors for the night-time
 and weekend programs; these programs are offered to mature and full-time working people that pursue an
 undergraduate degree in engineering. Classes for these special programs are held Monday to Friday from
@@ -473,4 +475,33 @@ solving to full-time students in the morning and afternoon programs in the follo
 <br> ➢ Integral Calculus
 <br> ➢ Differential Calculus
 <br> The activities and participation on these tutorial sessions were 15% of the final grade.
+</p>
+
+## Mentoring Students <a name="mentor"> </a>
+
+
+<p style="text-align: justify">
+I participated in the <a href="https://www.math.uwo.ca/undergraduate/directed_reading_program.html"> Directed Reading Program at Western University </a>. The Directed Reading Program (DRP) pairs undergraduate students with graduate students/junior faculty to undertake
+independent study projects. It is intended to help motivated students to explore topics more deeply than in
+a classroom setting.
+</p>
+
+
+<p style="text-align: justify">
+The duration of the project was of one academic semester, which is roughly thirteen weeks. Undergraduates
+can apply for DRP positions in the beginning of each term and those who are selected will be paired with
+mentors according to their mathematical interests and availability. The projects are based around the self-
+paced reading of a particular book or article with substantial guidance from the mentor, and the specific
+topic arrives by discussion of common interests between the mentor and the mentee.
+</p>
+
+<p style="text-align: justify">
+My mentee was an engineering student passionate about mathematics, yet unsure about pursing a math
+major. My mentee and I worked on a geometrical approach to the Poincaré-Hopf theorem for surfaces in
+the 3-dimensional space. The followed reference was Firby, Peter A., and Cyril F. Gardiner. Surface
+topology. Elsevier, 2001. By the end of the term, my mentee was able to understand and explain the Euler
+Characteristic and the proof of the index theorem using a geometrical approach; moreover, he decided to
+completely dedicate to pursue his Major in mathematics after the discussions, advises and suggestions that
+I gave to him during our meetings. On Winter 2020 we continued working on a reading course in
+Topological Manifolds following the classical book of Lie, extending the material from the DRP project.
 </p>
