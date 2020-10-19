@@ -95,11 +95,11 @@ grade. I was also in charge of grading the exams.
 </div> 
 
 
-<button onclick="myFunction3()">
-➢ Math 3159B: Introduction to Cryptography (Winter 2019)
+<button onclick="myFunction('M3159')">
+➢ Math 3159: Introduction to Cryptography (Winter 2019)
 </button>
 
-<div id="M3159">
+<div id="M3159" style="display: none;">
 <p style="text-align: justify">
 Third year course offered to students pursuing a major in Mathematical sciences. The main contents
 of this course are: Elementary Number Theory, Introduction to Computational Complexity, Discrete
@@ -114,11 +114,11 @@ lectures.
 
 
 
-<button onclick="myFunction4()">
+<button onclick="myFunction('M1120')">
 ➢ Mathematics 1120: Fundamental Concepts in Mathematics (Winter 2019)
 </button>
 
-<div id="M1120">
+<div id="M1120" style="display: none;">
 <p style="text-align: justify">
 It is an introduction to rigorous mathematical thinking. The main purpose of the course is to teach
 students to understand mathematical reasoning and write mathematical proofs. Primarily intended for
@@ -135,11 +135,11 @@ students with questions from the lectures or problem sets.
 
 
 
-<button onclick="myFunction5()">
+<button onclick="myFunction('M3020')">
 ➢ Mathematics 3020: Introduction to Abstract Algebra (Fall 2018)
 </button>
 
-<div id="M3020">
+<div id="M3020" style="display: none;">
 <p style="text-align: justify">
 
 Third year course offered to students pursuing a major in pure Mathematics. The main contents of
@@ -153,11 +153,11 @@ students with questions from the lectures or problem sets.
 </div> 
 
 
-<button onclick="myFunction6()">
+<button onclick="myFunction('M1229')">
 ➢ Mathematics 3020: Introduction to Abstract Algebra (Fall 2018)
 </button>
 
-<div id="M1229">
+<div id="M1229" style="display: none;">
 <p style="text-align: justify">
 ➢ Math 1229: Methods of Matrix Algebra (Winter 2018, Winter 2016)Sergio Chaves – Teaching Dossier
 Page 8
@@ -172,7 +172,12 @@ intended to help students with questions from the lectures or problem sets.
 </div> 
 
 
+<button onclick="myFunction('C2302')">
 ➢ Calculus 2302: Intermediate Calculus I (Fall 2018, Fall 2017)
+</button>
+
+<div id="C2302" style="display: none;">
+<p style="text-align: justify">
 Second year course offered to students pursuing a major in any of the Mathematical sciences. The
 main contents of this course are: three-dimensional analytic geometry, quadric surfaces, vector
 functions and space curves; arc length, curvature and Differential calculus of functions of several
@@ -181,7 +186,14 @@ The course consisted of an approximate 40 students and the main lectures held tw
 12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
 set and assignments sent by the instructor as well as the exams. I also held office hours once per week
 intended to help students with questions from the lectures or problem sets.
+ </p>
+</div> 
+
+<button onclick="myFunction('C1501')">
 ➢ Calculus 1501: Calculus II for Mathematical and Physical Sciences (Winter 2017)
+</button>
+<div id="C1501" style="display: none;">
+<p style="text-align: justify">
 First year course offered to students pursuing a major in any of the Mathematical sciences. The main
 contents of this course are: techniques of integration; The Mean Value Theorem and its consequences;
 series, Taylor series with applications; parametric and polar curves with applications; first order linear
@@ -190,7 +202,16 @@ The course consisted of an approximate 70 students and the main lectures held tw
 12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
 set and assignments sent by the instructor as well as the exams. I also held office hours once per week
 intended to help students with questions from the lectures or problem sets.
+ </p>
+</div> 
+
+
+<button onclick="myFunction('C110')">
 ➢ Calculus 0110: Introductory Calculus (Winter 2016)
+</button>
+<div id="C110" style="display: none;">
+<p style="text-align: justify">
+
 First year course offered to any student in the university and affiliate colleges that need to strength their
 mathematical bases from high school. The main contents of this course are: Limits, continuity, definition
 of derivative, rules for differentiation, higher-order derivatives, velocity, acceleration, implicit
@@ -199,8 +220,15 @@ exponential and logarithmic functions, maxima and minima, concavity, curve sketc
 The course consisted of an approximate 100 students and the main lectures held twice per week during
 12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
 set and assignments sent by the instructor as well as the exams. I also held office hours once per week
-intended to help students with questions from the lectures or problem sets
+intended to help students with questions from the lectures or problem sets.
+ </p>
+</div> 
+
+<button onclick="myFunction('C1000')">
 ➢ Calculus 1000: Calculus I (Fall 2015, Fall 2016)
+</button>
+<div id="C1000" style="display: none;">
+<p style="text-align: justify">
 First year course offered to any student in the university and affiliate colleges. The main contents of this
 course are: Review of limits and derivatives of exponential, logarithmic and rational functions.
 Trigonometric functions and their inverses. The derivatives of the trig functions and their inverses.
@@ -211,12 +239,23 @@ The course consisted of an approximate 200 students and the main lectures held t
 12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
 set and assignments sent by the instructor as well as the exams. I also held office hours once per week
 intended to help students with questions from the lectures or problem sets.
+   </p>
+</div>   
+ 
+<button onclick="myFunction('MHC')">
 ➢ Mathematics General Help Centre (4 hours / week)
+</button>
+<div id="MHC" style="display: none;">
+<p style="text-align: justify">
+
 The Math Help Centre is a space offered by the Department of Mathematics for all first- and second-
 year students to get help with any course in mathematics. The help centre is available 5 days a week
 during the afternoon (1pm-5pm) and it staffed by graduate students with a passion for teaching.
 Students come to the help centre to deal with specific questions, review from lectures, or they use it
 as a study space with help on hand in case they get stuck on.
+   </p>
+</div>   
+
 
 <p>
 <a href="#" class="scrollUpButton">▲</a>
