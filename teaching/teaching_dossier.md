@@ -24,6 +24,10 @@ Updated: Oct 2020.
     4. [Universidad Central](#ucentral)
     5. [Mentoring Students](#mentor)
     6. [Other relevant experience](#other)
+4. [Curriculum Development](#curriculum)
+    1. [Teaching Innovatives and Course Design](#course design)
+    2. [Reflection on teaching Mathematics](#selfreflection)
+    3. [Question Design](#questions)
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
@@ -510,11 +514,123 @@ Topological Manifolds following the classical book of Lie, extending the materia
 
 ## Other relevant Teaching experience <a name="other"> </a>
 
-
+<p style="text-align: justify">
 During 2015 I volunteered as instructor of conversational basic Spanish for students travelling to
 Central and South America Spanish-speaking countries under the program <a href="http://cel.uwo.ca/students/impact/index.html">Impact Experience Program </a>
 at Western. Students are part of projects that impacts a community abroad. Impact Experience offers all
 students at Western and its affiliates access to unique co-curricular opportunities to support community
 projects around the world.
+</p>
 
+<p style="text-align: justify">
 I have also been a tutor for High-school and College students supporting their learning experience in most of the courses in Mathematics and Statistics. I provide my help both in-person or online to students around the world. I started the <em> MathForce </em> project; a group providing math support to students in the London, ON. community by connecting high-school students and graduate math students.
+</p>
+
+# Curriculum Development <a name="curriculum"> </a>
+
+## Course Design and Teaching Innovations <a name="course design"> </a>
+
+<p style="text-align: justify">
+I participated in the design of the the course Matrix Algebra and Linear Optimization at Universidad del
+Rosario for the new program on Business and Marketing.
+</p> 
+<p style="text-align: justify">
+I also have a proposed [syllabus](syllabus.pdf) for a course in Transformation groups that I am looking forward to deliver for graduate students interested in my research areas.
+</p>
+<p style="text-align: justify">
+During most of my time as instructor and teaching assistant, I prepared independently problem sheets,
+assignments and quizzes considering the topics covered in class and the most beneficial questions for the
+students to prepare for their exams. In particular, I thrive for using technological tools into math teaching. I advocate for open source projects and the use of interactive blackboards as BitPaper when teaching mathematics.
+</p>
+
+## Self-Reflection on Teaching Mathematics <a name="selfreflection"> </a>
+
+<p style="text-align: justify">
+Teaching mathematical proofs for undergraduate students is a challenge for both instructors and students.
+Proof is an essential part on learning as it develops reasoning skills, improves problem solving aptitudes
+and it is also a fundamental basis for future researchers. This reflection is focused on studying the
+difficulties experienced in the learning and teaching process of formal mathematical proofs, and discuss
+whether the traditional "definition-theorem-example" lecture method is the most
+appropriate for the students to success in mathematical courses.
+See the complete reflection on this thinking done as requirement for my
+professional development degrees.
+</p>
+
+## Question design <a name="questions"> </a>
+
+<p style="text-align: justify">
+I designed and created over 400 questions in WeBWork to support the delivery of the <em> Mathematical Structures </em> course at Western during 2020. I implemented the questions in several formats (multiple choice, true/false, etc) focusing in adding several layers of randomization to fight against academic offenses. I created questions for Logic, Set theory, Introductory number theory and combinatorics that might be added to the Open Problem Library in Webwork.
+</p>
+
+<p style="text-align: justify">
+During 2014 I worked as a designer and reviewer for the bank of mathematical questions at the Colombian
+Institute for the Assessment of Education ICFES. This institution is the Colombian public entity in charge
+of developing, implementing, facilitating and applying the standardized exams to students prior to
+graduating from elementary, middle and high-school across the Country. The ICFES test (nowadays renamed to Saber-11) is nationally
+recognized as the most important test in Colombia since it qualifies students according to their actual
+academic skills and therefore it can affect the possibilities that a student might have to be accepted in
+College.
+<p style="text-align: justify">
+<p style="text-align: justify">
+I worked in the mathematical group for creating innovative questions and assessing questions created a
+couple of years back by other instructors. Due to the nature of the exams, these questions must meet high
+standards in terms of versatility, reliability and validity.
+</p>
+
+# Professional Development
+During 2019 I pursued the Western Certificate in University Teaching to enhance my teaching career. It is
+intended to improve teaching skills for graduate students and postdoctoral scholars at the University of
+Western Ontario, and to prepare them for a future faculty or professional career.
+6.1. Courses and Programs on Teaching
+Advanced Teaching Program (Winter 2019)
+The Advanced Teaching Program (ATP) is a 20-hour short course designed for advanced graduate students
+who would like to develop practical teaching skills for current and future teaching roles. Topics include
+course design strategies, active learning, authentic assessment of student learning, and maintaining a culture
+of respect and community in the classroom. Participants gain hands-on experience by practicing
+instructional techniques in microteaching sessions where they receive constructive feedback from peers and
+an experienced team of instructors.
+Teaching Mentor Program (Winter 2019)
+The Teaching Mentor Program is a unique opportunity for graduate students and postdoctoral scholars to
+receive feedback on their teaching and classroom management approaches from peers in their own teaching
+environment. Four to five participants will work together and visit each other’s classes, tutorials or labs
+over the course of the semester. I was part of a group of 5 Graduate Student from a diverse range of
+backgrounds (Engineering, Medical Sciences, Humanities and Science).
+Refer to the Appendix (p.33) for a sample of the feedback received as well as one of the feedback provided
+as observer.
+TA Day: Graduate Student Conference on Teaching (Sep 2015, 2016, 2017)
+This one-day yearly conference introduces graduate students to teaching at Western and helps prepare them
+for their roles as Teaching Assistants. TA Day has welcomed new graduate students to Western for over 30
+years.
+Conference highlights include a keynote presentation by an award-winning faculty member and a panel of
+experienced Teaching Assistants from across the disciplines. Participants choose from a variety concurrent
+workshops that focus on different teaching topics including: facilitating discussions, managing difficult
+situations, communication strategies, and more. Graduate students also have the opportunity to hear from
+key campus partners including Western Libraries, the Writing Support Centre, Learning Skills Services,
+the Wellness Education Centre, the Teaching Assistants Union, and the Society of Graduate Students.Sergio Chaves – Teaching Dossier
+Page 15
+6.2. Teaching Workshops and Conferences
+Fall Perspectives on Teaching Workshop (Aug 2019)
+Offered twice a year, Perspectives on Teaching is a full-day conference designed to showcase
+teaching innovations at Western, and introduce instructors to best practices in student-centered instruction
+which can enhance the student experience. The conference program typically includes a keynote address
+and 6-9 concurrent sessions.
+Own Your Future: May conference on Teaching (May 2019)
+The Own Your Future: May Conference on Teaching is a special one-day event for doctoral students at
+Western. Participants are invite to join one or more conference sessions to enhance skill areas related to
+teaching, set personal goals for growth as instructors, and connect teaching experiences to their overall
+professional development as graduate students.
+Workshops
+• Writing Teaching Philosophy Statements. Oct 2019.
+• Tried and True Strategies to Address Common Assessment Conundrums. Aug 2019
+• Effective Practices for Peer Review of Teaching: Moving Beyond the Student Perspective. Aug
+2019
+• Flexible Assessment: Designing Effective Assessments that Support Student Wellness. Aug 2019.
+• New Policies for Student Absence and Accommodation -- Is Your Syllabus Ready? Aug 2019.
+• Assessing and Articulating your Teaching Skills for Future Careers. May 2019.
+• How Can Teaching Help Me Get a Job? May 2019.
+• Case Studies on Teaching. May 2019.
+• Writing Diversity Statements. May 2019.
+• Constructing Your Teaching Dossier. Mar 2019.
+• Strategies to Help Students Learn How to Learn. Mar 2019.
+• Increasing the Power of PowerPoint. Feb 2019.
+• How to Care For and Use Your Teaching Voice. Feb 2019.
