@@ -75,16 +75,7 @@ be found in Appendix (p.31)
     </p>
 </div>
 
-<script>
-function myFunction1() {
-  var x = document.getElementById("M1600");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+
 
 <button onclick="myFunction('M3124')">
 ➢ Mathematics 3124: Complex Analysis (Fall 2019)
@@ -103,16 +94,6 @@ grade. I was also in charge of grading the exams.
 </p>
 </div> 
 
-<script>
-function myFunction2() {
-  var x = document.getElementById("M3124");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
 
 <button onclick="myFunction3()">
 ➢ Math 3159B: Introduction to Cryptography (Winter 2019)
@@ -131,16 +112,7 @@ lectures.
 </p>
 </div> 
 
-<script>
-function myFunction3() {
-  var x = document.getElementById("M3159");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+
 
 <button onclick="myFunction4()">
 ➢ Mathematics 1120: Fundamental Concepts in Mathematics (Winter 2019)
@@ -160,16 +132,7 @@ students with questions from the lectures or problem sets.
 </p>
 </div> 
 
-<script>
-function myFunction4() {
-  var x = document.getElementById("M1120");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+
 
 
 <button onclick="myFunction5()">
@@ -189,16 +152,6 @@ students with questions from the lectures or problem sets.
  </p>
 </div> 
 
-<script>
-function myFunction5() {
-  var x = document.getElementById("M3020");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
 
 <button onclick="myFunction6()">
 ➢ Mathematics 3020: Introduction to Abstract Algebra (Fall 2018)
@@ -218,16 +171,6 @@ intended to help students with questions from the lectures or problem sets.
  </p>
 </div> 
 
-<script>
-function myFunction6() {
-  var x = document.getElementById("M1229");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
 
 ➢ Calculus 2302: Intermediate Calculus I (Fall 2018, Fall 2017)
 Second year course offered to students pursuing a major in any of the Mathematical sciences. The
