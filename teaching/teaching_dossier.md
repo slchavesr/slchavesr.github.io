@@ -43,7 +43,7 @@ As a final point, <em>I completely perceive teaching as a process that goes beyo
 
 ## Western University: Teaching Assistant and Teaching Fellow (2015- Present) <a name="western"></a>
 
-<button onclick="myFunction()">
+<button onclick="myFunction1()">
 ➢ Mathematics 1600: Linear Algebra I (Fall 2019, Winter 2020)
 </button>
 
@@ -64,7 +64,7 @@ be found in Appendix (p.31)
 </div>
 
 <script>
-function myFunction() {
+function myFunction1() {
   var x = document.getElementById("M1600");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -74,7 +74,7 @@ function myFunction() {
 }
 </script>
 
-<button onclick="myFunction()">
+<button onclick="myFunction2()">
 ➢ Mathematics 3124: Complex Analysis (Fall 2019)
 </button>
 
@@ -92,7 +92,7 @@ grade. I was also in charge of grading the exams.
 </div> 
 
 <script>
-function myFunction() {
+function myFunction2() {
   var x = document.getElementById("M3124");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -102,7 +102,7 @@ function myFunction() {
 }
 </script>
 
-<button onclick="myFunction()">
+<button onclick="myFunction3()">
 ➢ Math 3159B: Introduction to Cryptography (Winter 2019)
 </button>
 
@@ -120,7 +120,7 @@ lectures.
 </div> 
 
 <script>
-function myFunction() {
+function myFunction3() {
   var x = document.getElementById("M3124");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -130,7 +130,7 @@ function myFunction() {
 }
 </script>
 
-<button onclick="myFunction()">
+<button onclick="myFunction4()">
 ➢ Mathematics 1120: Fundamental Concepts in Mathematics (Winter 2019)
 </button>
 
@@ -149,7 +149,7 @@ students with questions from the lectures or problem sets.
 </div> 
 
 <script>
-function myFunction() {
+function myFunction4() {
   var x = document.getElementById("M1120");
   if (x.style.display === "none") {
     x.style.display = "block";
@@ -160,7 +160,7 @@ function myFunction() {
 </script>
 
 
-<button onclick="myFunction()">
+<button onclick="myFunction5()">
 ➢ Mathematics 3020: Introduction to Abstract Algebra (Fall 2018)
 </button>
 
@@ -178,7 +178,7 @@ students with questions from the lectures or problem sets.
 </div> 
 
 <script>
-function myFunction() {
+function myFunction5() {
   var x = document.getElementById("M3020");
   if (x.style.display === "none") {
     x.style.display = "block";
