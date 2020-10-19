@@ -16,6 +16,7 @@ Updated: Oct 2020.
 2. [Teaching Philosophy](#teachingphilosphy)
 3. [Teaching Experience](#teachingexperience)
     1. [Western University](#western)
+    2. [Universidad de los Andes](#uniandes)
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
@@ -76,7 +77,7 @@ students with questions from the lectures or problem sets.
 ➢ Mathematics 2151: Mathematical Structures (Summer 2020, Fall 2020)
 </button>
 
-<div id="M4123" style="display: none;">
+<div id="M2151" style="display: none;">
 <p style="text-align: justify">
 
 Second year course offered to students pursuing a science or engineering degree. The main contents of
@@ -284,6 +285,108 @@ Students come to the help centre to deal with specific questions, review from le
 as a study space with help on hand in case they get stuck on.
    </p>
 </div>   
+
+
+## Universidad de los Andes: Instructor and Teaching Assistant (2011-2015) <a name = "uniandes> </a>
+
+<p style="text-align: justify"> 
+The Universidad de los Andes is a private university in Colombia ranked among the top-10 in Latin America. The student
+population consists of the Top 1% high school graduates and they enjoy a diversity of backgrounds in terms
+of race, socioeconomic status, religion, sex. The university provide strong economic support to the top
+students with financial needs.
+</p>
+
+<p style="text-align: justify"> 
+I served as an instructor at Universidad de los Andes in several opportunities. In terms of first year courses taught at Uniandes, each course enrols more than 200 students which are
+divided into small groups of approximate 35 students which are assigned to a particular instructor. The
+program outline, schedule and exams are in charge of the course coordinator and meetings among all the
+instructors are held two weeks before each exam to discuss and review the topics covered as well as suggest
+potential problems to include in the test papers. The teaching load of these courses usually involved 1.5-
+hour class twice per week during 16 weeks for a group of 35 students.
+</p>
+
+<p style="text-align: justify">     
+I was responsible for all the preparation of the lecture material, assignments, quizzes and assessment of the
+following courses.
+</p>
+
+<button onclick="myFunction('U:C2')">
+➢ Integral Calculus and Differential Equations
+</button>
+<div id="U:C2" style="display: none;">
+<p style="text-align: justify">
+It is a second semester calculus course for students who have previously been introduced to the basic
+ideas of differential and integral calculus. The main topics of this course are: applications and
+techniques of integration, infinite series and the representation of functions power series, and
+differential equations. Three midterms exam are held during the semester (20% each) an accumulative
+final exam (25 % each) and the remaining 15% was open to the criterion of each instructor. In my case,
+I delivered assignments (5% total) and apply quizzes (5% total) before each exam. The remaining grade
+5% was devoted to attending class and participating, which is an advantage to use in a class of small
+groups.
+   </p>
+</div>   
+
+
+<button onclick="myFunction('U:C3')">
+➢ Multivariate Calculus
+</button>
+<div id="U:C3" style="display: none;">
+<p style="text-align: justify">
+
+It is a second-year calculus course for students who have previously been introduced to differential and
+integral calculus in one variable, parametric equations and notions of differential equations. The main
+topics of this course are: three-dimensional geometry, partial derivatives, gradient divergence and curl;
+line and surface integrals; and the theorems of Green, Stokes, and Gauss. Two midterms exam are held
+during the semester (30% each) an accumulative final exam (25 % each) and the remaining 15% was
+open to the criterion of each instructor. In my case, I delivered assignments (5% total) and apply quizzes
+(5% total) before each exam. The remaining grade 5% was devoted to attending class and participating,
+which is an advantage to use in a class of small groups.
+   </p>
+</div> 
+
+<button onclick="myFunction('U:BM')">
+➢ Mathematics for Biology and Medicine
+</button>
+<div id="U:BM" style="display: none;">
+<p style="text-align: justify">
+It is a second year course for students pursing a major in biology, chemistry, health sciences and related
+careers. The main objective is to learn and apply mathematical concepts particularly into biology and
+medicine. The approach to the mathematical theory is done through problem discussion. The main
+topics in this course are: matrix algebra, introduction to statistics (measures of central tendency) and
+probability (random variables, binomial and normal distributions). The used reference was Neuhauser,
+Claudia: Calculus for Biology and Medicine, Prentice Hall. Two midterms exam are held during the
+semester (30% each) an accumulative final exam (25 % each) and the remaining 15% was open to the
+criterion of each instructor. In my case, I delivered assignments (5% total) and apply quizzes (5% total)
+before each exam. The remaining grade 5% was devoted to attending class and participating, which is
+an advantage to use in a class of small groups.
+   </p>
+</div> 
+
+<p style="text-align: justify">
+I served as a teaching assistant in several first-year courses (pre-calculus, differential calculus, linear
+algebra) when I was pursuing my Master’s degree providing support to the main instructor by grading quizzes,
+assignments, exams and running tutorial sessions. I also had a major assistant role in the following course.
+   </p>
+   
+<button onclick="myFunction('U:NA')">
+➢ Numerical Analysis and Complex Variables.
+</button>
+<div id="U:NA" style="display: none;">
+<p style="text-align: justify">
+It is third year course intended for students pursing a major in engineering. The main topics covered in
+this course are: Fourier Analysis, Partial Differential Equations, Laurent Series, Numerical Methods for
+integration and solving differential equations. Students also use MATLAB for solving the suggested
+problems and developing a final project. My main role was to run MATLAB tutorial sessions, review
+lecture material, grade assignments, exams and the final projects.
+   </p>
+</div> 
+
+<p style="text-align: justify">
+Instructors and Teaching Assistant provide help in any course in mathematics to any student that attends
+the Pentagon (Mathematics Help Centre) which runs Monday to Friday from 8am to 4pm. Every
+instructor/teaching assistant stays in average 4 hours/week in this help space.
+   </p>
+
 
 
 <p>
