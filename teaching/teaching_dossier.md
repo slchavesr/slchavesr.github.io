@@ -287,7 +287,7 @@ as a study space with help on hand in case they get stuck on.
 </div>   
 
 
-## Universidad de los Andes: Instructor and Teaching Assistant (2011-2015) <a name = "uniandes> </a>
+## Universidad de los Andes: Instructor and Teaching Assistant (2011-2015) <a name = "uniandes"> </a>
 
 <p style="text-align: justify"> 
 The Universidad de los Andes is a private university in Colombia ranked among the top-10 in Latin America. The student
