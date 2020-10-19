@@ -59,7 +59,7 @@ function myFunction(id) {
 ➢ Mathematics 1600: Linear Algebra I (Fall 2019, Winter 2020)
 </button>
 
-<div id="M1600">
+<div id="M1600" style="display: none;">
 <p style="text-align: justify"> 
 First year linear algebra course offered for students intended to major in the Faculty of Science. The
 main contents of the course are: properties and applications of vectors; matrix algebra; solving systems
@@ -90,7 +90,7 @@ function myFunction1() {
 ➢ Mathematics 3124: Complex Analysis (Fall 2019)
 </button>
 
-<div id="M3124">
+<div id="M3124" style="display: none;">
 <p style="text-align: justify"> 
 Third year course offered to students pursing a major in pure Mathematics. The main contents of this
 course are: The Cauchy-Riemann equations, Cauchy’s integral theorem and formula, the identity
