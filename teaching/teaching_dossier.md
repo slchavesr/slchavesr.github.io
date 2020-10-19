@@ -528,14 +528,14 @@ I have also been a tutor for High-school and College students supporting their l
 
 # Curriculum Development <a name="curriculum"> </a>
 
-## Course Design and Teaching Innovations <a name="course design"> </a>
+## Teaching Innovations and Course Design <a name="course design"> </a>
 
 <p style="text-align: justify">
 I participated in the design of the the course Matrix Algebra and Linear Optimization at Universidad del
 Rosario for the new program on Business and Marketing.
 </p> 
 <p style="text-align: justify">
-I also have a proposed [syllabus](syllabus.pdf) for a course in Transformation groups that I am looking forward to deliver for graduate students interested in my research areas.
+    I also have a proposed <a href="syllabus.pdf"> Syllabus </a> for a course in Transformation groups that I am looking forward to deliver for graduate students interested in my research areas.
 </p>
 <p style="text-align: justify">
 During most of my time as instructor and teaching assistant, I prepared independently problem sheets,
