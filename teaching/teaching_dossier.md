@@ -43,7 +43,19 @@ As a final point, <em>I completely perceive teaching as a process that goes beyo
 
 ## Western University: Teaching Assistant and Teaching Fellow (2015- Present) <a name="western"></a>
 
-<button onclick="myFunction1()">
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<button onclick="myFunction('M1600')">
 ➢ Mathematics 1600: Linear Algebra I (Fall 2019, Winter 2020)
 </button>
 
@@ -74,7 +86,7 @@ function myFunction1() {
 }
 </script>
 
-<button onclick="myFunction2()">
+<button onclick="myFunction('M3124')">
 ➢ Mathematics 3124: Complex Analysis (Fall 2019)
 </button>
 
@@ -121,7 +133,7 @@ lectures.
 
 <script>
 function myFunction3() {
-  var x = document.getElementById("M3124");
+  var x = document.getElementById("M3159");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
@@ -188,6 +200,12 @@ function myFunction5() {
 }
 </script>
 
+<button onclick="myFunction6()">
+➢ Mathematics 3020: Introduction to Abstract Algebra (Fall 2018)
+</button>
+
+<div id="M1229">
+<p style="text-align: justify">
 ➢ Math 1229: Methods of Matrix Algebra (Winter 2018, Winter 2016)Sergio Chaves – Teaching Dossier
 Page 8
 First year course offered to any student in the university and affiliate Colleges. The main contents of
@@ -197,6 +215,20 @@ The course consisted of an approximate 300 students and the main lectures held t
 12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
 set and assignments sent by the instructor as well as the exams. I also held office hours once per week
 intended to help students with questions from the lectures or problem sets.
+ </p>
+</div> 
+
+<script>
+function myFunction6() {
+  var x = document.getElementById("M1229");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
 ➢ Calculus 2302: Intermediate Calculus I (Fall 2018, Fall 2017)
 Second year course offered to students pursuing a major in any of the Mathematical sciences. The
 main contents of this course are: three-dimensional analytic geometry, quadric surfaces, vector
