@@ -3,6 +3,9 @@ layout: page
 title: Teaching Dossier
 use-site-title: true
 ---
+<p>
+<a href="#" class="scrollUpButton">▲</a>
+</p>
 
 Updated: Oct 2020.
 
@@ -18,6 +21,7 @@ Updated: Oct 2020.
     1. [Western University](#western)
     2. [Universidad de los Andes](#uniandes)
     3. [Universidad del Rosario](#urosario)
+    4. [Universidad Central](#ucentral)
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
@@ -437,6 +441,36 @@ of such reports.
    </p>
 </div> 
 
-<p>
-<a href="#" class="scrollUpButton">▲</a>
+
+
+## Universidad Central de Colombia: Instructor (2013) <a name="ucentral"> </a>
+
+
+<p style="text-align: justify">
+    
+During 2013 I also served as an instructor at la Universidad Central de Colombia in the department of
+engineering and mathematics at that institution. I belonged to the roster of Instructors for the night-time
+and weekend programs; these programs are offered to mature and full-time working people that pursue an
+undergraduate degree in engineering. Classes for these special programs are held Monday to Friday from
+6pm – 10pm and Saturdays from 9am – 5pm during 16 weeks. I was the instructor for two courses each
+term in a class sizes of approximate 30 students each. The methods of evaluation followed for this particular
+program were the following: Two midterms exam are held during the semester (30% each) an accumulative
+final exam (40 % each). Assignments are handed out every two weeks with carefully selected problems for
+the students to practice; and 80% of the exam questions are slightly different from the proposed problem
+sets.
+</p>
+
+<p style="text-align: justify">
+The courses that I taught at this institution are the following.
+➢ Multivariate Calculus
+➢ Mathematical Logic
+➢ Linear Algebra.
+</p>
+
+<p style="text-align: justify">
+I also was a secondary instructor providing independent tutorial sessions for reviewing lectures and problem-
+solving to full-time students in the morning and afternoon programs in the following courses.
+➢ Integral Calculus
+➢ Differential Calculus
+The activities and participation on these tutorial sessions were 15% of the final grade.
 </p>
