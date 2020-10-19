@@ -3,6 +3,8 @@ layout: page
 title: Teaching Dossier
 use-site-title: true
 ---
+
+<head>
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="scrollUpButton.css" media="all" />
@@ -11,6 +13,7 @@ use-site-title: true
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="scrollUpButton.js"></script>
 
+</head>
 
 Updated: Mar 2020.
 
