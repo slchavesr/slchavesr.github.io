@@ -506,3 +506,14 @@ completely dedicate to pursue his Major in mathematics after the discussions, ad
 I gave to him during our meetings. On Winter 2020 we continued working on a reading course in
 Topological Manifolds following the classical book of Lie, extending the material from the DRP project.
 </p>
+
+## Other relevant Teaching experience <a name="other"> </a>
+
+
+During 2015 I volunteered as instructor of conversational basic Spanish for students travelling to
+Central and South America Spanish-speaking countries under the program <a href="http://cel.uwo.ca/students/impact/index.html">Impact Experience Program </a>
+at Western. Students are part of projects that impacts a community abroad. Impact Experience offers all
+students at Western and its affiliates access to unique co-curricular opportunities to support community
+projects around the world.
+
+I have also been a tutor for High-school and College students supporting their learning experience in most of the courses in Mathematics and Statistics. I provide my help both in-person or online to students around the world. I started the <em> MathForce </em> project; a group providing math support to students in the London, ON. community by connecting high-school students and graduate math students.
