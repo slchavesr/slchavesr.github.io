@@ -424,10 +424,10 @@ participating.
    </p>
 </div> 
 
-<button onclick="myFunction('U:Pr')">
+<button onclick="myFunction('U:Ma')">
 ➢ Matrix Algebra and Linear Optimization
 </button>
-<div id="U:Pr" style="display: none;">
+<div id="U:Ma" style="display: none;">
 <p style="text-align: justify">
 I was the instructor for one group of 25 students each semester for this course. The main contents of
 this course are: Matrix operations, Gauss-Jordan elimination, Inverse Matrices and Determinants,
@@ -462,15 +462,15 @@ sets.
 
 <p style="text-align: justify">
 The courses that I taught at this institution are the following.
-➢ Multivariate Calculus
-➢ Mathematical Logic
-➢ Linear Algebra.
+<br> ➢ Multivariate Calculus
+<br> ➢ Mathematical Logic
+<br> ➢ Linear Algebra.
 </p>
 
 <p style="text-align: justify">
 I also was a secondary instructor providing independent tutorial sessions for reviewing lectures and problem-
 solving to full-time students in the morning and afternoon programs in the following courses.
-➢ Integral Calculus
-➢ Differential Calculus
-The activities and participation on these tutorial sessions were 15% of the final grade.
+<br> ➢ Integral Calculus
+<br> ➢ Differential Calculus
+<br> The activities and participation on these tutorial sessions were 15% of the final grade.
 </p>
