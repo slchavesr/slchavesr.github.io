@@ -587,9 +587,9 @@ standards in terms of versatility, reliability and validity.
 # Professional Development <a name="professional"> </a>
 
 <p style="text-align: justify">
-During 2019-2020 I pursued the Western Certificate in University Teaching to enhance my teaching career. It is
+During 2019-2020 I pursued the  <a href="https://teaching.uwo.ca/programs/certificates/cutl.html"> Western Certificate in University Teaching  </a> to enhance my teaching career. It is
 intended to improve teaching skills for graduate students and postdoctoral scholars at the University of
-Western Ontario, and to prepare them for a future faculty or professional career.
+Western Ontario, and to prepare them for a future faculty or professional career. My certificate can be accessed <a href="https://schavesr.com/teaching/certificate.pdf"> here </a>
 </p>
 
 ## Courses and Programs on Teaching <a name="courses"> </a>
