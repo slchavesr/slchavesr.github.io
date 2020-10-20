@@ -28,6 +28,9 @@ Updated: Oct 2020.
     1. [Teaching Innovatives and Course Design](#coursedesign)
     2. [Reflection on teaching Mathematics](#selfreflection)
     3. [Question Design](#questions)
+5. [Professional Development](#professional)
+    1. [Courses and Programs on Teaching](#courses)
+    
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
@@ -577,7 +580,7 @@ couple of years back by other instructors. Due to the nature of the exams, these
 standards in terms of versatility, reliability and validity.
 </p>
 
-# Professional Development <a name="profesional"></a>
+# Professional Development <a name="professional"></a>
 
 <p style="text-align: justify">
 During 2019-2020 I pursued the Western Certificate in University Teaching to enhance my teaching career. It is
@@ -588,7 +591,8 @@ Western Ontario, and to prepare them for a future faculty or professional career
 ## Courses and Programs on Teaching <a name="courses"></a>
 
 <p style="text-align: justify">
-Advanced Teaching Program (Winter 2019)
+    <b> Advanced Teaching Program (Winter 2019) </b>
+    <br>
 The Advanced Teaching Program (ATP) is a 20-hour short course designed for advanced graduate students
 who would like to develop practical teaching skills for current and future teaching roles. Topics include
 course design strategies, active learning, authentic assessment of student learning, and maintaining a culture
@@ -598,7 +602,8 @@ an experienced team of instructors.
 </p>
 
 <p style="text-align: justify">
-Teaching Mentor Program (Winter 2019)
+    <b> Teaching Mentor Program (Winter 2019) </b>
+    <br>
 The Teaching Mentor Program is a unique opportunity for graduate students and postdoctoral scholars to
 receive feedback on their teaching and classroom management approaches from peers in their own teaching
 environment. Four to five participants will work together and visit each other’s classes, tutorials or labs
@@ -609,7 +614,8 @@ as observer.
 </p>
 
 <p style="text-align: justify">
-TA Day: Graduate Student Conference on Teaching (Sep 2015, 2016, 2017)
+    <b> TA Day: Graduate Student Conference on Teaching (Sep 2015, 2016, 2017)</b>
+    <br>
 This one-day yearly conference introduces graduate students to teaching at Western and helps prepare them
 for their roles as Teaching Assistants. TA Day has welcomed new graduate students to Western for over 30
 years.
@@ -621,9 +627,10 @@ key campus partners including Western Libraries, the Writing Support Centre, Lea
 the Wellness Education Centre, the Teaching Assistants Union, and the Society of Graduate Students
 </p>
 
-## Teaching Workshops and Conferences
+## Teaching Workshops and Conferences <a name="conferences"></a>
 <p style="text-align: justify">
-Fall Perspectives on Teaching Workshop (Aug 2019)
+    <b> Fall Perspectives on Teaching Workshop (Aug 2019) </b> 
+    <br>
 Offered twice a year, Perspectives on Teaching is a full-day conference designed to showcase
 teaching innovations at Western, and introduce instructors to best practices in student-centered instruction
 which can enhance the student experience. The conference program typically includes a keynote address
@@ -631,7 +638,8 @@ and 6-9 concurrent sessions.
 </p>
 
 <p style="text-align: justify">
-Own Your Future: May conference on Teaching (May 2019)
+    <b> Own Your Future: May conference on Teaching (May 2019)</b>
+    <br>
 The Own Your Future: May Conference on Teaching is a special one-day event for doctoral students at
 Western. Participants are invite to join one or more conference sessions to enhance skill areas related to
 teaching, set personal goals for growth as instructors, and connect teaching experiences to their overall
