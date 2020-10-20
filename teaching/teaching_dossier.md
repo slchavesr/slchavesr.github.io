@@ -613,7 +613,7 @@ receive feedback on their teaching and classroom management approaches from peer
 environment. Four to five participants will work together and visit each other’s classes, tutorials or labs
 over the course of the semester. I was part of a group of 5 Graduate Student from a diverse range of
 backgrounds (Engineering, Medical Sciences, Humanities and Science).
-Refer to the Appendix (p.33) for a sample of the feedback received as well as one of the feedback provided
+An example of one of the feedback letter that I provided to my peers can be found <a href="https://schavesr.com/teaching/Hannah.pdf"> here </a>.
 as observer.
 </p>
 
