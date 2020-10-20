@@ -580,7 +580,7 @@ couple of years back by other instructors. Due to the nature of the exams, these
 standards in terms of versatility, reliability and validity.
 </p>
 
-# Professional Development <a name="professional"></a>
+# Professional Development <a name="professional"> </a>
 
 <p style="text-align: justify">
 During 2019-2020 I pursued the Western Certificate in University Teaching to enhance my teaching career. It is
@@ -588,7 +588,7 @@ intended to improve teaching skills for graduate students and postdoctoral schol
 Western Ontario, and to prepare them for a future faculty or professional career.
 </p>
 
-## Courses and Programs on Teaching <a name="courses"></a>
+## Courses and Programs on Teaching <a name="courses"> </a>
 
 <p style="text-align: justify">
     <b> Advanced Teaching Program (Winter 2019) </b>
@@ -628,6 +628,7 @@ the Wellness Education Centre, the Teaching Assistants Union, and the Society of
 </p>
 
 ## Teaching Workshops and Conferences <a name="conferences"></a>
+
 <p style="text-align: justify">
     <b> Fall Perspectives on Teaching Workshop (Aug 2019) </b> 
     <br>
