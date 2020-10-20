@@ -556,7 +556,7 @@ and it is also a fundamental basis for future researchers. This reflection is fo
 difficulties experienced in the learning and teaching process of formal mathematical proofs, and discuss
 whether the traditional "definition-theorem-example" lecture method is the most
 appropriate for the students to success in mathematical courses.
-See the complete reflection on this thinking done as requirement for my
+    <a href="https://schavesr.com/teaching/capstone.pdf"> This </a> is the complete reflection on this thinking done as requirement for my
 professional development degrees.
 </p>
 
