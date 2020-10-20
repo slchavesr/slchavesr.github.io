@@ -30,6 +30,7 @@ Updated: Oct 2020.
     3. [Question Design](#questions)
 5. [Professional Development](#professional)
     1. [Courses and Programs on Teaching](#courses)
+    2. [Teaching Workshops and Conferences](#conferences)
     
   
 ## Brief Biography <a name="briefbiography"></a>
@@ -564,7 +565,8 @@ professional development degrees.
 <p style="text-align: justify">
 I designed and created over 400 questions in WeBWork to support the delivery of the <em> Mathematical Structures </em> course at Western during 2020. I implemented the questions in several formats (multiple choice, true/false, etc) focusing in adding several layers of randomization to fight against academic offenses. I created questions for Logic, Set theory, Introductory number theory and combinatorics that might be added to the Open Problem Library in Webwork.
 </p>
-# Professional Development <a name="professional"> </a>
+
+
 <p style="text-align: justify">
 During 2014 I worked as a designer and reviewer for the bank of mathematical questions at the Colombian
 Institute for the Assessment of Education ICFES. This institution is the Colombian public entity in charge
@@ -573,7 +575,8 @@ graduating from elementary, middle and high-school across the Country. The ICFES
 recognized as the most important test in Colombia since it qualifies students according to their actual
 academic skills and therefore it can affect the possibilities that a student might have to be accepted in
 College.
-<p style="text-align: justify">
+</p>
+
 <p style="text-align: justify">
 I worked in the mathematical group for creating innovative questions and assessing questions created a
 couple of years back by other instructors. Due to the nature of the exams, these questions must meet high
@@ -581,6 +584,7 @@ standards in terms of versatility, reliability and validity.
 </p>
 
 
+# Professional Development <a name="professional"> </a>
 
 <p style="text-align: justify">
 During 2019-2020 I pursued the Western Certificate in University Teaching to enhance my teaching career. It is
