@@ -564,7 +564,7 @@ professional development degrees.
 <p style="text-align: justify">
 I designed and created over 400 questions in WeBWork to support the delivery of the <em> Mathematical Structures </em> course at Western during 2020. I implemented the questions in several formats (multiple choice, true/false, etc) focusing in adding several layers of randomization to fight against academic offenses. I created questions for Logic, Set theory, Introductory number theory and combinatorics that might be added to the Open Problem Library in Webwork.
 </p>
-
+# Professional Development <a name="professional"> </a>
 <p style="text-align: justify">
 During 2014 I worked as a designer and reviewer for the bank of mathematical questions at the Colombian
 Institute for the Assessment of Education ICFES. This institution is the Colombian public entity in charge
@@ -580,7 +580,7 @@ couple of years back by other instructors. Due to the nature of the exams, these
 standards in terms of versatility, reliability and validity.
 </p>
 
-# Professional Development <a name="professional"> </a>
+
 
 <p style="text-align: justify">
 During 2019-2020 I pursued the Western Certificate in University Teaching to enhance my teaching career. It is
