@@ -577,11 +577,17 @@ couple of years back by other instructors. Due to the nature of the exams, these
 standards in terms of versatility, reliability and validity.
 </p>
 
-# Professional Development
-During 2019 I pursued the Western Certificate in University Teaching to enhance my teaching career. It is
+# Professional Development <a name="profesional"></a>
+
+<p style="text-align: justify">
+During 2019-2020 I pursued the Western Certificate in University Teaching to enhance my teaching career. It is
 intended to improve teaching skills for graduate students and postdoctoral scholars at the University of
 Western Ontario, and to prepare them for a future faculty or professional career.
-6.1. Courses and Programs on Teaching
+</p>
+
+## Courses and Programs on Teaching <a name="courses"></a>
+
+<p style="text-align: justify">
 Advanced Teaching Program (Winter 2019)
 The Advanced Teaching Program (ATP) is a 20-hour short course designed for advanced graduate students
 who would like to develop practical teaching skills for current and future teaching roles. Topics include
@@ -589,6 +595,9 @@ course design strategies, active learning, authentic assessment of student learn
 of respect and community in the classroom. Participants gain hands-on experience by practicing
 instructional techniques in microteaching sessions where they receive constructive feedback from peers and
 an experienced team of instructors.
+</p>
+
+<p style="text-align: justify">
 Teaching Mentor Program (Winter 2019)
 The Teaching Mentor Program is a unique opportunity for graduate students and postdoctoral scholars to
 receive feedback on their teaching and classroom management approaches from peers in their own teaching
@@ -597,6 +606,9 @@ over the course of the semester. I was part of a group of 5 Graduate Student fro
 backgrounds (Engineering, Medical Sciences, Humanities and Science).
 Refer to the Appendix (p.33) for a sample of the feedback received as well as one of the feedback provided
 as observer.
+</p>
+
+<p style="text-align: justify">
 TA Day: Graduate Student Conference on Teaching (Sep 2015, 2016, 2017)
 This one-day yearly conference introduces graduate students to teaching at Western and helps prepare them
 for their roles as Teaching Assistants. TA Day has welcomed new graduate students to Western for over 30
@@ -606,31 +618,40 @@ experienced Teaching Assistants from across the disciplines. Participants choose
 workshops that focus on different teaching topics including: facilitating discussions, managing difficult
 situations, communication strategies, and more. Graduate students also have the opportunity to hear from
 key campus partners including Western Libraries, the Writing Support Centre, Learning Skills Services,
-the Wellness Education Centre, the Teaching Assistants Union, and the Society of Graduate Students.Sergio Chaves – Teaching Dossier
-Page 15
-6.2. Teaching Workshops and Conferences
+the Wellness Education Centre, the Teaching Assistants Union, and the Society of Graduate Students
+</p>
+
+## Teaching Workshops and Conferences
+<p style="text-align: justify">
 Fall Perspectives on Teaching Workshop (Aug 2019)
 Offered twice a year, Perspectives on Teaching is a full-day conference designed to showcase
 teaching innovations at Western, and introduce instructors to best practices in student-centered instruction
 which can enhance the student experience. The conference program typically includes a keynote address
 and 6-9 concurrent sessions.
+</p>
+
+<p style="text-align: justify">
 Own Your Future: May conference on Teaching (May 2019)
 The Own Your Future: May Conference on Teaching is a special one-day event for doctoral students at
 Western. Participants are invite to join one or more conference sessions to enhance skill areas related to
 teaching, set personal goals for growth as instructors, and connect teaching experiences to their overall
 professional development as graduate students.
-Workshops
-• Writing Teaching Philosophy Statements. Oct 2019.
-• Tried and True Strategies to Address Common Assessment Conundrums. Aug 2019
-• Effective Practices for Peer Review of Teaching: Moving Beyond the Student Perspective. Aug
-2019
-• Flexible Assessment: Designing Effective Assessments that Support Student Wellness. Aug 2019.
-• New Policies for Student Absence and Accommodation -- Is Your Syllabus Ready? Aug 2019.
-• Assessing and Articulating your Teaching Skills for Future Careers. May 2019.
-• How Can Teaching Help Me Get a Job? May 2019.
-• Case Studies on Teaching. May 2019.
-• Writing Diversity Statements. May 2019.
-• Constructing Your Teaching Dossier. Mar 2019.
-• Strategies to Help Students Learn How to Learn. Mar 2019.
-• Increasing the Power of PowerPoint. Feb 2019.
-• How to Care For and Use Your Teaching Voice. Feb 2019.
+Workshops.
+<ul>    
+    <li> Writing Teaching Philosophy Statements. Oct 2019. </li>
+    <li> Tried and True Strategies to Address Common Assessment Conundrums. Aug 2019. </li>
+    <li> Effective Practices for Peer Review of Teaching: Moving Beyond the Student Perspective. Aug
+    2019. </li>
+    <li> Flexible Assessment: Designing Effective Assessments that Support Student Wellness. Aug 2019. </li>
+    <li> New Policies for Student Absence and Accommodation -- Is Your Syllabus Ready? Aug 2019. </li>
+    <li> Assessing and Articulating your Teaching Skills for Future Careers. May 2019. </li>
+    <li> How Can Teaching Help Me Get a Job? May 2019. </li>
+    <li> Case Studies on Teaching. May 2019. </li>
+    <li> Writing Diversity Statements. May 2019. </li>
+    <li> Constructing Your Teaching Dossier. Mar 2019. </li>
+    <li> Strategies to Help Students Learn How to Learn. Mar 2019. </li>
+    <li> Increasing the Power of PowerPoint. Feb 2019. </li>
+    <li> How to Care For and Use Your Teaching Voice. Feb 2019. </li>
+    
+</ul>
+ </p>
