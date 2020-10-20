@@ -24,13 +24,18 @@ Updated: Oct 2020.
     4. [Universidad Central](#ucentral)
     5. [Mentoring Students](#mentor)
     6. [Other relevant experience](#other)
-4. [Curriculum Development](#curriculum)
+4. [Teaching Effectiveness](#teachingef)
+    1. [Formal Teaching Evaluations](#teachingev)  
+    2. [Informal Teaching Evaluations](#infteachev)
+    3. [Peer's Evaluations](#peer)
+5. [Curriculum Development](#curriculum)
     1. [Teaching Innovatives and Course Design](#coursedesign)
     2. [Reflection on teaching Mathematics](#selfreflection)
     3. [Question Design](#questions)
-5. [Professional Development](#professional)
+6. [Professional Development](#professional)
     1. [Courses and Programs on Teaching](#courses)
     2. [Teaching Workshops and Conferences](#conferences)
+    
     
   
 ## Brief Biography <a name="briefbiography"></a>
@@ -620,7 +625,7 @@ Assessment on Teaching Assistant’s
 promptness on arriving to the
 classroom, exams, office hours, etc. 5
 
-## Informal Teaching Evaluations
+## Informal Teaching Evaluations <a name="infteachev"> </a>
 
 <p style="text-align: justify">
 These comments are obtained from the Facebook group “Courses that you should take” for students at the
@@ -646,7 +651,7 @@ This comments was sent by a students when working with them in regular one-to-on
     </em>
     </p>
     
-## Peer Evaluations from Class Observations <a name="peer> </a>
+## Peer Evaluations from Class Observations <a name="peer"> </a>
 
 <p style="text-align: justify">
     <em>
