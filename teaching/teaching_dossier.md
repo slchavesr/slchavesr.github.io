@@ -530,6 +530,153 @@ projects around the world.
 I have also been a tutor for High-school and College students supporting their learning experience in most of the courses in Mathematics and Statistics. I provide my help both in-person or online to students around the world. I started the <em> MathForce </em> project; a group providing math support to students in the London, ON. community by connecting high-school students and graduate math students.
 </p>
 
+# Teaching Effectiveness <a name="teachingef"> </a>
+
+## Formal Teaching Evaluations <a name="teachingev"> </a>
+
+Student Evaluations
+At the Universidad de los Andes, instructor performance is evaluated by the students under the following
+categories. Scored discretely from 1 to 4, representing strongly disagree, disagree, agree and strongly agree
+respectively. Students have also a space for provide comments on positive or negative aspects of the
+instructor performance.
+For a class of 14 students in the course of Integral Calculus and Differential Equations the obtained results
+are as follows
+Category Course Average (out of 4)
+The course meets the established learning objectives. 3.93
+The development of the course foster student’s
+commitment to studying this subject. 3.79
+The instructor implements effective activities
+(presentations, discussions, projects, assignment, etc)
+to enhance student’s learning. 3.79
+The textbook, lecture materials or any other teaching
+tools used both inside and outside of the classroom
+are adequate for the course objectives. 3.86
+The assessment methods are clearly established from
+the beginning of the course. 3.86
+The exams, assignments and graded activities are
+appropriate and consistent with the course objectives. 3.93
+The grades are returned accordingly to the university
+policies 3.79
+The instructor is respectful with the students. 3.93
+The instructor arrives promptly to the course lectures. 3.93
+The instructor promptly assists students in both inside
+of the classroom and outside of it (office hours, email,
+e-learning platform, etc) 3.93
+Comments written from these evaluations are the following.
+• Very good! Clear and concise explanations. He helps both inside and outside class.
+• Very good professor, he solves any question from the material and he uses good teaching methods.
+• He is a good professor, he explains very well each topic that we are covering
+• He is a great teacher.Sergio Chaves – Teaching Dossier
+Page 11
+For a class of 25 students in the course of Integral Calculus and Differential Equations the obtained results
+are as follows
+Category Course Average (out of 4)
+The course meets the established learning objectives. 3.84
+The development of the course foster student’s
+commitment to studying this subject. 3.72
+The instructor implements effective activities
+(presentations, discussions, projects, assignment, etc)
+to enhance student’s learning. 3.72
+The textbook, lecture materials or any other teaching
+tools used both inside and outside of the classroom
+are adequate for the course objectives. 3.84
+The assessment methods are clearly established from
+the beginning of the course. 3.8
+The exams, assignments and graded activities are
+appropriate and consistent with the course objectives. 3.76
+The grades are returned accordingly to the university
+policies 3.96
+The instructor is respectful with the students. 3.96
+The instructor arrives promptly to the course lectures. 3.84
+The instructor promptly assists students in both inside
+of the classroom and outside of it (office hours, email,
+e-learning platform, etc.) 3.72
+Comments written from these evaluations are the following.
+• Excellent professor. Clear explanations and concise approach of the course contents.
+• Professor explains in a very nice way; his explanations are more clear than other professors’.
+• I am very thankful for being Sergio’s student. He excels the contents and transmits all his
+knowledge.
+• A great teacher, any question regarding the lecture, he kindly answered in a clear fashion. I
+understood more from his lectures than from the main instructor. It is clear that he knows perfectly
+all the course contents and moreover he used to send practice problems to study before each exam.
+He is also a nice person, and his evaluations were always fair.
+• Sergio is a good teacher; his explanations are very clear and he is able to land difficult concepts for
+the students to understand more easily the topics. His teaching methods make that the contents look
+simpler. A very good performance as teacher and he is very helpful to the students.Sergio Chaves – Teaching Dossier
+Page 12
+Teaching Assistant evaluations
+Most of the teaching assistant evaluations at the University of Western Ontario are in charge of the instructor
+of the course. See the Appendix for a sample of such reviews. The aspects of assessment for teaching
+assistant and the respective average (out of 10 instructor’s evaluation forms) obtained are the following.
+Category Average (out of 5)
+Assessment on Teaching Assistant’s
+Marking performance 4.7
+Assessment on Teaching Assistant’s
+Teaching Performance 4.5
+Assessment on Teaching Assistant’s
+effectiveness in completing
+assigned tasks. 4.9
+Assessment on Teaching Assistant’s
+promptness on arriving to the
+classroom, exams, office hours, etc. 5
+
+## Informal Teaching Evaluations
+
+<p style="text-align: justify">
+These comments are obtained from the Facebook group “Courses that you should take” for students at the
+Universidad de Los Andes:
+<em>
+<ul>
+    <li> “Sergio’s lectures begin with easy and relatable examples; he uses visual aids and constantly
+        reminds the learning outcomes for the session”. </li>
+<li> "The way that Prof. Chaves addresses topics is a logical flow from simple to complex concepts”. </li>
+    <li>   “He does very good explanation of difficult problems by using simple examples”. </li>
+<li> “Prof. Chaves lectures are fun and well organized, he does a lot of group activities during the
+    entire lesson”. </li>
+</ul>
+</em>
+</p>
+
+<p style="text-align: justify">
+This comments was sent by a students when working with them in regular one-to-one tutoring meetings.
+ <em>
+     <ul>
+       <li> "Thank you so much! It was great working with you. I actually got 100 on my algebra last week, so I’m very happy about that. Thank you so much for the extra practice, I will definitely take a look at it since I have a math unit test this Saturday, and I’ll definitely reach out if I have any other questions or need extra help in the future". </li> 
+     </ul>
+    </em>
+    </p>
+    
+## Peer Evaluations from Class Observations <a name="peer> </a>
+
+<p style="text-align: justify">
+    <em>
+“Excellent usage of Audio-Visual aids to facilitate learning. Superior Enthusiasm displayed in delivering
+the lecture content. Effective usage of whiteboard around the classroom. Higher comfort level
+experienced between the attendees and the instructor leading to better understanding of the subject
+content, distribution of worksheets that helped the attendees understand the subject better. Overall, you
+practices an outstanding university teaching style and incorporates many teaching strategies that makes
+        learning experience worthwhile.”</em>
+    
+Glen DSouza. Research Assistant. Department of Chemical and Biochemical Engineering. (2019).
+</p>
+<p style="text-align: justify">
+ <em>
+“You had an astute ability to explain complex concepts to your audience by deconstructing big ideas into
+smaller ones. When introducing the topic, you began by asking your students very simple questions, such
+as “what is a polygon?” and subsequently asking students to identify the correct polygons out of a variety
+of mixed shapes. This provided students with not only a clear definition but an opportunity to practice
+applying their knowledge. You continuously utilized interactive exercises with the class with handouts and
+gave the class adequate time to practice on their own. By taking up the worksheets after with the class,
+students were able to identify their own knowledge gaps and develop a clearer understanding of the
+content.”
+    </em>
+    Hanna Roberts. MSc. Candidate, Clinical Anatomy. Dept. of Anatomy and Cell Biology (2019).
+    </p>
+
+The complete review letter can be accessed <a href="https://schavesr.com/teaching/Letter_Sergio.pdf"> here </a>.
+
+
+
 # Curriculum Development <a name="curriculum"> </a>
 
 ## Teaching Innovations and Course Design <a name="coursedesign"> </a>
@@ -614,7 +761,6 @@ environment. Four to five participants will work together and visit each other�
 over the course of the semester. I was part of a group of 5 Graduate Student from a diverse range of
 backgrounds (Engineering, Medical Sciences, Humanities and Science).
 An example of one of the feedback letter that I provided to my peers can be found <a href="https://schavesr.com/teaching/Hannah.pdf"> here </a>.
-as observer.
 </p>
 
 <p style="text-align: justify">
