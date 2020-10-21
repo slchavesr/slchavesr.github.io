@@ -4,6 +4,12 @@ title: Teaching
 use-site-title: true
 ---
 
+<figure>
+  <img src="/img/ms.jpg" alt="Middlesex College" style="width:150%"/>
+  <figcaption>Department of Mathematics, Western University</figcaption>
+</figure>
+
+
 **Last Teaching Experience**
 
 I am currently a Teaching Fellow supporting the implementation of [WeBWork](https://webwork.maa.org/) at Western, and authoring problems for Logic, Set Theory and Combinatorics.
