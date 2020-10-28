@@ -574,27 +574,26 @@ For example, in a class of 14 students in the course of Integral Calculus and Di
 | Category  | Course Average (out of 4) |
 | --- | ----------- |
 | The course meets the established learning objectives. | 3.93 |
-| The development of the course foster student’s commitment to studying this subject. | 3.79|
+| The development of the course foster student’s commitment to studying this subject. | 3.79 |
+| The instructor implements effective activities (presentations, discussions, projects, assignment, etc) to enhance student’s learning. | 3.79 |
+| The textbook, lecture materials or any other teaching tools used both inside and outside of the classroom are adequate for the course objectives. | 3.86 | 
+| The assessment methods are clearly established from the beginning of the course. | 3.86 | 
+| The exams, assignments and graded activities are appropriate and consistent with the course objectives. | 3.93 |
+| The grades are returned accordingly to the university policies. | 3.79 |
+| The instructor is respectful with the students.| 3.93 |
+| The instructor arrives promptly to the course lectures. |  3.93 |
+| The instructor promptly assists students in both inside of the classroom and outside of it (office hours, email, e-learning platform, etc) | 3.93 |
+|<img width=500/>|<img width=150/>|
 
 
 
-The instructor implements effective activities
-(presentations, discussions, projects, assignment, etc)
-to enhance student’s learning. 3.79
-The textbook, lecture materials or any other teaching
-tools used both inside and outside of the classroom
-are adequate for the course objectives. 3.86
-The assessment methods are clearly established from
-the beginning of the course. 3.86
-The exams, assignments and graded activities are
-appropriate and consistent with the course objectives. 3.93
-The grades are returned accordingly to the university
-policies 3.79
-The instructor is respectful with the students. 3.93
-The instructor arrives promptly to the course lectures. 3.93
-The instructor promptly assists students in both inside
-of the classroom and outside of it (office hours, email,
-e-learning platform, etc) 3.93
+
+
+
+
+
+
+
 
 <p style="text-align: justify">
 Comments written in these evaluations are the following
@@ -634,17 +633,17 @@ e-learning platform, etc.) 3.72
 <p style="text-align: justify">
 Comments written from these evaluations are the following.
 <ul>
-<li> Excellent professor. Clear explanations and concise approach of the course contents.
-<li> Professor explains in a very nice way; his explanations are more clear than other professors’.
-<li> I am very thankful for being Sergio’s student. He excels the contents and transmits all his
+    <li> Excellent professor. Clear explanations and concise approach of the course contents. </li>
+<li> Professor explains in a very nice way; his explanations are more clear than other professors’. </li>
+<li> I am very thankful for being Sergio’s student. He excels the contents and transmits all his </li>
 knowledge.
 <li> A great teacher, any question regarding the lecture, he kindly answered in a clear fashion. I
 understood more from his lectures than from the main instructor. It is clear that he knows perfectly
-all the course contents and moreover he used to send practice problems to study before each exam.
+all the course contents and moreover he used to send practice problems to study before each exam. </li>
 He is also a nice person, and his evaluations were always fair.
 <li> Sergio is a good teacher; his explanations are very clear and he is able to land difficult concepts for
 the students to understand more easily the topics. His teaching methods make that the contents look
-simpler. A very good performance as teacher and he is very helpful to the students.Sergio Chaves – Teaching Dossier
+    simpler. A very good performance as teacher and he is very helpful to the students. </li>
 </ul>
 </p>
 
@@ -668,6 +667,7 @@ classroom, exams, office hours, etc. 5
 
 <p style="text-align: justify">
  A compendium of some teaching assistant evaluations during my time at Western can be found <a href="https://schavesr.com/teaching/TAeval.pdf"> here </a>.   
+</p>
 
 ## Informal Teaching Evaluations <a name="infteachev"> </a>
 
