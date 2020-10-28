@@ -652,17 +652,13 @@ Most of the teaching assistant evaluations at the University of Western Ontario 
 of the course. The aspects of assessment for teaching assistant and the respective average (out of 10 instructor’s evaluation forms) obtained are the following.
 </p>
 
-Category Average (out of 5)
-Assessment on Teaching Assistant’s
-Marking performance 4.7
-Assessment on Teaching Assistant’s
-Teaching Performance 4.5
-Assessment on Teaching Assistant’s
-effectiveness in completing
-assigned tasks. 4.9
-Assessment on Teaching Assistant’s
-promptness on arriving to the
-classroom, exams, office hours, etc. 5
+| Category  | Category Average (out of 5) |
+| --- | ----------- |
+| Assessment on Teaching Assistant’s Marking performance. | 4.7 |
+| Assessment on Teaching Assistant’s Teaching Performance | 4.5 |
+| Assessment on Teaching Assistant’s effectiveness in completing assigned tasks | 4.9 |
+| Assessment on Teaching Assistant’s promptness on arriving to the classroom, exams, office hours, etc. | 4.5 | 
+|<img width=500/>|<img width=150/>|
 
 <p style="text-align: justify">
  A compendium of some teaching assistant evaluations during my time at Western can be found <a href="https://schavesr.com/teaching/TAeval.pdf"> here </a>.   
