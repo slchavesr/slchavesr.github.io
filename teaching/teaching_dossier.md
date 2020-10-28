@@ -40,7 +40,7 @@ Updated: Oct 2020.
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
-My teaching experience begins in 2011 as a Master’s student in Mathematics at the Universidad de los Andes where I was a teaching assistant for several first and second years courses. After I earned my Master’s degree in 2013, I had the opportunity to teach several introductory courses at the Universidad de Los Andes as well as other two universities in Bogotá, Colombia. These courses included Calculus, Algebra, Logic and Probability.  In 2015 I began my doctorate degree in Mathematics at the University of Western Ontario where I have been a teaching assistant for several different courses. I have also been actively involved in the development of the Directed Reading Program at the Department of Mathematics mentoring undergraduate students into interesting mathematical projects and help them to achieve their goals pursuing a major in this area. Finally, my background and diverse experience have help me to success  as a passionate teacher; as it is outlined in this Dossier, I enjoy teaching and look forward to developing my skills further as I pursue my academic career.
+My teaching experience begins in 2011 as a Master’s student in Mathematics at the Universidad de los Andes where I was a teaching assistant for several first and second years courses. After I earned my Master’s degree in 2013, I had the opportunity to teach several introductory courses at the Universidad de Los Andes as well as other two universities in Bogotá, Colombia. These courses included Calculus, Algebra, Logic and Probability.  In 2015 I began my doctorate degree in Mathematics at the University of Western Ontario where I have been a teaching assistant for several different courses. I have also been actively involved in the development of the Directed Reading Program at the Department of Mathematics mentoring undergraduate students into interesting mathematical projects and help them to achieve their goals pursuing a major in this area. Finally, my background and diverse experience have help me to success  as a passionate teacher; as it is outlined in this Dossier, I enjoy teaching and look forward to developing my skills further as I pursue my academic career. Currently, I am supporting the migration to online teaching resources for courses in the department of Mathematics at Western under the Western Science Student Teaching Fellowship award.
 </p>
 
 ## Teaching Philosophy <a name="teachingphilosphy"></a>
@@ -473,8 +473,7 @@ Two midterms exams are held during the semester (20 % each), assignments (15 % t
 participation in case-study problem (15% total) and a final project (30% total). The final project was
 an independent activity for groups of 4-5 students applying the main contents of the course into
 optimization problems in the Colombian society. A list of suggested problems is prepared by the
-instructor and students choose what is more appealing for them. A final report (15%) and group presentation (15%) was held at the end of the semester. See Appendix (p.36) for a sample (in Spanish)
-of such reports.
+instructor and students choose what is more appealing for them. A final report (15%) and group presentation (15%) was held at the end of the semester.
    </p>
 </div> 
 
@@ -544,6 +543,13 @@ Topological Manifolds following the classical book of Lie, extending the materia
 ## Other relevant Teaching experience <a name="other"> </a>
 
 <p style="text-align: justify">
+In 2019-2020 as a Senior graduate student, I was in charge of the supervision and training of recent graduate students in the use of the online grading systems used by the deparment: CrowdMark, GradeScope and WebWork.
+</p>
+<p style="text-align: justify">
+During the last years, I have been involved in online teaching, both collaborating in the department and enhancing personal goals. I have created videos, written solutions for textbook problems and providing help to students in online tutoring plataforms as <em> Numerade, OneClass </em> and <em> Chegg </em>.
+</p>
+
+<p style="text-align: justify">
 During 2015 I volunteered as instructor of conversational basic Spanish for students travelling to
 Central and South America Spanish-speaking countries under the program <a href="http://cel.uwo.ca/students/impact/index.html">Impact Experience Program </a>
 at Western. Students are part of projects that impacts a community abroad. Impact Experience offers all
@@ -609,27 +615,20 @@ For a class of 25 students in the course of Integral Calculus and Differential E
 are as follows
     </p>
 
-Category Course Average (out of 4)
-The course meets the established learning objectives. 3.84
-The development of the course foster student’s
-commitment to studying this subject. 3.72
-The instructor implements effective activities
-(presentations, discussions, projects, assignment, etc)
-to enhance student’s learning. 3.72
-The textbook, lecture materials or any other teaching
-tools used both inside and outside of the classroom
-are adequate for the course objectives. 3.84
-The assessment methods are clearly established from
-the beginning of the course. 3.8
-The exams, assignments and graded activities are
-appropriate and consistent with the course objectives. 3.76
-The grades are returned accordingly to the university
-policies 3.96
-The instructor is respectful with the students. 3.96
-The instructor arrives promptly to the course lectures. 3.84
-The instructor promptly assists students in both inside
-of the classroom and outside of it (office hours, email,
-e-learning platform, etc.) 3.72
+| Category  | Course Average (out of 4) |
+| --- | ----------- |
+| The course meets the established learning objectives. | 3.84 |
+| The development of the course foster student’s commitment to studying this subject. | 3.72 |
+| The instructor implements effective activities (presentations, discussions, projects, assignment, etc) to enhance student’s learning. | 3.72 |
+| The textbook, lecture materials or any other teaching tools used both inside and outside of the classroom are adequate for the course objectives. | 3.84 | 
+| The assessment methods are clearly established from the beginning of the course. | 3.80 | 
+| The exams, assignments and graded activities are appropriate and consistent with the course objectives. | 3.76 |
+| The grades are returned accordingly to the university policies. | 3.96 |
+| The instructor is respectful with the students.| 3.96 |
+| The instructor arrives promptly to the course lectures. |  3.84 |
+| The instructor promptly assists students in both inside of the classroom and outside of it (office hours, email, e-learning platform, etc) | 3.72 |
+|<img width=500/>|<img width=150/>|
+
 <p style="text-align: justify">
 Comments written from these evaluations are the following.
 <ul>
