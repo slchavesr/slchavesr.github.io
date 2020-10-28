@@ -559,17 +559,25 @@ I have also been a tutor for High-school and College students supporting their l
 
 ## Formal Teaching Evaluations <a name="teachingev"> </a>
 
-Student Evaluations
+## Student Evaluations
+<p style="text-align: justify">
 At the Universidad de los Andes, instructor performance is evaluated by the students under the following
 categories. Scored discretely from 1 to 4, representing strongly disagree, disagree, agree and strongly agree
 respectively. Students have also a space for provide comments on positive or negative aspects of the
 instructor performance.
-For a class of 14 students in the course of Integral Calculus and Differential Equations the obtained results
-are as follows
-Category Course Average (out of 4)
-The course meets the established learning objectives. 3.93
-The development of the course foster student’s
-commitment to studying this subject. 3.79
+ </p>   
+    
+<p style="text-align: justify">   
+For example, in a class of 14 students in the course of Integral Calculus and Differential Equations the obtained student evaluations are as follows:
+</p>
+
+| Category  | Course Average (out of 4) |
+| --- | ----------- |
+| The course meets the established learning objectives. | 3.93 |
+| The development of the course foster student’s commitment to studying this subject. | 3.79|
+
+
+
 The instructor implements effective activities
 (presentations, discussions, projects, assignment, etc)
 to enhance student’s learning. 3.79
@@ -587,14 +595,21 @@ The instructor arrives promptly to the course lectures. 3.93
 The instructor promptly assists students in both inside
 of the classroom and outside of it (office hours, email,
 e-learning platform, etc) 3.93
-Comments written from these evaluations are the following.
-• Very good! Clear and concise explanations. He helps both inside and outside class.
-• Very good professor, he solves any question from the material and he uses good teaching methods.
-• He is a good professor, he explains very well each topic that we are covering
-• He is a great teacher.Sergio Chaves – Teaching Dossier
-Page 11
+
+<p style="text-align: justify">
+Comments written in these evaluations are the following
+    <ul>
+        <li> Very good! Clear and concise explanations. He helps both inside and outside class. </li>
+<li> Very good professor, he solves any question from the material and he uses good teaching methods.</li>
+        <li> He is a good professor, he explains very well each topic that we are covering. </li>
+        <li> Sergio is a great teacher.</li>
+        </ul>
+</p>
+<p style="text-align: justify">
 For a class of 25 students in the course of Integral Calculus and Differential Equations the obtained results
 are as follows
+    </p>
+
 Category Course Average (out of 4)
 The course meets the established learning objectives. 3.84
 The development of the course foster student’s
@@ -616,23 +631,29 @@ The instructor arrives promptly to the course lectures. 3.84
 The instructor promptly assists students in both inside
 of the classroom and outside of it (office hours, email,
 e-learning platform, etc.) 3.72
+<p style="text-align: justify">
 Comments written from these evaluations are the following.
-• Excellent professor. Clear explanations and concise approach of the course contents.
-• Professor explains in a very nice way; his explanations are more clear than other professors’.
-• I am very thankful for being Sergio’s student. He excels the contents and transmits all his
+<ul>
+<li> Excellent professor. Clear explanations and concise approach of the course contents.
+<li> Professor explains in a very nice way; his explanations are more clear than other professors’.
+<li> I am very thankful for being Sergio’s student. He excels the contents and transmits all his
 knowledge.
-• A great teacher, any question regarding the lecture, he kindly answered in a clear fashion. I
+<li> A great teacher, any question regarding the lecture, he kindly answered in a clear fashion. I
 understood more from his lectures than from the main instructor. It is clear that he knows perfectly
 all the course contents and moreover he used to send practice problems to study before each exam.
 He is also a nice person, and his evaluations were always fair.
-• Sergio is a good teacher; his explanations are very clear and he is able to land difficult concepts for
+<li> Sergio is a good teacher; his explanations are very clear and he is able to land difficult concepts for
 the students to understand more easily the topics. His teaching methods make that the contents look
 simpler. A very good performance as teacher and he is very helpful to the students.Sergio Chaves – Teaching Dossier
-Page 12
-Teaching Assistant evaluations
+</ul>
+</p>
+
+## Teaching Assistant evaluations
+<p style="text-align: justify">
 Most of the teaching assistant evaluations at the University of Western Ontario are in charge of the instructor
-of the course. See the Appendix for a sample of such reviews. The aspects of assessment for teaching
-assistant and the respective average (out of 10 instructor’s evaluation forms) obtained are the following.
+of the course. The aspects of assessment for teaching assistant and the respective average (out of 10 instructor’s evaluation forms) obtained are the following.
+</p>
+
 Category Average (out of 5)
 Assessment on Teaching Assistant’s
 Marking performance 4.7
@@ -644,6 +665,9 @@ assigned tasks. 4.9
 Assessment on Teaching Assistant’s
 promptness on arriving to the
 classroom, exams, office hours, etc. 5
+
+<p style="text-align: justify">
+ A compendium of some teaching assistant evaluations during my time at Western can be found <a href="https://schavesr.com/teaching/TAeval.pdf"> here </a>.   
 
 ## Informal Teaching Evaluations <a name="infteachev"> </a>
 
