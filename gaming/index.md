@@ -17,8 +17,10 @@ This site (still under construction) contains reviews, insights, discussions and
 </figure>
   <p>
     Recommended Game! It is a puzzle game that also features a philosophical background about human moral and consciousness. While solving challenging and satisfying puzzles, the player is brought a series of questioning about what being human really means.
+  </p>
  </div>
-
+<p>
+  </p>
 
 
 <div style="text-align: center">
