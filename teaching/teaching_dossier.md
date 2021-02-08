@@ -739,14 +739,14 @@ assignments and quizzes considering the topics covered in class and the most ben
 students to prepare for their exams. In particular, I thrive for using technological tools into math teaching. I advocate for open source projects and the use of interactive blackboards when teaching mathematics.
 </p>
 
-## Lecture video creation <a name="video"> </a>
+## Lecture Videos Creation <a name="video"> </a>
 
 <p style="text-align: justify">
 In 2021, I created over 50 Lecture Videos for the course Mathematics 1225 (Methods of Calculus) at Western University to support the delivery of asynchronous Lectures for hundreds of students enrolled at this course.  A YouTube reproduction list with a sample of these videos can be found <a href="https://www.youtube.com/playlist?list=PLKRwXr3FMlQZ4SPaBx0XWs4VPbMTuGrRv"> here </a>.
 </p>
 
 
-## Question design and technology use <a name="questions"> </a>
+## Question Design and Technology Use <a name="questions"> </a>
 
 <p style="text-align: justify">
 I designed and created over 500 questions in WeBWork to support the delivery of the <em> Mathematical Structures </em> course at Western during 2020. I implemented the questions in several formats (multiple choice, true/false, etc) focusing in adding several layers of randomization to fight against academic offenses. I created questions for Logic, Set theory, Introductory number theory, combinatorics and Linear Algebra that might be added to the Open Problem Library in Webwork.
