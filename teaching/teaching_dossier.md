@@ -1,7 +1,10 @@
 ---
+layout: blank
 title: Teaching Dossier
 use-site-title: true
 ---
+
+<center> <h1> Sergio Chaves</h1> </center>
 
 
 Updated: Jan 2021.
