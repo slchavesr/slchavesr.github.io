@@ -1,9 +1,8 @@
 ---
 layout: blank
-title: Teaching Dossier
-use-site-title: true
 ---
 
+<center> <h1> Teaching Dossier</h1> </center>
 <center> <h1> Sergio Chaves</h1> </center>
 
 
