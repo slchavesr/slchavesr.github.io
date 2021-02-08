@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Teaching Dossier
 use-site-title: true
 ---
