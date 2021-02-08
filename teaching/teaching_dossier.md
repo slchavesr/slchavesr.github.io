@@ -3,9 +3,7 @@ layout: page
 title: Teaching Dossier
 use-site-title: true
 ---
-<p>
-<a href="#" class="scrollUpButton">▲</a>
-</p>
+
 
 Updated: Jan 2021.
 
