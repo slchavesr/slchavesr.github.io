@@ -546,7 +546,7 @@ Topological Manifolds following the classical book of Lie, extending the materia
 In 2019-2020 as a Senior graduate student, I was in charge of the supervision and training of recent graduate students in the use of the online grading systems used by the deparment: CrowdMark, GradeScope and WebWork.
 </p>
 <p style="text-align: justify">
-During the last years, I have been involved in online teaching, both collaborating in the department and enhancing personal goals. I have created videos, written solutions for textbook problems and providing help to students in online tutoring plataforms as <em> Numerade, OneClass </em> and <em> Chegg </em>.
+During the last years, I have been involved in online teaching, both collaborating in the department and enhancing personal goals. I have created videos, written solutions for textbook problems and providing help to students in online tutoring plataforms as <em> Numerade </em> and <em> OneClass</em>.
 </p>
 
 <p style="text-align: justify">
@@ -735,28 +735,26 @@ Rosario for the new program on Business and Marketing.
 <p style="text-align: justify">
 During most of my time as instructor and teaching assistant, I prepared independently problem sheets,
 assignments and quizzes considering the topics covered in class and the most beneficial questions for the
-students to prepare for their exams. In particular, I thrive for using technological tools into math teaching. I advocate for open source projects and the use of interactive blackboards as BitPaper when teaching mathematics.
+students to prepare for their exams. In particular, I thrive for using technological tools into math teaching. I advocate for open source projects and the use of interactive blackboards when teaching mathematics.
 </p>
 
-## Self-Reflection on Teaching Mathematics <a name="selfreflection"> </a>
+## Video Creation <a name="questions"> </a>
 
 <p style="text-align: justify">
-Teaching mathematical proofs for undergraduate students is a challenge for both instructors and students.
-Proof is an essential part on learning as it develops reasoning skills, improves problem solving aptitudes
-and it is also a fundamental basis for future researchers. This reflection is focused on studying the
-difficulties experienced in the learning and teaching process of formal mathematical proofs, and discuss
-whether the traditional "definition-theorem-example" lecture method is the most
-appropriate for the students to success in mathematical courses.
-    <a href="https://schavesr.com/teaching/capstone.pdf"> This </a> is the complete reflection on this thinking done as requirement for my
-professional development degrees.
+In 2021, I created over 50 Lecture Videos for the course Mathematics 1225 (Methods of Calculus) at Western University to support the delivery of asynchronous Lectures for hundreds of students enrolled at this course.  A YouTube reproduction list with a sample of these videos can be found <a href="https://www.youtube.com/playlist?list=PLKRwXr3FMlQZ4SPaBx0XWs4VPbMTuGrRv"> here </a>.
 </p>
 
-## Question design <a name="questions"> </a>
+
+## Question design and technology use <a name="questions"> </a>
 
 <p style="text-align: justify">
-I designed and created over 400 questions in WeBWork to support the delivery of the <em> Mathematical Structures </em> course at Western during 2020. I implemented the questions in several formats (multiple choice, true/false, etc) focusing in adding several layers of randomization to fight against academic offenses. I created questions for Logic, Set theory, Introductory number theory and combinatorics that might be added to the Open Problem Library in Webwork.
+I designed and created over 500 questions in WeBWork to support the delivery of the <em> Mathematical Structures </em> course at Western during 2020. I implemented the questions in several formats (multiple choice, true/false, etc) focusing in adding several layers of randomization to fight against academic offenses. I created questions for Logic, Set theory, Introductory number theory, combinatorics and Linear Algebra that might be added to the Open Problem Library in Webwork.
 </p>
 
+
+<p style="text-align: justify">
+I am currently working on the joint use of WeBWork with other open source projects as <a href="https://www.geogebra.org/">GeoGebra</a>, <a href="https://www.sagemath.org/">SageMath</a>, <a href=https://pretextbook.org/>PreText </a> and <a href=https://rederly.com/> Rederly </a>. as well as fostering the use of these tools in Colombia by helping with demonstrating the use of the software and with their translations together with the <a href="https://www.grupolema.org/">Grupo Lema</a>. I am currently have a tutorial (both in English and Spanish) in progress on WeBWork question creation providing some templates and macros on how to effectively type new questions in WeBWork and integrating with other software. A preliminary version can be accessed <a href=<a href="https://schavesr.com/teaching/webwork.pdf"> here </a>.
+</p>
 
 <p style="text-align: justify">
 During 2014 I worked as a designer and reviewer for the bank of mathematical questions at the Colombian
@@ -772,6 +770,19 @@ College.
 I worked in the mathematical group for creating innovative questions and assessing questions created a
 couple of years back by other instructors. Due to the nature of the exams, these questions must meet high
 standards in terms of versatility, reliability and validity.
+</p>
+
+## Self-Reflection on Teaching Mathematics <a name="selfreflection"> </a>
+
+<p style="text-align: justify">
+Teaching mathematical proofs for undergraduate students is a challenge for both instructors and students.
+Proof is an essential part on learning as it develops reasoning skills, improves problem solving aptitudes
+and it is also a fundamental basis for future researchers. This reflection is focused on studying the
+difficulties experienced in the learning and teaching process of formal mathematical proofs, and discuss
+whether the traditional "definition-theorem-example" lecture method is the most
+appropriate for the students to success in mathematical courses.
+    <a href="https://schavesr.com/teaching/capstone.pdf"> This </a> is the complete reflection on this thinking done as requirement for my
+professional development degrees.
 </p>
 
 
