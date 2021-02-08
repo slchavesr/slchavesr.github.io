@@ -29,9 +29,10 @@ Updated: Oct 2020.
     2. [Informal Teaching Evaluations](#infteachev)
     3. [Peer's Evaluations](#peer)
 5. [Curriculum Development](#curriculum)
-    1. [Teaching Innovatives and Course Design](#coursedesign)
-    2. [Reflection on teaching Mathematics](#selfreflection)
-    3. [Question Design](#questions)
+    1. [Teaching Innovation and Course Design](#coursedesign)
+    2. [Lecture Videos Creation](#video)
+    3. [Question design and technology use](#questions)
+    4. [Reflection on teaching Mathematics](#selfreflection)
 6. [Professional Development](#professional)
     1. [Courses and Programs on Teaching](#courses)
     2. [Teaching Workshops and Conferences](#conferences)
@@ -738,7 +739,7 @@ assignments and quizzes considering the topics covered in class and the most ben
 students to prepare for their exams. In particular, I thrive for using technological tools into math teaching. I advocate for open source projects and the use of interactive blackboards when teaching mathematics.
 </p>
 
-## Video Creation <a name="questions"> </a>
+## Lecture video creation <a name="video"> </a>
 
 <p style="text-align: justify">
 In 2021, I created over 50 Lecture Videos for the course Mathematics 1225 (Methods of Calculus) at Western University to support the delivery of asynchronous Lectures for hundreds of students enrolled at this course.  A YouTube reproduction list with a sample of these videos can be found <a href="https://www.youtube.com/playlist?list=PLKRwXr3FMlQZ4SPaBx0XWs4VPbMTuGrRv"> here </a>.
