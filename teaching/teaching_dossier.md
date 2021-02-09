@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blank
 ---
 
 <center> <h1> Teaching Dossier</h1> </center>
