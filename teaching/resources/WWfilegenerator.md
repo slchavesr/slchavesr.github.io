@@ -1,14 +1,9 @@
 ---
 layout: page
-title: True
-description: WeBWork problem file generator
+title: WeBWork File Generator
+use-site-title: true
 ---
 
-<html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
-	<title>Webwork Problem File Generator</title>
-	<meta name="generator" content="BBEdit 10.1">
 	<script type="text/javascript">
 	function combine(){
 	  document.f.theFile.value=document.f.tag.value+document.f.init.value+document.f.setup.value+document.f.theText.value+document.f.answer.value
@@ -16,7 +11,7 @@ description: WeBWork problem file generator
 	
 	}
 	</script>
-</head>
+
 <h1>Webwork Sample 1</h1>
 <form name="f">
 <h2>1. Tagging</h2>
@@ -178,4 +173,4 @@ Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguit
 </form>
 
 
-</body></html>
+</body>
