@@ -2,7 +2,7 @@
 layout: page
 title: WeBWork File Generator
 use-site-title: true
----
+
 
 	<script type="text/javascript">
 	function combine(){
@@ -11,6 +11,10 @@ use-site-title: true
 	
 	}
 	</script>
+	
+---
+
+
 
 <h1>Webwork Sample 1</h1>
 <form name="f">
