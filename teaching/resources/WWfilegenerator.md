@@ -157,6 +157,7 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 
 
 <input type="reset" value="Reset"><br>
+<input type="button" value="Combine Problem" onclick="combine()"><br>
 
 
 
@@ -176,7 +177,6 @@ function showOnClick() {
 }
 </script>
 
-<input type="button" value="Combine Problem" onclick="combine()"><br>
 
 <div id="pgShow">
 
