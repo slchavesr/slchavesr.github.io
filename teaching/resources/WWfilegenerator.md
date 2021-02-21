@@ -160,6 +160,24 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 
 
 
+<p>Click the "Show Merged" button to display the merged problem.</p>
+
+<button onclick="showOnClick()">Show merged</button>
+
+
+<script>
+function showOnClick() {
+  var x = document.getElementById("pgShow");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
 <div id="pgShow">
 <input type="button" value="Combine Problem" onclick="combine()"><br>
 <table><tbody><tr>
