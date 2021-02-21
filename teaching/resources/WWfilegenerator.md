@@ -158,7 +158,7 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 
 <input type="reset" value="Reset"><br>
 <input type="button" value="Combine Problem" onclick="combine()"><br>
-
+<input type="button" value="Show/Hide" onclick="myFunction()"><br>
 
 
 <div id="myDIV" style="display: none;">
