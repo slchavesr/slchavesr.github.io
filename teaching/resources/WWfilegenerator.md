@@ -160,7 +160,7 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 <input type="button" value="Combine Problem" onclick="combine()"><br>
 
 
-<div id="my" style="display: none;">
+<div id="myDIV" style="display: none;">
 <table><tbody><tr>
 <td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea></td>
 <td valign="top">
@@ -221,9 +221,7 @@ Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguit
 
 <button onclick="myFunction()">Try it</button>
 
-<div id="myDIV" style="display: none;">
-This is my DIV element.
-</div>
+
 
 <p><b>Note:</b> The element will not take up any space when the display property set to "none".</p>
 
