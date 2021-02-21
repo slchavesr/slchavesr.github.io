@@ -169,22 +169,8 @@ The ENDDOCUMENT(); line must be the last command in the file.&gt;</p></td>
 
 
 <div id="myDIV" style="display: none;">
-<table><tbody><tr>
-<td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea></td>
-<td valign="top">
-There is an extra line used for testing with the <a href="http://hosted2.webwork.rochester.edu/webwork2/wikiExamples/MathObjectsLabs2/2/?login_practice_user=true">Interactive Problem Lab</a>
-<p>
-<tt>
-checkAnswer($result, "1.0");
-</tt></p><p>
-the first argument is a MathObject, the second the student's answer string
-</p><p>
-More info on <a href="http://webwork.maa.org/wiki/PGLabs#.UA974Wj9fM8">testing PGLabs here</a>
-</p><p>
-Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguitutorial/home">WPI's WbWrkGUI</a> where you make questions with a free java application you can download, and get video tutorials.
-</p></td></tr></tbody></table>
+<textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea>
 </div>
-
 
 </form>
 
