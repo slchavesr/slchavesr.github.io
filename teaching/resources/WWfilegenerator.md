@@ -81,7 +81,7 @@ $answer = $f->eval(x=>$x);
 
 </textarea></td>
 <td valign="top">Set up the problem context, the variables and the answer using PERL syntax. The variable <tt>$showPartialCorrectAnswers = 1;</tt> set to 1 means that feedback as to which sub-questions have been correctly answered in the problem will be given, otherwise (set to 0) the feedback just indicates that there is a wrong answer somewhere.
-	</td>
+</td>
 </tr></tbody></table>
 
 
@@ -110,6 +110,7 @@ Everything between the BEGIN_PGML and END_PGML lines (each of which must
 assumed to be TeX code. The value of a perl variable <tt>$x</tt> is displayed by
 	<tt>[$x]</tt>.
 The line <tt>[_]{$answer}</tt> displays an answer box for studens, and it is compared with the PERL variable <tt>$answer</tt>.
+	</td>
 </tr></tbody></table>
 
 <h2>5. Answers or Hints</h2>
