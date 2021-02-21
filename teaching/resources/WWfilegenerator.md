@@ -151,31 +151,13 @@ finished the problem set.
 The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 </tr></tbody></table>
 
+
 <h2>The .pg file</h2>
-<input type="button" value="Compbine into a .pg file below" onclick="combine()"><br>
+
+<input type="button" value="Combine Problem" onclick="combine()"><br>
 <input type="reset" value="Reset"><br>
-<table><tbody><tr>
-<td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea></td>
-<td valign="top">
-There is an extra line used for testing with the <a href="http://hosted2.webwork.rochester.edu/webwork2/wikiExamples/MathObjectsLabs2/2/?login_practice_user=true">Interactive Problem Lab</a>
-<p>
-<tt>
-checkAnswer($result, "1.0");
-</tt></p><p>
-the first argument is a MathObject, the second the student's answer string
-</p><p>
-More info on <a href="http://webwork.maa.org/wiki/PGLabs#.UA974Wj9fM8">testing PGLabs here</a>
-</p><p>
-Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguitutorial/home">WPI's WbWrkGUI</a> where you make questions with a free java application you can download, and get video tutorials.
-</p></td></tr></tbody></table>
-
-</form>
-
-
-<p>Enter the filename (no extension).</p>
-
 <form>
-  <label for="fname">Filename: </label>
+  <label for="fname">Filename (no extension): </label>
   <input type="text" id="fname" name="fname"><br><br>
 </form>
 
@@ -208,6 +190,47 @@ Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguit
 
 
 </script>
-    <input type="button" value="Combine into a .pg file below" onclick="download(document.getElementById('fname').value+'.pg', document.getElementById('source').value)"><br>
+    <input type="button" value="Save and Download" onclick="download(document.getElementById('fname').value+'.pg', document.getElementById('source').value)"><br>
+
+
+<p>Click the "Show Merged" button to display the merged problem.</p>
+
+<button onclick="showOnClick()">Show merged</button>
+
+
+<script>
+function showOnClick() {
+  var x = document.getElementById("pgShow");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+<div id="pgShow">
+<table><tbody><tr>
+<td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea></td>
+<td valign="top">
+There is an extra line used for testing with the <a href="http://hosted2.webwork.rochester.edu/webwork2/wikiExamples/MathObjectsLabs2/2/?login_practice_user=true">Interactive Problem Lab</a>
+<p>
+<tt>
+checkAnswer($result, "1.0");
+</tt></p><p>
+the first argument is a MathObject, the second the student's answer string
+</p><p>
+More info on <a href="http://webwork.maa.org/wiki/PGLabs#.UA974Wj9fM8">testing PGLabs here</a>
+</p><p>
+Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguitutorial/home">WPI's WbWrkGUI</a> where you make questions with a free java application you can download, and get video tutorials.
+</p></td></tr></tbody></table>
+</div>
+
+
+</form>
+
+
+
 
 </body>
