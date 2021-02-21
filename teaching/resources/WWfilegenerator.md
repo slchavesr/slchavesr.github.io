@@ -143,7 +143,7 @@ Use this field to use other answers evaluators (e.g. weighted) or include hints 
 
 <textarea rows="10" cols="45" style="font-family:Courier" name="solution">
 BEGIN_PGML_SOLUTION
-Compute [`[$a]([$x]^2 + ([$b][$x]) + ([$c]) = [$answer] `].
+Compute [`[$a]([$x])^2 + ([$b])([$x]) + ([$c]) = [$answer] `].
 END_PGML_SOLUTION
 
 ENDDOCUMENT();
