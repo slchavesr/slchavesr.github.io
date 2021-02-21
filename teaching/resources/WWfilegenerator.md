@@ -19,7 +19,6 @@ h1 {
 
 
 <body>
-	<h1> WeBWork File Generator </h1>
 	
 <p>
 This scripts helps to write a WeBWork problem by filling out the main sections that any problem must have. Just fill out the text fields, and use the buttons at the bottom of this page to merge and download the .pg file.<br>
