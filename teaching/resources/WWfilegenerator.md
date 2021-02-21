@@ -158,58 +158,6 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 
 <input type="reset" value="Reset"><br>
 
-<form>
-  <label for="fname">Filename (no extension): </label>
-  <input type="text" id="fname" name="fname"><br><br>
-</form>
-
-
-  <script type="text/javascript">
-        // when document is ready
-        document.getElementById("save").onclick = function() {
-            // when clicked the button
-            var content = document.getElementById('source').value;
-            // a [save as] dialog will be shown
-            window.open("data:application/txt," + encodeURIComponent(content), "_self");
-        }
-    </script>
-   <script>
-    function download(filename, text) {
-    var pom = document.createElement('a');
-    pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-    pom.setAttribute('download', filename);
-
-   if (document.createEvent) {
-        var event = document.createEvent('MouseEvents');
-        event.initEvent('click', true, true);
-        pom.dispatchEvent(event);
-    }
-    else {
-        pom.click();
-    }
-}
-
-
-
-</script>
-    <input type="button" value="Save and Download" onclick="download(document.getElementById('fname').value+'.pg', document.getElementById('source').value)"><br>
-
-
-<p>Click the "Show Merged" button to display the merged problem.</p>
-
-<button onclick="showOnClick()">Show merged</button>
-
-
-<script>
-function showOnClick() {
-  var x = document.getElementById("pgShow");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
 
 
 <div id="pgShow">
