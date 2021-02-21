@@ -11,9 +11,10 @@ use-site-title: true
 </script>
   
 <body>
-<p> This scripts helps to write a WeBWork problem by filling out the main sections that any problem must have. Just fill out the text fields, and use the buttons at the bottom of this page to merge and download the .pg file. </p>
-<p> This script does not render or check the accuracy of the code typed. For this purpose upload the file to your WeBWork server or use a local render as Rederly.
-	</p>
+	<p>
+This scripts helps to write a WeBWork problem by filling out the main sections that any problem must have. Just fill out the text fields, and use the buttons at the bottom of this page to merge and download the .pg file.<br>
+This script does not render or check the accuracy of the code typed. For this purpose upload the file to your WeBWork server or use a local render as Rederly. This is an updated version of the tool created at <a href="https://www.mathorama.com/">https://www.mathorama.com/</a>.
+</p>
 
 <form name="f">
 <h2>1. Description </h2>
@@ -140,8 +141,8 @@ END_PGML_SOLUTION
 ENDDOCUMENT();
 
 </textarea></td>
-<td valign="top">The PGML_SOLUTION block displays instructor solution for the problem after a due date set in the WeBWork homework, this block is optional and used when more than just the correct answer wants to be shown to students. 
-The ENDDOCUMENT(); line must be the last command in the file.
+<td valign="top">The <tt> PGML_SOLUTION </tt> block displays instructor's solution for the problem after a due date set in the WeBWork homework. This block is optional and it is used when more than just the correct answer wants to be shown to students. 
+	The <tt>ENDDOCUMENT();</tt> line must be the last command in the file.
 </td>
 </tr></tbody></table>
 
