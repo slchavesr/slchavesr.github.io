@@ -159,9 +159,7 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 <input type="reset" value="Reset"><br>
 <input type="button" value="Combine Problem" onclick="combine()"><br>
 
-<p>Click button to show the merged problem:</p>
 
-<button onclick="myFunction()">Show/Hide</button>
 
 <div id="myDIV" style="display: none;">
 <table><tbody><tr>
@@ -221,7 +219,9 @@ Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguit
     <input type="button" value="Save and Download" onclick="download(document.getElementById('fname').value+'.pg', document.getElementById('source').value)"><br>
 
 
+<p>Click button to show the merged problem:</p>
 
+<button onclick="myFunction()">Show/Hide</button>
 
 <script>
 function myFunction() {
