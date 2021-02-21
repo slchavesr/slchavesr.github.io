@@ -5,6 +5,7 @@ use-site-title: true
 
 common-js: 
  - "teaching/resources/scripts.js"
+ - "teaching/scrollUpButton.js"
 ---
 
 <body>
