@@ -2,11 +2,16 @@
 layout: page
 title: WeBWork File Generator
 use-site-title: true	
-
-common-js:
-  - "/scripts.js"
 ---
 
+	<script type="text/javascript">
+	function combine(){
+	  document.f.theFile.value=document.f.tag.value+document.f.init.value+document.f.setup.value+document.f.theText.value+document.f.answer.value
+	
+	
+	}
+	</script>
+  
 <body>
 <h1>Webwork Problem Generator1</h1>
 <form name="f">
