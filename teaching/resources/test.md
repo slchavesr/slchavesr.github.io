@@ -19,6 +19,23 @@
             window.open("data:application/txt," + encodeURIComponent(content), "_self");
         }
     </script>
+   <script>
+    function download(filename, text) {
+    var pom = document.createElement('a');
+    pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    pom.setAttribute('download', filename);
+
+    if (document.createEvent) {
+        var event = document.createEvent('MouseEvents');
+        event.initEvent('click', true, true);
+        pom.dispatchEvent(event);
+    }
+    else {
+        pom.click();
+    }
+}
+</script>
+    <input type="button" value="Compbine into a .pg file below" onclick="download('problem.pg', 'Hello')"><br>
 </body>
 
 </html>
