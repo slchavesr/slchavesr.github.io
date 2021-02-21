@@ -155,7 +155,7 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 <input type="button" value="Compbine into a .pg file below" onclick="combine()"><br>
 <input type="reset" value="Reset"><br>
 <table><tbody><tr>
-<td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile"></textarea></td>
+<td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea></td>
 <td valign="top">
 There is an extra line used for testing with the <a href="http://hosted2.webwork.rochester.edu/webwork2/wikiExamples/MathObjectsLabs2/2/?login_practice_user=true">Interactive Problem Lab</a>
 <p>
@@ -171,5 +171,44 @@ Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguit
 
 </form>
 
+
+<p>Enter the filename (no extension).</p>
+
+<form>
+  <label for="fname">Filename: </label>
+  <input type="text" id="fname" name="fname"><br><br>
+</form>
+
+
+  <script type="text/javascript">
+        // when document is ready
+        document.getElementById("save").onclick = function() {
+            // when clicked the button
+            var content = document.getElementById('source').value;
+            // a [save as] dialog will be shown
+            window.open("data:application/txt," + encodeURIComponent(content), "_self");
+        }
+    </script>
+   <script>
+    function download(filename, text) {
+    var pom = document.createElement('a');
+    pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    pom.setAttribute('download', filename);
+
+   if (document.createEvent) {
+        var event = document.createEvent('MouseEvents');
+        event.initEvent('click', true, true);
+        pom.dispatchEvent(event);
+    }
+    else {
+        pom.click();
+    }
+}
+
+
+
+</script>
+    <input type="button" value="Combine into a .pg file below" onclick="download(document.getElementById('fname').value+'.pg', document.getElementById('source').value)"><br>
+</body>
 
 </body>
