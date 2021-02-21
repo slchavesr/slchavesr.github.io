@@ -3,13 +3,15 @@ layout: page
 title: WeBWork File Generator
 use-site-title: true	
 
-common-js: 
- - "teaching/resources/scripts.js"
- - "teaching/scrollUpButton.js"
+common-css:
+  - "/teaching/scrollUpButton.css"
+common-js:
+  - "/teaching/scrollUpButton.js"
+  - "/teaching/resources/scripts.js"
 ---
 
 <body>
-<h1>Webwork Sample 1</h1>
+<h1>Webwork Problem Generator</h1>
 <form name="f">
 <h2>1. Tagging</h2>
 <table>
