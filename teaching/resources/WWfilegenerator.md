@@ -160,26 +160,6 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 <input type="button" value="Combine Problem" onclick="combine()"><br>
 
 
-
-<p>Click the "Show Merged" button to display the merged problem.</p>
-
-<button onclick="showOnClick()">Show merged</button>
-
-
-<script>
-function showOnClick() {
-  var x = document.getElementById("pgShow");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-
-
-<div id="pgShow">
-
 <table><tbody><tr>
 <td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea></td>
 <td valign="top">
@@ -194,11 +174,46 @@ More info on <a href="http://webwork.maa.org/wiki/PGLabs#.UA974Wj9fM8">testing P
 </p><p>
 Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguitutorial/home">WPI's WbWrkGUI</a> where you make questions with a free java application you can download, and get video tutorials.
 </p></td></tr></tbody></table>
-</div>
+
 
 
 </form>
 
+<form>
+  <label for="fname">Filename (no extension): </label>
+  <input type="text" id="fname" name="fname"><br><br>
+</form>
+
+
+  <script type="text/javascript">
+        // when document is ready
+        document.getElementById("save").onclick = function() {
+            // when clicked the button
+            var content = document.getElementById('source').value;
+            // a [save as] dialog will be shown
+            window.open("data:application/txt," + encodeURIComponent(content), "_self");
+        }
+    </script>
+   <script>
+    function download(filename, text) {
+    var pom = document.createElement('a');
+    pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    pom.setAttribute('download', filename);
+
+   if (document.createEvent) {
+        var event = document.createEvent('MouseEvents');
+        event.initEvent('click', true, true);
+        pom.dispatchEvent(event);
+    }
+    else {
+        pom.click();
+    }
+}
+
+
+
+</script>
+    <input type="button" value="Save and Download" onclick="download(document.getElementById('fname').value+'.pg', document.getElementById('source').value)"><br>
 
 
 
