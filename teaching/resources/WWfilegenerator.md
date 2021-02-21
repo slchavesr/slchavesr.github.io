@@ -1,7 +1,6 @@
 ---
 layout: blank
-title: WeBWork File Generator
-use-site-title: false	
+title: WeBWork File Generator	
 ---
 
 <script>
