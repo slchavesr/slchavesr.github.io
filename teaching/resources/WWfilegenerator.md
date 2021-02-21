@@ -160,16 +160,6 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 <input type="button" value="Combine Problem" onclick="combine()"><br>
 
 
-
-<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
-
-<button onclick="myFunction()">Try it</button>
-
-
-<div id="myDIV">
-This is my DIV element.
-</div>
-
 <div id="my" style="display: none;">
 <table><tbody><tr>
 <td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea></td>
@@ -190,16 +180,6 @@ Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguit
 
 </form>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
 
 <form>
   <label for="fname">Filename (no extension): </label>
