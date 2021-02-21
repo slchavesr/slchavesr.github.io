@@ -166,7 +166,7 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 <button onclick="myFunction()">Try it</button>
 
 
-<div id="myDIV" style="display: none;">
+<div id="myDIV">
 This is my DIV element.
 </div>
 
