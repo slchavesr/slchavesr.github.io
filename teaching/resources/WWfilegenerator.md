@@ -154,13 +154,23 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 
 <h2>The .pg file</h2>
 
+<table><tbody>
+	<tr> 
+		<td> Merge all the sections into a single file. </td>
+		<td> <input type="button" value="Merge" onclick="combine()"> </td>
+	</tr>
+	<tr> 
+		<td> Reset all section fields </td>
+		<td> <input type="reset" value="Reset"> </td>
+	</tr>
+	<tr> 
+		<td> Show the merged problem: </td>
+		<td> <input type="button" value="Show/Hide" onclick="myFunction()"> </td>
+	</tr>
+	</tbody>
+</table>
 
 
-<input type="reset" value="Reset"><br>
-<input type="button" value="Combine Problem" onclick="combine()"><br>
-<p>Click button to show the merged problem:</p>
-
-<input type="button" value="Show/Hide" onclick="myFunction()"><br>
 
 
 <div id="myDIV" style="display: none;">
@@ -183,6 +193,7 @@ Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguit
 
 </form>
 
+<p> Save and download file </p>
 
 <form>
   <label for="fname">Filename (no extension): </label>
