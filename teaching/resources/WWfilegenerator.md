@@ -6,7 +6,7 @@ use-site-title: true
 
 <script>
 	function combine(){
-	  document.f.theFile.value=document.f.tag.value+document.f.init.value+document.f.setup.value+document.f.theText.value+document.f.answer.value
+	  document.f.theFile.value=document.f.tag.value+document.f.init.value+document.f.setup.value+document.f.theText.value+document.f.answer.value+document.f.solution.value
 }
 </script>
   
@@ -21,7 +21,7 @@ use-site-title: true
 <tbody><tr>
 <td>
 
-<textarea rows="19" cols="45" style="font-family:Courier" name="tag"># DESCRIPTION
+<textarea rows="10" cols="45" style="font-family:Courier" name="tag"># DESCRIPTION
 # A simple sample problem that asks students to 
 # find the sine of a angle associated with a 
 # special right triangle's angle.
@@ -50,7 +50,7 @@ use-site-title: true
 <tbody><tr>
 <td>
 
-<textarea rows="7" cols="45" style="font-family:Courier" name="init">DOCUMENT();
+<textarea rows="10" cols="45" style="font-family:Courier" name="init">DOCUMENT();
 loadMacros(
 "PGstandard.pl",
 "MathObjects.pl",
@@ -67,14 +67,20 @@ The loadMacros command loads the Macros needed for the problem. </td>
 <tbody><tr>
 <td valign="top">
 
-<textarea rows="10" cols="45" style="font-family:Courier" name="setup">Context("Numeric");
-$a = random(2,9,1);  #low, high, step, 
-# or non_zero_random(low,high,increment);
-$x = list_random(30, 45, 60);
-$answer = Compute("sin($x*pi/180)+$a");
+<textarea rows="10" cols="45" style="font-family:Courier" name="setup">$showPartialCorrectAnswers = 1;
+Context("Numeric");
+$a = random(2,5);
+$b = non_zero_random(-4,4);
+$c = random(1,10);
+	
+$x = random(-5,5);
+$f = Formula("$a*x**2+ $b*x + $c")->reduce;
+
+$answer = $f->eval(x=>$x);
+
 
 </textarea></td>
-<td valign="top">Set up the problem context, the variables and the answer using PERL syntax.
+<td valign="top">Set up the problem context, the variables and the answer using PERL syntax. The variable <tt>$showPartialCorrectAnswers = 1;</tt> set to 1 means that feedback as to which sub-questions have been correctly answered in the problem will be given, otherwise (set to 0) the feedback just indicates that there is a wrong answer somewhere.
 	</td>
 </tr></tbody></table>
 
@@ -89,72 +95,55 @@ $answer = Compute("sin($x*pi/180)+$a");
 <textarea rows="15" cols="45" style="font-family:Courier" name="theText">TEXT(beginproblem());
 Context()-&gt;texStrings;
 BEGIN_PGML
-Find  \(f(x) = \sin(x^{\circ})+$a\), where \(x=$x^{\circ}\)
-$PAR
-\(f(x) = \sin(x^{\circ})+$a = \) \{ ans_rule(20) \}
+Evaluate the function [`f=[$f]`] at the point [`x=[$x]`].
+	
+Answer:[_]{$answer}
 END_PGML
-$showHint=2;
-BEGIN_TEXT
-$PAR
-If you don't get this in $showHint tries, you can get a hint.
-END_TEXT
-
-# old way: HINT(EV3(&lt;&lt;'END_HINT'));
-BEGIN_HINT
-If you know the \(\sin($x^{\circ})\), you can use
-either \(\tt{sqrt(~~)}\) or $CARET(1/2). 
-Alternatively, you can use \(\tt{sin(~~)}\) if you
-convert \($x^{\circ}\) into radians, typing pi for \(\pi\).   
-END_HINT
-Context()-&gt;normalStrings;
 </textarea></td>
 <td valign="top">The TEXT(beginproblem()); line displays a header for 
 the problem, and the Context()-&gt;texStrings line sets how formulas are
  displayed in the text, and we reset this after the text section. 
-Everything between the BEGIN_TEXT and END_TEXT lines (each of which must
+Everything between the BEGIN_PGML and END_PGML lines (each of which must
  appear alone on a line) is shown to the student.
-Mathematical equations are delimited by \( \) (for inline equations) or 
-\[ \] (for displayed equations); in these contexts inserted text is 
-assumed to be TeX code.
-There are a number of variables that set formatting: $PAR is a paragraph
- break (like \par in TeX). This page gives a list of variables like 
-this. Finally, \{ \} sets off code that will be executed in the problem 
-text. Here, ans_rule(20) is a function that inserts an answer blank 20 
-characters wide.</td>
+	Mathematical equations are delimited by <tt>[` `]</tt> (for inline equations) or 
+	<tt> [``  ``] </tt> (for displayed equations); the text is 
+assumed to be TeX code. The value of a perl variable <tt>$x</tt> is displayed by
+	<tt>[$x]</tt>.
+The line <tt>[_]{$answer}</tt> displays an answer box for studens, and it is compared with the PERL variable <tt>$answer</tt>.
 </tr></tbody></table>
 
-<h2>5. Answer</h2>
+<h2>5. Answers or Hints</h2>
 <table>
 <tbody><tr>
 <td valign="top">
 
-<textarea rows="16" cols="50" style="font-family:Courier" name="answer">ANS( $result-&gt;cmp() );
+<textarea rows="10" cols="45" style="font-family:Courier" name="answer">
 
-Context()-&gt;texStrings;
+</textarea></td>
+<td valign="top">
+Use this field to use other answers evaluators (e.g. weighted) or include hints to students. This is for techniques a bit more advanced.
+</td>
+</tr></tbody></table>
 
-#old way: SOLUTION(EV3P(&lt;&lt;'END_SOLUTION'));
-BEGIN_SOLUTION
+
+<h2>6. Solution</h2>
+<table>
+<tbody><tr>
+<td valign="top">
+
+<textarea rows="10" cols="45" style="font-family:Courier" name="solution">
+BEGIN_PGML_SOLUTION
 $PAR SOLUTION $PAR
-We use the special right triangle associated 
-with \($x^{\circ}\), and compute the sine by dividing opposite 
-over hypotenuse to compute \(\sin(x)\).   
-$PAR 
-Finally, we add $a.
-END_SOLUTION
+Compute [`[$a]([$x]^2 + ([$b][$x]) + ([$c]) = [$answer] `].
+END_PGML_SOLUTION
 
 Context()-&gt;normalStrings;
 
 ENDDOCUMENT();
 
 </textarea></td>
-<td valign="top">The problem answer is set by the <tt>ANS( $trigDeriv-&gt;cmp() );</tt>
- line, which simply says that the answer is marked by comparing the 
-student's answer with the trigonometric function derivative that we 
-defined before.<p>
-Then, we explain the solution to the student. This solution will show up
- when the student clicks the "show solution" checkbox after they've 
-finished the problem set.
-The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
+<td valign="top">The PGML_SOLUTION block displays instructor solution for the problem after a due date set in the WeBWork homework, this block is optional and used when more than just the correct answer wants to be shown to students. 
+The ENDDOCUMENT(); line must be the last command in the file.&gt;</p></td>
 </tr></tbody></table>
 
 
