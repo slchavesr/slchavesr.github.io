@@ -154,8 +154,10 @@ The ENDDOCUMENT(); command is the last command in the file.&gt;</p></td>
 
 <h2>The .pg file</h2>
 
-<input type="button" value="Combine Problem" onclick="combine()"><br>
+
+
 <input type="reset" value="Reset"><br>
+
 <form>
   <label for="fname">Filename (no extension): </label>
   <input type="text" id="fname" name="fname"><br><br>
@@ -211,6 +213,7 @@ function showOnClick() {
 
 
 <div id="pgShow">
+<input type="button" value="Combine Problem" onclick="combine()"><br>
 <table><tbody><tr>
 <td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea></td>
 <td valign="top">
