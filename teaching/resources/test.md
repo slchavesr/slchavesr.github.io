@@ -48,7 +48,7 @@
 
 
 </script>
-    <input type="button" value="Combine into a .pg file below" onclick="download(document.getElementById('fname').value'.pg', 'Hello')"><br>
+    <input type="button" value="Combine into a .pg file below" onclick="download(document.getElementById('fname').value+'.pg', 'Hello')"><br>
 </body>
 
 </html>
