@@ -35,10 +35,7 @@
     }
 }
 
-<br>
-<p>
-    Type the filename (no extension)
- </p>
+Type the filename (no extension)
  
 <form>
   <label for="name"> Filename: </label>
