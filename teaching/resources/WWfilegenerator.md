@@ -144,7 +144,8 @@ ENDDOCUMENT();
 
 </textarea></td>
 <td valign="top">The PGML_SOLUTION block displays instructor solution for the problem after a due date set in the WeBWork homework, this block is optional and used when more than just the correct answer wants to be shown to students. 
-The ENDDOCUMENT(); line must be the last command in the file.&gt;</p></td>
+The ENDDOCUMENT(); line must be the last command in the file.
+</td>
 </tr></tbody></table>
 
 
