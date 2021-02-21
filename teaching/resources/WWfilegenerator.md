@@ -61,22 +61,7 @@ loadMacros(
 The loadMacros command loads the Macros needed for the problem. </td>
 </tr></tbody></table>
 
-<h2>3. Problem Set Up</h2>
-<table>
-<tbody><tr>
-<td>
 
-<textarea rows="10" cols="45" style="font-family:Courier" name="setup">
-Context("Numeric");
-
-$a = random(2,9,1);  #low, high, step, 
-# or non_zero_random(low,high,increment);
-$x = list_random(30, 45, 60);
-$answer = Compute("sin($x*pi/180)+$a");
-
-</textarea></td>
-<td valign="top">Set up the problem context, the variables and the answer using PERL syntax.
-</tr></tbody></table>
 
 <h2>4. Display Text</h2>
 <table>
