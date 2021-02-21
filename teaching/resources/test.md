@@ -10,7 +10,7 @@
 
 <form>
   <label for="fname">Filename: </label>
-  <input type="text" id="fname" name="fname">
+  <input type="text" id="fname" name="fname"><br><br>
 </form>
 
 
@@ -48,7 +48,7 @@
 
 
 </script>
-    <input type="button" value="Compbine into a .pg file below" onclick="download('problem.pg', 'Hello')"><br>
+    <input type="button" value="Combine into a .pg file below" onclick="download(document.getElementById('fname').value'.pg', 'Hello')"><br>
 </body>
 
 </html>
