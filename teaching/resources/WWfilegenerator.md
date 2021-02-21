@@ -11,83 +11,85 @@ use-site-title: true
 </script>
   
 <body>
-<h1>Webwork Problem Generator1</h1>
+<p> This scripts helps to write a WeBWork problem by filling out the main sections that any problem must have. Just fill out the text fields, and use the buttons at the bottom of this page to merge and download the .pg file. </p>
+<p> This script does not render or check the accuracy of the code typed. For this purpose upload the file to your WeBWork server or use a local render as Rederly.
+	</p>
+
 <form name="f">
-<h2>1. Tagging</h2>
+<h2>1. Description </h2>
 <table>
 <tbody><tr>
 <td>
 
-<textarea rows="19" cols="50" style="font-family:Courier" name="tag"># DESCRIPTION
+<textarea rows="19" cols="45" style="font-family:Courier" name="tag"># DESCRIPTION
 # A simple sample problem that asks students to 
 # find the sine of a angle associated with a 
 # special right triangle's angle.
 # ENDDESCRIPTION
 
-## DBsubject('Trig/Precalculus')
-## DBchapter('Chapter ')
-## DBsection('Section ')
-## KEYWORDS('algebra')
+## DBsubject('')
+## DBchapter('')
+## DBsection('')
+## KEYWORDS('')
 ## TitleText1('')
 ## EditionText1('')
 ## AuthorText1('')
 ## Section1('')
 ## Problem1('')
-## Author('Chris Thiel')
-## Institution('SFHS')
+## Author('')
+## Institution('')
 </textarea></td>
-<td valign="top"> There is an on-line list of <a href="http://hobbes.la.asu.edu/Holt/chaps-and-secs.html">current chapter and section names</a> and a similar <a href="http://hobbes.la.asu.edu/Holt/keywords.html">list of keywords</a>. The list of keywords should be comma separated and quoted (e.g., <tt>KEYWORDS('calculus','derivatives'))</tt>.</td>
+
+<td valign="top"> Enter the description and meta information of the problem. This section is optional but it is commonly used to tag and distribute WeBWork problems.
+</td>
 </tr></tbody></table>
 
 
-<h2>2. Init</h2>
+<h2>2. Initialization</h2>
 <table>
 <tbody><tr>
 <td>
 
-<textarea rows="7" cols="50" style="font-family:Courier" name="init">DOCUMENT();
+<textarea rows="7" cols="45" style="font-family:Courier" name="init">DOCUMENT();
 loadMacros(
 "PGstandard.pl",
 "MathObjects.pl",
-"parserFunction.pl",
+"PGML.pl",
 );
 </textarea></td>
-<td valign="top">This is the initialization section of the problem. The first executed line of the problem must be the <tt>DOCUMENT();</tt> command. Note that every command must end with a semicolon.
-The loadMacros command loads information that works behind the scenes. </td>
+<td valign="top">This is the initialization section of the problem. The first executed line of the problem must be the <tt>DOCUMENT();</tt> command. Recall that every command must end with a semicolon.
+The loadMacros command loads the Macros needed for the problem. </td>
 </tr></tbody></table>
 
-<h2>3. Set Up</h2>
+<h2>3. Problem Set Up</h2>
 <table>
 <tbody><tr>
 <td>
 
-<textarea rows="10" cols="50" style="font-family:Courier" name="setup"># make sure we're in the context we want
+<textarea rows="10" cols="45" style="font-family:Courier" name="setup">
 Context("Numeric");
 
 $a = random(2,9,1);  #low, high, step, 
 # or non_zero_random(low,high,increment);
 $x = list_random(30, 45, 60);
-$result = Compute("sin($x*pi/180)+$a");
+$answer = Compute("sin($x*pi/180)+$a");
 
 </textarea></td>
-<td valign="top">Contexts and context explanations are given on <a href="http://webwork.maa.org/wiki/ContextList">this help page</a>
-<br> All scalar variables are prefaced with a dollar sign: thus $a is a 
-variable that has a (non-vector, non-array) value. We also define 
-$trigFunc to be a <a href="http://webwork.maa.org/wiki/MathObjectsOverview">MathObject</a></td>
+<td valign="top">Set up the problem context, the variables and the answer using PERL syntax.
 </tr></tbody></table>
 
-<h2>4. Text</h2>
+<h2>4. Display Text</h2>
 <table>
 <tbody><tr>
 <td valign="top">
 
-<textarea rows="15" cols="50" style="font-family:Courier" name="theText">TEXT(beginproblem());
+<textarea rows="15" cols="45" style="font-family:Courier" name="theText">TEXT(beginproblem());
 Context()-&gt;texStrings;
-BEGIN_TEXT
+BEGIN_PGML
 Find  \(f(x) = \sin(x^{\circ})+$a\), where \(x=$x^{\circ}\)
 $PAR
 \(f(x) = \sin(x^{\circ})+$a = \) \{ ans_rule(20) \}
-END_TEXT
+END_PGML
 $showHint=2;
 BEGIN_TEXT
 $PAR
