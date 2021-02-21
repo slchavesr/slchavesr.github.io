@@ -209,6 +209,5 @@ Alternatively, you can try <a href="https://sites.google.com/site/wpiwebworkguit
 
 </script>
     <input type="button" value="Combine into a .pg file below" onclick="download(document.getElementById('fname').value+'.pg', document.getElementById('source').value)"><br>
-</body>
 
 </body>
