@@ -4,11 +4,11 @@ title: WeBWork File Generator
 use-site-title: true	
 
 common-js:
-  - "scripts.js"
+  - "/scripts.js"
 ---
 
 <body>
-<h1>Webwork Problem Generator</h1>
+<h1>Webwork Problem Generator1</h1>
 <form name="f">
 <h2>1. Tagging</h2>
 <table>
