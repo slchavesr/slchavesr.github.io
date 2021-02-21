@@ -4,7 +4,7 @@ title: WeBWork File Generator
 use-site-title: true	
 
 common-js: 
- - "teaching/resources/script.js"
+ - "teaching/resources/scripts.js"
 ---
 
 <body>
