@@ -1,19 +1,11 @@
 ---
 layout: page
 title: WeBWork File Generator
-use-site-title: true
+use-site-title: true	
 
-
-
-	
+common-js: 
+ - "teaching/resources/script.js"
 ---
-<head>
-	<script type="text/javascript">
-	function combine(){
-	  document.f.theFile.value=document.f.tag.value+document.f.init.value+document.f.setup.value+document.f.theText.value+document.f.answer.value
-	}
-	</script>
-</head>
 
 <body>
 <h1>Webwork Sample 1</h1>
