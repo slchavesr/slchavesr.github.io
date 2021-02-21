@@ -176,10 +176,10 @@ function showOnClick() {
 }
 </script>
 
-
+<input type="button" value="Combine Problem" onclick="combine()"><br>
 
 <div id="pgShow">
-<input type="button" value="Combine Problem" onclick="combine()"><br>
+
 <table><tbody><tr>
 <td><textarea rows="45" cols="60" style="font-family:Courier" name="theFile" id="source"></textarea></td>
 <td valign="top">
