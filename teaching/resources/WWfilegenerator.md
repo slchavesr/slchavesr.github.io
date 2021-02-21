@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blank
 title: WeBWork File Generator
 use-site-title: true	
 ---
