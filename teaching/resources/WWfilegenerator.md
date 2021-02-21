@@ -4,13 +4,11 @@ title: WeBWork File Generator
 use-site-title: true	
 ---
 
-	<script>
+<script>
 	function combine(){
 	  document.f.theFile.value=document.f.tag.value+document.f.init.value+document.f.setup.value+document.f.theText.value+document.f.answer.value
-	
-	
-	}
-	</script>
+}
+</script>
   
 <body>
 <h1>Webwork Problem Generator1</h1>
