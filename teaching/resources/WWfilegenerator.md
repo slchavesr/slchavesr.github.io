@@ -1,7 +1,7 @@
 ---
 layout: blank
 title: WeBWork File Generator
-use-site-title: true	
+use-site-title: false	
 ---
 
 <script>
@@ -10,8 +10,18 @@ use-site-title: true
 }
 </script>
   
+<head>
+<style>
+h1 {
+  text-align: center;
+}
+</style>
+
+
 <body>
-	<p>
+	<h1> WeBWork File Generator </h1>
+	
+<p>
 This scripts helps to write a WeBWork problem by filling out the main sections that any problem must have. Just fill out the text fields, and use the buttons at the bottom of this page to merge and download the .pg file.<br>
 This script does not render or check the accuracy of the code typed. For this purpose upload the file to your WeBWork server or use a local render as Rederly. This is an updated version of the tool created at <a href="https://www.mathorama.com/">https://www.mathorama.com/</a>.
 </p>
@@ -164,7 +174,7 @@ ENDDOCUMENT();
 	</tr>
 	</tbody>
 </table>
-
+<br><br>
 
 
 
@@ -173,8 +183,6 @@ ENDDOCUMENT();
 </div>
 
 </form>
-
-<p> Save and download file </p>
 
 <form>
   <label for="fname">Filename (no extension): </label>
