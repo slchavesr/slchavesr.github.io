@@ -34,6 +34,16 @@
         pom.click();
     }
 }
+
+<br>
+<p>
+    Type the filename (no extension)
+ </p>
+<form>
+  <label for="name"> Filename: </label>
+  <input type="text" id="fname" name="fname">
+</form>
+
 </script>
     <input type="button" value="Compbine into a .pg file below" onclick="download('problem.pg', 'Hello')"><br>
 </body>
