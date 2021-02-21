@@ -3,11 +3,8 @@ layout: page
 title: WeBWork File Generator
 use-site-title: true	
 
-common-css:
-  - "/teaching/scrollUpButton.css"
 common-js:
-  - "/teaching/scrollUpButton.js"
-  - "/teaching/resources/scripts.js"
+  - "scripts.js"
 ---
 
 <body>
