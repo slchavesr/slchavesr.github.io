@@ -22,9 +22,9 @@ use-site-title: true
 <td>
 
 <textarea rows="10" cols="45" style="font-family:Courier" name="tag"># DESCRIPTION
-# A simple sample problem that asks students to 
-# find the sine of a angle associated with a 
-# special right triangle's angle.
+# A simple sample problem that asks students
+# to evaluate a quadratic function
+# in a given real number
 # ENDDESCRIPTION
 
 ## DBsubject('')
@@ -92,7 +92,7 @@ $answer = $f->eval(x=>$x);
 <tbody><tr>
 <td valign="top">
 
-<textarea rows="15" cols="45" style="font-family:Courier" name="theText">TEXT(beginproblem());
+<textarea rows="10" cols="45" style="font-family:Courier" name="theText">TEXT(beginproblem());
 Context()-&gt;texStrings;
 BEGIN_PGML
 Evaluate the function [`f=[$f]`] at the point [`x=[$x]`].
@@ -118,7 +118,7 @@ The line <tt>[_]{$answer}</tt> displays an answer box for studens, and it is com
 <tbody><tr>
 <td valign="top">
 
-<textarea rows="10" cols="45" style="font-family:Courier" name="answer">
+<textarea rows="5" cols="45" style="font-family:Courier" name="answer">
 
 </textarea></td>
 <td valign="top">
@@ -134,11 +134,8 @@ Use this field to use other answers evaluators (e.g. weighted) or include hints 
 
 <textarea rows="10" cols="45" style="font-family:Courier" name="solution">
 BEGIN_PGML_SOLUTION
-$PAR SOLUTION $PAR
 Compute [`[$a]([$x]^2 + ([$b][$x]) + ([$c]) = [$answer] `].
 END_PGML_SOLUTION
-
-Context()-&gt;normalStrings;
 
 ENDDOCUMENT();
 
