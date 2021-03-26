@@ -4,6 +4,11 @@ title: Teaching
 use-site-title: true
 ---
 
+
+<p>
+<a href="#" class="scrollUpButton">▲</a>
+</p>
+
 <figure>
   <img src="/img/ms.jpg" alt="Middlesex College" style="width:150%"/>
   <figcaption>Department of Mathematics, Western University</figcaption>
