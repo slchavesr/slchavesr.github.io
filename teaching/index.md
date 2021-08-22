@@ -9,16 +9,18 @@ use-site-title: true
 <a href="#" class="scrollUpButton">▲</a>
 </p>
 
+<!---
 <figure>
   <img src="/img/ms.jpg" alt="Middlesex College" style="width:150%"/>
   <figcaption>Department of Mathematics, Western University</figcaption>
 </figure>
+--->
+I am currently (**Fall 2021**) teaching MATH 142 and MATH 235 at the University of Rochester.
+
+## Former Teaching Experience
 
 
-
-## Last Teaching Experience
-
-- I am currently a Teaching Fellow supporting the implementation of [WeBWork](https://webwork.maa.org/) at Western, and authoring problems for Logic, Set Theory and Combinatorics.
+- I was a Teaching Fellow supporting the implementation of [WeBWork](https://webwork.maa.org/) at Western, and authoring problems for Logic, Set Theory and Combinatorics.
 - I was a supporting instructor for Methods of Calculus at Western University on Winter 2021. Some of the recorded asyncrhonous lecture notes are in [YouTube](https://www.youtube.com/playlist?list=PLKRwXr3FMlQZ4SPaBx0XWs4VPbMTuGrRv).
 - I am also interested in the development of open source tools for teaching Math. I am currently working on the joint use of [SageMath](https://www.sagemath.org/), [WeBWork](https://webwork.maa.org/) and [PreTexT](https://pretextbook.org/).  
 
