@@ -15,7 +15,10 @@ use-site-title: true
   <figcaption>Department of Mathematics, Western University</figcaption>
 </figure>
 --->
-I am currently (**Fall 2021**) teaching [MATH 142 / Calculus II](https://courses.math.rochester.edu/current/142/)  and [MATH 235 / Linear Algebra](https://courses.math.rochester.edu/current/235/) at the University of Rochester.
+I am currently (**Fall 2022**) teaching [MATH 150 / Discrete Mathematics](https://courses.math.rochester.edu/current/150/)  and [MATH 165 / Linear Algebra and Differential Equations](https://courses.math.rochester.edu/current/162/) at the University of Rochester.
+
+I have also taught Topology, Linear Algebra, and Several calculus courses in past semesters at UofR.
+
 
 ## Former Teaching Experience
 
