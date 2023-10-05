@@ -9,7 +9,7 @@ layout: blank
 <a href="#" class="scrollUpButton">▲</a>
 </p>
 
-Updated: Jan 2021.
+Updated: Oct 2023
 
 
 
@@ -43,42 +43,24 @@ Updated: Jan 2021.
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
-My teaching experience begins in 2011 as a Master’s student in Mathematics at the Universidad de los Andes where I was a teaching assistant for several first and second years courses. After I earned my Master’s degree in 2013, I had the opportunity to teach several introductory courses at the Universidad de Los Andes as well as other two universities in Bogotá, Colombia. These courses included Calculus, Algebra, Logic and Probability.  In 2015 I began my doctorate degree in Mathematics at the University of Western Ontario where I have been a teaching assistant for several different courses. I have also been actively involved in the development of the Directed Reading Program at the Department of Mathematics mentoring undergraduate students into interesting mathematical projects and help them to achieve their goals pursuing a major in this area. Finally, my background and diverse experience have help me to success  as a passionate teacher; as it is outlined in this Dossier, I enjoy teaching and look forward to developing my skills further as I pursue my academic career. Currently, I am supporting the migration to online teaching resources for courses in the department of Mathematics at Western under the Western Science Student Teaching Fellowship award.
+My teaching journey commenced in 2011 when I was a Master's student in Mathematics at the Universidad de los Andes. During this time, I served as a teaching assistant for several first and second-year courses. Following the completion of my Master's degree in 2013, I seized the opportunity to instruct several introductory courses at the Universidad de Los Andes and other esteemed universities in Bogotá, Colombia. These courses covered a wide spectrum, including subjects like Calculus, Algebra, Logic, and Probability.
+
+In 2015, I embarked on my doctoral journey in Mathematics at the University of Western Ontario. Throughout my doctoral studies, I continued to expand my teaching experience by working as a teaching assistant for a diverse range of courses. Concurrently, I played an active role in the development of the Directed Reading Program at the Department of Mathematics. In this program, I mentored undergraduate students in engaging mathematical projects and supported their pursuit of majors in this field.
+
+Since 2021, I have had the privilege of serving as a Visiting Assistant Professor at the University of Rochester (NY). In this capacity, I have taught a variety of courses, including Topology, Abstract Algebra, Linear Algebra, and more. My diverse background and extensive teaching experience have equipped me to thrive as a dedicated educator. This passion for teaching is evident throughout this Dossier, and I am eager to continue refining my teaching skills as I progress in my academic career.
 </p>
 
 ## Teaching Philosophy <a name="teachingphilosphy"></a>
 <p style="text-align: justify"> 
-My teaching philosophy has been shaped throughout my years of experience as student,
-teaching assistant and instructor. Performing all roles in the learning process such as
-listening and imparting lectures, preparing handouts, presentations, assignments and
-exams, interacting with students in one-to-one and group situations, designing ques-
-tions and implementing innovative technological tools have challenged me in being in
-constant seek for developing and growing professional opportunities to contribute to the
-educational landscape that allows students to have genuine experiences in their personal
-and professional formation.
+"What is mathematics?" is a question I always begin my undergraduate first-day class with. While some students may hold positive perceptions of mathematics, biases, negative images, and misconceptions remain common among undergraduates. These misconceptions include beliefs such as "Mathematics is a hard, challenging, and boring subject", "It is solely about finding and using formulas", "It's just a required course for my program", or "It's only about solving problems."
+
+
 </p>
 <p style="text-align: justify"> 
-Throughout my career, I have had the opportunity to work with a diversity class of
-students. I have been fortunate to interact with students within a huge range of ages,
-socio-economic and academic backgrounds, and full-time/part-time status. These in-
-teractions have opened my eyes to the important role of the instructor in the learning
-process of each person: even though any student’s learning requires specific approaches,
-understanding the common problems and biases towards mathematics allow me to model
-my teaching style in the most beneficial way; providing meaningful lectures, reading
-material and assessments for the students to succeed. My goal as a teacher is that stu-
-dents not only succeed during the course, but also that they obtain an useful insight of
-mathematics for their particular interests.
+My teaching philosophy is rooted in raising awareness about the importance of mathematics, highlighting the valuable skills acquired through its study, and dispelling stereotypes and misconceptions. My approach centers on inspiring and motivating students to engage in activities such as estimation, verification, interpretation, articulation of results, and the ability to connect with others' ideas. These principles form the foundation of my teaching career. Moreover, sharing my passion for the subject and witnessing the transformation of students' answers to the question "What is mathematics?" into more positive perspectives has shaped me into the educator I am today.
 </p>
 <p style="text-align: justify"> 
-I have realized that many students share a similar mindset about mathematics in general:
-Mathematics is a hard subject in nature, and it is only meant to genius or brilliant
-1students. Mathematics is useless unless one wants to become a scientist and most of the
-things assessed in the class will not be used in “real life”. Mathematics is uninteresting
-and boring, it is abstract and the deeper mathematics becomes, the harder is to relate and
-apply it. Therefore, my teaching philosophy stands on fighting against these stereotypes
-against mathematics. Sharing the awareness of the world’s need for people who estimate,
-verify, support, interpret results and connect with other’s ideas are the pillars that drive
-my career and have lead me to the teacher that I currently am.
+I view teaching as a comprehensive process that extends well beyond the confines of the classroom. It encompasses a spectrum of elements, including preparation, practical experience, motivation, and a guiding educational philosophy. These factors collectively shape a student's perspective on the subject matter, both within and outside the classroom. In my perspective, teaching represents a crucial phase in the journey of learning and character development, one that should be adapted to align with the current advantages and requirements of the contemporary world.
 </p> 
 
 **A more detailed Teaching Philosophy Statement can be accesed [here](https://schavesr.com/teaching/TS.pdf)**
