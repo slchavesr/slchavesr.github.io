@@ -2,6 +2,21 @@
 layout: blank
 title: Find your adjusted curved value
 ---
+
+This script helps you find your adjusted score to the curve given by your prof if they are using a piecewise linear adjustment. 
+
+Usually, courses follow the standard cut offs to estimate letter grade out of a score of 100
+
+- If a grade is greater or equal than 90, the grade is a minimum of A-
+- If a grade is greater or equal than 80, the grade is a minimum of B-
+- If a grade is greater or equal than 70, the grade is a minimum of C-
+- If a grade is greater or equal than 60, the grade is a minimum of D-
+
+A grade lower than 60 is a failing grade.
+
+
+<html>
+<head>
     <script>
         // Initialize an empty data array
         var data = [];
@@ -59,16 +74,6 @@ title: Find your adjusted curved value
         }
     </script>
     
-This script helps you find your adjusted score to the curve given by your prof if they are using a piecewise linear adjustment. 
-
-Usually, courses follow the standard cut offs to estimate letter grade out of a score of 100
-
-- If a grade is greater or equal than 90, the grade is a minimum of A-
-- If a grade is greater or equal than 80, the grade is a minimum of B-
-- If a grade is greater or equal than 70, the grade is a minimum of C-
-- If a grade is greater or equal than 60, the grade is a minimum of D-
-
-A grade lower than 60 is a failing grade.
 
 
 
