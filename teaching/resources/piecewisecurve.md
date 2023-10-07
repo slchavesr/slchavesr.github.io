@@ -3,50 +3,45 @@ layout: blank
 title: Find your adjusted curved value
 ---
 
+This script helps you find your adjusted score to the curve given by your prof if they are using a piecewise linear adjustment. 
 
-<html>
-<head>
-    <title>Data Interpolation</title>
+Usually, courses follow the standard cut offs to estimate letter grade out of a score of 100
+
+- If a grade is greater or equal than 90, the grade is a minimum of A-
+- If a grade is greater or equal than 80, the grade is a minimum of B-
+- If a grade is greater or equal than 70, the grade is a minimum of C-
+- If a grade is greater or equal than 60, the grade is a minimum of D-
+
+A grade lower than 60 is a failing grade.
+
+
     <script>
-        // Initialize an empty data array
-        var data = [];
+        // Initialize data points (Category A to D)
+        var data = {
+            A: { originalValue: 100, curvedValue: 100 },
+            B: { originalValue: 0, curvedValue: 0 },
+        };
 
-        // Function to add a new row to the table
-        function addRow() {
-            var originalValue = parseFloat(document.getElementById("originalValue").value);
-            var curvedValue = parseFloat(document.getElementById("curvedValue").value);
+        // Function to add or update a data point
+        function updateDataPoint(category) {
+            var originalValue = parseFloat(document.getElementById(category + "-original").value);
+            var curvedValue = parseFloat(document.getElementById(category + "-curved").value);
 
             if (!isNaN(originalValue) && !isNaN(curvedValue)) {
-                data.push({ originalValue: originalValue, curvedValue: curvedValue });
-                updateTable();
-                document.getElementById("originalValue").value = "";
-                document.getElementById("curvedValue").value = "";
-            }
-        }
-
-        // Function to update the table
-        function updateTable() {
-            var tableBody = document.getElementById("tableBody");
-            tableBody.innerHTML = "";
-
-            for (var i = 0; i < data.length; i++) {
-                var row = tableBody.insertRow(i);
-                var cell1 = row.insertCell(0);
-                var cell2 = row.insertCell(1);
-
-                cell1.innerHTML = data[i].originalValue;
-                cell2.innerHTML = data[i].curvedValue;
+                data[category] = { originalValue: originalValue, curvedValue: curvedValue };
+                document.getElementById(category + "-original").value = "";
+                document.getElementById(category + "-curved").value = "";
             }
         }
 
         // Function to interpolate x for a given y
         function interpolateY(y) {
-            for (var i = 0; i < data.length - 1; i++) {
-                if (y >= data[i].curvedValue && y <= data[i + 1].curvedValue) {
-                    var x1 = data[i].originalValue;
-                    var x2 = data[i + 1].originalValue;
-                    var y1 = data[i].curvedValue;
-                    var y2 = data[i + 1].curvedValue;
+            for (var category in data) {
+                if (y >= data[category].curvedValue && y <= data[category].curvedValue) {
+                    var x1 = data[category].originalValue;
+                    var x2 = data[category].originalValue;
+                    var y1 = data[category].curvedValue;
+                    var y2 = data[category].curvedValue;
 
                     // Linear interpolation formula
                     var x = x1 + ((x2 - x1) / (y2 - y1)) * (y - y1);
@@ -66,24 +61,27 @@ title: Find your adjusted curved value
 </head>
 <body>
     <h1>Data Interpolation</h1>
-    <p>Enter values for the table:</p>
-    Original Value: <input type="text" id="originalValue">
-    Curved Value: <input type="text" id="curvedValue">
-    <button onclick="addRow()">Add Row</button>
+    <p>Enter values for data points:</p>
+    
+    <div>
+        <label for="A-original">Category A Original Value:</label>
+        <input type="text" id="A-original">
+        <label for="A-curved">Category A Curved Value:</label>
+        <input type="text" id="A-curved">
+        <button onclick="updateDataPoint('A')">Update</button>
+    </div>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Original Value</th>
-                <th>Curved Value</th>
-            </tr>
-        </thead>
-        <tbody id="tableBody">
-            <!-- Table rows will be added here dynamically -->
-        </tbody>
-    </table>
+    <div>
+        <label for="B-original">Category B Original Value:</label>
+        <input type="text" id="B-original">
+        <label for="B-curved">Category B Curved Value:</label>
+        <input type="text" id="B-curved">
+        <button onclick="updateDataPoint('B')">Update</button>
+    </div>
 
-    <p>Enter a value (y) to find the corresponding value (x) in the table:</p>
+    <!-- Add similar input fields for other categories (C and D) if needed -->
+
+    <p>Enter a value (y) to find the corresponding value (x):</p>
     <input type="text" id="userInput">
     <button onclick="findX()">Find X</button>
     <p id="result"></p>
