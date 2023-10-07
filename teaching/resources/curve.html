@@ -3,6 +3,16 @@
 <head>
     <title>Data Interpolation</title>
     <script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+    <script>
         // Define your data points in a JavaScript array
         var data = [
             { originalValue: 100, curvedValue: 100 },
@@ -50,5 +60,19 @@
     <input type="text" id="userInput">
     <button onclick="findX()">Find X</button>
     <p id="result"></p>
+
+    <h2>The .pg file</h2>
+
+<table><tbody>
+	<tr> 
+		<td> Show the merged problem: </td>
+		<td> <input type="button" value="Show/Hide" onclick="myFunction()"> </td>
+	</tr>
+	</tbody>
+</table>
+    
 </body>
+    <div id="myDIV" style="display: none;">
+VanBasten
+</div>
 </html>
