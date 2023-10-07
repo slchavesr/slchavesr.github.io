@@ -3,48 +3,27 @@ layout: blank
 title: Find your adjusted curved value
 ---
 
-<script>
-        // Initialize data points (Category A to D)
-        var data = {
-            A: { originalValue: 100, curvedValue: 100 },
-            B: { originalValue: 0, curvedValue: 0 },
-        };
-
-        // Function to add or update a data point
-        function updateDataPoint(category) {
-            var originalValue = parseFloat(document.getElementById(category + "-original").value);
-            var curvedValue = parseFloat(document.getElementById(category + "-curved").value);
-
-            if (!isNaN(originalValue) && !isNaN(curvedValue)) {
-                data[category] = { originalValue: originalValue, curvedValue: curvedValue };
-                document.getElementById(category + "-original").value = "";
-                document.getElementById(category + "-curved").value = "";
-            }
-        }
-
-        // Function to update the table with current data points
-        function updateTable() {
-            var tableBody = document.getElementById("tableBody");
-            tableBody.innerHTML = "";
-
-            for (var category in data) {
-                var row = tableBody.insertRow();
-                var cell1 = row.insertCell(0);
-                var cell2 = row.insertCell(1);
-
-                cell1.innerHTML = data[category].originalValue;
-                cell2.innerHTML = data[category].curvedValue;
-            }
-        }
+<head>
+    <title>Data Interpolation</title>
+    <script>
+        // Define your data points in a JavaScript array
+        var data = [
+            { originalValue: 100, curvedValue: 100 },
+            { originalValue: 90, curvedValue: 80 },
+            { originalValue: 80, curvedValue: 70 },
+            { originalValue: 70, curvedValue: 60 },
+            { originalValue: 60, curvedValue: 50 },
+            { originalValue: 0, curvedValue: 0 }
+        ];
 
         // Function to interpolate x for a given y
         function interpolateY(y) {
-            for (var category in data) {
-                if (y >= data[category].curvedValue && y <= data[category].curvedValue) {
-                    var x1 = data[category].originalValue;
-                    var x2 = data[category].originalValue;
-                    var y1 = data[category].curvedValue;
-                    var y2 = data[category].curvedValue;
+            for (var i = 0; i < data.length - 1; i++) {
+                if (y >= data[i].curvedValue && y <= data[i + 1].curvedValue) {
+                    var x1 = data[i].originalValue;
+                    var x2 = data[i + 1].originalValue;
+                    var y1 = data[i].curvedValue;
+                    var y2 = data[i + 1].curvedValue;
 
                     // Linear interpolation formula
                     var x = x1 + ((x2 - x1) / (y2 - y1)) * (y - y1);
@@ -64,42 +43,8 @@ title: Find your adjusted curved value
 </head>
 <body>
     <h1>Data Interpolation</h1>
-    <p>Enter values for data points:</p>
-    
-<div>
-        <label for="A-original">Category A Original Value:</label>
-        <input type="text" id="A-original">
-        <label for="A-curved">Category A Curved Value:</label>
-        <input type="text" id="A-curved">
-        <button onclick="updateDataPoint('A')">Update</button>
-    </div>
-
-<div>
-        <label for="B-original">Category B Original Value:</label>
-        <input type="text" id="B-original">
-        <label for="B-curved">Category B Curved Value:</label>
-        <input type="text" id="B-curved">
-        <button onclick="updateDataPoint('B')">Update</button>
-    </div>
-
-    <!-- Add similar input fields for other categories (C and D) if needed -->
-
-<button onclick="updateTable()">Update Table</button>
-
-<table border="1">
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Original Value</th>
-                <th>Curved Value</th>
-            </tr>
-        </thead>
-        <tbody id="tableBody">
-            <!-- Table rows will be added here dynamically -->
-        </tbody>
-    </table>
-
-<p>Enter a value (y) to find the corresponding value (x):</p>
+    <p>Enter a value (y) to find the corresponding value (x) in the table:</p>
     <input type="text" id="userInput">
     <button onclick="findX()">Find X</button>
     <p id="result"></p>
+</body>
