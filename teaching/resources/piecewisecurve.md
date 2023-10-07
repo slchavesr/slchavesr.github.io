@@ -17,46 +17,34 @@ A grade lower than 60 is a failing grade.
 
 <html>
 <head>
+    <title>Data Interpolation</title>
     <script>
-        // Initialize an empty data array
-        var data = [];
+        // Initialize data points (Category A to D)
+        var data = {
+            A: { originalValue: 100, curvedValue: 100 },
+            B: { originalValue: 0, curvedValue: 0 },
+        };
 
-        // Function to add a new row to the table
-        function addRow() {
-            var originalValue = parseFloat(document.getElementById("originalValue").value);
-            var curvedValue = parseFloat(document.getElementById("curvedValue").value);
+        // Function to add or update a data point
+        function updateDataPoint(category) {
+            var originalValue = parseFloat(document.getElementById(category + "-original").value);
+            var curvedValue = parseFloat(document.getElementById(category + "-curved").value);
 
             if (!isNaN(originalValue) && !isNaN(curvedValue)) {
-                data.push({ originalValue: originalValue, curvedValue: curvedValue });
-                updateTable();
-                document.getElementById("originalValue").value = "";
-                document.getElementById("curvedValue").value = "";
-            }
-        }
-
-        // Function to update the table
-        function updateTable() {
-            var tableBody = document.getElementById("tableBody");
-            tableBody.innerHTML = "";
-
-            for (var i = 0; i < data.length; i++) {
-                var row = tableBody.insertRow(i);
-                var cell1 = row.insertCell(0);
-                var cell2 = row.insertCell(1);
-
-                cell1.innerHTML = data[i].originalValue;
-                cell2.innerHTML = data[i].curvedValue;
+                data[category] = { originalValue: originalValue, curvedValue: curvedValue };
+                document.getElementById(category + "-original").value = "";
+                document.getElementById(category + "-curved").value = "";
             }
         }
 
         // Function to interpolate x for a given y
         function interpolateY(y) {
-            for (var i = 0; i < data.length - 1; i++) {
-                if (y >= data[i].curvedValue && y <= data[i + 1].curvedValue) {
-                    var x1 = data[i].originalValue;
-                    var x2 = data[i + 1].originalValue;
-                    var y1 = data[i].curvedValue;
-                    var y2 = data[i + 1].curvedValue;
+            for (var category in data) {
+                if (y >= data[category].curvedValue && y <= data[category].curvedValue) {
+                    var x1 = data[category].originalValue;
+                    var x2 = data[category].originalValue;
+                    var y1 = data[category].curvedValue;
+                    var y2 = data[category].curvedValue;
 
                     // Linear interpolation formula
                     var x = x1 + ((x2 - x1) / (y2 - y1)) * (y - y1);
@@ -73,11 +61,6 @@ A grade lower than 60 is a failing grade.
             document.getElementById("result").innerHTML = "For y = " + userInput + ", x = " + result;
         }
     </script>
-    
-
-
-
-
 </head>
 <body>
     <h1>Data Interpolation</h1>
