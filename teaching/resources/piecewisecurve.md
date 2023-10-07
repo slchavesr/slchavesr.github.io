@@ -1,6 +1,6 @@
 ---
 layout: blank
-title: WeBWork File Generator	
+title: Find your adjusted curved value
 ---
 
 
@@ -8,15 +8,36 @@ title: WeBWork File Generator
 <head>
     <title>Data Interpolation</title>
     <script>
-        // Define your data points in a JavaScript array
-        var data = [
-            { originalValue: 100, curvedValue: 100 },
-            { originalValue: 90, curvedValue: 80 },
-            { originalValue: 80, curvedValue: 70 },
-            { originalValue: 70, curvedValue: 60 },
-            { originalValue: 60, curvedValue: 50 },
-            { originalValue: 0, curvedValue: 0 }
-        ];
+        // Initialize an empty data array
+        var data = [];
+
+        // Function to add a new row to the table
+        function addRow() {
+            var originalValue = parseFloat(document.getElementById("originalValue").value);
+            var curvedValue = parseFloat(document.getElementById("curvedValue").value);
+
+            if (!isNaN(originalValue) && !isNaN(curvedValue)) {
+                data.push({ originalValue: originalValue, curvedValue: curvedValue });
+                updateTable();
+                document.getElementById("originalValue").value = "";
+                document.getElementById("curvedValue").value = "";
+            }
+        }
+
+        // Function to update the table
+        function updateTable() {
+            var tableBody = document.getElementById("tableBody");
+            tableBody.innerHTML = "";
+
+            for (var i = 0; i < data.length; i++) {
+                var row = tableBody.insertRow(i);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+
+                cell1.innerHTML = data[i].originalValue;
+                cell2.innerHTML = data[i].curvedValue;
+            }
+        }
 
         // Function to interpolate x for a given y
         function interpolateY(y) {
@@ -45,6 +66,23 @@ title: WeBWork File Generator
 </head>
 <body>
     <h1>Data Interpolation</h1>
+    <p>Enter values for the table:</p>
+    Original Value: <input type="text" id="originalValue">
+    Curved Value: <input type="text" id="curvedValue">
+    <button onclick="addRow()">Add Row</button>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Original Value</th>
+                <th>Curved Value</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Table rows will be added here dynamically -->
+        </tbody>
+    </table>
+
     <p>Enter a value (y) to find the corresponding value (x) in the table:</p>
     <input type="text" id="userInput">
     <button onclick="findX()">Find X</button>
