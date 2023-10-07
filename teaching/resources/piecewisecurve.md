@@ -4,10 +4,9 @@ title: Find your adjusted curved value
 ---
 
 <head>
-    <title>Data Interpolation</title>
+    <title>Data Interpolation2</title>
     <script>
-        // Define your data points in a JavaScript array
-        var data = [
+    var data = [
             { originalValue: 100, curvedValue: 100 },
             { originalValue: 90, curvedValue: 80 },
             { originalValue: 80, curvedValue: 70 },
