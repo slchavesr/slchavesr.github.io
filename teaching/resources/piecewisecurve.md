@@ -3,22 +3,7 @@ layout: blank
 title: Find your adjusted curved value
 ---
 
-This script helps you find your adjusted score to the curve given by your prof if they are using a piecewise linear adjustment. 
-
-Usually, courses follow the standard cut offs to estimate letter grade out of a score of 100
-
-- If a grade is greater or equal than 90, the grade is a minimum of A-
-- If a grade is greater or equal than 80, the grade is a minimum of B-
-- If a grade is greater or equal than 70, the grade is a minimum of C-
-- If a grade is greater or equal than 60, the grade is a minimum of D-
-
-A grade lower than 60 is a failing grade.
-
-
-<html>
-<head>
-    <title>Data Interpolation</title>
-    <script>
+<script>
         // Initialize data points (Category A to D)
         var data = {
             A: { originalValue: 100, curvedValue: 100 },
@@ -81,7 +66,7 @@ A grade lower than 60 is a failing grade.
     <h1>Data Interpolation</h1>
     <p>Enter values for data points:</p>
     
-    <div>
+<div>
         <label for="A-original">Category A Original Value:</label>
         <input type="text" id="A-original">
         <label for="A-curved">Category A Curved Value:</label>
@@ -89,7 +74,7 @@ A grade lower than 60 is a failing grade.
         <button onclick="updateDataPoint('A')">Update</button>
     </div>
 
-    <div>
+<div>
         <label for="B-original">Category B Original Value:</label>
         <input type="text" id="B-original">
         <label for="B-curved">Category B Curved Value:</label>
@@ -99,9 +84,9 @@ A grade lower than 60 is a failing grade.
 
     <!-- Add similar input fields for other categories (C and D) if needed -->
 
-    <button onclick="updateTable()">Update Table</button>
+<button onclick="updateTable()">Update Table</button>
 
-    <table border="1">
+<table border="1">
         <thead>
             <tr>
                 <th>Category</th>
@@ -114,9 +99,7 @@ A grade lower than 60 is a failing grade.
         </tbody>
     </table>
 
-    <p>Enter a value (y) to find the corresponding value (x):</p>
+<p>Enter a value (y) to find the corresponding value (x):</p>
     <input type="text" id="userInput">
     <button onclick="findX()">Find X</button>
     <p id="result"></p>
-</body>
-</html>
