@@ -4,7 +4,6 @@ title: Find your adjusted curved value
 ---
 
 <head>
-    <title>Data interpor</title>
     <script>
     var data = [
             { originalValue: 100, curvedValue: 100 },
@@ -35,7 +34,7 @@ function interpolateY(y) {
     </script>
 </head>
 <body>
-    <h1>Data Interpolation</h1>
+    <h1>Data Interpolation2</h1>
     <p>Enter a value (y) to find the corresponding value (x) in the table:</p>
     <input type="text" id="userInput">
     <button onclick="findX()">Find X</button>
