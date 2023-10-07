@@ -15,10 +15,7 @@
 
         // Function to interpolate x for a given y
         function interpolateY(y) {
-            // Check if y is out of range
-            if (y < data[0].curvedValue || y > data[data.length - 1].curvedValue) {
-                return "Value not in range";
-            }
+
 
             for (var i = 0; i < data.length - 1; i++) {
                 if (y >= data[i].curvedValue && y <= data[i + 1].curvedValue) {
