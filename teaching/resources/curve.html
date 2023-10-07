@@ -28,7 +28,7 @@ function myFunction() {
 
 
             for (var i = 0; i < data.length - 1; i++) {
-                if (y >= data[i].curvedValue && y <= data[i + 1].curvedValue) {
+                if (y >= data[i].curvedValue && y <= data[i+1].curvedValue) {
                     var x1 = data[i].originalValue;
                     var x2 = data[i + 1].originalValue;
                     var y1 = data[i].curvedValue;
@@ -36,7 +36,7 @@ function myFunction() {
 
                     // Linear interpolation formula
                     var x = x1 + ((x2 - x1) / (y2 - y1)) * (y - y1);
-                    return x;
+                    return i;
                 }
 		return -29
             }
@@ -56,7 +56,7 @@ function myFunction() {
     </script>
 </head>
 <body>
-    <h1>Data Interpolation2</h1>
+    <h1>Data Interpolation3</h1>
     <p>Enter a value (y) to find the corresponding value (x) in the table:</p>
     <input type="text" id="userInput">
     <button onclick="findX()">Find X</button>
