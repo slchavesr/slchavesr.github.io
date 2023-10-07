@@ -37,6 +37,21 @@ A grade lower than 60 is a failing grade.
             }
         }
 
+        // Function to update the table with current data points
+        function updateTable() {
+            var tableBody = document.getElementById("tableBody");
+            tableBody.innerHTML = "";
+
+            for (var category in data) {
+                var row = tableBody.insertRow();
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+
+                cell1.innerHTML = data[category].originalValue;
+                cell2.innerHTML = data[category].curvedValue;
+            }
+        }
+
         // Function to interpolate x for a given y
         function interpolateY(y) {
             for (var category in data) {
@@ -83,6 +98,21 @@ A grade lower than 60 is a failing grade.
     </div>
 
     <!-- Add similar input fields for other categories (C and D) if needed -->
+
+    <button onclick="updateTable()">Update Table</button>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Original Value</th>
+                <th>Curved Value</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <!-- Table rows will be added here dynamically -->
+        </tbody>
+    </table>
 
     <p>Enter a value (y) to find the corresponding value (x):</p>
     <input type="text" id="userInput">
