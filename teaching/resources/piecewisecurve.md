@@ -4,7 +4,7 @@ title: Find your adjusted curved value
 ---
 
 <head>
-    <title>Data Interpolation2</title>
+    <title>Data Interpolation2r</title>
     <script>
     var data = [
             { originalValue: 100, curvedValue: 100 },
