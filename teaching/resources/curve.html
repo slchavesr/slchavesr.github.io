@@ -76,10 +76,11 @@
             var thead = table.createTHead();
             var row = thead.insertRow();
             var header0 = row.insertCell(0);
+            header0.innerHTML = "Category";
             var header1 = row.insertCell(1);
-            header1.innerHTML = "Standard";
+            header1.innerHTML = "Standard score";
             var header2 = row.insertCell(2);
-            header2.innerHTML = "Curved";
+            header2.innerHTML = "Curved sscore";
 
             // Populate the table with values from 'data' and 'curved' arrays
             for (var i = 0; i < data.length; i++) {
