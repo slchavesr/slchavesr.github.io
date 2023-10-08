@@ -14,13 +14,13 @@ function myFunction() {
 </script>
     <script>
         // Define your data points in a JavaScript array
-        var data = [100,90,80,70,60,50];
+        var data = [100,90,80,70,60,50,0];
 
         // Function to interpolate x for a given y
         function interpolateY(y) {
 	    var x = 0;
             for (var i = 0; i < data.length - 1; i++) {
-		    if (data[i] <= y && data[i+1] > y){ 
+		    if (data[i] > y && data[i+1] <= y){ 
                        x = data[i] + data[i+1] + y;
 	    }
 	    return x;
@@ -42,7 +42,7 @@ function myFunction() {
     </script>
 </head>
 <body>
-    <h1>Data Interpolation0</h1>
+    <h1>Data Interpolation7</h1>
     <p>Enter a value (y) to find the corresponding value (x) in the table:</p>
     <input type="text" id="userInput">
     <button onclick="findX()">Find X</button>
