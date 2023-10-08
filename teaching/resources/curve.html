@@ -19,8 +19,8 @@ function myFunction() {
         // Function to interpolate x for a given y
         function interpolateY(y) {
 	    var x = 0;
-            for (var i = 0; i < data.length - 1; i++) {
-		    if (data[i] > y &&  data[i+1]<= y){ 
+            for (var i = 0; i < curved.length - 1; i++) {
+		    if (curved[i] > y &&  curved[i+1]<= y){ 
                            var x1 = data[i];
                            var x2 = data[i + 1];
                            var y1 = curved[i];
