@@ -20,12 +20,11 @@ function myFunction() {
         function interpolateY(y) {
 	    var x = 0;
             for (var i = 0; i < data.length - 1; i++) {
-		    if (data[i] > y){ 
-                       x = data[i] + y;
+		    if (data[i] > y &&  data[i+1]<= y){ 
+                       x = data[i] + data[i+1] + y;
 	    }
-	    return x;
 	    }
-                
+	    return x;   
             }
 
         // Function to handle user input and display the result
@@ -48,6 +47,6 @@ function myFunction() {
     <button onclick="findX()">Find X</button>
     <p id="result"></p>
 
-    <h2>The .pg file</h2>
+
 
 </html>
