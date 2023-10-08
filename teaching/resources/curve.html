@@ -18,15 +18,12 @@ function myFunction() {
 
         // Function to interpolate x for a given y
         function interpolateY(y) {
-
-
+		var x = 0;
             for (var i = 0; i < data.length - 1; i++) {
-                if (y >= data[i] && y <= data[i+1]) {
-                    var x = y/2;
+                    var x = x + data[i]
 		return x;
                 }
             }
-        }
 
         // Function to handle user input and display the result
         function findX() {
