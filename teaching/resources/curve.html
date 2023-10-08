@@ -20,8 +20,8 @@ function myFunction() {
         function interpolateY(y) {
 	    var x = 0;
             for (var i = 0; i < data.length - 1; i++) {
-		    if (data[i] > y && data[i+1] <= y){ 
-                       x = data[i] + data[i+1] + y;
+		    if (data[i] > y){ 
+                       x = data[i] + y;
 	    }
 	    return x;
 	    }
@@ -50,16 +50,4 @@ function myFunction() {
 
     <h2>The .pg file</h2>
 
-<table><tbody>
-	<tr> 
-		<td> Show the merged problem: </td>
-		<td> <input type="button" value="Show/Hide" onclick="myFunction()"> </td>
-	</tr>
-	</tbody>
-</table>
-    
-</body>
-    <div id="myDIV" style="display: none;">
-VanBasten
-</div>
 </html>
