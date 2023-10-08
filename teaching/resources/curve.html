@@ -80,12 +80,12 @@
             var header1 = row.insertCell(1);
             header1.innerHTML = "Standard score";
             var header2 = row.insertCell(2);
-            header2.innerHTML = "Curved sscore";
+            header2.innerHTML = "Curved score";
 
             // Populate the table with values from 'data' and 'curved' arrays
             for (var i = 0; i < data.length; i++) {
                 var row = table.insertRow();
-                var cell0 = row.insertcell(0);
+                var cell0 = row.insertCell(0);
                 cell0.innerHTML = header[i];
                 var cell1 = row.insertCell(1);
                 cell1.innerHTML = data[i];
