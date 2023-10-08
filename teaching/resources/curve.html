@@ -1,56 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Data Interpolation</title>
-    <script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
-    <script>
-        // Define your data points in a JavaScript array
-        var data = [100, 90,   80, 70, 60, 0];
-        var curved = [100, 90, 75, 65, 50, 0];
-        // Function to interpolate x for a given y
-        function interpolateY(y) {
-	    var x = 0;
-            for (var i = 0; i < curved.length - 1; i++) {
-		    if (curved[i] > y &&  curved[i+1]<= y){ 
-                           var x1 = data[i];
-                           var x2 = data[i + 1];
-                           var y1 = curved[i];
-                           var y2 = curved[i + 1];
-			   var x = x1 + ((x2 - x1) / (y2 - y1)) * (y - y1);
-	    }
-	    }
-	    return x;   
-            }
+    <title>Interpolation Example</title>
+</head>
+<body>
+    <h1>Data Interpolation</h1>
+    <p>The 'curved' array always starts with 100 and ends with 0.</p>
+    <label for="curvedValues">Enter 4 values for 'curved' array (comma-separated):</label>
+    <input type="text" id="curvedValues">
+    <button onclick="updateCurvedArray()">Update 'curved' Array</button>
 
-        // Function to handle user input and display the result
-        function findX() {
-            var userInput = parseFloat(document.getElementById("userInput").value);
-            var result = interpolateY(userInput);
+    <hr>
+
+    <h2>Interpolation</h2>
+    <label for="yInput">Enter a value for 'y':</label>
+    <input type="number" id="yInput">
+    <button onclick="interpolateAndDisplay()">Interpolate</button>
+
+    <h3>Result:</h3>
+    <p id="result"></p>
+
+    <hr>
+
+    <h2>Data and Curved Table</h2>
+    <button onclick="generateTable()">Generate Table</button>
+    <table id="dataTable">
+        <!-- Table will be generated here -->
+    </table>
+
+    <script>
+        var data = [100, 90, 80, 70, 60, 0];
+        var curved = [100, 0, 0, 0, 0]; // Initialize with 100 and 0, with space for 4 user-defined values
+
+        function updateCurvedArray() {
+            var curvedInput = document.getElementById("curvedValues").value;
+            // Parse the comma-separated input and store it in the middle of the 'curved' array
+            var userValues = curvedInput.split(',').map(Number);
             
-            if (result === undefined) {
-                document.getElementById("result").innerHTML = "Value not in range";
+            if (userValues.length === 4) {
+                for (var i = 0; i < 4; i++) {
+                    curved[i + 1] = userValues[i];
+                }
             } else {
-                document.getElementById("result").innerHTML = "For y = " + userInput + ", x = " + result;
+                alert("Please enter 4 values for 'curved'.");
+            }
+        }
+
+        function interpolateY(y) {
+            var x = 0;
+            for (var i = 0; i < curved.length - 1; i++) {
+                if (curved[i] > y && curved[i + 1] <= y) {
+                    var x1 = data[i];
+                    var x2 = data[i + 1];
+                    var y1 = curved[i];
+                    var y2 = curved[i + 1];
+                    x = x1 + ((x2 - x1) / (y2 - y1)) * (y - y1);
+                }
+            }
+            return x;
+        }
+
+        function interpolateAndDisplay() {
+            var yInput = parseFloat(document.getElementById("yInput").value);
+            var result = interpolateY(yInput);
+            document.getElementById("result").innerHTML = "Interpolated x for y = " + yInput + ": " + result;
+        }
+
+        function generateTable() {
+            var table = document.getElementById("dataTable");
+            table.innerHTML = ""; // Clear existing table
+
+            // Create headers
+            var thead = table.createTHead();
+            var row = thead.insertRow();
+            var header1 = row.insertCell(0);
+            header1.innerHTML = "Data";
+            var header2 = row.insertCell(1);
+            header2.innerHTML = "Curved";
+
+            // Populate the table with values from 'data' and 'curved' arrays
+            for (var i = 0; i < data.length; i++) {
+                var row = table.insertRow();
+                var cell1 = row.insertCell(0);
+                cell1.innerHTML = data[i];
+                var cell2 = row.insertCell(1);
+                cell2.innerHTML = curved[i];
             }
         }
     </script>
-</head>
-<body>
-    <h1>Data Interpolation2</h1>
-    <p>Enter a value (y) to find the corresponding value (x) in the table:</p>
-    <input type="text" id="userInput">
-    <button onclick="findX()">Find X</button>
-    <p id="result"></p>
-
-
-
+</body>
 </html>
