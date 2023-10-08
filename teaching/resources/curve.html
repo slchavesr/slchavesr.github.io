@@ -65,7 +65,7 @@
         function interpolateAndDisplay() {
             var yInput = parseFloat(document.getElementById("yInput").value);
             var result = interpolateY(yInput);
-            document.getElementById("result").innerHTML = "Interpolated x for y = " + yInput + ": " + result;
+            document.getElementById("result").innerHTML = "The curved score for a grade of " + yInput + " is: " + result;
         }
 
         function generateTable() {
@@ -98,9 +98,9 @@
     <hr>
 
     <h2>Interpolation</h2>
-    <label for="yInput">Enter a value for 'y':</label>
+    <label for="yInput">Enter your original grade:</label>
     <input type="number" id="yInput">
-    <button onclick="interpolateAndDisplay()">Interpolate</button>
+    <button onclick="interpolateAndDisplay()">Curve your grade</button>
 
     <h3>Result:</h3>
     <p id="result"></p>
