@@ -20,12 +20,13 @@ Updated: Oct 2023
 1. [Brief Biography](#briefbiography)
 2. [Teaching Philosophy](#teachingphilosphy)
 3. [Teaching Experience](#teachingexperience)
-    1. [Western University](#western)
-    2. [Universidad de los Andes](#uniandes)
-    3. [Universidad del Rosario](#urosario)
-    4. [Universidad Central](#ucentral)
-    5. [Mentoring Students](#mentor)
-    6. [Other relevant experience](#other)
+    1. [University of Rochester](#rochester)
+    2. [Western University](#western)
+    3. [Universidad de los Andes](#uniandes)
+    4. [Universidad del Rosario](#urosario)
+    5. [Universidad Central](#ucentral)
+    6. [Mentoring Students](#mentor)
+    7. [Other relevant experience](#other)
 4. [Teaching Effectiveness](#teachingef)
     1. [Formal Teaching Evaluations](#teachingev)  
     2. [Informal Teaching Evaluations](#infteachev)
@@ -69,10 +70,6 @@ I view teaching as a comprehensive process that extends well beyond the confines
 
 ## Teaching Experience<a name="teachingexperience"></a>
 
-## Western University: Teaching Assistant and Teaching Fellow (2015- 2020) <a name="western"></a>
-
-While pursuing my doctorate degree at [Western University](https://www.math.uwo.ca/) I was a teaching assistant for both graduate and undergraduate courses. After completing my Ph.D. in July 2020, I was appointed as a Teaching Fellow supporting the implementation of online teaching due to the COVID-19 limitations for on-site classrooms.
-
 <script>
 function myFunction(id) {
   var x = document.getElementById(id);
@@ -84,6 +81,163 @@ function myFunction(id) {
 }
 </script>
 
+## University of Rochester: Assistant Professor
+
+<button onclick="myFunction('M140')">
+➢ Mathematics 140:  Precalculus (Fall 2023)  - Instructor
+</button>
+
+<div id="M140" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+<button onclick="myFunction('M150s')">
+➢ Mathematics 150:  Discrete Mathematics (Summer 2023)  - Instructor
+</button>
+
+<div id="M150s" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+<button onclick="myFunction('M236WM')">
+➢ Mathematics 236WM:  Abstract Algebra with written module (Spring 2023)  - Instructor
+</button>
+
+<div id="M236WM" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+<button onclick="myFunction('M150')">
+➢ Mathematics 150:  Discrete Mathematics (Fall 2022, Spring 2023) - Instructor
+</button>
+
+<div id="M150" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+<button onclick="myFunction('M162')">
+➢ Mathematics 165:  Differential Equations and Linear Algebra (Fall 2022)  - Instructor
+</button>
+
+<div id="M165" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+<button onclick="myFunction('M141')">
+➢ Mathematics 141:  Calculus I (Summer 2022)  - Instructor
+</button>
+
+<div id="M141" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+<button onclick="myFunction('M162')">
+➢ Mathematics 240HWM:  Honors Introduction to Topology with written Module  (Winter 2022)  - Instructor
+</button>
+
+<div id="M162" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+
+<button onclick="myFunction('M162')">
+➢ Mathematics 162:  Calculus II (Winter 2022)  - Instructor
+</button>
+
+<div id="M235WM" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+<button onclick="myFunction('M235WM')">
+➢ Mathematics 235WM:  Linear algebra with Written Module (Fall 2021, Fall 2023)  - Instructor
+</button>
+
+<div id="M235WM" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+<button onclick="myFunction('M142')">
+➢ Mathematics 142: Calculus II (Fall 2021)  - Instructor
+</button>
+
+<div id="M235WM" style="display: none;">
+<p style="text-align: justify">
+
+This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+
+ </p>
+</div> 
+
+## Western University: Teaching Assistant and Teaching Fellow (2015- 2020) <a name="western"></a>
+
+While pursuing my doctorate degree at [Western University](https://www.math.uwo.ca/) I was a teaching assistant for both graduate and undergraduate courses. After completing my Ph.D. in July 2020, I was appointed as a Teaching Fellow supporting the implementation of online teaching due to the COVID-19 limitations for on-site classrooms.
+
+<button onclick="myFunction('M1225')">
+➢ Mathematics 1225:  Methods of Calculus (Winter 2021)  - Supporting Instructor
+</button>
+
+<div id="M1225" style="display: none;">
+<p style="text-align: justify">
+
+This first-year course introduces a set of tools to introduce and study functions. They are grouped into three main sections: limits, differentiation and integration. The coruse was delivered entirely online due to the COVID-19 pandemic. My responsibility involved creating lecture videos across the term. Exams, homework and grading were responsibilites of the main instructor and teaching assistant. 
+ </p>
+</div> 
 
 
 
@@ -95,9 +249,7 @@ function myFunction(id) {
 <div id="M2151" style="display: none;">
 <p style="text-align: justify">
 
-Second year course offered to students pursuing a science or engineering degree. The main contents of
-this course are: Logic, Proofs, Sets, Relations and functions, Mathematical Induction, Modular arithmetic, Combinatorics. Introductory graph theory.
-The course consisted of an approximate  150 students and the lectures followed an asynchronous.online delivery mode during 12 weeks. My main role was to create and implement questions into WeBWork to facilitate the grading for the online delivery of the course. 
+second-year science and engineering course covering topics like Logic, Proofs, Sets, Relations, Mathematical Induction, Modular arithmetic, Combinatorics, and Introductory graph theory. This course was delivered online over 12 weeks to around 150 students, and my primary responsibility involved creating and implementing questions in WeBWork to streamline the grading process.
  </p>
 </div> 
 
@@ -108,17 +260,7 @@ The course consisted of an approximate  150 students and the lectures followed a
 
 <div id="M1600" style="display: none;">
 <p style="text-align: justify"> 
-First year linear algebra course offered for students intended to major in the Faculty of Science. The
-main contents of the course are: properties and applications of vectors; matrix algebra; solving systems
-of linear equations; determinants; vector spaces; orthogonality; eigenvalues and eigenvectors.
-The course consisted of an approximate 200 students and the main lectures held twice per week during
-12 weeks. The students are divided into 6 or 7 tutorial groups of approximate 30 students each. Each
-group meets one hour per week and I was in charge of running two of these groups. My main roles
-during these sessions were to review material from the course, answer questions, and run group activities
-such as problem-solving suggested questions for exam preparation. There were weekly meetings with
-the instructor and other teaching assistant to discuss the progress of the groups and discuss potential
-problems to bring to the session. An example of a worksheet of prepared problems to the sessions can
-be found in Appendix (p.31)
+Linear algebra course designed for students majoring in the Faculty of Science. The course covered topics such as vectors, matrix algebra, linear equation systems, determinants, vector spaces, orthogonality, eigenvalues, and eigenvectors. I  led two tutorial groups comprised around 30 students each. In these sessions, I reviewed course materials, answered questions, and organized group activities, including problem-solving exercises to prepare for exams. Additionally, I participated in weekly meetings with the instructor and other teaching assistants to track group progress and address any potential issues.
     </p>
 </div>
 
@@ -129,12 +271,7 @@ be found in Appendix (p.31)
 <div id="M4123" style="display: none;">
 <p style="text-align: justify">
 
-Graduate course offered to students pursuing a major in pure Mathematics or a Master program. The main contents of
-this course are: Unique Factorization Domains, Euclidean Domains, Principal Ideal Domains, Factorization in Polynomial Rings, Generation of Modules, Direct Products and Sums, Free Modules, Tensor Products, Exact Sequences, Injective and Projective Modules.
-The course consisted of an approximate  20 students and the main lectures held twice per week during
-12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
-set sent by the instructor as well as the exams. I also held office hours once per week intended to help
-students with questions from the lectures or problem sets.
+A graduate-level course tailored for students pursuing a major in pure Mathematics or a Master's program. The course covered topics including Unique Factorization Domains, Euclidean Domains, Principal Ideal Domains, Factorization in Polynomial Rings. Approximately 20 students were enrolled in the course and my primary responsibilities included grading and providing constructive feedback on the weekly problem sets and exams assigned by the instructor. I also conducted weekly office hours to assist students with questions related to the lectures or problem sets, aiming to enhance their understanding of the course material.
  </p>
 </div> 
 
