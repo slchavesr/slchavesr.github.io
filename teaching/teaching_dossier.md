@@ -933,10 +933,37 @@ the Wellness Education Centre, the Teaching Assistants Union, and the Society of
 ## Teaching Workshops and Conferences <a name="conferences"></a>
 
 <p style="text-align: justify">
+    <b>University of Rochester Fall 2023 Workshop Series</b>
+    <br>
+    These workshops included
+<ul>    
+    <li> Evaluating group work. Oct 2023. </li>
+    <li> Scaffolding Writing Assignments. Oct 2023 </li>
+    <li> Designing effective group work. Oct 2023. </li>
+     <li> Using movement to Enhance Learning. Sep 2023 </li>
+</ul>
+ </p>
+
+<p style="text-align: justify">
+    <b>University of Rochester Spring 2022 Workshop Series</b>
+    <br>
+    These workshops included
+<ul>    
+    <li> Transparent Assignment Design. Apr 2022 </li>
+    <li> Asking and Answering classroom questions. Mar 2022 </li>
+    <li> Anti-Racist Feedback and Messaging. Mar 2022 </li>
+    <li> Writing Good Multiple Choice Questions. Mar 2022. </li>
+    <li> Evaluating Group Assignments. Feb 2022 </li>
+    <li> Designing Group Assignments. Feb 2022. </li>
+     <li> Effective Management and Mentoring of TAs. Jan 2022 </li>
+</ul>
+ </p>
+
+<p style="text-align: justify">
     <b> Fall Perspectives on Teaching Workshop (Aug 2019) </b> 
     <br>
-Offered twice a year, Perspectives on Teaching is a full-day conference designed to showcase
-teaching innovations at Western, and introduce instructors to best practices in student-centered instruction
+ Perspectives on Teaching is a full-day conference designed to showcase
+teaching innovations at Western University, and introduce instructors to best practices in student-centered instruction
 which can enhance the student experience. The conference program typically includes a keynote address
 and 6-9 concurrent sessions.
 </p>
@@ -948,7 +975,12 @@ The Own Your Future: May Conference on Teaching is a special one-day event for d
 Western. Participants are invite to join one or more conference sessions to enhance skill areas related to
 teaching, set personal goals for growth as instructors, and connect teaching experiences to their overall
 professional development as graduate students.
-Workshops.
+</p>
+
+<p style="text-align: justify">
+    <b>University of Western Ontario: Workshop Series 2019</b>
+    <br>
+    These workshops included
 <ul>    
     <li> Writing Teaching Philosophy Statements. Oct 2019. </li>
     <li> Tried and True Strategies to Address Common Assessment Conundrums. Aug 2019. </li>
