@@ -456,19 +456,7 @@ as a study space with help on hand in case they get stuck on.
 ## Universidad de los Andes: Instructor and Teaching Assistant (2011-2015) <a name = "uniandes"> </a>
 
 <p style="text-align: justify"> 
-    <a href="https://matematicas.uniandes.edu.co"> The Universidad de los Andes </a> is a private university in Colombia ranked among the top-10 in Latin America. The student
-population consists of the Top 1% high school graduates and they enjoy a diversity of backgrounds in terms
-of race, socioeconomic status, religion, sex. The university provide strong economic support to the top
-students with financial needs.
-</p>
-
-<p style="text-align: justify"> 
-I served as an instructor at Universidad de los Andes in several opportunities. In terms of first year courses taught at Uniandes, each course enrols more than 200 students which are
-divided into small groups of approximate 35 students which are assigned to a particular instructor. The
-program outline, schedule and exams are in charge of the course coordinator and meetings among all the
-instructors are held two weeks before each exam to discuss and review the topics covered as well as suggest
-potential problems to include in the test papers. The teaching load of these courses usually involved 1.5-
-hour class twice per week during 16 weeks for a group of 35 students.
+    <a href="https://matematicas.uniandes.edu.co"> I instructed at Universidad de los Andes, a top-10 private university in Colombia with a diverse student body representing the top 1% of high school graduates. The university provides robust financial support to students in need. In terms of teaching, I led first-year courses with over 200 students, divided into groups of about 35, each assigned to an instructor. Course coordination, scheduling, and exams were handled by the course coordinator, with instructors meeting two weeks before exams to discuss topics and suggest potential test problems. Typically, I taught 1.5-hour classes twice a week for 16 weeks to these smaller groups.
 </p>
 
 <p style="text-align: justify">     
@@ -559,13 +547,7 @@ instructor/teaching assistant stays in average 4 hours/week in this help space.
     During 2013 I served as an instructor at  <a href="https://www.urosario.edu.co"> Universidad del Rosario </a> in the growing department of
 mathematics at that institution. Universidad del Rosario is a private university in Colombia known for its
 strong programs in business, administration and economics; therefore, the direction of the courses was
-driven towards that area. I was the main instructor for 2 courses each semester, helping to develop the
-program outline and assessment methods. Each course consisted of approximate 150 students divided into
-sections of around 35 students each. The lectures were held in two 2-hour sessions per week during 16
-weeks. Even though the course assessment was the same for all sections, each instructor had the freedom
-to develop their own assignments, quizzes and midterm exams; as well as responsible for all the preparation,
-grading and evaluation. The final exam was made considering an end-of-the-term meeting among all the
-instructors for the course.
+driven towards that area.
  </p>
  
 <button onclick="myFunction('U:Pr')">
@@ -608,16 +590,8 @@ instructor and students choose what is more appealing for them. A final report (
 
 <p style="text-align: justify">
     
-During 2013 I also served as an instructor at the <a href="https://www.ucentral.edu.co/"> Universidad Central de Colombia </a> in the department of
-engineering and mathematics at that institution. I belonged to the roster of Instructors for the night-time
-and weekend programs; these programs are offered to mature and full-time working people that pursue an
-undergraduate degree in engineering. Classes for these special programs are held Monday to Friday from
-6pm – 10pm and Saturdays from 9am – 5pm during 16 weeks. I was the instructor for two courses each
-term in a class sizes of approximate 30 students each. The methods of evaluation followed for this particular
-program were the following: Two midterms exam are held during the semester (30% each) an accumulative
-final exam (40 % each). Assignments are handed out every two weeks with carefully selected problems for
-the students to practice; and 80% of the exam questions are slightly different from the proposed problem
-sets.
+During 2013 I served as an instructor at the <a href="https://www.ucentral.edu.co/"> Universidad Central de Colombia </a> in the department of
+engineering and mathematics. My responsibilites were tailored  around working professionals studying during nights and weekends. These dedicated students pursued undergraduate degrees in engineering while juggling their full-time jobs. Classes were scheduled from Monday to Friday, 6 pm - 10 pm, and on Saturdays from 9 am - 5 pm, spanning 16 weeks. Each term, I instructed two courses with approximately 30 students in each class. The program's unique challenge lay in accommodating the students' demanding schedules, and the evaluation methods included midterms, exams and bi-weekly assignments with carefully selected problems. This rigorous approach aimed to ensure students' success and learning while facing the challenges of a full-time job.
 </p>
 
 <p style="text-align: justify">
