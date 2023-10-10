@@ -675,7 +675,7 @@ I have also been a tutor for High-school and College students supporting their l
 
 Summary of teaching evaluations at the University of Rochester
 
-| MATH 142 2                                                                                                                                                                                         |  MATH 235 3  |  MATH 162 2  |  MATH 240H 2  |  MATH 141 1  |
+| Categpry | MATH 142 2                                                                                                                                                                                         |  MATH 235 3  |  MATH 162 2  |  MATH 240H 2  |  MATH 141 1  |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------:|:------------:|:-------------:|:------------:|
 | The exams/assignments covered important aspects of the course.                                                                                                                                     |  4.6         |  4.7         |  4.1          |  4.8         |  4.2  |
 | The assignments were helpful in understanding the material.                                                                                                                                        |  4.2         |  4.6         |  3.8          |  4.7         |  3.9  |
@@ -728,25 +728,26 @@ Summary of teaching evaluations at the University of Rochester
 
 From Fall 2022 
 
-| MATH 150 1                                                                        |  MATH 165 3  |  MATH 236 1  |  MATH 150 2  |
-|-----------------------------------------------------------------------------------|--------------|--------------|--------------|
-| What overall rating would you give this instructor?                               |  4.1         |  4.3         |  4.7         |  4.4  |
-| What overall rating, would you give this course?                                  |  3.6         |  4.0         |  3.7         |  4.2  |
-| The exams/assignments covered important aspects of the course.                    |  4.4         |  4.4         |  4.6         |  4.4  |
-| The assignments were helpful in understanding the material.                       |  4.2         |  4.5         |  4.4         |  4.6  |
-| The exams/assignments were clearly worded.                                        |  4.4         |  4.5         |  4.6         |  4.3  |
-| Lectures / class discussions were well organized or well managed.                 |  4.4         |  4.2         |  5.0         |  4.6  |
-| Classes tended to stay appropriately on topic.                                    |  4.8         |  4.6         |  4.7         |  4.7  |
-| I feel this class was valuable.                                                   |  3.6         |  4.0         |  4.1         |  4.2  |
-| The instructor explained and emphasized important points clearly and effectively. |  3.9         |  4.0         |  4.9         |  4.5  |
-| The instructor used examples that helped with understanding the material.         |  4.1         |  4.2         |  4.6         |  4.5  |
-| The instructor noticed when students did not understand and adjusted accordingly. |  3.5         |  3.5         |  4.4         |  4.1  |
-| The instructor demonstrated sincere respect for students.                         |  4.6         |  4.7         |  5.0         |  4.6  |
-| The instructor was willing to listen to student questions and/or opinions.        |  4.6         |  4.6         |  4.9         |  4.6  |
-| The instructor made himself/herself available for extra help.                     |  4.6         |  4.4         |  5.0         |  4.4  |
-| The instructor tended to be well prepared for class.                              |  4.7         |  4.6         |  5.0         |  4.8  |
-| The instructor provided clear academic honesty guidelines for this course.        |  4.7         |  4.6         |  4.7         |  4.6  |
-| I have a stronger interest in the subject because of the instructor.              |  3.1         |  3.4         |  4.0         |  4.0  |
+| Category                                                                          |  MATH 150 1  |  MATH 165 3  |  MATH 236 1  |  MATH 150 2  |
+|-----------------------------------------------------------------------------------|--------------|--------------|--------------|--------------|
+| What overall rating would you give this instructor?                               |  4.1         |  4.3         |  4.7         |  4.4         |
+| What overall rating, would you give this course?                                  |  3.6         |  4.0         |  3.7         |  4.2         |
+| The exams/assignments covered important aspects of the course.                    |  4.4         |  4.4         |  4.6         |  4.4         |
+| The assignments were helpful in understanding the material.                       |  4.2         |  4.5         |  4.4         |  4.6         |
+| The exams/assignments were clearly worded.                                        |  4.4         |  4.5         |  4.6         |  4.3         |
+| Lectures / class discussions were well organized or well managed.                 |  4.4         |  4.2         |  5.0         |  4.6         |
+| Classes tended to stay appropriately on topic.                                    |  4.8         |  4.6         |  4.7         |  4.7         |
+| I feel this class was valuable.                                                   |  3.6         |  4.0         |  4.1         |  4.2         |
+| The instructor explained and emphasized important points clearly and effectively. |  3.9         |  4.0         |  4.9         |  4.5         |
+| The instructor used examples that helped with understanding the material.         |  4.1         |  4.2         |  4.6         |  4.5         |
+| The instructor noticed when students did not understand and adjusted accordingly. |  3.5         |  3.5         |  4.4         |  4.1         |
+| The instructor demonstrated sincere respect for students.                         |  4.6         |  4.7         |  5.0         |  4.6         |
+| The instructor was willing to listen to student questions and/or opinions.        |  4.6         |  4.6         |  4.9         |  4.6         |
+| The instructor made himself/herself available for extra help.                     |  4.6         |  4.4         |  5.0         |  4.4         |
+| The instructor tended to be well prepared for class.                              |  4.7         |  4.6         |  5.0         |  4.8         |
+| The instructor provided clear academic honesty guidelines for this course.        |  4.7         |  4.6         |  4.7         |  4.6         |
+| I have a stronger interest in the subject because of the instructor.              |  3.1         |  3.4         |  4.0         |  4.0         |
+
 
 
 <p style="text-align: justify">
