@@ -69,7 +69,7 @@ I view teaching as a comprehensive process that extends well beyond the confines
 
 ## Teaching Experience<a name="teachingexperience"></a>
 
-## Western University: Teaching Assistant and Teaching Fellow (2015- Present) <a name="western"></a>
+## Western University: Teaching Assistant and Teaching Fellow (2015- 2020) <a name="western"></a>
 
 While pursuing my doctorate degree at [Western University](https://www.math.uwo.ca/) I was a teaching assistant for both graduate and undergraduate courses. After completing my Ph.D. in July 2020, I was appointed as a Teaching Fellow supporting the implementation of online teaching due to the COVID-19 limitations for on-site classrooms.
 
@@ -85,25 +85,11 @@ function myFunction(id) {
 </script>
 
 
-<button onclick="myFunction('M4123')">
-➢ Mathematics 4123/9023: Rings and Modules (Fall 2020)
-</button>
 
-<div id="M4123" style="display: none;">
-<p style="text-align: justify">
-
-Graduate course offered to students pursuing a major in pure Mathematics or a Master program. The main contents of
-this course are: Unique Factorization Domains, Euclidean Domains, Principal Ideal Domains, Factorization in Polynomial Rings, Generation of Modules, Direct Products and Sums, Free Modules, Tensor Products, Exact Sequences, Injective and Projective Modules.
-The course consisted of an approximate  20 students and the main lectures held twice per week during
-12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
-set sent by the instructor as well as the exams. I also held office hours once per week intended to help
-students with questions from the lectures or problem sets.
- </p>
-</div> 
 
 
 <button onclick="myFunction('M2151')">
-➢ Mathematics 2151: Mathematical Structures (Summer 2020, Fall 2020)
+➢ Mathematics 2151: Mathematical Structures (Summer 2020, Fall 2020)  - Teaching Assistant
 </button>
 
 <div id="M2151" style="display: none;">
@@ -117,7 +103,7 @@ The course consisted of an approximate  150 students and the lectures followed a
 
 
 <button onclick="myFunction('M1600')">
-➢ Mathematics 1600: Linear Algebra I (Fall 2019, Winter 2020)
+➢ Mathematics 1600: Linear Algebra I (Fall 2019, Winter 2020) - Teaching Assistant
 </button>
 
 <div id="M1600" style="display: none;">
@@ -136,10 +122,24 @@ be found in Appendix (p.31)
     </p>
 </div>
 
+<button onclick="myFunction('M4123')">
+➢ Mathematics 4123/9023: Rings and Modules (Fall 2019)  - Teaching Assistant
+</button>
 
+<div id="M4123" style="display: none;">
+<p style="text-align: justify">
+
+Graduate course offered to students pursuing a major in pure Mathematics or a Master program. The main contents of
+this course are: Unique Factorization Domains, Euclidean Domains, Principal Ideal Domains, Factorization in Polynomial Rings, Generation of Modules, Direct Products and Sums, Free Modules, Tensor Products, Exact Sequences, Injective and Projective Modules.
+The course consisted of an approximate  20 students and the main lectures held twice per week during
+12 weeks. My main role was to grade and provide effective feedback to the weekly suggested problem
+set sent by the instructor as well as the exams. I also held office hours once per week intended to help
+students with questions from the lectures or problem sets.
+ </p>
+</div> 
 
 <button onclick="myFunction('M3124')">
-➢ Mathematics 3124: Complex Analysis (Fall 2019)
+➢ Mathematics 3124: Complex Analysis (Fall 2019) - Teaching Assistant 
 </button>
 
 <div id="M3124" style="display: none;">
@@ -157,7 +157,7 @@ grade. I was also in charge of grading the exams.
 
 
 <button onclick="myFunction('M3159')">
-➢ Mathematics 3159: Introduction to Cryptography (Winter 2019)
+➢ Mathematics 3159: Introduction to Cryptography (Winter 2019) - Teaching Assistant
 </button>
 
 <div id="M3159" style="display: none;">
@@ -176,7 +176,7 @@ lectures.
 
 
 <button onclick="myFunction('M1120')">
-➢ Mathematics 1120: Fundamental Concepts in Mathematics (Winter 2019)
+➢ Mathematics 1120: Fundamental Concepts in Mathematics (Winter 2019) - Teaching Assistant
 </button>
 
 <div id="M1120" style="display: none;">
@@ -197,7 +197,7 @@ students with questions from the lectures or problem sets.
 
 
 <button onclick="myFunction('M3020')">
-➢ Mathematics 3020: Introduction to Abstract Algebra (Fall 2018)
+➢ Mathematics 3020: Introduction to Abstract Algebra (Fall 2018) - Teaching Assistant
 </button>
 
 <div id="M3020" style="display: none;">
@@ -215,7 +215,7 @@ students with questions from the lectures or problem sets.
 
 
 <button onclick="myFunction('M1229')">
-➢ Mathematics 1229: Methods of Matrix Algebra (Winter 2018, Winter 2016)
+➢ Mathematics 1229: Methods of Matrix Algebra (Winter 2018, Winter 2016) - Teaching Assistant
 </button>
 
 <div id="M1229" style="display: none;">
@@ -232,7 +232,7 @@ intended to help students with questions from the lectures or problem sets.
 
 
 <button onclick="myFunction('C2302')">
-➢ Calculus 2302: Intermediate Calculus I (Fall 2018, Fall 2017)
+➢ Calculus 2302: Intermediate Calculus I (Fall 2018, Fall 2017) - Teaching Assistant
 </button>
 
 <div id="C2302" style="display: none;">
@@ -249,7 +249,7 @@ intended to help students with questions from the lectures or problem sets.
 </div> 
 
 <button onclick="myFunction('C1501')">
-➢ Calculus 1501: Calculus II for Mathematical and Physical Sciences (Winter 2017)
+➢ Calculus 1501: Calculus II for Mathematical and Physical Sciences (Winter 2017) - Teaching Assistant
 </button>
 <div id="C1501" style="display: none;">
 <p style="text-align: justify">
@@ -266,7 +266,7 @@ intended to help students with questions from the lectures or problem sets.
 
 
 <button onclick="myFunction('C110')">
-➢ Calculus 0110: Introductory Calculus (Winter 2016)
+➢ Calculus 0110: Introductory Calculus (Winter 2016) - Teaching Assistant
 </button>
 <div id="C110" style="display: none;">
 <p style="text-align: justify">
@@ -284,7 +284,7 @@ intended to help students with questions from the lectures or problem sets.
 </div> 
 
 <button onclick="myFunction('C1000')">
-➢ Calculus 1000: Calculus I (Fall 2015, Fall 2016)
+➢ Calculus 1000: Calculus I (Fall 2015, Fall 2016) - Teaching Assistant
 </button>
 <div id="C1000" style="display: none;">
 <p style="text-align: justify">
@@ -340,7 +340,7 @@ following courses.
 </p>
 
 <button onclick="myFunction('U:C2')">
-➢ Integral Calculus and Differential Equations
+➢ Integral Calculus and Differential Equations - Supporting Instructor
 </button>
 <div id="U:C2" style="display: none;">
 <p style="text-align: justify">
@@ -357,7 +357,7 @@ groups.
 
 
 <button onclick="myFunction('U:C3')">
-➢ Multivariate Calculus
+➢ Multivariate Calculus - Supporting Instructor
 </button>
 <div id="U:C3" style="display: none;">
 <p style="text-align: justify">
@@ -374,7 +374,7 @@ which is an advantage to use in a class of small groups.
 </div> 
 
 <button onclick="myFunction('U:BM')">
-➢ Mathematics for Biology and Medicine
+➢ Mathematics for Biology and Medicine - Supporting Instructor
 </button>
 <div id="U:BM" style="display: none;">
 <p style="text-align: justify">
@@ -398,7 +398,7 @@ assignments, exams and running tutorial sessions. I also had a major assistant r
    </p>
    
 <button onclick="myFunction('U:NA')">
-➢ Numerical Analysis and Complex Variables.
+➢ Numerical Analysis and Complex Variables - Teaching Assistant
 </button>
 <div id="U:NA" style="display: none;">
 <p style="text-align: justify">
@@ -432,7 +432,7 @@ instructors for the course.
  </p>
  
 <button onclick="myFunction('U:Pr')">
-➢ Probability
+➢ Probability - Instructor  
 </button>
 <div id="U:Pr" style="display: none;">
 <p style="text-align: justify">
@@ -449,7 +449,7 @@ participating.
 </div> 
 
 <button onclick="myFunction('U:Ma')">
-➢ Matrix Algebra and Linear Optimization
+➢ Matrix Algebra and Linear Optimization - Instructor
 </button>
 <div id="U:Ma" style="display: none;">
 <p style="text-align: justify">
@@ -485,13 +485,13 @@ sets.
 
 <p style="text-align: justify">
 The courses that I taught at this institution are the following.
-<br> ➢ Multivariate Calculus
-<br> ➢ Mathematical Logic
-<br> ➢ Linear Algebra.
+<br> ➢ Multivariate Calculus - Instructor
+<br> ➢ Mathematical Logic -  Instructor
+<br> ➢ Linear Algebra - Instructor
 </p>
 
 <p style="text-align: justify">
-I also was a secondary instructor providing independent tutorial sessions for reviewing lectures and problem-
+I also was a suppoprting instructor providing independent tutorial sessions for reviewing lectures and problem-
 solving to full-time students in the morning and afternoon programs in the following courses.
 <br> ➢ Integral Calculus
 <br> ➢ Differential Calculus
