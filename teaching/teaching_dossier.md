@@ -43,11 +43,13 @@ Updated: Oct 2023
   
 ## Brief Biography <a name="briefbiography"></a>
 <p style="text-align: justify"> 
-My teaching journey commenced in 2011 when I was a Master's student in Mathematics at the Universidad de los Andes. During this time, I served as a teaching assistant for several first and second-year courses. Following the completion of my Master's degree in 2013, I seized the opportunity to instruct several introductory courses at the Universidad de Los Andes and other esteemed universities in Bogotá, Colombia. These courses covered a wide spectrum, including subjects like Calculus, Algebra, Logic, and Probability.
+Teaching has always been a driving force behind my academic journey. After completing my Master's degree in Mathematics in 2013, I seized the opportunity to instruct introductory courses in Mathematics, which ignited my passion for teaching and inspired me to pursue a Ph.D. in Mathematics at the University of Western Ontario in 2015. Throughout my doctoral studies, I continued to expand my teaching experience by working as a teaching assistant for a diverse range of courses and actively contributing to the support of undergraduate while widening my teaching and professional portafolio. Since 2021, I've been a Visiting Assistant Professor at the University of Rochester, where I've had the privilege of teaching a variety of courses, including higher level courses. My passion for teaching is evident throughout this dossier, and I am committed to fostering the learning process of my students as I continue to advance in my academic career.
 
-In 2015, I embarked on my doctoral journey in Mathematics at the University of Western Ontario. Throughout my doctoral studies, I continued to expand my teaching experience by working as a teaching assistant for a diverse range of courses. Concurrently, I played an active role in the development of the Directed Reading Program at the Department of Mathematics. In this program, I mentored undergraduate students in engaging mathematical projects and supported their pursuit of majors in this field.
 
-Since 2021, I have had the privilege of serving as a Visiting Assistant Professor at the University of Rochester (NY). In this capacity, I have taught a variety of courses, including Topology, Abstract Algebra, Linear Algebra, and more. My diverse background and extensive teaching experience have equipped me to thrive as a dedicated educator. This passion for teaching is evident throughout this Dossier, and I am eager to continue refining my teaching skills as I progress in my academic career.
+
+
+
+
 </p>
 
 ## Teaching Philosophy <a name="teachingphilosphy"></a>
