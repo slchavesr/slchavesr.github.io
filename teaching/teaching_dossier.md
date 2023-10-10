@@ -42,7 +42,8 @@ Updated: Oct 2023
     
     
   
-## Brief Biography <a name="briefbiography"></a>
+# 1. Brief Biography <a name="briefbiography"></a>
+
 <p style="text-align: justify"> 
 Teaching has always been a driving force behind my academic journey. After completing my Master's degree in Mathematics in 2013, I seized the opportunity to instruct introductory courses in Mathematics, which ignited my passion for teaching and inspired me to pursue a Ph.D. in Mathematics at the University of Western Ontario in 2015. Throughout my doctoral studies, I continued to expand my teaching experience by working as a teaching assistant for a diverse range of courses and actively contributing to the support of undergraduate while widening my teaching and professional portafolio. Since 2021, I've been a Visiting Assistant Professor at the University of Rochester, where I've had the privilege of teaching a variety of courses, including higher level courses. My passion for teaching is evident throughout this dossier, and I am committed to fostering the learning process of my students as I continue to advance in my academic career.
 
@@ -53,7 +54,7 @@ Teaching has always been a driving force behind my academic journey. After compl
 
 </p>
 
-## Teaching Philosophy <a name="teachingphilosphy"></a>
+# 2. Teaching Philosophy <a name="teachingphilosphy"></a>
 <p style="text-align: justify"> 
 "What is mathematics?" is a question I always begin my undergraduate first-day class with. While some students may hold positive perceptions of mathematics, biases, negative images, and misconceptions remain common among undergraduates. These misconceptions include beliefs such as "Mathematics is a hard, challenging, and boring subject", "It is solely about finding and using formulas", "It's just a required course for my program", or "It's only about solving problems."
 
@@ -68,7 +69,7 @@ I view teaching as a comprehensive process that extends well beyond the confines
 
 **A more detailed Teaching Philosophy Statement can be accesed [here](https://schavesr.com/teaching/TS.pdf)**
 
-## Teaching Experience<a name="teachingexperience"></a>
+# 3. Teaching Experience<a name="teachingexperience"></a>
 
 <script>
 function myFunction(id) {
@@ -659,7 +660,7 @@ projects around the world.
 I have also been a tutor for High-school and College students supporting their learning experience in most of the courses in Mathematics and Statistics. I provide my help both in-person or online to students around the world. I started the <em> MathForce </em> project; a group providing math support to students in the London, ON. community by connecting high-school students and graduate math students.
 </p>
 
-# Teaching Effectiveness <a name="teachingef"> </a>
+# 4. Teaching Effectiveness <a name="teachingef"> </a>
 
 ## Formal Teaching Evaluations <a name="teachingev"> </a>
 
@@ -819,7 +820,7 @@ The complete review letter can be accessed <a href="https://schavesr.com/teachin
 
 
 
-# Curriculum Development <a name="curriculum"> </a>
+# 5. Curriculum Development <a name="curriculum"> </a>
 
 ## Teaching Innovations and Course Design <a name="coursedesign"> </a>
 
@@ -884,7 +885,7 @@ professional development degrees.
 </p>
 
 
-# Professional Development <a name="professional"> </a>
+# 6. Professional Development <a name="professional"> </a>
 
 <p style="text-align: justify">
 During 2019-2020 I pursued the  <a href="https://teaching.uwo.ca/programs/certificates/cutl.html"> Western Certificate in University Teaching  </a> to enhance my teaching career. It is
