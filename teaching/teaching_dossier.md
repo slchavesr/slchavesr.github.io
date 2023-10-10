@@ -456,7 +456,7 @@ as a study space with help on hand in case they get stuck on.
 ## Universidad de los Andes: Instructor and Teaching Assistant (2011-2015) <a name = "uniandes"> </a>
 
 <p style="text-align: justify"> 
-    <a href="https://matematicas.uniandes.edu.co"> I instructed at Universidad de los Andes, a top-10 private university in Colombia with a diverse student body representing the top 1% of high school graduates. The university provides robust financial support to students in need. In terms of teaching, I led first-year courses with over 200 students, divided into groups of about 35, each assigned to an instructor. Course coordination, scheduling, and exams were handled by the course coordinator, with instructors meeting two weeks before exams to discuss topics and suggest potential test problems. Typically, I taught 1.5-hour classes twice a week for 16 weeks to these smaller groups.
+   I instructed at  <a href="https://matematicas.uniandes.edu.co"> Universidad de los Andes </a>, a top-10 private university in Colombia with a diverse student body representing the top 1% of high school graduates. The university provides robust financial support to students in need. In terms of teaching, I led first-year courses with over 200 students, divided into groups of about 35, each assigned to an instructor. Course coordination, scheduling, and exams were handled by the course coordinator, with instructors meeting two weeks before exams to discuss topics and suggest potential test problems. Typically, I taught 1.5-hour classes twice a week for 16 weeks to these smaller groups.
 </p>
 
 <p style="text-align: justify">     
