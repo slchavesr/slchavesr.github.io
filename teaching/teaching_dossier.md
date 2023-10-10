@@ -11,6 +11,7 @@ layout: blank
 
 Updated: Oct 2023
 
+![OpenAI Logo](https://example.com/openai_logo.png "This is the OpenAI logo")
 
 
 # Contents
