@@ -663,8 +663,11 @@ I have also been a tutor for High-school and College students supporting their l
 
 # 4. Teaching Effectiveness <a name="teachingef"> </a>
 
-![Cloud word made out of my student's feedback](profword.jpg "Cloud word")
-
+<center>
+<figure>
+  <img src="/teaching/profword.jpg" alt="Sergio Chaves" />
+</figure>
+</center>
 
 ## Formal Teaching Evaluations <a name="teachingev"> </a>
 
