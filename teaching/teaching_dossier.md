@@ -662,6 +662,9 @@ I have also been a tutor for High-school and College students supporting their l
 
 # 4. Teaching Effectiveness <a name="teachingef"> </a>
 
+![](profword.jpg "Cloud word made out of my student's feedback")
+
+
 ## Formal Teaching Evaluations <a name="teachingev"> </a>
 
 ## Student Evaluations
