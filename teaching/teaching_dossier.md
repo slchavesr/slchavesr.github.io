@@ -970,9 +970,18 @@ The complete review letter can be accessed <a href="https://schavesr.com/teachin
 
 
 <p style="text-align: justify">
-I participated in the design of the the course Matrix Algebra and Linear Optimization at Universidad del
-Rosario for the new program on Business and Marketing.
+My stand on teaching innovation and course design revolves around flexibility, adaptability, and a student-centered approach. By carefully selecting materials, customizing content, diversifying assessment methods, leveraging technology, and maintaining a focus on the individual needs of each student, I aim to create a dynamic and effective learning environment that empowers students to reach their full potential while also providing accessible grading options to support their diverse learning journeys.
 </p> 
+
+<ol>
+        <li><strong>Curated Learning Materials:</strong> I believe in choosing appropriate textbooks and secondary materials for each course. These resources should align with the course's objectives and the needs of the students. Furthermore, I am committed to providing open-source options whenever possible, making education more accessible and affordable. Additionally, I often share archive files from previous homework and exams to help students review and practice.</li>
+        <li><strong>Tailored Learning Experiences:</strong> No two courses or audiences are the same. To ensure that each student's educational journey is as effective as possible, I focus on tailoring course objectives and content approaches to meet the unique needs of the audience. Getting to know the students prior to the semester is invaluable in this regard, allowing me to adapt my teaching methods and materials to maximize their learning outcomes.</li>
+        <li><strong>Diverse Assessment Methods:</strong> To assess students' understanding and promote critical thinking, I incorporate various types of exam questions. This includes open-response questions, multiple-choice, true-false, and answer-given problems. Allowing students to bring a page of notes to certain assessments can aid in their comprehension, encouraging them to synthesize key concepts rather than rote memorization.</li>
+        <li><strong>Integrated Technology:</strong> I recognize the importance of technology in the modern educational landscape. I actively use and encourage the integration of technology in my lectures and assignments. However, I also emphasize the balance between traditional teaching methods and technological tools. There are both benefits and drawbacks to relying heavily on technology, and I strive to find the optimal blend that enhances the learning experience.</li>
+        <li><strong>Accessible Grading:</strong> I understand that students may have diverse starting points, and it's crucial to provide options for accessible grading. This can include different calculation methods for the final grade or allowing the option to drop certain homework scores. These strategies ensure that every student feels they have the possibility to excel, regardless of their initial performance.</li>
+    </ol>
+
+
 <p style="text-align: justify">
     I also have a proposed <a href="https://schavesr.com/teaching/syllabus.pdf"> Syllabus </a> for a course in Transformation groups that I am looking forward to deliver for graduate students interested in my research areas.
 </p>
