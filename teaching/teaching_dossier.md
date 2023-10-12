@@ -839,6 +839,8 @@ These are some email communications sent by students directly to me after the co
 
 <em>
 <ul>
+    <li>Hello Professor, I was in your Calc 162 course and I just wanted to say thank you for being a great professor. I really appreciated how you would review concepts at the beginning of class and always asked us questions.I hope you have a good summer!
+</li>
     <li>I just wanted to say thank you for teaching me this semester. You helped me enjoy calculus and a big part of that is because you simplified the concepts very well. Your lectures and notes were so, so helpful. Appreciate you and I hope you enjoy your summer. I would love to TA this class, so please let me know how I can go about this. 
 </li>
 </ul></em>    
@@ -898,7 +900,71 @@ The complete review letter can be accessed <a href="https://schavesr.com/teachin
 
 # 5. Curriculum Development <a name="curriculum"> </a>
 
+## Teaching Style: How does one of my lecture's look like?
+
+ <p>My university lectures are designed to provide a structured and engaging learning experience for students. Here's how my lectures typically unfold:</p>
+    
+  <h2>Course Organization</h2>
+    <ul>
+        <li>I provide a clear course schedule with sections and suggested problems on the syllabus, ensuring that students have a roadmap for their learning journey. This organization promotes a sense of direction and purpose in the course.</li>
+    </ul>
+    <h2>Preparation</h2>
+    <ul>
+        <li>Before each lecture, I share reading notes with students. These notes give them an overview of what will be covered and highlight the learning outcomes of the day, allowing students to follow along more effectively. This pre-lecture preparation is like a compass, guiding students through the lecture content.</li>
+    </ul>
+
+  <h2>Technology Integration</h2>
+    <ul>
+        <li>To accommodate remote students, I use tools like Zoom for live sessions and provide lecture recordings. I also use a microphone to ensure that everyone can hear me clearly. In the age of technology, this integration enables seamless access to knowledge.</li>
+    </ul>
+
+  <h2>Engagement and Interaction</h2>
+    <ul>
+        <li>I start each lecture by checking if students have any questions or need clarification on previous topics. This immediate interaction empowers students to voice their concerns and fosters a sense of inclusivity in the learning process.</li>
+        <li>Throughout the lecture, I incorporate concept-check questions to encourage student participation. I use technological tools like Poll Everywhere to make it easy for students to interact and provide their responses. This real-time engagement transforms passive listeners into active learners.</li>
+    </ul>
+
+ <h2>Balance Between Theory and Practice</h2>
+    <ul>
+        <li>My lectures are carefully balanced between theoretical concepts and practical applications. I engage students with active learning strategies and sprinkle in a bit of humor to keep the atmosphere lively and enjoyable. This balance not only equips students with knowledge but also the ability to apply that knowledge in real-world scenarios.</li>
+    </ul>
+
+<h2>Assessment and Follow-up</h2>
+    <ul>
+        <li>At the end of the lecture, I suggest concept-check questions to reinforce learning. I allocate some time for students to answer final questions and encourage them to follow up during office hours or reach out to the Teaching Assistant (TA) for further assistance. This assessment and follow-up ensure that students don't just learn in class but also retain and apply what they've learned.</li>
+    </ul>
+
+   <h2>Resources for Reference</h2>
+    <ul>
+        <li>For students' convenience, I post clear lecture notes and recordings of the lecture for future reference. This ensures that they have access to the material whenever they need it. These resources are like a library of knowledge, available 24/7.</li>
+    </ul>
+
+ <h2>Guiding the Learning Journey</h2>
+    <ul>
+        <li>During the lecture, my role as a professor is crucial. I serve as the navigator of the learning journey. I guide students through the curriculum, helping them connect the dots between different concepts. I provide context, explain complex ideas, and ensure that students grasp the material.</li>
+        <li>My real-time feedback and interaction with students offer them the opportunity to seek clarification, voice their concerns, and engage in discussions. This open dialogue fosters a dynamic learning environment where students actively participate in their education.</li>
+    </ul>
+
+<h2>Facilitating Learning with Technology</h2>
+    <ul>
+        <li>The integration of technology, including Zoom and Poll Everywhere, enhances the learning experience. It breaks down barriers between physical and virtual students, making education accessible to all. It also makes learning more engaging, as students can actively participate using their devices.</li>
+    </ul>
+
+ <h2>Cultivating a Lifelong Learning Mindset</h2>
+    <ul>
+        <li>Through balanced lectures that blend theory and practice, I instill a lifelong learning mindset in students. They not only acquire knowledge but also the skills and confidence to keep learning beyond the classroom. They understand that education is not limited to a specific course but a continuous journey.</li>
+    </ul>
+
+    <h2>Empowering Students</h2>
+    <ul>
+        <li>Ultimately, my goal is to empower students. By providing clear organization, engaging lectures, and accessible resources, I enable students to take control of their education. I equip them with the knowledge and tools they need to succeed, both in the course and in their future endeavors.</li>
+    </ul>
+
+
 ## Teaching Innovations and Course Design <a name="coursedesign"> </a>
+
+
+
 
 <p style="text-align: justify">
 I participated in the design of the the course Matrix Algebra and Linear Optimization at Universidad del
