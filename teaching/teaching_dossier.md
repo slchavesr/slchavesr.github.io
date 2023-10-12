@@ -730,8 +730,8 @@ series unit much easier to understand</li>
 </ul>
 </p>
 
-<p style="text-align: justify">
 ## Student Evaluations at Universidad de Los Andes
+
 <p style="text-align: justify">
 At the Universidad de los Andes, instructor performance is evaluated by the students under the following
 categories. Scored discretely from 1 to 4, representing strongly disagree, disagree, agree and strongly agree
