@@ -39,6 +39,7 @@ Updated: Oct 2023
 6. [Professional Development](#professional)
     1. [Courses and Programs on Teaching](#courses)
     2. [Teaching Workshops and Conferences](#conferences)
+7. [Sample Materials](#sample)
     
     
   
@@ -91,9 +92,8 @@ function myFunction(id) {
 <div id="M140" style="display: none;">
 <p style="text-align: justify">
 
-This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+This first-year precalculus course is designed for students making the transition from high school to college, with the primary goal of establishing essential mathematical foundations required for later exploration of the Calculus series. The curriculum encompasses a comprehensive study of fundamental topics, including numerical arithmetic, polynomial operations, factorization, equation solving, inequalities, function concepts, graphical representations, as well as an introduction to exponential and trigonometric functions. Additionally, the course serves as a valuable placement option for students who may feel less prepared to proceed directly into Calculus I, offering them the opportunity to enroll during the first month of classes.
 
-In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
 
  </p>
 </div> 
@@ -105,9 +105,7 @@ In addition to the core course, a group of 5 students participates in the "Writt
 <div id="M150s" style="display: none;">
 <p style="text-align: justify">
 
-This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
-
-In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+This discrete mathematics course was delivered online and featured an intensive schedule, with four-hour lectures held on four days each week during the Summer. Geared towards students pursuing a comprehensive understanding of discrete mathematical concepts, the course covered a wide array of topics. These included logic, sets, relations, functions, combinatorics, graph theory, and mathematical proof techniques. It provided a robust foundation in the principles and techniques essential for various computer science and mathematics applications, equipping students with the knowledge and skills to tackle complex problems in the field.
 
  </p>
 </div> 
@@ -119,10 +117,9 @@ In addition to the core course, a group of 5 students participates in the "Writt
 <div id="M236WM" style="display: none;">
 <p style="text-align: justify">
 
-This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+This second-year course introduces students to the field of Abstract Algebra in mathematics.  The main topics covered include groups, Sylow theorems, rings, polynomial, factorization and introduction of Galois theory. The course is attended by a group of 15-20 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
 
-In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
-
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications and further directions of Abstract Algebra.
  </p>
 </div> 
 
@@ -133,9 +130,8 @@ In addition to the core course, a group of 5 students participates in the "Writt
 <div id="M150" style="display: none;">
 <p style="text-align: justify">
 
-This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+In this first-year mathematics course, students majoring in mathematics and computer science explore the essential properties of discrete objects. The curriculum spans a range of crucial topics, including logic, set theory, mathematical proofs, combinatorics, algorithms, sequences, and recursions. Notably, Students were tasked with submitting both written homework and webwork problems on a weekly basis. The full-semester class usually ranges between 100-200 students divided into 2 or 3 sections. I was in charge of one section each semester coordinating homework and exams with other instructors.
 
-In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
 
  </p>
 </div> 
@@ -147,9 +143,8 @@ In addition to the core course, a group of 5 students participates in the "Writt
 <div id="M165" style="display: none;">
 <p style="text-align: justify">
 
-This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+This course explores differential equations and motivates the study of linear algebra as an important field to help solving certain differential equations. The main topics covered are first-order differential equations, matrix algebra, row echelon form, null and column spaces, inverses and determinants, Eigenvalues and eigenvectors, and applications to solving higher-order linear differential equations. 
 
-In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
 
  </p>
 </div> 
@@ -161,38 +156,34 @@ In addition to the core course, a group of 5 students participates in the "Writt
 <div id="M141" style="display: none;">
 <p style="text-align: justify">
 
-This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
-
-In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+This Calculus I course was delivered online and featured an intensive schedule to a small group of 10 students, with four-hour lectures held on four days each week during the Summer. Geared towards students pursuing mathematical concepts and skills at a slower and more accessible pace. The course covered a wide array of topics, including functions, limits, continuity, theoretical and practical applications of derivatives and calculus techniques. The course used Webwork as the homework management system to reinforce student learning and preparing them for the exams.
 
  </p>
 </div> 
 
-<button onclick="myFunction('M162')">
+<button onclick="myFunction('M240')">
 ➢ Mathematics 240HWM:  Honors Introduction to Topology with written Module  (Winter 2022)  - Instructor
+</button>
+
+<div id="M240" style="display: none;">
+<p style="text-align: justify">
+
+This second-year honor course introduces students to the field of Topology in mathematics.  The main topics covered include topological spaces, continuous functions, metric spaces, compactness, connectedness, homotopy and the fundamental group. The course is attended by a group of 15-20 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
+
+In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications and further directions of Topology.
+
+ </p>
+</div> 
+
+
+<button onclick="myFunction('M162')">
+➢ Mathematics 162:  Calculus II (Spring 2022)  - Instructor
 </button>
 
 <div id="M162" style="display: none;">
 <p style="text-align: justify">
 
-This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
-
-In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
-
- </p>
-</div> 
-
-
-<button onclick="myFunction('M162')">
-➢ Mathematics 162:  Calculus II (Winter 2022)  - Instructor
-</button>
-
-<div id="M235WM" style="display: none;">
-<p style="text-align: justify">
-
-This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
-
-In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+This first-year course explores Integral Calculus and emphasizes practice in the mathematical techniques used in science and engineering. This is the standard calculus course taught at most universities, principally to students planning to major in mathematics, computer science, physics, chemistry, or engineering. The main topics include: Techniques of Integration, Applications to areas and volumes, Parametric and Polar equations, Sequences, Series and Power series.
 
  </p>
 </div> 
@@ -215,12 +206,10 @@ In addition to the core course, a group of 5 students participates in the "Writt
 ➢ Mathematics 142: Calculus II (Fall 2021)  - Instructor
 </button>
 
-<div id="M235WM" style="display: none;">
+<div id="M142" style="display: none;">
 <p style="text-align: justify">
 
-This second-year course explores Linear Algebra with a strong focus on theory and proof-based methods, as a direct continuation of a course on Matrix methods. The main topics covered include Vector spaces, linear independence, bases, linear transformations, matrix representation, orthogonality, and inner-products. The course is attended by a group of 35-40 students, meeting twice a week, and assessment is based on weekly written homework, midterms, and exams.
-
-In addition to the core course, a group of 5 students participates in the "Written Module" component. In this module, alongside the regular coursework, students work on two independent projects related to the practical applications of linear algebra while also developing LaTeX skills during the semester.
+This first-year course is a continuation from the slower-paced Calculus-1. It extends on the derivative concepts towards integration. It mainly covers: Applications of derivatives, anti-derivatives, techniques of integration, areas and volumes and improper integrals.
 
  </p>
 </div> 
