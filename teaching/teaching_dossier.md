@@ -665,7 +665,7 @@ Summary (average out of 5) of teaching evaluations at the University of Rocheste
 
 ### Fall 2021 - Spring 2022
 
-| Category | MATH 142 2                                                                                                                                                                                         |  MATH 235 3  |  MATH 162 2  |  MATH 240H 2  |  MATH 141 1  |
+| Category | MATH 142 2   |  MATH 235 3  |  MATH 162 2  |  MATH 240H 2  |  MATH 141 1  |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------:|:------------:|:-------------:|:------------:|
 | The exams/assignments covered important aspects of the course.                                                                                                                                     |  4.6         |  4.7         |  4.1          |  4.8         |  4.2  |
 | The assignments were helpful in understanding the material.                                                                                                                                        |  4.2         |  4.6         |  3.8          |  4.7         |  3.9  |
@@ -729,6 +729,7 @@ questions and he would explain anything we didn't understand. Prof. Chaves would
 series unit much easier to understand</li>
 </ul>
 </p>
+
 <p style="text-align: justify">
 ## Student Evaluations at Universidad de Los Andes
 <p style="text-align: justify">
@@ -832,6 +833,14 @@ of the course. The aspects of assessment for teaching assistant and the respecti
 ## Informal Teaching Evaluations <a name="infteachev"> </a>
 
 <p style="text-align: justify">
+
+These are some email communications sent by students directly to me after the course is over
+
+<em>
+<ul>
+    <li>I just wanted to say thank you for teaching me this semester. You helped me enjoy calculus and a big part of that is because you simplified the concepts very well. Your lectures and notes were so, so helpful. Appreciate you and I hope you enjoy your summer. I would love to TA this class, so please let me know how I can go about this. 
+</li>
+</ul></em>    
 These comments are obtained from the Facebook group “Courses that you should take” for students at the
 Universidad de Los Andes:
 <em>
