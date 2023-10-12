@@ -659,7 +659,7 @@ I have also been a tutor for High-school and College students supporting their l
 
 ## Formal Teaching Evaluations <a name="teachingev"> </a>
 
-## Student Evaluations
+## Student Evaluations at the University of Rochester
 
 Summary (average out of 5) of teaching evaluations at the University of Rochester. This questionary assesses
 
@@ -715,6 +715,22 @@ Summary (average out of 5) of teaching evaluations at the University of Rocheste
 
 
 
+<p style="text-align: justify">
+Some Comments written in these evaluations are the following
+    <ul>
+        <li> Prof Chaves is SUCH A GREAT PROFESSOR. Not only are his explanations clear and concise, the examples he provide in office hours help me understand so much. He is also extremely approachable outside of class. I'd definitely take a class with him again! </li>
+<li>Professor Chaves is one of my favorite professors from my time at U of R. He has a great understanding of the material he teaches and provides that understanding in an approachable way for his students to understand. The material was challenging, but Prof. Chaves saw us through.</li>
+<li>Professor Chaves was very well organized throughout the semester and made it easy to access and learn content through his lectures, zooms, and wellkept notes. Homeworks were well-designed to help guide students in learning and refining their Linear Algebra skills. He seemed to keep right on pace, if not ahead of schedule, for the class while still being sure to thoroughly cover each topi</li>
+<li>He was willing to work with me outside of class multiple times each week to go over homework problems and other questions I had, and for that I will b
+e forever grateful. He was always very accommodating with his office hours schedule, and I definitely would not have gotten through the course if I did n
+ot have him as my instructor.</li>
+        <li>Prof. Chaves is a great lecturer and I also appreciated how organized the posted notes were. In class, Prof. Chaves always made sure to have us answer
+questions and he would explain anything we didn't understand. Prof. Chaves would also go over previous concepts to start the lecture, which made the
+series unit much easier to understand</li>
+</ul>
+</p>
+<p style="text-align: justify">
+## Student Evaluations at Universidad de Los Andes
 <p style="text-align: justify">
 At the Universidad de los Andes, instructor performance is evaluated by the students under the following
 categories. Scored discretely from 1 to 4, representing strongly disagree, disagree, agree and strongly agree
