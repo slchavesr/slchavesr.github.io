@@ -1001,29 +1001,25 @@ In 2021, I created over 50 Lecture Videos for the course Mathematics 1225 (Metho
 ## Question Design and Technology Use <a name="questions"> </a>
 
 <p style="text-align: justify">
-I designed and created over 500 questions in WeBWork to support the delivery of the <em> Mathematical Structures </em> course at Western during 2020. I implemented the questions in several formats (multiple choice, true/false, etc) focusing in adding several layers of randomization to fight against academic offenses. I created questions for Logic, Set theory, Introductory number theory, combinatorics and Linear Algebra that might be added to the Open Problem Library in Webwork.
-</p>
+My mathematical question creation stance has been marked by a dedication to originality, the effective use of technology, the sharing of resources, and a commitment to improving mathematical education on both a local and national scale. I believe that the art of crafting questions is an integral part of helping students unlock the beauty and power of mathematics</p>
 
+<p>In my commitment to developing quality mathematical questions, I adhere to the following principles:</p>
+
+ <h3>Originality and Content Alignment</h3>
+<p>I prioritize originality while ensuring that the questions align with the content delivered in lectures and assignments. This approach keeps the assessment relevant to the course material.</p>
+<h3>Webwork and Randomization</h3>
+<p>Webwork is my preferred platform for creating questions due to its ability to introduce layers of randomization and provide immediate feedback. This system enhances both homework and exam experiences, promoting deeper understanding and retention of the subject matter.</p>
+<h3>Question Pool and Tutorial Documents</h3>
+<p>I maintain an extensive pool of questions in Webwork, creating over 500 questions in various mathematical areas. These questions have led to the development of tutorial documents that have proven invaluable to fellow instructors interested in utilizing the system.</p>
+<h3>Collaboration and Outreach</h3>
+<p>I am dedicated to helping colleagues from other institutions adopt Webwork, guiding them through system installation and question creation. Notably, I supported the Colombian group "Lema" in their efforts to implement Webwork in the Spanish language.</p>
+<h3>ICFES Mathematical Question Bank</h3>
+<p>Additionally, I served as a designer and reviewer for the bank of mathematical questions at the Colombian Institute for the Assessment of Education (ICFES). This institution is responsible for developing standardized exams used for assessing students in Colombia. I contributed by creating innovative questions and evaluating previously created questions to ensure they met high standards of versatility, reliability, and validity, aligning with the rigorous requirements of the ICFES exams.</p>
 
 <p style="text-align: justify">
 I am currently working on the joint use of WeBWork with other open source projects as <a href="https://www.geogebra.org/">GeoGebra</a>, <a href="https://www.sagemath.org/">SageMath</a>, <a href="https://pretextbook.org/">PreText </a> and <a href="https://rederly.com/"> Rederly </a>. as well as fostering the use of these tools in Colombia by helping with demonstrating the use of the software and with their translations together with the <a href="https://www.grupolema.org/">Grupo Lema</a>. I am currently have a tutorial (both in English and Spanish) in progress on WeBWork question creation providing some templates and macros on how to effectively type new questions in WeBWork and integrating with other software. A preliminary version can be accessed <a href="https://schavesr.com/teaching/webwork.pdf"> here </a>.
 </p>
 
-<p style="text-align: justify">
-During 2014 I worked as a designer and reviewer for the bank of mathematical questions at the Colombian
-Institute for the Assessment of Education ICFES. This institution is the Colombian public entity in charge
-of developing, implementing, facilitating and applying the standardized exams to students prior to
-graduating from elementary, middle and high-school across the Country. The ICFES test (nowadays renamed to Saber-11) is nationally
-recognized as the most important test in Colombia since it qualifies students according to their actual
-academic skills and therefore it can affect the possibilities that a student might have to be accepted in
-College.
-</p>
-
-<p style="text-align: justify">
-I worked in the mathematical group for creating innovative questions and assessing questions created a
-couple of years back by other instructors. Due to the nature of the exams, these questions must meet high
-standards in terms of versatility, reliability and validity.
-</p>
 
 ## Self-Reflection on Teaching Mathematics <a name="selfreflection"> </a>
 
