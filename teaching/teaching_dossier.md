@@ -6,7 +6,7 @@ layout: blank
 <center> <h1> Sergio Chaves</h1> </center>
 
 <p>
-<a href="#" class="scrollUpButton">▲</a>
+<a href="#" class="scrollUpButton">Go to top ▲</a>
 </p>
 
 Updated: Oct 2023
