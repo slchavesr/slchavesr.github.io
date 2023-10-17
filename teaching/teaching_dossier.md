@@ -9,8 +9,9 @@ layout: blank
 <a href="#" class="scrollUpButton">Go to top ▲</a>
 </p>
 
-Updated: Oct 2023
-This Teaching Dossier is best viewed on its online version, available [here].(https://schavesr.com/teaching/teaching_dossier/)
+Updated: Oct 2023.
+
+This Teaching Dossier is best viewed on its online version, available [here](https://schavesr.com/teaching/teaching_dossier/)
 
 
 # Contents
