@@ -39,6 +39,7 @@ Updated: Oct 2023
 6. [Professional Development](#professional)
     1. [Courses and Programs on Teaching](#courses)
     2. [Teaching Workshops and Conferences](#conferences)
+7. [Diversity, Equity and Inclusion Statement](#dei)
 7. [Sample Materials](#sample)
     
     
@@ -83,7 +84,7 @@ function myFunction(id) {
 }
 </script>
 
-## University of Rochester: Assistant Professor
+## University of Rochester: Assistant Professor <a name="teachingexperience"></a>
 
 <button onclick="myFunction('M140')">
 ➢ Mathematics 140:  Precalculus (Fall 2023)  - Instructor
@@ -601,32 +602,23 @@ solving to full-time students in the morning and afternoon programs in the follo
 
 ## Mentoring Students <a name="mentor"> </a>
 
+<h3> Directed Reading Programs </h3>
 
-<p style="text-align: justify">
-I participated in the <a href="https://www.math.uwo.ca/undergraduate/directed_reading_program.html"> Directed Reading Program at Western University </a>. The Directed Reading Program (DRP) pairs undergraduate students with graduate students/junior faculty to undertake
-independent study projects. It is intended to help motivated students to explore topics more deeply than in
-a classroom setting.
-</p>
+The directed reading program (DRP) is an educational initiative that allows students to engage in independent, guided study of advanced mathematical topics under the supervision and mentorship of a faculty member or graduate student. The primary goal of a DRP is to provide undergraduate students with the opportunity to explore mathematics beyond their regular coursework and develop their mathematical skills and understanding. I have participated in the following directed reading programs:
 
 
 <p style="text-align: justify">
-The duration of the project was of one academic semester, which is roughly thirteen weeks. Undergraduates
-can apply for DRP positions in the beginning of each term and those who are selected will be paired with
-mentors according to their mathematical interests and availability. The projects are based around the self-
-paced reading of a particular book or article with substantial guidance from the mentor, and the specific
-topic arrives by discussion of common interests between the mentor and the mentee.
-</p>
-
-<p style="text-align: justify">
-My mentee was an engineering student passionate about mathematics, yet unsure about pursing a math
+<b> University of Western Ontario: </b>  <a href="https://www.math.uwo.ca/undergraduate/directed_reading_program.html"> (Website) </a>. I had the opportunity to work with an  engineering student passionate about mathematics, yet unsure about pursing a math
 major. My mentee and I worked on a geometrical approach to the Poincaré-Hopf theorem for surfaces in
 the 3-dimensional space. The followed reference was Firby, Peter A., and Cyril F. Gardiner. Surface
 topology. Elsevier, 2001. By the end of the term, my mentee was able to understand and explain the Euler
 Characteristic and the proof of the index theorem using a geometrical approach; moreover, he decided to
-completely dedicate to pursue his Major in mathematics after the discussions, advises and suggestions that
-I gave to him during our meetings. On Winter 2020 we continued working on a reading course in
+completely dedicate to pursue his Major in mathematics after the program, ended up transferring to UBC next Fall. On Winter 2020 we continued working on a reading course in
 Topological Manifolds following the classical book of Lie, extending the material from the DRP project.
 </p>
+
+
+
 
 ## Other relevant Teaching experience <a name="other"> </a>
 
