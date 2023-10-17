@@ -10,7 +10,7 @@ layout: blank
 </p>
 
 Updated: Oct 2023
-
+This Teaching Dossier is best viewed on its online version, available [here].(https://schavesr.com/teaching/teaching_dossier/)
 
 
 # Contents
@@ -32,14 +32,15 @@ Updated: Oct 2023
     2. [Informal Teaching Evaluations](#infteachev)
     3. [Peer's Evaluations](#peer)
 5. [Curriculum Development](#curriculum)
-    1. [Teaching Innovation and Course Design](#coursedesign)
-    2. [Lecture Videos Creation](#video)
-    3. [Question design and technology use](#questions)
-    4. [Reflection on teaching Mathematics](#selfreflection)
-6. [Professional Development](#professional)
+    1. [Teaching Methods and style](#style)
+    2. [Teaching Innovation and Course Design](#coursedesign)
+    3. [Teaching Online](#video)
+    4. [Technology use and Question Design](#questions)
+    5. [Reflection on teaching Mathematics](#selfreflection)
+7. [Professional Development](#professional)
     1. [Courses and Programs on Teaching](#courses)
     2. [Teaching Workshops and Conferences](#conferences)
-7. [Diversity, Equity and Inclusion Statement](#dei)
+8. [Diversity, Equity and Inclusion Statement](#dei)
 7. [Sample Materials](#sample)
     
     
@@ -638,7 +639,7 @@ Topological Manifolds following the classical book of Lie, extending the materia
 <h3> Training Teaching Assistants </h3>
 
 <p style="text-align: justify">
-    At the University of Rochester, I have the role of introducing new teaching assistant (undergraduate and graduate students) to the methodologies and practices of the department. Namely, workshops on how to browse in Webwork, Gradescope, Blackboard; use the interface of these systems, personalize, upload and grade student work, send emails among other features. These workshops have also been of help to colleages in the department.
+    At the University of Rochester, I have had a trainer role for both undergraduate and graduate teaching assistants in the methodologies and practices of the department. This includes workshops on essential tasks such as navigating Webwork, Gradescope, and Blackboard, using their interfaces, customizing settings, uploading and grading student work, and sending emails, among other features. These workshops have not only benefitted teaching assistants but have also been valuable to colleagues within the department.
 </p>
 
 <p style="text-align: justify">
@@ -646,13 +647,13 @@ In 2019-2020 as a Senior graduate student, I was also tasked the supervision and
 </p>
 
 <p style="text-align: justify">
-I have also written a documentation on the art of creating problems into Webwork, including companion files to facilitate the creation of problems in this plataform. The documentation also includes some basics of the PERL language that I taught myself when learning webwork. This tutorial have helped the mathematatical community at several universities.
+I have authored comprehensive documentation on creating problems within Webwork, which includes companion files to facilitate problem creation within the platform. This documentation also covers the basics of the PERL programming language, which I self-learned while working with Webwork. This tutorial has proven to be a valuable resource for the mathematical community at various universities.
 </p>
 
 
 <h3> Recommendation Letters </h3>
 <p style="text-align: justify">
-I am always happy to write a recommendation letter for a student that has had any interaction with me (taking classes, being a teaching assistang or working in a reading project).   I have been reached out from undergraduate students of all levels to write recommendation letters for Transferring schools, pursuing graduate school or applying to a scolarship or internship.
+I am always delighted to provide recommendation letters for students who have interacted with me in various capacities, whether through coursework, teaching assistant roles, or collaborative reading projects. I have received requests from undergraduate students at all levels, seeking recommendations for purposes such as transferring schools, pursuing graduate studies, or applying for scholarships and internships.
 </p>
 
 <h3>Volunteering and Commmunity Service </h3>
@@ -679,7 +680,8 @@ I have also been a tutor for High-school and College students supporting their l
 
 ## Formal Teaching Evaluations <a name="teachingev"> </a>
 
-## Student Evaluations at the University of Rochester
+<h3>Student Evaluations at the University of Rochester
+</h3>
 
 Summary (average out of 5) of teaching evaluations at the University of Rochester. This questionary assesses
 
@@ -749,7 +751,8 @@ series unit much easier to understand</li>
 </ul>
 </p>
 
-## Student Evaluations at Universidad de Los Andes
+<h3> Student Evaluations at Universidad de Los Andes
+</h3>
 
 <p style="text-align: justify">
 At the Universidad de los Andes, instructor performance is evaluated by the students under the following
@@ -920,7 +923,7 @@ The complete review letter can be accessed <a href="https://schavesr.com/teachin
 
 # 5. Curriculum Development <a name="curriculum"> </a>
 
-## Teaching Methods and Innovation <a name="style"> </a>
+## Teaching Methods and style <a name="style"> </a>
 
 <p>My lectures and teaching style are designed to provide a structured and engaging learning experience for students. Here's how my lectures typically unfold:</p>
 
@@ -996,7 +999,9 @@ My stand on teaching innovation and course design revolves around flexibility, a
 <ol>
         <li><strong>Curated Learning Materials:</strong> I believe in choosing appropriate textbooks and secondary materials for each course. These resources should align with the course's objectives and the needs of the students. Furthermore, I am committed to providing open-source options whenever possible, making education more accessible and affordable. Additionally, I often share archive files from previous homework and exams to help students review and practice.</li>
         <li><strong>Tailored Learning Experiences:</strong> No two courses or audiences are the same. To ensure that each student's educational journey is as effective as possible, I focus on tailoring course objectives and content approaches to meet the unique needs of the audience. Getting to know the students prior to the semester is invaluable in this regard, allowing me to adapt my teaching methods and materials to maximize their learning outcomes.</li>
-        <li><strong>Diverse Assessment Methods:</strong> To assess students' understanding and promote critical thinking, I incorporate various types of exam questions. This includes open-response questions, multiple-choice, true-false, and answer-given problems. Allowing students to bring a page of notes to certain assessments can aid in their comprehension, encouraging them to synthesize key concepts rather than rote memorization.</li>
+        <li><strong>Diverse Assessment Methods:</strong> To assess students' understanding and promote critical thinking, I incorporate various types of exam questions. This includes open-response questions, multiple-choice, true-false, and answer-given problems. Allowing students to bring a page of notes to certain assessments can aid in their comprehension, encouraging them to synthesize key concepts rather than rote memorization. </li>
+<li><strong> Benefits of Oral-examinations:</strong> In small group classes, I have found that integrating one-on-one final examinations serves as an effective and valuable assessment method. These assessments not only evaluate a student's knowledge but also encourage active participation, thoughtful discussion, and foster a welcoming and accommodating learning environment. By engaging students individually, this approach enables personalized feedback, in-depth understanding of the subject matter, and the opportunity for students to express their thoughts and ideas with confidence. It also minimizes the risk of academic dishonesty and eases the stress associated with traditional written exams.
+</li>
         <li><strong>Integrated Technology:</strong> I recognize the importance of technology in the modern educational landscape. I actively use and encourage the integration of technology in my lectures and assignments. However, I also emphasize the balance between traditional teaching methods and technological tools. There are both benefits and drawbacks to relying heavily on technology, and I strive to find the optimal blend that enhances the learning experience.</li>
         <li><strong>Accessible Grading:</strong> I understand that students may have diverse starting points, and it's crucial to provide options for accessible grading. This can include different calculation methods for the final grade or allowing the option to drop certain homework scores. These strategies ensure that every student feels they have the possibility to excel, regardless of their initial performance.</li>
     </ol>
@@ -1011,14 +1016,14 @@ assignments and quizzes considering the topics covered in class and the most ben
 students to prepare for their exams. In particular, I thrive for using technological tools into math teaching. I advocate for open source projects and the use of interactive blackboards when teaching mathematics.
 </p>
 
-## Lecture Videos Creation <a name="video"> </a>
+## Online Teaching <a name="video"> </a>
 
 <p style="text-align: justify">
 In 2021, I created over 50 Lecture Videos for the course Mathematics 1225 (Methods of Calculus) at Western University to support the delivery of asynchronous Lectures for hundreds of students enrolled at this course.  A YouTube reproduction list with a sample of these videos can be found <a href="https://www.youtube.com/playlist?list=PLKRwXr3FMlQZ4SPaBx0XWs4VPbMTuGrRv"> here </a>.
 </p>
 
 
-## Question Design and Technology Use <a name="questions"> </a>
+## Technology use and Question Design <a name="questions"> </a>
 
 <p style="text-align: justify">
 My mathematical question creation stance has been marked by a dedication to originality, the effective use of technology, the sharing of resources, and a commitment to improving mathematical education on both a local and national scale. I believe that the art of crafting questions is an integral part of helping students unlock the beauty and power of mathematics</p>
