@@ -602,13 +602,26 @@ solving to full-time students in the morning and afternoon programs in the follo
 
 ## Mentoring Students <a name="mentor"> </a>
 
-<h3> Directed Reading Programs </h3>
+<h3> Summer projects and Undergraduate dissertation </h3>
 
+<p style="text-align: justify">
+During the Summer 2023, I worked with some of the students from my Abstract Algebra class from the Spring 2022 in applications of group theory to combinatorics problems. An extension of the connection between counting colored neckalces and Lyndown words was explored from a mathematical and computational prespective.
+</p>
+<p style="text-align: justify">
+In particular, one of the directions explored included the relationship of these combinatorial problems with Cohomology of certain polyhedral product actions. The project is serving as a dissertation project for one students aiming to graduate by Summer 2024.
+</p>
+
+<h3> Directed Reading Programs </h3>
+<p style="text-align: justify">
 The directed reading program (DRP) is an educational initiative that allows students to engage in independent, guided study of advanced mathematical topics under the supervision and mentorship of a faculty member or graduate student. The primary goal of a DRP is to provide undergraduate students with the opportunity to explore mathematics beyond their regular coursework and develop their mathematical skills and understanding. I have participated in the following directed reading programs:
+</p>
+<p style="text-align: justify">
+<b> Pares Ordenados Program - Spring 2023 </b>  <a href="[https://www.math.uwo.ca/undergraduate/directed_reading_program.html](https://ninyam.github.io/paresordenados/index)"> (Website in Spanish) </a>. Pares Ordenados (ordered pairs in Spanish) it is a recently developed directed reading program targeted to foster mathematical learning to latin-american students that identify themselves as a minority. The program is run in an online format, conducted in Spanish, connecting undergraduate students from underrepresented groups in mathematics in the region with Faculty and graduate students across the world. My mentee was a student from Universidad del Valle, Colombia, intersted in learning algebraic topology. He faced challenges accessing to qualify faculty in their home university and the program was a fit for him. Topics such as the fundamental group, homotopy theory and homology where explored during the program and a project on the applications of algebraic topology tools into solving mathematical problems was developed. The project was selected in the poster session at the Colombian Congress of Mathematics in the same year.
+</p>
 
 
 <p style="text-align: justify">
-<b> University of Western Ontario: </b>  <a href="https://www.math.uwo.ca/undergraduate/directed_reading_program.html"> (Website) </a>. I had the opportunity to work with an  engineering student passionate about mathematics, yet unsure about pursing a math
+<b> University of Western Ontario DRP - Fall 2019 </b>  <a href="https://www.math.uwo.ca/undergraduate/directed_reading_program.html"> (Website) </a>. I had the opportunity to work with an  engineering student passionate about mathematics, yet unsure about pursing a math
 major. My mentee and I worked on a geometrical approach to the Poincaré-Hopf theorem for surfaces in
 the 3-dimensional space. The followed reference was Firby, Peter A., and Cyril F. Gardiner. Surface
 topology. Elsevier, 2001. By the end of the term, my mentee was able to understand and explain the Euler
@@ -620,14 +633,29 @@ Topological Manifolds following the classical book of Lie, extending the materia
 
 
 
-## Other relevant Teaching experience <a name="other"> </a>
+## Other relevant Teaching and Training experience <a name="other"> </a>
+
+<h3> Training Teaching Assistants </h3>
 
 <p style="text-align: justify">
-In 2019-2020 as a Senior graduate student, I was in charge of the supervision and training of recent graduate students in the use of the online grading systems used by the deparment: CrowdMark, GradeScope and WebWork.
+    At the University of Rochester, I have the role of introducing new teaching assistant (undergraduate and graduate students) to the methodologies and practices of the department. Namely, workshops on how to browse in Webwork, Gradescope, Blackboard; use the interface of these systems, personalize, upload and grade student work, send emails among other features. These workshops have also been of help to colleages in the department.
 </p>
+
 <p style="text-align: justify">
-During the last years, I have been involved in online teaching, both collaborating in the department and enhancing personal goals. I have created videos, written solutions for textbook problems and providing help to students in online tutoring plataforms as <em> Numerade </em> and <em> OneClass</em>.
+In 2019-2020 as a Senior graduate student, I was also tasked the supervision and training of recent graduate students in the use of the online grading systems used by the deparment: CrowdMark, GradeScope and WebWork.
 </p>
+
+<p style="text-align: justify">
+I have also written a documentation on the art of creating problems into Webwork, including companion files to facilitate the creation of problems in this plataform. The documentation also includes some basics of the PERL language that I taught myself when learning webwork. This tutorial have helped the mathematatical community at several universities.
+</p>
+
+
+<h3> Recommendation Letters </h3>
+<p style="text-align: justify">
+I am always happy to write a recommendation letter for a student that has had any interaction with me (taking classes, being a teaching assistang or working in a reading project).   I have been reached out from undergraduate students of all levels to write recommendation letters for Transferring schools, pursuing graduate school or applying to a scolarship or internship.
+</p>
+
+<h3>Volunteering and Commmunity Service </h3>
 
 <p style="text-align: justify">
 During 2015 I volunteered as instructor of conversational basic Spanish for students travelling to
