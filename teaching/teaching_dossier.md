@@ -904,6 +904,8 @@ This comments was sent by a students when working with them in regular one-to-on
     
 ## Peer Evaluations from Class Observations <a name="peer"> </a>
 
+The following are comments from observer Graduate students attending one of my lectures during the Teaching Mentor Program (2019) at Western University.
+
 <p style="text-align: justify">
     <em>
 “Excellent usage of Audio-Visual aids to facilitate learning. Superior Enthusiasm displayed in delivering
@@ -1040,7 +1042,6 @@ students to prepare for their exams. In particular, I thrive for using technolog
 
 <p style="text-align: justify">Having taught both entirely online and blended courses, with over 200 YouTube videos, I have observed that online teaching holds distinct advantages in specific scenarios. However, I also acknowledge the profound legacy of the classical blackboard-and-chalk setup that has served education for centuries. I believe in promoting and preserving this time-tested method, especially when it remains a highly effective teaching approach, so I reserve this method to certain higher-level classes or topics.</p>
 
-</p>
 
 
 ## Technology use for Question Design <a name="questions"> </a>
@@ -1223,3 +1224,23 @@ professional development as graduate students.
     
 </ul>
  </p>
+
+ # 7. Diversity, Equity and Inclusion Statement <a name="dei"> </a>
+<p style="text-align: justify">
+Throughout my personal and professional experience, I recognize the importance of fostering diversity, equity, and inclusion within the academic community. As a first-generation college graduate, studying in a private-university under a full-scholarship, and pursuing a doctorate in a culturally diverse country yet still a visible minority, I understand the challenges faced by individuals from underrepresented socioeconomic, cultural, ethnic and academic backgrounds.
+I have been dedicated to promoting diversity in education, STEM field and mathematics where all students should be given equal opportunities regardless of their race, ethnicity, gender, age, religion, language, abilities, sexual orientation, socioeconomic status or country of origin. 
+</p>
+<p style="text-align: justify">
+Mathematics, as served historically as a universal language, transcends the boundaries of personal backgrounds, and as a powerful means of
+communication that unites ideas and promote knowledge. However, it is essential to acknowledge that
+mathematics and other STEM fields have also been portrayed as careers predominantly tailored for men
+and individuals perceived as exceptionally intelligent. My role in academia and the community is to foster
+a perspective where Mathematics is seen as a welcoming, inclusive and diverse field accessible to anyone.
+</p>
+<em>A  full statement on my Diversity, Equity and Inclusion stance can be accessed <a href="none"> here </a> </em>
+
+ # 8. Additional documents <a name="sample"> </a>
+
+ ## Teaching Samples
+
+ 
