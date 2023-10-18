@@ -43,6 +43,15 @@ This Teaching Dossier is best viewed on its online version, available [here](htt
     2. [Teaching Workshops and Conferences](#conferences)
 8. [Diversity, Equity and Inclusion Statement](#dei)
 7. [Additional Documents](#sample)
+   1. [Syllabus samples](#sample)
+   2. [Project samples and reflection questions](#sample)
+   3. [Lecture notes](#sample)
+   4. [Lecture recordings](#sample)
+   5. [Homework and Exams Samples](#sample)
+   7. [Teaching Certificates](#sample)
+   8. [Teaching Evaluations](#sample)
+   9. [Statements](#sample)
+      
     
     
   
