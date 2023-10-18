@@ -36,13 +36,13 @@ This Teaching Dossier is best viewed on its online version, available [here](htt
     1. [Teaching Methods and style](#style)
     2. [Teaching Innovation and Course Design](#coursedesign)
     3. [Teaching Online](#video)
-    4. [Technology use and Question Design](#questions)
+    4. [Technology use for Question Design](#questions)
     5. [Reflection on teaching Mathematics](#selfreflection)
 7. [Professional Development](#professional)
     1. [Courses and Programs on Teaching](#courses)
     2. [Teaching Workshops and Conferences](#conferences)
 8. [Diversity, Equity and Inclusion Statement](#dei)
-7. [Sample Materials](#sample)
+7. [Additional Documents](#sample)
     
     
   
@@ -684,7 +684,7 @@ I have also been a tutor for High-school and College students supporting their l
 <h3>Student Evaluations at the University of Rochester
 </h3>
 
-Summary (average out of 5) of teaching evaluations at the University of Rochester. This questionary assesses
+Summary (average out of 5) of teaching evaluations at the University of Rochester. This questionary assesses instructor stance and accomodations due to the COVID-19 pandemic.
 
 ### Fall 2021 - Spring 2022
 
@@ -738,7 +738,7 @@ Summary (average out of 5) of teaching evaluations at the University of Rocheste
 
 
 <p style="text-align: justify">
-Some Comments written in these evaluations are the following
+Some Comments written in these evaluations are the following <em>
     <ul>
         <li> Prof Chaves is SUCH A GREAT PROFESSOR. Not only are his explanations clear and concise, the examples he provide in office hours help me understand so much. He is also extremely approachable outside of class. I'd definitely take a class with him again! </li>
 <li>Professor Chaves is one of my favorite professors from my time at U of R. He has a great understanding of the material he teaches and provides that understanding in an approachable way for his students to understand. The material was challenging, but Prof. Chaves saw us through.</li>
@@ -749,7 +749,7 @@ ot have him as my instructor.</li>
         <li>Prof. Chaves is a great lecturer and I also appreciated how organized the posted notes were. In class, Prof. Chaves always made sure to have us answer
 questions and he would explain anything we didn't understand. Prof. Chaves would also go over previous concepts to start the lecture, which made the
 series unit much easier to understand</li>
-</ul>
+</ul></em>
 </p>
 
 <h3> Student Evaluations at Universidad de Los Andes
@@ -791,13 +791,13 @@ For example, in a class of 14 students in the course of Integral Calculus and Di
 
 
 <p style="text-align: justify">
-Comments written in these evaluations are the following
+Comments written in these evaluations are the following <em>
     <ul>
         <li> Very good! Clear and concise explanations. He helps both inside and outside class. </li>
 <li> Very good professor, he solves any question from the material and he uses good teaching methods.</li>
         <li> He is a good professor, he explains very well each topic that we are covering. </li>
         <li> Sergio is a great teacher.</li>
-        </ul>
+        </ul></em>
 </p>
 <p style="text-align: justify">
 For a class of 25 students in the course of Integral Calculus and Differential Equations the obtained results
@@ -820,6 +820,7 @@ are as follows
 
 <p style="text-align: justify">
 Comments written from these evaluations are the following.
+    <em>
 <ul>
     <li> Excellent professor. Clear explanations and concise approach of the course contents. </li>
 <li> Professor explains in a very nice way; his explanations are more clear than other professors’. </li>
@@ -832,7 +833,7 @@ He is also a nice person, and his evaluations were always fair.
 <li> Sergio is a good teacher; his explanations are very clear and he is able to land difficult concepts for
 the students to understand more easily the topics. His teaching methods make that the contents look
     simpler. A very good performance as teacher and he is very helpful to the students. </li>
-</ul>
+</ul></em>
 </p>
 
 
@@ -1019,12 +1020,20 @@ students to prepare for their exams. In particular, I thrive for using technolog
 
 ## Online Teaching <a name="video"> </a>
 
-<p style="text-align: justify">
-In 2021, I created over 50 Lecture Videos for the course Mathematics 1225 (Methods of Calculus) at Western University to support the delivery of asynchronous Lectures for hundreds of students enrolled at this course.  A YouTube reproduction list with a sample of these videos can be found <a href="https://www.youtube.com/playlist?list=PLKRwXr3FMlQZ4SPaBx0XWs4VPbMTuGrRv"> here </a>.
+<p style="text-align: justify">Online teaching has evolved into an integral component of modern education, catering to the needs of new generations. The technological advancements that provide accessibility and convenience should be embraced by educational institutions and educators. I firmly believe that students can derive immense benefits from a blend of traditional and online teaching methods, and I work for their continual improvement.</p>
+
+<p style="text-align: justify">By relying on the power of digital tools such as Desmos, Geogebra, or Wolfram Alpha to illustrate concepts in calculus and linear algebra, or to demonstrate step-by-step problem-solving, students can perceive mathematics as a dynamic subject that evolves alongside humanity's progress. I always seek the opportunity to employ these tools to enrich the learning experience during my lectures.</p>
+
+<p style="text-align: justify">Moreover, it is essential to engage students actively in both in-person and online settings. Utilizing tools like Poll Everywhere, Gradescope, or Blackboard quizzes during class fosters interactive learning, allowing me to gauge students' understanding and address their queries in real time.</p>
+
+<p style="text-align: justify">Recognizing the diverse learning styles of students, I ensure accessibility by recording my lectures, making them available for reference at any time. Additionally, I provide clear, concise notes to facilitate independent study, offering comprehensive support for their academic journey.</p>
+
+<p style="text-align: justify">Having taught both entirely online and blended courses, with over 200 YouTube videos, I have observed that online teaching holds distinct advantages in specific scenarios. However, I also acknowledge the profound legacy of the classical blackboard-and-chalk setup that has served education for centuries. I believe in promoting and preserving this time-tested method, especially when it remains a highly effective teaching approach, so I reserve this method to certain higher-level classes or topics.</p>
+
 </p>
 
 
-## Technology use and Question Design <a name="questions"> </a>
+## Technology use for Question Design <a name="questions"> </a>
 
 <p style="text-align: justify">
 My mathematical question creation stance has been marked by a dedication to originality, the effective use of technology, the sharing of resources, and a commitment to improving mathematical education on both a local and national scale. I believe that the art of crafting questions is an integral part of helping students unlock the beauty and power of mathematics</p>
@@ -1063,16 +1072,46 @@ professional development degrees.
 
 # 6. Professional Development <a name="professional"> </a>
 
+
+## Certificates, Courses and Programs on Teaching <a name="courses"> </a>
+
+<h3>Anti-Racism Foundations Certificate</h3>
 <p style="text-align: justify">
-During 2019-2020 I pursued the  <a href="https://teaching.uwo.ca/programs/certificates/cutl.html"> Western Certificate in University Teaching  </a> to enhance my teaching career. It is
-intended to improve teaching skills for graduate students and postdoctoral scholars at the University of
-Western Ontario, and to prepare them for a future faculty or professional career. My certificate can be accessed <a href="https://schavesr.com/teaching/certificate.pdf"> here </a>
+Program  that examines the ongoing impact of racism in the Canadian context, focusing on equity-deserving groups including Indigenous Peoples and Black people. The main objectives are the following:
+<ul>
+<li>Recognize the relevance of the history of racism in Canada and its impact on equity-deserving groups.</li>
+<li>Examine the invisibility of Whiteness and microaggressions, and the harmful impact that both can have on racialized individuals.</li>
+<li>Identify strategies to address implicit bias and prevent microaggressions.</li>
+<li>Implement strategies and actions to begin or continue an anti-racist journey to create a more equitable and inclusive community.</li>
+</ul>
 </p>
 
-## Courses and Programs on Teaching <a name="courses"> </a>
+<h3> Microcredential in Inclusive Teaching For Equitable Learning</h3>
+<p style="text-align: justify">
+Partner program between the Association of College and University Educators (ACUE) and the University of Rochester It is Faculty program for instructional excellence and student success. Over the an aacademic year, faculty across have the opportunity to participate in a micro-courses focused on learning and implementing research-based teaching practices to address issues of bias and inequity in learning environments. 
+</p>
 
 <p style="text-align: justify">
-    <b> Advanced Teaching Program (Winter 2019) </b>
+The program provides proven strategies to create more equitable and just learning environments. Faculty will learn practices from the following modules:
+    <ul>
+        <li>Managing the Impact of Bias</li>
+        <li>Reducing Microaggressions in Learning Environments</li>
+        <li>Addressing Imposter Phenomenon and Stereotype Threat</li>
+        <li>Creating Inclusive Learning Environments</li>
+        <li>Designing Equity-Centered Courses</li>
+        <li>Developing Self-Directed Online Learners</li>
+    </ul>
+</p>
+
+<h3> Western Certificate in University Teaching (2020) </h3>
+
+<p style="text-align: justify">
+The program objective is to enhance the quality of teaching by graduate students and postdoctoral scholars, and to prepare them for a future faculty or professional career. It is a program that explores several components of Teaching in courses, workshops and different activities. The program is completed in a span of two years. More information can be accesed <a href="https://teaching.uwo.ca/programs/certificates/cutl.html"> here </a>.  A completion certificate is posted in the Additional Documents section.
+</p>
+
+
+<p style="text-align: justify">
+    <b> Advanced Teaching Program (Winter 2019) - Western University </b>
     <br>
 The Advanced Teaching Program (ATP) is a 20-hour short course designed for advanced graduate students
 who would like to develop practical teaching skills for current and future teaching roles. Topics include
@@ -1083,7 +1122,7 @@ an experienced team of instructors.
 </p>
 
 <p style="text-align: justify">
-    <b> Teaching Mentor Program (Winter 2019) </b>
+    <b> Teaching Mentor Program (Winter 2019) - Western University </b>
     <br>
 The Teaching Mentor Program is a unique opportunity for graduate students and postdoctoral scholars to
 receive feedback on their teaching and classroom management approaches from peers in their own teaching
@@ -1094,7 +1133,7 @@ An example of one of the feedback letter that I provided to my peers can be foun
 </p>
 
 <p style="text-align: justify">
-    <b> TA Day: Graduate Student Conference on Teaching (Sep 2015, 2016, 2017)</b>
+    <b> TA Day: Graduate Student Conference on Teaching (Sep 2015, 2016, 2017) - Western University</b>
     <br>
 This one-day yearly conference introduces graduate students to teaching at Western and helps prepare them
 for their roles as Teaching Assistants. TA Day has welcomed new graduate students to Western for over 30
@@ -1137,7 +1176,7 @@ the Wellness Education Centre, the Teaching Assistants Union, and the Society of
  </p>
 
 <p style="text-align: justify">
-    <b> Fall Perspectives on Teaching Workshop (Aug 2019) </b> 
+    <b> Western Fall Perspectives on Teaching Workshop (Aug 2019) </b> 
     <br>
  Perspectives on Teaching is a full-day conference designed to showcase
 teaching innovations at Western University, and introduce instructors to best practices in student-centered instruction
@@ -1146,7 +1185,7 @@ and 6-9 concurrent sessions.
 </p>
 
 <p style="text-align: justify">
-    <b> Own Your Future: May conference on Teaching (May 2019)</b>
+    <b> Own Your Future: May conference on Teaching (May 2019) - Western University </b>
     <br>
 The Own Your Future: May Conference on Teaching is a special one-day event for doctoral students at
 Western. Participants are invite to join one or more conference sessions to enhance skill areas related to
@@ -1155,9 +1194,7 @@ professional development as graduate students.
 </p>
 
 <p style="text-align: justify">
-    <b>University of Western Ontario: Workshop Series 2019</b>
-    <br>
-    These workshops included
+    <b>Western University: Workshop Series 2019</b><br>
 <ul>    
     <li> Writing Teaching Philosophy Statements. Oct 2019. </li>
     <li> Tried and True Strategies to Address Common Assessment Conundrums. Aug 2019. </li>
