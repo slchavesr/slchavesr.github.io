@@ -637,6 +637,16 @@ Topological Manifolds following the classical book of Lie, extending the materia
 
 ## Other relevant Teaching and Training experience <a name="other"> </a>
 
+<h3> Visiting Fellowship in Assessment in AP Precalculus</h3>
+
+<p style="text-align: justify">
+In Fall 2023, I was invited by the AP Higher Education College Board (USA) to serve as a Visiting Faculty member. My role was to contribute valuable insights and feedback on the Advanced Placement (AP) Precalculus program. This collaborative effort aimed to ensure that the program maintains alignment with college-level courses while preserving the essential value of the AP Program for institutions and students. AP courses serve as a means for high-school students to engage with advanced coursework prior to college entry.
+<br>
+The high academic standards mantained by AP courses are reflected in their effectiveness in preparing students for success in subsequent college-level courses. This preparation often translates into students excelling in their college studies, with a higher likelihood of pursuing majors related to the respective AP subjects, particularly in the STEM field.
+<br>
+My contributions to the program involved revising its content and assessments, driven by my experience and the expectations I hold for undergraduate students enrolling at a Precalculus class in my institution. This collaborative effort between institutions, educators and the College Board ensures that the AP Precalculus program continues to provide students with a robust foundation for their academic journey, helping them excel in their higher education journey.
+</p>
+
 <h3> Training Teaching Assistants </h3>
 
 <p style="text-align: justify">
