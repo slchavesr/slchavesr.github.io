@@ -1225,7 +1225,8 @@ professional development as graduate students.
 </ul>
  </p>
 
- # 7. Diversity, Equity and Inclusion Statement <a name="dei"> </a>
+# 7. Diversity, Equity and Inclusion Statement <a name="dei"> </a>
+
 <p style="text-align: justify">
 Throughout my personal and professional experience, I recognize the importance of fostering diversity, equity, and inclusion within the academic community. As a first-generation college graduate, studying in a private-university under a full-scholarship, and pursuing a doctorate in a culturally diverse country yet still a visible minority, I understand the challenges faced by individuals from underrepresented socioeconomic, cultural, ethnic and academic backgrounds.
 I have been dedicated to promoting diversity in education, STEM field and mathematics where all students should be given equal opportunities regardless of their race, ethnicity, gender, age, religion, language, abilities, sexual orientation, socioeconomic status or country of origin. 
@@ -1239,8 +1240,8 @@ a perspective where Mathematics is seen as a welcoming, inclusive and diverse fi
 </p>
 <em>A  full statement on my Diversity, Equity and Inclusion stance can be accessed <a href="none"> here </a> </em>
 
- # 8. Additional documents <a name="sample"> </a>
+# 8. Additional documents <a name="sample"> </a>
 
- ## Teaching Samples
+## Teaching Samples
 
  
