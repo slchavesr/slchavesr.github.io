@@ -1254,18 +1254,18 @@ a perspective where Mathematics is seen as a welcoming, inclusive and diverse fi
 
 <h3> Syllabus Samples: </h3> 
 
- - [Syllabus for Discrete Mathematics and Topology courses taught at the University of Rochester](/teaching/files/syllabus.pdf)
+ - [Syllabus for Discrete Mathematics and Topology courses taught at the University of Rochester](/teaching/filles/syllabus.pdf)
  - [Syllabus for a proposed course in Transformation groups at Western University](syllabus.pdf)
 
 <h3> Projects and Reflection Questions: </h3>
 
-- [Project on Linear Algebra](/teaching/files/project.pdf)
-- [Reflection questions to students working on such projects](/teaching/files/Reflection.pdf)
+- [Project on Linear Algebra](/teaching/filles/project.pdf)
+- [Reflection questions to students working on such projects](/teaching/filles/Reflection.pdf)
   
 <h3>Lecture Notes</h3>
 
-- [Clean notes on Differential Equations shared before the lecture](/teaching/files/cleanlecture.pdf)
-- [Annotated lecture on Integral Calculus shared after the lecture](/teaching/files/annlecture.pdf)
+- [Clean notes on Differential Equations shared before the lecture](/teaching/filles/cleanlecture.pdf)
+- [Annotated lecture on Integral Calculus shared after the lecture](/teaching/filles/annlecture.pdf)
 
 <h3>Lecture Recordings</h3>
 
@@ -1276,24 +1276,24 @@ a perspective where Mathematics is seen as a welcoming, inclusive and diverse fi
 
 <h3>Homework and Exams Samples</h3>
 
-- [Written Homework on Discrete Mathematics](/teaching/files/homeworkM150.pdf)
-- [Final Exam on Integral Calculus](/teaching/files/2021Fall142Final.pdf)
-- [Final Exam on Discrete Mathematics](/teaching/files/webworksample.pdf) (implemented in Webwork, each student had a different version).
+- [Written Homework on Discrete Mathematics](/teaching/filles/homeworkM150.pdf)
+- [Final Exam on Integral Calculus](/teaching/filles/2021Fall142Final.pdf)
+- [Final Exam on Discrete Mathematics](/teaching/filles/webworksample.pdf) (implemented in Webwork, each student had a different version).
 
 <h3> Teaching Certificates</h3>
  
-- [Microcredential in Inclusive Teaching for Equitable Learning](/teaching/files/acue.pdf)
+- [Microcredential in Inclusive Teaching for Equitable Learning](/teaching/filles/acue.pdf)
 - [Western Certificate in University Teaching](certificate.pdf)
 
 <h3> Teaching Evaluations </h3>
 
-- [Complete Evaluations from the University of Rochester](/teaching/files/teachingeval.pdf)
+- [Complete Evaluations from the University of Rochester](/teaching/filles/teachingeval.pdf)
 - [Complete Teaching Assistant evaluation from Western University](ta.pdf)
 - [Peer-review Observations](Letter_Sergio.pdf)
 
 <h3> Statements </h3>
   
-- [Teaching Philosophy Statement](/teaching/files/TeachingStatement.pdf)
-- [Diversity, Equity and Inclusivity Statement](/teaching/files/DiversityStatement.pdf)
+- [Teaching Philosophy Statement](/teaching/filles/TeachingStatement.pdf)
+- [Diversity, Equity and Inclusivity Statement](/teaching/filles/DiversityStatement.pdf)
 - [Reflection on Teaching Proofs in Mathematics](capstone.pdf)
   
