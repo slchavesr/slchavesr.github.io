@@ -11,7 +11,7 @@ layout: blank
 
 Updated: Oct 2023.
 
-This Teaching Dossier is best viewed on its online version, available [here](https://schavesr.com/teaching/teaching_dossier/)
+If reading a PDF version of this Teaching Dossier, it is recommended to visit its online version, available in my personal website [here](https://schavesr.com/teaching/teaching_dossier/)
 
 
 # Contents
@@ -80,7 +80,7 @@ My teaching philosophy is rooted in raising awareness about the importance of ma
 I view teaching as a comprehensive process that extends well beyond the confines of the classroom. It encompasses a spectrum of elements, including preparation, practical experience, motivation, and a guiding educational philosophy. These factors collectively shape a student's perspective on the subject matter, both within and outside the classroom. In my perspective, teaching represents a crucial phase in the journey of learning and character development, one that should be adapted to align with the current advantages and requirements of the contemporary world.
 </p> 
 
-**A more detailed Teaching Philosophy Statement can be accesed [here](https://schavesr.com/teaching/TS.pdf)**
+**A more detailed Teaching Philosophy Statement can be accesed through the [additional files](#sample) section**
 
 # 3. Teaching Experience<a name="teachingexperience"></a>
 
@@ -627,7 +627,7 @@ In particular, one of the directions explored included the relationship of these
 The directed reading program (DRP) is an educational initiative that allows students to engage in independent, guided study of advanced mathematical topics under the supervision and mentorship of a faculty member or graduate student. The primary goal of a DRP is to provide undergraduate students with the opportunity to explore mathematics beyond their regular coursework and develop their mathematical skills and understanding. I have participated in the following directed reading programs:
 </p>
 <p style="text-align: justify">
-<b> Pares Ordenados Program - Spring 2023 </b>  <a href="[https://www.math.uwo.ca/undergraduate/directed_reading_program.html](https://ninyam.github.io/paresordenados/index)"> (Website in Spanish) </a>. Pares Ordenados (ordered pairs in Spanish) it is a recently developed directed reading program targeted to foster mathematical learning to latin-american students that identify themselves as a minority. The program is run in an online format, conducted in Spanish, connecting undergraduate students from underrepresented groups in mathematics in the region with Faculty and graduate students across the world. My mentee was a student from Universidad del Valle, Colombia, intersted in learning algebraic topology. He faced challenges accessing to qualify faculty in their home university and the program was a fit for him. Topics such as the fundamental group, homotopy theory and homology where explored during the program and a project on the applications of algebraic topology tools into solving mathematical problems was developed. The project was selected in the poster session at the Colombian Congress of Mathematics in the same year.
+<b> Pares Ordenados Program - Spring 2023 </b>  <a href="https://www.math.uwo.ca/undergraduate/directed_reading_program.html" > (Website in Spanish) </a>. Pares Ordenados (ordered pairs in Spanish) it is a recently developed directed reading program targeted to foster mathematical learning to latin-american students that identify themselves as a minority. The program is run in an online format, conducted in Spanish, connecting undergraduate students from underrepresented groups in mathematics in the region with Faculty and graduate students across the world. My mentee was a student from Universidad del Valle, Colombia, intersted in learning algebraic topology. He faced challenges accessing to qualify faculty in their home university and the program was a fit for him. Topics such as the fundamental group, homotopy theory and homology where explored during the program and a project on the applications of algebraic topology tools into solving mathematical problems was developed. The project was selected in the poster session at the Colombian Congress of Mathematics in the same year.
 </p>
 
 
@@ -871,9 +871,9 @@ of the course. The aspects of assessment for teaching assistant and the respecti
 | Assessment on Teaching Assistant’s promptness on arriving to the classroom, exams, office hours, etc. | 4.5 | 
 |<img width=500/>|<img width=150/>|
 
-<p style="text-align: justify">
- A compendium of some teaching assistant evaluations during my time at Western can be found <a href="https://schavesr.com/teaching/ta.pdf"> here </a>.   
-</p>
+
+A compendium of some teaching assistant evaluations during my time at Western can be found in the additional files section [here](#sample).
+
 
 ## Informal Teaching Evaluations <a name="infteachev"> </a>
 
@@ -940,7 +940,7 @@ content.”
     Hanna Roberts. MSc. Candidate, Clinical Anatomy. Dept. of Anatomy and Cell Biology (2019).
     </p>
 
-The complete review letter can be accessed <a href="https://schavesr.com/teaching/Letter_Sergio.pdf"> here </a>.
+The complete review letter can be accessed in the Additional Files section [here](#sample)
 
 
 
@@ -1031,7 +1031,7 @@ My stand on teaching innovation and course design revolves around flexibility, a
 
 
 <p style="text-align: justify">
-    I also have a proposed <a href="https://schavesr.com/teaching/syllabus.pdf"> Syllabus </a> for a course in Transformation groups that I am looking forward to deliver for graduate students interested in my research areas.
+    I also have a proposed  Syllabus for a course in Transformation groups that I am looking forward to deliver for graduate students interested in my research areas. This proposed syllabus can be accessed in the Additional Files section.
 </p>
 <p style="text-align: justify">
 During most of my time as instructor and teaching assistant, I prepared independently problem sheets,
@@ -1051,7 +1051,7 @@ students to prepare for their exams. In particular, I thrive for using technolog
 
 <p style="text-align: justify">Having taught both entirely online and blended courses, with over 200 YouTube videos, I have observed that online teaching holds distinct advantages in specific scenarios. However, I also acknowledge the profound legacy of the classical blackboard-and-chalk setup that has served education for centuries. I believe in promoting and preserving this time-tested method, especially when it remains a highly effective teaching approach, so I reserve this method to certain higher-level classes or topics.</p>
 
-
+Some sample video lectures can be accessed through the Additional Files section of this Dossier.
 
 ## Technology use for Question Design <a name="questions"> </a>
 
@@ -1076,7 +1076,7 @@ I am currently working on the joint use of WeBWork with other open source projec
 </p>
 
 
-## Self-Reflection on Teaching Mathematics <a name="selfreflection"> </a>
+## Reflection on Teaching Proofs in Mathematics <a name="selfreflection"> </a>
 
 <p style="text-align: justify">
 Teaching mathematical proofs for undergraduate students is a challenge for both instructors and students.
@@ -1085,17 +1085,16 @@ and it is also a fundamental basis for future researchers. This reflection is fo
 difficulties experienced in the learning and teaching process of formal mathematical proofs, and discuss
 whether the traditional "definition-theorem-example" lecture method is the most
 appropriate for the students to success in mathematical courses.
-    <a href="https://schavesr.com/teaching/capstone.pdf"> This </a> is the complete reflection on this thinking done as requirement for my
-professional development degrees.
 </p>
 
+The full reflection can be accessed in the Additional Files section [here](#sample).
 
 # 6. Professional Development <a name="professional"> </a>
 
 
 ## Certificates, Courses and Programs on Teaching <a name="courses"> </a>
 
-<h3>Anti-Racism Foundations Certificate</h3>
+<h3>Anti-Racism Foundations Certificate (2023) </h3>
 <p style="text-align: justify">
 Program  that examines the ongoing impact of racism in the Canadian context, focusing on equity-deserving groups including Indigenous Peoples and Black people. The main objectives are the following:
 <ul>
@@ -1106,7 +1105,7 @@ Program  that examines the ongoing impact of racism in the Canadian context, foc
 </ul>
 </p>
 
-<h3> Microcredential in Inclusive Teaching For Equitable Learning</h3>
+<h3> Microcredential in Inclusive Teaching For Equitable Learning (2022)</h3>
 <p style="text-align: justify">
 Partner program between the Association of College and University Educators (ACUE) and the University of Rochester It is Faculty program for instructional excellence and student success. Over the an aacademic year, faculty across have the opportunity to participate in a micro-courses focused on learning and implementing research-based teaching practices to address issues of bias and inequity in learning environments. 
 </p>
@@ -1253,4 +1252,48 @@ a perspective where Mathematics is seen as a welcoming, inclusive and diverse fi
 
 ## Teaching Samples
 
+<h3> Syllabus Samples: </h3> 
+
+ - [Syllabus for Discrete Mathematics and Topology courses taught at the University of Rochester](/files/syllabus.pdf)
+ - [Syllabus for a proposed course in Transformation groups at Western University](syllabus.pdf)
+
+<h3> Projects and Reflection Questions: </h3>
+
+- [Project on Linear Algebra](/files/project.pdf)
+- [Reflection questions to students working on such projects](/files/Reflection.pdf)
+  
+<h3>Lecture Notes</h3>
+
+- [Clean notes on Differential Equations shared before the lecture](/files/cleanlecture.pdf)
+- [Annotated lecture on Integral Calculus shared after the lecture](/files/annlecture.pdf)
+
+<h3>Lecture Recordings</h3>
+
+- [Lecture on Lines (Precalculus - UofR)](https://youtube.com/live/xrdBlbZe_Zw)
+- [Lecture on Graph Theory (Discrete Mathematics - UofR)](https://youtube.com/live/syJDKPjnnxU)
+- [Lecture on Linear Differential Equations (Methods of Calculus - WesternU)](https://youtu.be/4wIVAXYc5tg)
+
+
+<h3>Homework and Exams Samples</h3>
+
+- [Written Homework on Discrete Mathematics](/files/homeworkM150.pdf)
+- [Final Exam on Integral Calculus](/files/2021Fall142Final.pdf)
+- [Final Exam on Discrete Mathematics](/files/webworksample.pdf) (implemented in Webwork, each student had a different version).
+
+<h3> Teaching Certificates</h3>
  
+- [Microcredential in Inclusive Teaching for Equitable Learning](/files/acue.pdf)
+- [Western Certificate in University Teaching](certificate.pdf)
+
+<h3> Teaching Evaluations </h3>
+
+- [Complete Evaluations from the University of Rochester](/files/teachingeval.pdf)
+- [Complete Teaching Assistant evaluation from Western University](ta.pdf)
+- [Peer-review Observations](Letter_Sergio.pdf)
+
+<h3> Statements </h3>
+  
+- [Teaching Philosophy Statement](/files/TeachingStatement.pdf)
+- [Diversity, Equity and Inclusivity Statement](/files/DiversityStatement.pdf)
+- [Reflection on Teaching Proofs in Mathematics](capstone.pdf)
+  
