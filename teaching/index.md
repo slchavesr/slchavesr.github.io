@@ -11,11 +11,11 @@ use-site-title: true
 
 
 <figure>
-  <img src="/img/class.jpg" alt="me in class" style="width:150%"/>
+  <img src="/img/class.jpg" alt="me in class" style="width:100%"/>
   <figcaption>Teaching Volumes of solids of revolution, University of Rochester</figcaption>
 </figure>
 
-I am currently (**Spring 2024**) teaching and coordinating [MATH 162 / Engineering Calculus II](https://courses.math.rochester.edu/current/162/)  and [MATH 200WM / Transition to advanced Mathematics (w/ written module](https://courses.math.rochester.edu/current/200/) at the University of Rochester.
+I am currently (**Spring 2024**) teaching and coordinating [MATH 162 / Engineering Calculus II](https://courses.math.rochester.edu/current/162/)  and [MATH 200WM / Transition to advanced Mathematics (w/ written module)](https://courses.math.rochester.edu/current/200/) at the University of Rochester.
 
 ## Previous courses taught at UofR
 
@@ -23,7 +23,7 @@ I am currently (**Spring 2024**) teaching and coordinating [MATH 162 / Engineeri
 - Summer 2023: Discrete Mathematics (Online).
 - Spring 2023: Discrete Mathematics and Abstract Algebra.
 - Fall 2022: Discrete Mathematics and Linear Algebra w/ differential equations.
-- Summer 2022: Calculus I
+- Summer 2022: Calculus I (Online)
 - Spring 2022: Engineering Calculus II  and Point-set Topology.
 - Fall 2021: Calculus II and Linear Algebra w/ written module
 
