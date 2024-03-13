@@ -20,8 +20,8 @@ description: Personal Website
 # List of links in the navigation bar
 navbar-links:
   Home: "/"
-  Research: "/research/"
   Teaching: "/teaching/"
+  Research: "/research/"
 #  CV: "https://schavesr.com/Sergio Chaves - CV.pdf"
   Gaming: "/gaming/"
 # Image to show in the navigation bar - image must be a square (width = height)
