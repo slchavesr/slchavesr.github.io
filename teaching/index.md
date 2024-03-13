@@ -15,9 +15,17 @@ use-site-title: true
   <figcaption>Teaching Volumes of solids of revolution, University of Rochester</figcaption>
 </figure>
 
-I am currently (**Fall 2023**) teaching [MATH 140 / Precalculus](https://courses.math.rochester.edu/current/154/)  and [MATH 235W / Linear Algebra with written component](https://courses.math.rochester.edu/current/235/) at the University of Rochester.
+I am currently (**Spring 2024**) teaching and coordinating [MATH 162 / Engineering Calculus II](https://courses.math.rochester.edu/current/162/)  and [MATH 200WM / Transition to advanced Mathematics (w/ written module](https://courses.math.rochester.edu/current/200/) at the University of Rochester.
 
-I have also taught Topology, Abstract Algebra, Discrete Mathematics, Linear Algebra, and Several calculus courses in past semesters at UofR.
+## Previous courses taught at UofR
+
+- Fall 2023: Precalculus and Linear Algebra w/ written module.
+- Summer 2023: Discrete Mathematics (Online).
+- Spring 2023: Discrete Mathematics and Abstract Algebra.
+- Fall 2022: Discrete Mathematics and Linear Algebra w/ differential equations.
+- Summer 2022: Calculus I
+- Spring 2022: Engineering Calculus II  and Point-set Topology.
+- Fall 2021: Calculus II and Linear Algebra w/ written module
 
 
 ## Former Teaching Experience
