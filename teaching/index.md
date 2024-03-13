@@ -9,12 +9,12 @@ use-site-title: true
 <a href="#" class="scrollUpButton">▲</a>
 </p>
 
-<!---
+
 <figure>
-  <img src="/img/ms.jpg" alt="Middlesex College" style="width:150%"/>
-  <figcaption>Department of Mathematics, Western University</figcaption>
+  <img src="/img/class.jpg" alt="me in class" style="width:150%"/>
+  <figcaption>Teaching Volumes of solids of revolution, University of Rochester</figcaption>
 </figure>
---->
+
 I am currently (**Fall 2023**) teaching [MATH 140 / Precalculus](https://courses.math.rochester.edu/current/154/)  and [MATH 235W / Linear Algebra with written component](https://courses.math.rochester.edu/current/235/) at the University of Rochester.
 
 I have also taught Topology, Abstract Algebra, Discrete Mathematics, Linear Algebra, and Several calculus courses in past semesters at UofR.
