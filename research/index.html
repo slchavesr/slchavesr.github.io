@@ -25,11 +25,12 @@ My research interests center in <b>Mathematical Education </b> and <b> Algebraic
 
 <div style="text-align: justify;">
 
-<h2> Mathematical Education Research Interests and Experience </h2>
+<h2 class="toggle-btn" onclick="toggleList(mathEdu)" > Mathematical Education Research Interests and Experience </h2>
 
 
-<h2> Algebraic Topology Research Interests and Experience </h2>
+<h2 class="toggle-btn" onclick="toggleList(algtop)" > Algebraic Topology Research Interests and Experience </h2>
 
+<div class="algtop" id="algtop" >
 <p>  I am mainly interested on studying the equivariant cohomology of finite group actions on several spaces, including polyhedral products. My methods integrate and link
  knowledge from algebraic topology, group cohomology, transformation groups and toric topology among other areas in mathematics </p>
 
@@ -57,11 +58,11 @@ My research interests center in <b>Mathematical Education </b> and <b> Algebraic
 <li> Long Term Visitor fellow at the Fields Institute. Toronto.  <a href="http://www.fields.utoronto.ca/activities/19-20/toric"> Thematic Program on Toric Topology </a>
 <li> Graduate Student Seminar Organizer. University of Western Ontario. 2019 </li>
 </ul>
-
+</div>
 
 
 <!-- The title to toggle the list -->
-<h2 class="toggle-btn" onclick="toggleList()">Experience in Data Science</h2>
+<h2 class="toggle-btn" onclick="toggleList(experienceList)">Experience in Data Science</h2>
 
 <!-- The list to be toggled -->
 <ul class="experience-list" id="experienceList">
@@ -114,8 +115,8 @@ My research interests center in <b>Mathematical Education </b> and <b> Algebraic
 
 
 <script>
-function toggleList() {
-  var list = document.getElementById("experienceList");
+function toggleList(listId) {
+  var list = document.getElementById(listId);
   list.classList.toggle("show");
 }
 </script>
