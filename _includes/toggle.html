@@ -1,0 +1,39 @@
+<<style>
+  /* Style the button that will be used to open and close the dropdown content */
+  .toggle-btn {
+    cursor: pointer;
+    color: blue;
+    /* Add padding and margin to give some space around the indicator */
+    padding-right: 5px;
+  }
+
+  /* Style the hidden content */
+  .hidden-content {
+    display: none;
+  }
+
+  /* Style the content when shown */
+  .hidden-content.show {
+    display: block;
+  }
+
+  /* Style the indicator to show whether content is expanded or collapsed */
+  .toggle-indicator::after {
+    content: "+"; /* Default indicator */
+  }
+
+  /* Change indicator to minus sign when content is expanded */
+  .toggle-indicator.expanded::after {
+    content: "-"; /* Minus sign */
+  }
+</style>
+
+<script>
+function toggleContent(contentId) {
+  var content = document.getElementById(contentId);
+  content.classList.toggle("show");
+  // Toggle the class for the indicator to change its appearance
+  document.querySelector(".toggle-btn[onclick=\"toggleContent('" + contentId + "')\"] .toggle-indicator").classList.toggle("expanded");
+}
+</script>
+

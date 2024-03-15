@@ -5,24 +5,8 @@ use-site-title: true
 mathjax : true
 ---
 {% include mathjax.html %}
+{% include toggle.html %}
 
-<style>
-  /* Style the button that will be used to open and close the dropdown content */
-  .toggle-btn {
-    cursor: pointer;
-    color: blue;
-  }
-
-  /* Style the hidden content */
-  .hidden-content {
-    display: none;
-  }
-
-  /* Style the content when shown */
-  .hidden-content.show {
-    display: block;
-  }
-</style>
 
 
 
@@ -44,7 +28,7 @@ My research interests center in <b>Mathematical Education </b> and <b> Algebraic
 
 <div style="text-align: justify;">
 
-<h2 class="toggle-btn" onclick="toggleList('mathEdu')" > Mathematical Education Research Interests and Experience </h2>
+<h2 class="toggle-btn" onclick="toggleContent('mathEdu')" ><span class="toggle-indicator"></span> Mathematical Education Research Interests and Experience </h2>
 
 <div class="hidden-content" id="mathEdu">
 <p> In construction </p>
@@ -99,14 +83,6 @@ My research interests center in <b>Mathematical Education </b> and <b> Algebraic
   <li><a href="https://ir.lib.uwo.ca/etd/7049/">Equivariant cohomology for 2-torus actions and torus actions with compatible involutions.</a> Doctoral dissertation, 2020.</li> 
   <!-- More items -->
 </ul>
-
-<script>
-function toggleList(listId) {
-  var list = document.getElementById(listId);
-  list.classList.toggle("show");
-}
-</script>
-
 
 
 
