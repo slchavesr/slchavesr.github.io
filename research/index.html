@@ -13,13 +13,13 @@ mathjax : true
     color: blue;
   }
 
-  /* Style the list items */
-  .experience-list {
+  /* Style the hidden content */
+  .hidden-content {
     display: none;
   }
 
-  /* Style the list items when shown */
-  .experience-list.show {
+  /* Style the content when shown */
+  .hidden-content.show {
     display: block;
   }
 </style>
@@ -46,13 +46,13 @@ My research interests center in <b>Mathematical Education </b> and <b> Algebraic
 
 <h2 class="toggle-btn" onclick="toggleList(mathEdu)" > Mathematical Education Research Interests and Experience </h2>
 
-<div class="math-edu" id="mathEdu">
+<div class="hidden-content" id="mathEdu">
 <p> In construction </p>
 </div>
 
 <h2 class="toggle-btn" onclick="toggleContent('algtop')">Algebraic Topology Research Interests and Experience</h2>
 
-<div class="alg-top" id="algtop">
+<div class="hidden-content" id="algtop">
   <p>I am mainly interested in studying the equivariant cohomology of finite group actions on several spaces, including polyhedral products. My methods integrate and link knowledge from algebraic topology, group cohomology, transformation groups, and toric topology among other areas in mathematics.</p>
 
   <h3>Future and Current Projects</h3>
@@ -83,7 +83,7 @@ My research interests center in <b>Mathematical Education </b> and <b> Algebraic
 <h2 class="toggle-btn" onclick="toggleList('experienceList')">Experience in Data Science</h2>
 
 <!-- The list to be toggled -->
-<ul class="experience-list" id="experienceList">
+<ul class="hidden-content" id="experienceList">
   <li>Micromaster in Statistics and Data Science (General track). MITx Online. 2020.</li>
   <li>Certificate <a href="https://www.correlation-one.com/en/data-science-for-all">Correlation-one DataScience4All Program</a>. (2020)</li>
   <li>Participant <a href="https://brainhackwestern.github.io/">Brainhack Western 2019</a> relating mathematics and neuroscience, winning an innovative award for our proposed <a href="/docs/brainwave.pdf">project</a> on <i>How does the brain sound</i>.</li>
