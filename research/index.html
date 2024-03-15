@@ -92,3 +92,41 @@ My research interests center in <b>Mathematical Education </b> and <b> Algebraic
   <li> <a href="/research/docs/f_2_.pdf"> Categorical representation of Banach spaces.</a> (In Spanish)</li>
   <li> <a href="/research/docs/fin.pdf"> Glivenko's Theorem for the Model-intuitionistic Logic.</a> (In Spanish)</li>
  <ul>
+
+<style>
+  /* Style the button that will be used to open and close the dropdown content */
+  .toggle-btn {
+    cursor: pointer;
+    color: blue;
+  }
+
+  /* Style the list items */
+  .experience-list {
+    display: none;
+    padding-left: 20px;
+  }
+
+  /* Style the list items when shown */
+  .experience-list.show {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<!-- The title to toggle the list -->
+<h2 class="toggle-btn" onclick="toggleList()">Experience in Data Science</h2>
+
+<!-- The list to be toggled -->
+<ul class="experience-list" id="experienceList">
+  <li>Micromaster in Statistics and Data Science (General track). MITx Online. 2020.</li>
+  <li>Certificate <a href="https://www.correlation-one.com/en/data-science-for-all">Correlation-one DataScience4All Program</a>. (2020)</li>
+  <li>Participant <a href="https://brainhackwestern.github.io/">Brainhack Western 2019</a> relating mathematics and neuroscience, winning an innovative award for our proposed <a href="/docs/brainwave.pdf">project</a> on <i>How does the brain sound</i>.</li>
+</ul>
+
+<script>
+function toggleList() {
+  var list = document.getElementById("experienceList");
+  list.classList.toggle("show");
+}
+</script>
