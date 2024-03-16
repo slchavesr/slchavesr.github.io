@@ -13,7 +13,7 @@ description: Information for past, current and prospective students
 
 ## Information for past, current and prospective students
 
-<h3 class="toggle-btn" onclick="toggleContent('pastStu')" ><span class="toggle-indicator"></span> Past Students </h2>
+<h3 class="toggle-btn" onclick="toggleContent('pastStu')" ><span class="toggle-indicator"></span> Past Students </h3>
 
 <div class="hidden-content" id="pastStu">
 
