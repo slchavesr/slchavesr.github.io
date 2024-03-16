@@ -28,11 +28,19 @@ description: Information for past, current and prospective students
   <ul>
     <li>Even if we did not interact closely in-person during the course, I will be happy to write a recommendation for you.</li>
     <li>The better your performance in the class, the stronger your recommendation will be.</li>
-    <li>Reach out to me with at least <strong>two weeks</strong> in advance for me to submit a recommendation for me. Consider the application deadline and plan accordingly.</li>
+    <li>Reach out to me with at least <strong>two weeks</strong> in advance for me to submit a recommendation. Consider the application deadline and plan accordingly.</li>
     <li>Feel free to ask questions about the position, your expected duties and how to succeed if it is your first time becoming a TA/grader.</li>
   </ul>
   
   <h3>Do you need a recommendation letter for School/Research/Transfer/Job applications?</h3>
+  The quality of the letter will depend on three aspects: Your course performance, your interactions with me and how far in advance you request the letter. Consider the following guidelines.
+  <ul>
+  <li> Send me an email **at least six weeks in-advance** from your application deadline with the request. Include the course you took with me, the purpose of the letter and deadlines.  </li>
+  <li> Attach a copy of your academic transcript (unofficial is okay), your resume,  personal statement or any other relevant documentation. </li>
+  <li> Enter correctly my email on your application portal. </li>
+  <li> Requests under six weeks in advance might be considered, but the strength of the letter might not be what you would deserve. </li>
+  </ul>
+  
 </div>
 
 </div>
