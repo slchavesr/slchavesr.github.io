@@ -56,7 +56,7 @@ If your inquiry is not addressed in this site, please send me an email with the 
   <p> A (95–100), A- (90–94), B+ (87–89), B (83–86), B- (80–82), C+ (77–79), C (73–76), C- (70–72), D+ (67–69), D (63–66), D- (60-62). E (Below 60)</p>
   <p> Curving scores usually depends on course overall performance, and if a curve will be implemented, it will be communicated to you. Please refrain from asking about curving scores </p>
   <p> If a curve is implemented, it is usually by adjusting the cut-offs for the letter ranges using a piecewise linear function </p>
-  <a href="www.schavesr.com/students/resources/curve.html"> This tool </a> will help you to compute your adjusted score if using a piecewise linear function   
+  <a href="resources/curve.html"> This tool </a> will help you to compute your adjusted score if using a piecewise linear function   
   
   
   
