@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Piecewise linear curve</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 10px;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #666;
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        b {
+            color: #0073e6;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #0073e6;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #0073e6;
+            color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+        }
+
+        #result {
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+    </head>
+<body>
+    <h1>Piecewise linear curve</h1>
+    <p>To assign letter grades to numeric grades, the department of mathematics use the standard break values as follows.</p>
+    <ul>
+    <li> A range: a grade of 90 or more</li>
+    <li> B range: a grade of 80 or more</li>
+    <li> C range: a grade of 70 or more</li>
+    <li> D range: a grade of 60 or more</li>
+    a grade of 60 or more is considered a passing grade.
+</ul>
+    <p> If the Professor has adjusted your scores using a <b> piecewise linear curve</b>, you can use this tool to find your score  </p>
+    
+    
+    <label for="curvedValues">Enter the values for the curved A,B,C,D break points in that order (four comma-separated numbers). For example, if the adjusted ranges are A: 85, B: 70, C: 55, D: 40, enter '85,70,55,40'</label>
+    <input type="text" id="curvedValues">
+    <button onclick="updateCurvedArray()">Update 'curved' scores</button>
+
+
+    <hr>
+
+    <h2>Score Table</h2>
+    <button onclick="generateTable()">Generate Table</button>
+    <table id="dataTable">
+        <!-- Table will be generated here -->
+    </table>
+
+    <script>
+        var header = ["Maximum", "A range", "B range", "C range", "D range", "Minimum"];
+        var data = [100, 90, 80, 70, 60, 0];
+        var curved = [100, 0, 0, 0, 0, 0]; // Initialize with 100 and 0, with space for 4 user-defined values
+
+        function updateCurvedArray() {
+            var curvedInput = document.getElementById("curvedValues").value;
+            // Parse the comma-separated input and store it in the middle of the 'curved' array
+            var userValues = curvedInput.split(',').map(Number);
+            
+            if (userValues.length === 4) {
+                for (var i = 0; i < 4; i++) {
+                    curved[i + 1] = userValues[i];
+                }
+            } else {
+                alert("Please enter 4 values for 'curved'.");
+            }
+        }
+
+        function interpolateY(y) {
+            var x = 0;
+            for (var i = 0; i < curved.length - 1; i++) {
+                if (curved[i] > y && curved[i + 1] <= y) {
+                    var x1 = data[i];
+                    var x2 = data[i + 1];
+                    var y1 = curved[i];
+                    var y2 = curved[i + 1];
+                    x = x1 + ((x2 - x1) / (y2 - y1)) * (y - y1);
+                }
+            }
+            return x;
+        }
+
+        function interpolateAndDisplay() {
+            var yInput = parseFloat(document.getElementById("yInput").value);
+            var result = interpolateY(yInput);
+            document.getElementById("result").innerHTML = "The score for an original grade of " + yInput + " is in the standard range (after the curve): " + result;
+        }
+
+        function generateTable() {
+            var table = document.getElementById("dataTable");
+            table.innerHTML = ""; // Clear existing table
+
+            // Create headers
+            var thead = table.createTHead();
+            var row = thead.insertRow();
+            var header0 = row.insertCell(0);
+            header0.innerHTML = "Category";
+            var header1 = row.insertCell(1);
+            header1.innerHTML = "Standard score";
+            var header2 = row.insertCell(2);
+            header2.innerHTML = "Curved score";
+
+            // Populate the table with values from 'data' and 'curved' arrays
+            for (var i = 0; i < data.length; i++) {
+                var row = table.insertRow();
+                var cell0 = row.insertCell(0);
+                cell0.innerHTML = header[i];
+                var cell1 = row.insertCell(1);
+                cell1.innerHTML = data[i];
+                var cell2 = row.insertCell(2);
+                cell2.innerHTML = curved[i];
+            }
+        }
+    </script>
+
+    <hr>
+
+    <h2>Interpolation</h2>
+    <label for="yInput">Enter your original grade:</label>
+    <input type="number" id="yInput">
+    <button onclick="interpolateAndDisplay()">Curve your grade</button>
+
+    <h3>Result:</h3>
+    <p id="result"></p>
+</body>
+</html>
