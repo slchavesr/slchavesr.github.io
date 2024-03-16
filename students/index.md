@@ -57,7 +57,22 @@ If your inquiry is not addressed in this site, please send me an email with the 
   <p> Curving scores usually depends on course overall performance, and if a curve will be implemented, it will be communicated to you. Please refrain from asking about curving scores </p>
   <p> If a curve is implemented, it is usually by adjusting the cut-offs for the letter ranges using a piecewise linear function </p>
   <a href="resources/curve.html"> This tool </a> will help you to compute your adjusted score if using a piecewise linear function   
+ </div> 
   
+<h3 class="toggle-btn" onclick="toggleContent('projects')" ><span class="toggle-indicator"></span> Research and Exploratory Projects </h3>
+
   
+<div class="hidden-content" id="projects">
+
+I offer undergraduate and graduate students various opportunities to get involved into mathematical topics beyond the scope of regular coursework.
+ These projects can serve as an introduction to mathematical research. or potentially evolve into an Honors or graduate thesis.
+
+  <h3>Potential projects to explore</h3>
+  
+<ul>
+    <li> </li>
+  </ul>
+
   
 </div>
+  
