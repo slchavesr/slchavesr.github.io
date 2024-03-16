@@ -13,13 +13,13 @@ description: Information for past, current and prospective students
 
 ## Information for past, current and prospective students
 
-<h3 class="toggle-btn" onclick="toggleContent('pastStu')" ><span class="toggle-indicator"></span> Past Students </h3>
+If your inquiry is not addressed in this site, please send me an email with the details of your question.
 
-<div class="hidden-content" id="pastStu">
 
-<div>
-  <p>This information may be relevant for students on any of my past courses.</p>
+<h3 class="toggle-btn" onclick="toggleContent('pastStu')" ><span class="toggle-indicator"></span> Recommendation Letters </h3>
+
   
+<div class="hidden-content" id="pastStu">
   <h3>Want to become a Math a TA/Grader?</h3>
   
   <p>The math department is always looking for students with strong foundations in any math class, excellent communication skills, engagement with peers, and the ability to provide constructive feedback. If you are passionate about helping others succeed in math and enjoy working in a collaborative environment, we encourage you to apply!</p>
