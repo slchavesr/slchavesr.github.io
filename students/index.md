@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Students
-use-site-title: false
+title: null
+description: Information for past, current and prospective students
 ---
 
 {% include toggle.html %}
