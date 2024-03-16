@@ -4,6 +4,7 @@ title: Teaching
 use-site-title: true
 ---
 
+{% include toggle.html %}
 
 <p>
 <a href="#" class="scrollUpButton">▲</a>
@@ -17,17 +18,19 @@ use-site-title: true
 
 I am currently (**Spring 2024**) teaching and coordinating [MATH 162 / Engineering Calculus II](https://courses.math.rochester.edu/current/162/)  and [MATH 200WM / Transition to advanced Mathematics (w/ written module)](https://courses.math.rochester.edu/current/200/) at the University of Rochester.
 
-## Previous courses taught at UofR
+<h2  class="toggle-btn" onclick="toggleContent('PastClasses')" ><span class="toggle-indicator"></span>   Previous courses taught at UofR </h2>
 
-- Fall 2023: Precalculus and Linear Algebra w/ written module.
-- Summer 2023: Discrete Mathematics (Online).
-- Spring 2023: Discrete Mathematics and Abstract Algebra.
-- Fall 2022: Discrete Mathematics and Linear Algebra w/ differential equations.
-- Summer 2022: Calculus I (Online)
-- Spring 2022: Engineering Calculus II  and Point-set Topology.
-- Fall 2021: Calculus II and Linear Algebra w/ written module
+<ul class="hidden-content" id="PastClasses">
 
+<li> Fall 2023: Precalculus and Linear Algebra w/ written module. </li>
+<li> Summer 2023: Discrete Mathematics (Online). </li>
+<li> Spring 2023: Discrete Mathematics and Abstract Algebra. </li>
+<li> Fall 2022: Discrete Mathematics and Linear Algebra w/ differential equations. </li>
+<li> Summer 2022: Calculus I (Online). </li>
+<li> Spring 2022: Engineering Calculus II  and Point-set Topology. </li>
+<li> Fall 2021: Calculus II and Linear Algebra w/ written module. </li>
 
+</ul> 
 ## Former Teaching Experience
 
 - During Fall 2023, I participated as an AP Calculus Visiting Fellow at the US College Board
