@@ -33,7 +33,8 @@ If your inquiry is not addressed in this site, please send me an email with the 
   </ul>
   
   <h3>Do you need a recommendation letter for School/Research/Transfer/Job applications?</h3>
-  The quality of the letter will depend on three aspects: Your course performance, your interactions with me and how far in advance you request the letter. Consider the following guidelines.
+  <p> The quality of the letter will depend on three aspects: Your course performance, your interactions with me and how far in 
+  advance you request the letter. Consider the following guidelines. </p>
   <ul>
   <li> Send me an email **at least six weeks in-advance** from your application deadline with the request. Include the course you took with me, the purpose of the letter and deadlines.  </li>
   <li> Attach a copy of your academic transcript (unofficial is okay), your resume,  personal statement or any other relevant documentation. </li>
