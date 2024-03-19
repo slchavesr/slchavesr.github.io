@@ -40,7 +40,7 @@ I am currently (**Spring 2024**) teaching and coordinating [MATH 162 / Engineeri
 <li> I was a Teaching Fellow supporting the implementation of WebWork at Western, and authoring problems for Logic, Set Theory and Combinatorics. </li>
 <li> I was a supporting instructor for Methods of Calculus at Western University on Winter 2021 creating lecture videos for online teaching during the COVID-19 pandemic. </li>
 <li> During 2015-2020 I was a Teaching Assistant at Western University </li>
-<li> I was an adjunct lecturer at several universities in Bogota (Colombia) during 2013-2015 <li>
+<li> I was an adjunct lecturer at several universities in Bogota (Colombia) during 2013-2015 </li>
 
 </ul>
 
