@@ -28,8 +28,9 @@ Previous instances of the Graduate Seminar can be found here.
       <a href="/editions/winter2018" class="button">Winter 2018</a>
       <a href="/editions/fall2018" class="button">Fall 2018</a>
       <a href="/editions/winter2019" class="button">Winter 2019</a>
+      <a href="/editions/fall2019" class="button">Fall 2019</a>
     </p>  
   <p>
-      <a href="/editions/fall2019" class="button">Fall 2019</a>
+      <a href="/editions/winter2020" class="button">Winter 2020</a>
   </p>
 
