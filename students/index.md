@@ -39,7 +39,7 @@ If your inquiry is not addressed in this site, please send me an email with the 
   <p> The quality of the letter will depend on three aspects: Your course performance, your interactions with me and how far in 
   advance you request the letter. Consider the following guidelines. </p>
   <ul>
-  <li> Send me an email **at least six weeks in-advance** from your application deadline with the request. Include the course you took with me, the purpose of the letter and deadlines.  </li>
+  <li> Send me an email <b>at least six weeks in-advance</b> from your application deadline with the request. Include the course you took with me, the purpose of the letter and deadlines.  </li>
   <li> Attach a copy of your academic transcript (unofficial is okay), your resume,  personal statement or any other relevant documentation. </li>
   <li> Enter correctly my email on your application portal. </li>
   <li> Requests under six weeks in advance might be considered, but the strength of the letter might not be what you would deserve. </li>
