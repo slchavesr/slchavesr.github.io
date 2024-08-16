@@ -12,7 +12,7 @@ use-site-title: true
 
 
 <figure>
-  <img src="/img/class.jpg" alt="me in class" style="width:100%"/>
+  <img src="/img/class.jpg" alt="me in class" style="width:80%"/>
   <figcaption>Teaching Volumes of solids of revolution, University of Rochester</figcaption>
 </figure>
 
@@ -47,6 +47,21 @@ I am currently (**Fall 2024**) teaching  [MATH 1920 / Engineering Multivariable 
 
 </ul>
 
+<h2  class="toggle-btn" onclick="toggleContent('TeachTools')" ><span class="toggle-indicator"></span>   Great tools to use in the classroom  </h2>
+
+<ul class="hidden-content" id="TeachTools">
+
+
+<li> WebWork </li>
+<li> Geogebra </li>
+<li> Desmos </li>
+<li> Calc3DPlot </li>
+<li> PollEverywhere </li>
+<li> Perusall </li>
+<li> PreText </li>
+<li> Gradescope </li>
+
+</ul>
 
 <h2  class="toggle-btn" onclick="toggleContent('WW')" ><span class="toggle-indicator"></span>  Open source WeBWork Contributions</h2>
 
