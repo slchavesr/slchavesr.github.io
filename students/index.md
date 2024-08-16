@@ -20,6 +20,8 @@ If your inquiry is not addressed in this site, please send me an email with the 
 
   
 <div class="hidden-content" id="pastStu">
+
+<!--
   <h3>Want to become a Math a TA/Grader?</h3>
   
   <p>The math department is always looking for students with strong foundations in any math class, excellent communication skills, engagement with peers, and the ability to provide constructive feedback. If you are passionate about helping others succeed in math and enjoy working in a collaborative environment, we encourage you to apply!</p>
@@ -32,7 +34,7 @@ If your inquiry is not addressed in this site, please send me an email with the 
 	<li>Normally I will write a recommendation if you were a past student. For current students with less than 8 weeks in the semester, I might not be the best person to write this letter for you </li>
     <li>Feel free to ask questions about the position, your expected duties and how to succeed if it is your first time becoming a TA/grader.</li>
   </ul>
-  
+  -->
   <h3>Do you need a recommendation letter for School/Research/Transfer/Job applications?</h3>
   <p> The quality of the letter will depend on three aspects: Your course performance, your interactions with me and how far in 
   advance you request the letter. Consider the following guidelines. </p>
@@ -46,6 +48,7 @@ If your inquiry is not addressed in this site, please send me an email with the 
 </div>
 
 
+<!--
 <h3 class="toggle-btn" onclick="toggleContent('current')" ><span class="toggle-indicator"></span> Grading of current courses </h3>
 
   
@@ -60,18 +63,13 @@ If your inquiry is not addressed in this site, please send me an email with the 
  </div> 
   
 <h3 class="toggle-btn" onclick="toggleContent('projects')" ><span class="toggle-indicator"></span> Research and Exploratory Projects </h3>
-
+-->
   
 <div class="hidden-content" id="projects">
 
-I offer undergraduate and graduate students various opportunities to get involved into mathematical topics beyond the scope of regular coursework.
- These projects can serve as an introduction to mathematical research. or potentially evolve into an Honors or graduate thesis.
-
-  <h3>Potential projects to explore</h3>
-  
-<ul>
-    <li> </li>
-  </ul>
+<p>
+  I offer undergraduate and graduate students various opportunities to get involved in mathematical topics beyond the scope of regular coursework of a typical major, or to get in-scope involvement in innovative teaching practices and techniques. These projects can serve as an introduction to mathematical research and education or potentially evolve into an Honors or graduate thesis.
+</p>
 
   
 </div>
