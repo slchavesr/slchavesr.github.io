@@ -62,9 +62,10 @@ If your inquiry is not addressed in this site, please send me an email with the 
   <a href="resources/curve.html"> This tool </a> will help you to compute your adjusted score if using a piecewise linear function   
  </div> 
   
-<h3 class="toggle-btn" onclick="toggleContent('projects')" ><span class="toggle-indicator"></span> Research and Exploratory Projects </h3>
+
 -->
-  
+ 
+<h3 class="toggle-btn" onclick="toggleContent('projects')" ><span class="toggle-indicator"></span> Research and Exploratory Projects </h3>
 <div class="hidden-content" id="projects">
 
 <p>
