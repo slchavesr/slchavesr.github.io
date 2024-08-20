@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Activities for M1920
-use-site-title: true
+use-site-title: false
 ---
 
 {% include toggle.html %}
@@ -10,4 +10,6 @@ use-site-title: true
 <a href="#" class="scrollUpButton">▲</a>
 </p>
 
-## Lecture 1: Vectors in the Plane and the Space
+## Interactive elements
+
+### Lecture 1: Vectors in the Plane and the Space
