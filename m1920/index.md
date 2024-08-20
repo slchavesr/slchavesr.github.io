@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: pageblank
 title: Material for Math1920
 use-site-title: true
 ---
