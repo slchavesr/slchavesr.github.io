@@ -1,6 +1,6 @@
 ---
-layout: baseblank
-title: Activities for Math1920
+layout: base
+title: Material for Math1920
 use-site-title: true
 ---
 
