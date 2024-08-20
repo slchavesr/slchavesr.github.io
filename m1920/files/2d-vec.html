@@ -29,9 +29,11 @@ var applet = new GGBApplet({
 
     window.onload = function() {
         applet.inject('applet_container');
-		            // Fit the view to screen after the applet loads
-            applet.setAppletParam("fitToScreen", true);
-            applet.setSize(600, 400);
+                // Set the view to include all objects
+        api.setCoordSystem(-10, 10, -10, 10);  // Example values; adjust as needed
+
+                // Optionally, you can auto-zoom to fit the objects
+        api.evalCommand("ZoomIn(2, 2)");
     }
 </script>
 
