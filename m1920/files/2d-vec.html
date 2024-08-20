@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Geometry of 2D vectors</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script src="navigation.js"></script>
+</head>
+
+<body>
+<div>
+<h3>Vectors in the plane</h3>
+<p>This interactive applet describes the geometry and arithmetic of vectors in the plane</p>
+<p> Use the checkboxes at the bottom of the screen to activate the geometry of vectors, and to visualize the sum of vectors graphically </p>
+
+<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script type="text/javascript">
+
+
+var applet = new GGBApplet({
+    "filename": "../geom_2d_vec.ggb",  
+    "width": 800,
+    "height": 600,
+    "showToolbar": true,
+    "showAlgebraInput": false,
+    "showMenuBar": false,
+	"showResetIcon": true,
+}, true);
+
+    window.onload = function() {
+        applet1.inject('applet_container');
+    }
+</script>
+
+Here is the first applet:<p>
+<div style="width:748px;height:397px;display:block" id="applet_container"></div>
+
+
+</div>
+</body>
+
+</html>
