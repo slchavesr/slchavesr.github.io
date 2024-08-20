@@ -13,3 +13,5 @@ use-site-title: false
 ## Interactive elements
 
 ### Lecture 1: Vectors in the Plane and the Space
+
+- [Vectors in the plane](/files/2d-vec.html)
