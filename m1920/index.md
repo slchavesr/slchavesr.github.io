@@ -1,6 +1,6 @@
 ---
-layout: pageblank
-title: Material for Math1920
+layout: page
+title: Activities for M1920
 use-site-title: true
 ---
 
@@ -9,3 +9,5 @@ use-site-title: true
 <p>
 <a href="#" class="scrollUpButton">▲</a>
 </p>
+
+## Lecture 1: Vectors in the Plane and the Space
