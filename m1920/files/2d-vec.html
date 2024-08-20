@@ -19,7 +19,7 @@
 var applet = new GGBApplet({
     "filename": "geom_2d_vec.ggb",  
     "width": 600,
-    "height": 400,
+    "height": 600,
     "showToolbar": true,
     "showAlgebraInput": false,
     "showMenuBar": false,
@@ -37,13 +37,12 @@ var applet = new GGBApplet({
                 api.setCoordSystem(-10, 10, -10, 10);  // Example values; adjust as needed
 
                 // Optionally, you can auto-zoom to fit the objects
-                api.evalCommand("ZoomIn(2, 2)");
             }, 1000);  // Delay to ensure the applet is fully initialized
         });
 </script>
 
 
-<div style="width:748px;height:397px;display:block" id="applet_container"></div>
+<div style="width:748px;height:600px;display:block" id="applet_container"></div>
 
 
 </div>
