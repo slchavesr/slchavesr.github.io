@@ -26,14 +26,20 @@ var applet = new GGBApplet({
 	"showResetIcon": true,
 }, true);
 
-    window.onload = function() {
-        applet.inject('applet_container');
+        window.addEventListener("load", function() {
+            applet.inject('applet_container');
+
+            // Adjust view after the applet is fully loaded
+            setTimeout(function() {
+                var api = applet.getAppletObject();
+
                 // Set the view to include all objects
-        api.setCoordSystem(-10, 10, -10, 10);  // Example values; adjust as needed
+                api.setCoordSystem(-10, 10, -10, 10);  // Example values; adjust as needed
 
                 // Optionally, you can auto-zoom to fit the objects
-        api.evalCommand("ZoomIn(2, 2)");
-    }
+                api.evalCommand("ZoomIn(2, 2)");
+            }, 1000);  // Delay to ensure the applet is fully initialized
+        });
 </script>
 
 
