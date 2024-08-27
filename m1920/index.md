@@ -21,3 +21,9 @@ use-site-title: false
 - [A point in the space](/files/3dpoint.html)
 
 - The coordinate planes [xy](/files/xy.html) [yz](/files/yz.html) [xz](/files/xz.html)
+
+### Lecture 2: Lines and Dot Product
+
+- [The angle between two vectors in the space](/files/angle.html)
+
+- [The equation of a line in the space](/files/line.html)
