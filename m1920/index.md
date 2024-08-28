@@ -26,7 +26,7 @@ use-site-title: false
 
 - [The angle between two vectors in the space](/files/angle.html)
 
-- [The equation of a line in the space](/files/line.html)
+- [The equation of a line in the space](/files/lines.html)
 
 - [Slant lines in the space](/files/slant.html)
 
