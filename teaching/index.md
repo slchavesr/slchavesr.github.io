@@ -11,21 +11,20 @@ use-site-title: true
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        .container {
-            display: grid;
-            grid-template-areas: 
-                "insight image inspiration"
-                "inclusion image innovation";
-            grid-gap: 20px;
+        #myDiv {
             position: relative;
-            padding: 20px;
+            width: 800px; /* Adjust as needed */
+            height: 600px; /* Adjust as needed */
+            margin: 0 auto;
+            border: 1px solid black;
         }
 
         .box {
-            border: 2px solid black;
+            position: absolute;
+            width: 180px; /* Adjust width as needed */
             padding: 10px;
-            width: 200px;
-            height: auto;
+            border: 2px solid black;
+            background-color: white;
         }
 
         .box h3 {
@@ -35,33 +34,35 @@ use-site-title: true
         }
 
         #insight {
-            grid-area: insight;
-            align-self: start;
+            top: 10px;
+            left: 10px;
         }
 
         #inspiration {
-            grid-area: inspiration;
-            align-self: start;
+            top: 10px;
+            right: 10px;
         }
 
         #inclusion {
-            grid-area: inclusion;
-            align-self: end;
+            bottom: 10px;
+            left: 10px;
         }
 
         #innovation {
-            grid-area: innovation;
-            align-self: end;
+            bottom: 10px;
+            right: 10px;
         }
 
         .center-image {
-            grid-area: image;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             text-align: center;
-            align-self: center;
         }
 
         .center-image img {
-            max-width: 100%;
+            max-width: 100px; /* Adjust size as needed */
             height: auto;
         }
     </style>
@@ -146,6 +147,8 @@ I am currently (**Fall 2024**) teaching  [MATH 1920 / Engineering Multivariable 
 
 <div class="hidden-content" id="TeachPh">
 My teaching philosophy is student-centered and built on four core principles: Insight, Inspiration, Inclusion, and Innovation. I refer to this as the <em>TetraIdron Philosophy.</em>
+
+<div id="myDiv">
 <div id="insight" class="box">
             <h3>Insight</h3>
             <ul>
@@ -190,5 +193,5 @@ My teaching philosophy is student-centered and built on four core principles: In
         <div class="center-image">
             <img src="img/T4.png" alt="Tetra Image">
         </div>
-
+</div>
 </div>
