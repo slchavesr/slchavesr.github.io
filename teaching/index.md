@@ -11,15 +11,18 @@ use-site-title: true
 </p>
 
 
-<figure>
-  <img src="img/profword.jpg" alt="word cloud" style="width:50%"/>
-  <figcaption>Word Cloud from Teaching Evaluations</figcaption>
-</figure>
+<div style="display: flex; justify-content: space-between;">
 
-<figure>
-  <img src="/img/class.jpg" alt="me in class" style="width:50%"/>
-  <figcaption>Teaching Volumes of solids of revolution, University of Rochester</figcaption>
-</figure>
+  <figure style="flex: 1; text-align: center; margin-right: 10px;">
+    <img src="img/profword.jpg" alt="word cloud" style="width:100%;"/>
+    <figcaption>Word Cloud from Teaching Evaluations</figcaption>
+  </figure>
+
+  <figure style="flex: 1; text-align: center; margin-left: 10px;">
+    <img src="img/class.jpg" alt="me in class" style="width:100%;"/>
+    <figcaption>Teaching Volumes of Solids of Revolution, University of Rochester</figcaption>
+  </figure>
+  </div>
 
 I am currently (**Fall 2024**) teaching  [MATH 1920 / Engineering Multivariable Calculus](https://classes.cornell.edu/browse/roster/FA24/class/MATH/1920)  
 <h2  class="toggle-btn" onclick="toggleContent('PastClasses')" ><span class="toggle-indicator"></span>  Courses taught at the Univeristy of Rochester (2021-2024) </h2>
