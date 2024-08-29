@@ -19,7 +19,7 @@ use-site-title: true
   </figure>
 
   <figure style="flex: 1; text-align: center; margin-left: 10px;">
-    <img src="img/class.jpg" alt="me in class" style="width:100%;"/>
+    <img src="/img/class.jpg" alt="me in class" style="width:100%;"/>
     <figcaption>Teaching Volumes of Solids of Revolution, University of Rochester</figcaption>
   </figure>
   </div>
