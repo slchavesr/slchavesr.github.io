@@ -188,7 +188,7 @@ My teaching philosophy is student-centered and built on four core principles: In
         </div>
 
         <div class="center-image">
-            <img src="T4.png" alt="Tetra Image">
+            <img src="img/T4.png" alt="Tetra Image">
         </div>
 
 </div>
