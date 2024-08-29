@@ -21,7 +21,7 @@ use-site-title: true
 
         .box {
             position: absolute;
-            width: 250px; /* Adjust width as needed */
+            width: 350px; /* Adjust width as needed */
             padding: 10px;
             border: 2px solid black;
             background-color: white;
