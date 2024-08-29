@@ -30,3 +30,11 @@ use-site-title: false
 
 - [Slant lines in the space](/files/slant.html)
 
+### Lecture 3: The cross Product
+
+- [The cross product and area of a parallelogram](/files/crossprod.html)
+
+- [Parallelepiped formed by three vectors in the space](/files/parallelepiped.html]
+
+
+
