@@ -21,7 +21,7 @@ use-site-title: true
 
         .box {
             position: absolute;
-            width: 200px; /* Adjust width as needed */
+            width: 250px; /* Adjust width as needed */
             padding: 10px;
             border: 2px solid black;
             background-color: white;
@@ -62,7 +62,7 @@ use-site-title: true
         }
 
         .center-image img {
-            max-width: 200px; /* Adjust size as needed */
+            max-width: 250px; /* Adjust size as needed */
             height: auto;
         }
     </style>
