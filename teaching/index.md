@@ -6,6 +6,68 @@ use-site-title: true
 
 {% include toggle.html %}
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "insight image inspiration"
+                "inclusion image innovation";
+            grid-gap: 20px;
+            position: relative;
+            padding: 20px;
+        }
+
+        .box {
+            border: 2px solid black;
+            padding: 10px;
+            width: 200px;
+            height: auto;
+        }
+
+        .box h3 {
+            margin-top: 0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #insight {
+            grid-area: insight;
+            align-self: start;
+        }
+
+        #inspiration {
+            grid-area: inspiration;
+            align-self: start;
+        }
+
+        #inclusion {
+            grid-area: inclusion;
+            align-self: end;
+        }
+
+        #innovation {
+            grid-area: innovation;
+            align-self: end;
+        }
+
+        .center-image {
+            grid-area: image;
+            text-align: center;
+            align-self: center;
+        }
+
+        .center-image img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+
 <p>
 <a href="#" class="scrollUpButton">▲</a>
 </p>
@@ -83,5 +145,50 @@ I am currently (**Fall 2024**) teaching  [MATH 1920 / Engineering Multivariable 
 <h2  class="toggle-btn" onclick="toggleContent('TeachPh')" ><span class="toggle-indicator"></span>   Teaching Philosophy </h2>
 
 <div class="hidden-content" id="TeachPh">
+My teaching philosophy is student-centered and built on four core principles: Insight, Inspiration, Inclusion, and Innovation. I refer to this as the <em>TetraIdron Philosophy.</em>
+<div id="insight" class="box">
+            <h3>Insight</h3>
+            <ul>
+                <li>Reflective Teaching</li>
+                <li>Incorporate real-world examples</li>
+                <li>Cultivate curiosity</li>
+                <li>Visualization and interactive activities</li>
+            </ul>
+        </div>
+
+        <div id="inspiration" class="box">
+            <h3>Inspiration</h3>
+            <ul>
+                <li>Constructivist approach</li>
+                <li>Inquiry and problem based learning techniques</li>
+                <li>Positive feedback and encouragement</li>
+                <li>Foster a Growth mindset</li>
+            </ul>
+        </div>
+
+        <div id="inclusion" class="box">
+            <h3>Inclusion</h3>
+            <ul>
+                <li>Establish a support system</li>
+                <li>Recognize barriers and challenges</li>
+                <li>Implement Assistive Technology</li>
+                <li>Tailored teaching experiences</li>
+                <li>Equitable access to opportunities</li>
+            </ul>
+        </div>
+
+        <div id="innovation" class="box">
+            <h3>Innovation</h3>
+            <ul>
+                <li>Differentiated Teaching</li>
+                <li>Technology Integration</li>
+                <li>Diverse teaching practices and assessment methods</li>
+                <li>Reflective and Classroom Engagement</li>
+            </ul>
+        </div>
+
+        <div class="center-image">
+            <img src="T4.png" alt="Tetra Image">
+        </div>
 
 </div>
