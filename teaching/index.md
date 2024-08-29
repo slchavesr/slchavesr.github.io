@@ -12,7 +12,7 @@ use-site-title: true
 
 
 <figure>
-  <img src="/img/profword.jpg" alt="word cloud" style="width:50%"/>
+  <img src="img/profword.jpg" alt="word cloud" style="width:50%"/>
   <figcaption>Word Cloud from Teaching Evaluations</figcaption>
 </figure>
 
