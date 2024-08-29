@@ -34,7 +34,7 @@ use-site-title: false
 
 - [The cross product and area of a parallelogram](/files/crossprod.html)
 
-- [Parallelepiped formed by three vectors in the space](/files/parallelepiped.html]
+- [Parallelepiped formed by three vectors in the space](/files/parallelepiped.html)
 
 
 
