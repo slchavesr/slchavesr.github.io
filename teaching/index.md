@@ -14,7 +14,7 @@ use-site-title: true
         #myDiv {
             position: relative;
             width: 800px; /* Adjust as needed */
-            height: 600px; /* Adjust as needed */
+            height: 1000px; /* Adjust as needed */
             margin: 0 auto;
             border: 1px solid black;
         }
@@ -62,7 +62,7 @@ use-site-title: true
         }
 
         .center-image img {
-            max-width: 100px; /* Adjust size as needed */
+            max-width: 200px; /* Adjust size as needed */
             height: auto;
         }
     </style>
@@ -87,7 +87,8 @@ use-site-title: true
   </figure>
   </div>
 
-I am currently (**Fall 2024**) teaching  [MATH 1920 / Engineering Multivariable Calculus](https://classes.cornell.edu/browse/roster/FA24/class/MATH/1920)  
+<p>I am currently <strong>(Fall 2024)</strong> teaching <a href="https://classes.cornell.edu/browse/roster/FA24/class/MATH/1920" target="_blank">MATH 1920 / Engineering Multivariable Calculus</a></p>
+
 <h2  class="toggle-btn" onclick="toggleContent('PastClasses')" ><span class="toggle-indicator"></span>  Courses taught at the Univeristy of Rochester (2021-2024) </h2>
 
 <ul class="hidden-content" id="PastClasses">
