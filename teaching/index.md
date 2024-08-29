@@ -38,7 +38,7 @@ I am currently (**Fall 2024**) teaching  [MATH 1920 / Engineering Multivariable 
 <ul class="hidden-content" id="TeachExp">
 
 
-<li> In the Summer 2024 I earned a Student Course Development Project at UR to develop material for Linear Algebra and Differential Equation courses </li>
+<li> In the Summer 2024 I earned a Student Course Development Project Award at UR to develop material for Linear Algebra and Differential Equation courses </li>
 <li> During Fall 2023 and Spring 2024, I served as an AP Calculus Visiting Fellow at the US College Board </li>
 <li> I was a Teaching Fellow supporting the implementation of WebWork at Western, and authoring problems for Logic, Set Theory and Combinatorics. </li>
 <li> I was a supporting instructor for Methods of Calculus at Western University in Winter 2021 creating lecture videos for online teaching during the COVID-19 pandemic. </li>
