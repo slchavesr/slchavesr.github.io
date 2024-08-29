@@ -12,7 +12,12 @@ use-site-title: true
 
 
 <figure>
-  <img src="/img/class.jpg" alt="me in class" style="width:80%"/>
+  <img src="/img/profword.jpg" alt="word cloud" style="width:50%"/>
+  <figcaption>Word Cloud from Teaching Evaluations</figcaption>
+</figure>
+
+<figure>
+  <img src="/img/class.jpg" alt="me in class" style="width:50%"/>
   <figcaption>Teaching Volumes of solids of revolution, University of Rochester</figcaption>
 </figure>
 
