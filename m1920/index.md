@@ -44,4 +44,4 @@ use-site-title: false
 
 - [Intersection of two planes](/files/2plint.html)
 
-- [Traces of a plane](/files/tracesplane.html)
+- [Traces of a plane](/files/planestrace.html)
