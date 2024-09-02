@@ -43,3 +43,5 @@ use-site-title: false
 - [A line and a plane in the space](/files/lineplane.html)
 
 - [Intersection of two planes](/files/2plint.html)
+
+- [Traces of a plane](/files/tracesplane.html)
