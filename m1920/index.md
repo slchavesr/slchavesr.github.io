@@ -45,3 +45,10 @@ use-site-title: false
 - [Intersection of two planes](/files/2plint.html)
 
 - [Traces of a plane](/files/planestrace.html)
+
+
+### Lecture 5: Quadric Surfaces
+
+- [Summary of Quadric Surfaces](/files/surveysurfaces.html)
+
+- [Quadric surface grapher using plane \(xy\)-sections]
