@@ -7,53 +7,57 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+        }
+        .item {
+            width: 30%;
+            text-align: center;
+        }
+        iframe {
+            width: 100%;
+        }
+    </style>
 </head>
 </head>
 
 <body>
-<div>
 
 
-<h1>Survey of Quadric Surfaces</h1>
-<h3>Ellipsoid</h3>
+<div class="container">
+    <!-- Ellipsoid -->
+    <div class="item">
+        <h3>Ellipsoid</h3>
+        <p>
+            \(\dfrac{x^2}{a^2}  + \dfrac{y^2}{b^2} + \dfrac{z^2}{c^2}=1 \)
+        </p>
+        <iframe frameborder="0" height="200px" 
+                src="https://c3d.libretexts.org/CalcPlot3D/dynamicFigure/index.html?type=implicit;equation=3x%5E2%20+%204y%5E2%20+%20z%5E2%20~9%20;cubes=20;visible=true;fixdomain=true;xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-5;zmax=5;alpha=255;hidemyedges=false;"></iframe>
+    </div>
 
-<p>
-\(\dfrac{x^2}{a^2}  + \dfrac{y^2}{b^2} + \dfrac{z^2}{c^2}=1 \)
-</p>
-<p style="text-align:center">
-<iframe frameborder="0" height="200px" 
-        src="https://c3d.libretexts.org/CalcPlot3D/dynamicFigure/index.html?type=implicit;equation=3x%5E2%20+%204y%5E2%20+%20z%5E2%20~9%20;cubes=20;visible=true;fixdomain=true;xmin=-2;xmax=2;ymin=-2;ymax=2;zmin=-5;zmax=5;alpha=255;hidemyedges=false;view=0;format=normal;constcol=rgb(255,0,0)&type=window;showfunnot=true;hsrmode=0;nomidpts=true;anaglyph=-1;center=7.35764427993334,16.163216405095863,9.198668713025791,1;focus=0,0,0,1;up=-0.39289507399914186,-0.3871829781978013,0.8340999953369439,1;transparent=false;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;shownormals=false;shownormalsatpts=false;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=true;faceson=true;showbox=false;showaxes=true;showticks=false;perspective=true;centerxpercent=0.46936080295826726;centerypercent=0.6699999999999999;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=true;gridcolor=rgb(128,128,128);lastaddedsurfaceactive=true;disabletrace=false;activefun=-1;xmin=-1;xmax=2;ymin=-1;ymax=2;zmin=-1;zmax=4;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=4;xscalefactor=1;yscalefactor=1;zscalefactor=1;tracemode=0;keep2d=false;zoom=0.286223" 
-		
-        width="90%">
-</iframe>
-</p>
-</body>
+    <!-- Hyperboloid of One Sheet -->
+    <div class="item">
+        <h3>Hyperboloid of One Sheet</h3>
+        <p>
+            \(\dfrac{x^2}{a^2}  + \dfrac{y^2}{b^2} - \dfrac{z^2}{c^2}=1 \)
+        </p>
+        <iframe frameborder="0" height="200px" 
+                src="https://c3d.libretexts.org/CalcPlot3D/dynamicFigure/index.html?type=implicit;equation=x%5E2%20+%20y%5E2-%20z%5E2%20~1%20;cubes=20;visible=true;fixdomain=true;xmin=-3;xmax=3;"></iframe>
+    </div>
 
+    <!-- Hyperboloid of Two Sheets -->
+    <div class="item">
+        <h3>Hyperboloid of Two Sheets</h3>
+        <p>
+            \(\dfrac{x^2}{a^2}  + \dfrac{y^2}{b^2} - \dfrac{z^2}{c^2}= -1 \)
+        </p>
+        <iframe frameborder="0" height="200px" 
+                src="https://c3d.libretexts.org/CalcPlot3D/dynamicFigure/index.html?type=implicit;equation=x%5E2%20+%20y%5E2-%201/2*z%5E2%20~-1%20;cubes=20;visible=true;fixdomain=true;xmin=-3;xmax=3;"></iframe>
+    </div>
+</div>
 
-<h3>Hyperbolloid of one sheet</h3>
-
-<p>
-\(\dfrac{x^2}{a^2}  + \dfrac{y^2}{b^2} - \dfrac{z^2}{c^2}=1 \)
-</p>
-<p style="text-align:center">
-<iframe frameborder="0" height="200px" 
-        src="https://c3d.libretexts.org/CalcPlot3D/dynamicFigure/index.html?type=implicit;equation=x%5E2%20+%20y%5E2-%20z%5E2%20~1%20;cubes=20;visible=true;fixdomain=true;xmin=-3;xmax=3;ymin=-3;ymax=3;zmin=-2;zmax=2;alpha=255;hidemyedges=false;view=0;format=normal;constcol=rgb(255,0,0)&type=window;showfunnot=true;hsrmode=0;nomidpts=true;anaglyph=-1;center=16.92692527324335,9.832717614532797,4.098397870738031,1;focus=0,0,0,1;up=-0.15210890451939327,-0.14561281780249868,0.9775785331407021,1;transparent=false;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;shownormals=false;shownormalsatpts=false;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=true;faceson=true;showbox=false;showaxes=true;showticks=false;perspective=true;centerxpercent=0.504226096143687;centerypercent=0.5933333333333332;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=true;gridcolor=rgb(128,128,128);lastaddedsurfaceactive=true;disabletrace=false;activefun=-1;xmin=-1;xmax=2;ymin=-1;ymax=2;zmin=-1;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=4;xscalefactor=1;yscalefactor=1;zscalefactor=1;tracemode=0;keep2d=false;zoom=0.286223"
-		width="90%">
-</iframe>
-</p>
-</body>
-</html>
-
-<h3>Hyperbolloid of two sheets</h3>
-
-<p>
-\(\dfrac{x^2}{a^2}  + \dfrac{y^2}{b^2} - \dfrac{z^2}{c^2}= -1 \)
-</p>
-<p style="text-align:center">
-<iframe frameborder="0" height="200px" 
-        src="https://c3d.libretexts.org/CalcPlot3D/dynamicFigure/index.html?type=implicit;equation=x%5E2%20+%20y%5E2-%201/2*z%5E2%20~-1%20;cubes=20;visible=true;fixdomain=true;xmin=-3;xmax=3;ymin=-3;ymax=3;zmin=-3;zmax=3;alpha=255;hidemyedges=false;view=0;format=normal;constcol=rgb(255,0,0)&type=window;showfunnot=true;hsrmode=0;nomidpts=true;anaglyph=-1;center=-18.831744150804294,4.287209445413035,5.19473266008598,1;focus=0,0,0,1;up=0.2978868525353707,0.1703803766954413,0.9392730967741438,1;transparent=false;alpha=140;twoviews=false;unlinkviews=false;axisextension=0.7;shownormals=false;shownormalsatpts=false;xaxislabel=x;yaxislabel=y;zaxislabel=z;edgeson=true;faceson=true;showbox=false;showaxes=true;showticks=false;perspective=true;centerxpercent=0.504226096143687;centerypercent=0.5933333333333332;rotationsteps=30;autospin=true;xygrid=false;yzgrid=false;xzgrid=false;gridsonbox=true;gridplanes=true;gridcolor=rgb(128,128,128);lastaddedsurfaceactive=true;disabletrace=false;activefun=-1;xmin=-1;xmax=2;ymin=-1;ymax=2;zmin=-1;zmax=2;xscale=1;yscale=1;zscale=1;zcmin=-4;zcmax=4;xscalefactor=1;yscalefactor=1;zscalefactor=1;tracemode=0;keep2d=false;zoom=0.459556"
-		width="90%">
-</iframe>
-</p>
 </body>
 </html>
