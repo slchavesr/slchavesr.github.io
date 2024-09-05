@@ -51,4 +51,5 @@ use-site-title: false
 
 - [Summary of Quadric Surfaces](/files/surveysurfaces.html)
 
-- [Quadric surface grapher using plane \(xy\)-sections]
+- [Quadric surface grapher using plane \(xy\)-sections](/files/surfacesection.html)
+
