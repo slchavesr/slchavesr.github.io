@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Spherical coordinates in the Space</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+<div>
+<h3>Spherical coordinates in the Space</h3>
+
+
+<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script type="text/javascript">
+
+
+var applet = new GGBApplet({
+    "filename": "sphcoord.ggb",  
+    "showToolbar": true,
+    "showAlgebraInput": false,
+    "showMenuBar": false,
+	"showResetIcon": true,
+	"enableFullscreen": true,
+}, true);
+
+        window.addEventListener("load", function() {
+            applet.inject('applet_container');
+
+            // Adjust view after the applet is fully loaded
+            setTimeout(function() {
+                var api = applet.getAppletObject();
+
+                // Set the view to include all objects
+                api.setCoordSystem(-15, 15, -15, 15);  // Example values; adjust as needed
+
+                // Optionally, you can auto-zoom to fit the objects
+            }, 1000);  // Delay to ensure the applet is fully initialized
+        });
+</script>
+
+
+<div style="display:block" id="applet_container"></div>
+
+
+</div>
+</body>
+
+</html>

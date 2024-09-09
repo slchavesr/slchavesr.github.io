@@ -53,3 +53,8 @@ use-site-title: false
 
 - [Quadric surface grapher using plane \(xy\)-sections](/files/surfacesection.html)
 
+### Lecture 6: Cylindrical and Spherical coordinates
+
+- [Cylindrical coordinates](/files/cylcoord.html)
+
+- [Spherical coordinates](/files/sphcoord.html)
