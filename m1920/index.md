@@ -58,3 +58,9 @@ use-site-title: false
 - [Cylindrical coordinates](/files/cylcoord.html)
 
 - [Spherical coordinates](/files/sphcoord.html)
+
+
+### Lecture 7: Vector Valued Functions
+
+- [Vector valued curves grapher](/files/vectorcurves.html)
+
