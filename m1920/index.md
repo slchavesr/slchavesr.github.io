@@ -64,3 +64,8 @@ use-site-title: false
 
 - [Vector valued curves grapher](/files/vectorcurves.html)
 
+
+### Lecture 8: Derivatives of Vector Valued Functions
+
+- [Derivatives of vector valued curves](/files/vectorder.html)
+
