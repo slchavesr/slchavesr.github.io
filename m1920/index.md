@@ -69,3 +69,6 @@ use-site-title: false
 
 - [Derivatives of vector valued curves](/files/vectorder.html)
 
+### Lecture 9: Arc Length
+
+- [Arc length of vector and space curves](/files/curvelength.html)
