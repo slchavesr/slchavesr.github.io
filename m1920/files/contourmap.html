@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Contour Map Generator</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+<div>
+<h3>Contour Map Generator</h3>
+
+
+<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script type="text/javascript">
+
+
+var applet = new GGBApplet({
+    "filename": "contourmap.ggb",  
+    "showToolbar": false,
+    "showAlgebraInput": false,
+    "showMenuBar": false,
+	"showResetIcon": true,
+	"enableFullscreen": true,
+}, true);
+
+        window.addEventListener("load", function() {
+            applet.inject('applet_container');
+
+            // Adjust view after the applet is fully loaded
+            setTimeout(function() {
+                var api = applet.getAppletObject();
+
+                // Set the view to include all objects
+                // api.setCoordSystem(-15, 15, -15, 15);  // Example values; adjust as needed
+
+                // Optionally, you can auto-zoom to fit the objects
+            }, 1000);  // Delay to ensure the applet is fully initialized
+        });
+</script>
+
+
+<div id="applet_container" style="width: 140%; height: 800px; margin: 0 auto;"></div>
+
+
+</div>
+</body>
+
+</html>

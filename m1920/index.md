@@ -72,3 +72,7 @@ use-site-title: false
 ### Lecture 9: Arc Length
 
 - [Arc length of vector and space curves](/files/curvelength.html)
+
+### Lecture 10: Multivariable Functions
+
+- [Contour map and Level Curves](/files/contourmap.html)
