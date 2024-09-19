@@ -76,3 +76,8 @@ use-site-title: false
 ### Lecture 10: Multivariable Functions
 
 - [Contour map and Level Curves](/files/contourmap.html)
+
+### Lecture 11: Limits and Continuity
+
+- [Some curious surfaces](/files/limitsurfaces.html)
+
