@@ -81,3 +81,6 @@ use-site-title: false
 
 - [Some curious surfaces](/files/limitsurfaces.html)
 
+### Lecture 12: Partial Derivatives
+
+- [Partial derivatives for two variable functions visualizer](/files/partialder.html)
