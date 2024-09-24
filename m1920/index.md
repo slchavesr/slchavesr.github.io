@@ -84,3 +84,7 @@ use-site-title: false
 ### Lecture 12: Partial Derivatives
 
 - [Partial derivatives for two variable functions visualizer](/files/partialder.html)
+
+### Lecture 13: Partial Derivatives
+
+- [Directional Derivatives for two variable functions visualizer](/files/directder.html)
