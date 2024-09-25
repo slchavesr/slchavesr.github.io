@@ -85,6 +85,10 @@ use-site-title: false
 
 - [Partial derivatives for two variable functions visualizer](/files/partialder.html)
 
-### Lecture 13: Partial Derivatives
+### Lecture 14: Tangent Plane and Differentiability
+
+- [Tangent plane visualizer](/files/tanplane.html)
+
+### Lecture 14: Gradient and Directional Derivatives
 
 - [Directional Derivatives for two variable functions visualizer](/files/directder.html)
