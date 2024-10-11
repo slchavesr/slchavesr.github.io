@@ -89,6 +89,10 @@ use-site-title: false
 
 - [Tangent plane visualizer](/files/tanplane.html)
 
-### Lecture 14: Gradient and Directional Derivatives
+### Lecture 15: Gradient and Directional Derivatives
 
 - [Directional Derivatives for two variable functions visualizer](/files/directder.html)
+
+### Lecture 18: Introduction to Double Integrals
+
+- [Double integrals over rectangles](/files/integral.html)

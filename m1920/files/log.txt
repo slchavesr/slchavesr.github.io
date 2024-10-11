@@ -1,0 +1,378 @@
+Tue Oct  1 14:16:48 2024 user.notice wireguard: wireguard client start
+Tue Oct  1 14:16:48 2024 daemon.info dnsmasq[4571]: exiting on receipt of SIGTERM
+Tue Oct  1 14:16:48 2024 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Tue Oct  1 14:16:48 2024 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: started, version 2.80 cachesize 150
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: DNS service limited to local subnets
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC no-ID loop-detect inotify dumpfile
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq-dhcp[7188]: DHCP, IP range 192.168.8.100 -- 192.168.8.249, lease time 12h
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain test
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain onion
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain localhost
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain local
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain invalid
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain bind
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain lan
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: reading /tmp/resolv.conf.vpn
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain test
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain onion
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain localhost
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain local
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain invalid
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain bind
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using local addresses only for domain lan
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: using nameserver 64.6.64.6#53
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: read /etc/hosts - 4 addresses
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq[7188]: read /tmp/hosts/dhcp.cfg01411c - 2 addresses
+Tue Oct  1 14:16:49 2024 daemon.info dnsmasq-dhcp[7188]: read /etc/ethers - 0 addresses
+Tue Oct  1 14:16:50 2024 daemon.notice netifd: VLAN 'eth0.2' link is down
+Tue Oct  1 14:16:50 2024 daemon.notice netifd: Interface 'wan' has link connectivity loss
+Tue Oct  1 14:16:50 2024 kern.warn kernel: [ 2156.163886] [hnat info]del wan ip c0a80c18 pf 24  index 0
+Tue Oct  1 14:16:51 2024 daemon.notice netifd: wan (31902): udhcpc: received SIGTERM
+Tue Oct  1 14:16:51 2024 daemon.notice netifd: VLAN 'eth0.2' link is up
+Tue Oct  1 14:16:51 2024 daemon.notice netifd: Interface 'wan' has link connectivity
+Tue Oct  1 14:16:51 2024 daemon.notice netifd: Interface 'wan' is setting up now
+Tue Oct  1 14:16:51 2024 kern.warn kernel: [ 2157.192831] [hnat info]wan ip changed, vldclean
+Tue Oct  1 14:16:52 2024 daemon.notice netifd: wan (7640): udhcpc: started, v1.29.3
+Tue Oct  1 14:16:52 2024 daemon.notice netifd: wan (7640): udhcpc: sending discover
+Tue Oct  1 14:16:52 2024 daemon.notice netifd: wan (7640): udhcpc: sending select for 192.168.12.24
+Tue Oct  1 14:16:52 2024 daemon.notice netifd: wan (7640): udhcpc: lease of 192.168.12.24 obtained, lease time 604800
+Tue Oct  1 14:16:53 2024 kern.warn kernel: [ 2158.228072] [hnat info]add wan ip c0a80c18 pf 24  index 0 vld 1 name eth0.2
+Tue Oct  1 14:16:53 2024 daemon.warn dnsmasq[7188]: failed to create listening socket for 192.168.12.24: Address in use
+Tue Oct  1 14:16:53 2024 daemon.notice netifd: Interface 'wan' is now up
+Tue Oct  1 14:16:53 2024 daemon.notice netifd: wan (7640): /lib/netifd/dhcp.script: line 62: netclash: not found
+Tue Oct  1 14:16:53 2024 user.notice relay: Reloading relay due to disconnected of wan (eth0.2)
+Tue Oct  1 14:16:54 2024 user.notice relay: Reloading relay due to ifdown of wan ()
+Tue Oct  1 14:16:55 2024 daemon.info dnsmasq[7188]: exiting on receipt of SIGTERM
+Tue Oct  1 14:16:55 2024 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Tue Oct  1 14:16:55 2024 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: started, version 2.80 cachesize 150
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: DNS service limited to local subnets
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC no-ID loop-detect inotify dumpfile
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq-dhcp[8362]: DHCP, IP range 192.168.8.100 -- 192.168.8.249, lease time 12h
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain test
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain onion
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain localhost
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain local
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain invalid
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain bind
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain lan
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: reading /tmp/resolv.conf.auto
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain test
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain onion
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain localhost
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain local
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain invalid
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain bind
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using local addresses only for domain lan
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: using nameserver 192.168.12.1#53
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: read /etc/hosts - 4 addresses
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq[8362]: read /tmp/hosts/dhcp.cfg01411c - 2 addresses
+Tue Oct  1 14:16:56 2024 daemon.info dnsmasq-dhcp[8362]: read /etc/ethers - 0 addresses
+Tue Oct  1 14:16:58 2024 user.info mwan3rtmon[1946]: Detect rtchange event.
+Tue Oct  1 14:16:58 2024 user.notice relay: Reloading relay due to connected of wan (eth0.2)
+Tue Oct  1 14:16:59 2024 user.notice firewall: Reloading firewall due to ifup of wan (eth0.2)
+Tue Oct  1 14:17:01 2024 user.notice relay: Reloading relay due to ifup of wan (eth0.2)
+Tue Oct  1 14:17:02 2024 daemon.err gl_monitor[2842]: Unable to access interface: No such device
+Tue Oct  1 14:17:02 2024 user.notice root: wireguard disconnected, will restart
+Tue Oct  1 14:17:03 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:03 2024 user.notice wireguard: wireguard client stop
+Tue Oct  1 14:17:03 2024 daemon.err gl_monitor[2842]: Cannot find device "wg0"
+Tue Oct  1 14:17:03 2024 daemon.err gl_monitor[2842]: Cannot find device "wg0"
+Tue Oct  1 14:17:03 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Section @zone[1] (wan) cannot resolve device of network 'wan6'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Section @zone[1] (wan) cannot resolve device of network 'wwan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Section @zone[1] (wan) cannot resolve device of network 'tethering'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Option 'sambasharewan'.dest_proto is unknown
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Section 'sambasharewan' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Option 'sambasharelan'.dest_proto is unknown
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Section 'sambasharelan' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Section 'safe_mode_mark' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Section 'safe_mode_mark_save' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: Section 'safe_mode_mark_drop' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Clearing IPv4 filter table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Clearing IPv4 nat table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Clearing IPv4 mangle table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Clearing IPv4 raw table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Populating IPv4 filter table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-DHCP-Renew'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-Ping'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-IGMP'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-UDP-udpxy'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-IPSec-ESP'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-ISAKMP'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'guestzone_DHCP'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'guestzone_DNS'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule #12
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule #13
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_lan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_guest'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark_drop'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Forward 'lan' -> 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Forward 'guestzone' -> 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Populating IPv4 nat table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Populating IPv4 mangle table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark_save'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Populating IPv4 raw table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:      - Using automatic conntrack helper attachment
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:      - Using automatic conntrack helper attachment
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Clearing IPv6 filter table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Clearing IPv6 nat table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Clearing IPv6 mangle table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Populating IPv6 filter table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-UDP-udpxy'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:      ! Skipping due to different family of ip address
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-DHCPv6'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-MLD'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-ICMPv6-Input'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-ICMPv6-Forward'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-IPSec-ESP'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-ISAKMP'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'guestzone_DHCP'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'guestzone_DNS'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule #12
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule #13
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_lan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_guest'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark_drop'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Forward 'lan' -> 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Forward 'guestzone' -> 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Populating IPv6 nat table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_guestzone_rule'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_guestzone_rule'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Populating IPv6 mangle table
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark_save'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Set tcp_ecn to off
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Set tcp_syncookies to on
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Set tcp_window_scaling to on
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Running script '/etc/firewall.user'
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: iptables: No chain/target/match by that name.
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: iptables: No chain/target/match by that name.
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]: iptables: No chain/target/match by that name.
+Tue Oct  1 14:17:04 2024 daemon.err gl_monitor[2842]:  * Running script '/usr/bin/glfw.sh'
+Tue Oct  1 14:17:05 2024 daemon.err gl_monitor[2842]:  * Running script '/var/etc/gls2s.include'
+Tue Oct  1 14:17:05 2024 daemon.err gl_monitor[2842]:    ! Skipping due to path error: No such file or directory
+Tue Oct  1 14:17:05 2024 daemon.err gl_monitor[2842]:  * Running script '/usr/sbin/glqos.sh'
+Tue Oct  1 14:17:07 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:07 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:07 2024 user.notice relay: Reloading relay due to ifdown of wg ()
+Tue Oct  1 14:17:07 2024 daemon.err gl_monitor[2842]: /etc/rc.common: line 588: condition_enable_flow_offload: not found
+Tue Oct  1 14:17:07 2024 user.notice wiregaurd: client stop completed, del glwg.lock
+Tue Oct  1 14:17:07 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:07 2024 user.notice wireguard: wireguard client start
+Tue Oct  1 14:17:07 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[8362]: exiting on receipt of SIGTERM
+Tue Oct  1 14:17:08 2024 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Tue Oct  1 14:17:08 2024 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: started, version 2.80 cachesize 150
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: DNS service limited to local subnets
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC no-ID loop-detect inotify dumpfile
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq-dhcp[9736]: DHCP, IP range 192.168.8.100 -- 192.168.8.249, lease time 12h
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain test
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain onion
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain localhost
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain local
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain invalid
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain bind
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain lan
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: reading /tmp/resolv.conf.vpn
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain test
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain onion
+Tue Oct  1 14:17:08 2024 daemon.info dnsmasq[9736]: using local addresses only for domain localhost
+Tue Oct  1 14:17:09 2024 daemon.info dnsmasq[9736]: using local addresses only for domain local
+Tue Oct  1 14:17:09 2024 daemon.info dnsmasq[9736]: using local addresses only for domain invalid
+Tue Oct  1 14:17:09 2024 daemon.info dnsmasq[9736]: using local addresses only for domain bind
+Tue Oct  1 14:17:09 2024 daemon.info dnsmasq[9736]: using local addresses only for domain lan
+Tue Oct  1 14:17:09 2024 daemon.info dnsmasq[9736]: using nameserver 64.6.64.6#53
+Tue Oct  1 14:17:09 2024 daemon.info dnsmasq[9736]: read /etc/hosts - 4 addresses
+Tue Oct  1 14:17:09 2024 daemon.info dnsmasq[9736]: read /tmp/hosts/dhcp.cfg01411c - 2 addresses
+Tue Oct  1 14:17:09 2024 daemon.info dnsmasq-dhcp[9736]: read /etc/ethers - 0 addresses
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Section @zone[1] (wan) cannot resolve device of network 'wan6'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Section @zone[1] (wan) cannot resolve device of network 'wwan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Section @zone[1] (wan) cannot resolve device of network 'tethering'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Option 'wireguard'.masq6 is unknown
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Option 'sambasharewan'.dest_proto is unknown
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Section 'sambasharewan' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Option 'sambasharelan'.dest_proto is unknown
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Section 'sambasharelan' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Section 'safe_mode_mark' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Section 'safe_mode_mark_save' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: Section 'safe_mode_mark_drop' does not specify a protocol, assuming TCP+UDP
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Clearing IPv4 filter table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Clearing IPv4 nat table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Clearing IPv4 mangle table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Clearing IPv4 raw table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Populating IPv4 filter table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'input_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'output_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'forwarding_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-DHCP-Renew'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-Ping'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-IGMP'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-UDP-udpxy'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-IPSec-ESP'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-ISAKMP'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'guestzone_DHCP'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'guestzone_DNS'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule #12
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule #13
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_lan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_guest'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark_drop'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-Wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Forward 'wireguard' -> 'wan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Forward 'lan' -> 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Forward 'guestzone' -> 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Forward 'wireguard' -> 'guestzone'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Populating IPv4 nat table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Populating IPv4 mangle table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark_save'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Populating IPv4 raw table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:      - Using automatic conntrack helper attachment
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:      - Using automatic conntrack helper attachment
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Clearing IPv6 filter table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Clearing IPv6 nat table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Clearing IPv6 mangle table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Populating IPv6 filter table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'input_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'output_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'forwarding_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-UDP-udpxy'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:      ! Skipping due to different family of ip address
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-DHCPv6'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-MLD'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-ICMPv6-Input'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-ICMPv6-Forward'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-IPSec-ESP'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'Allow-ISAKMP'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'guestzone_DHCP'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'guestzone_DNS'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule #12
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule #13
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_lan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_guest'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark_drop'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Forward 'wireguard' -> 'wan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Forward 'lan' -> 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Forward 'guestzone' -> 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Forward 'wireguard' -> 'guestzone'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Populating IPv6 nat table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_lan_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_lan_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_wan_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_wan_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_guestzone_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_guestzone_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_wireguard_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'prerouting_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: Warning: fw3_ipt_rule_append(): Can't find target 'postrouting_rule'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Populating IPv6 mangle table
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Rule 'safe_mode_mark_save'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'lan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wan'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'guestzone'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:    * Zone 'wireguard'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Set tcp_ecn to off
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Set tcp_syncookies to on
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Set tcp_window_scaling to on
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]:  * Running script '/etc/firewall.user'
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:09 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:10 2024 daemon.err gl_monitor[2842]: uci: Entry not found
+Tue Oct  1 14:17:10 2024 daemon.err gl_monitor[2842]: iptables: No chain/target/match by that name.
+Tue Oct  1 14:17:10 2024 daemon.err gl_monitor[2842]: iptables: No chain/target/match by that name.
+Tue Oct  1 14:17:10 2024 daemon.err gl_monitor[2842]: iptables: No chain/target/match by that name.
+Tue Oct  1 14:17:10 2024 daemon.err gl_monitor[2842]:  * Running script '/usr/bin/glfw.sh'
+Tue Oct  1 14:17:10 2024 daemon.err gl_monitor[2842]:  * Running script '/var/etc/gls2s.include'
+Tue Oct  1 14:17:10 2024 daemon.err gl_monitor[2842]:    ! Skipping due to path error: No such file or directory
+Tue Oct  1 14:17:10 2024 daemon.err gl_monitor[2842]:  * Running script '/usr/sbin/glqos.sh'
+Tue Oct  1 14:17:11 2024 daemon.err gl_monitor[2842]: /etc/rc.common: line 358: disable_flow_offload: not found
+Tue Oct  1 14:17:11 2024 daemon.err gl_monitor[2842]: Name does not resolve: `gx35a6d.glddns.com:51820'
+Tue Oct  1 14:17:11 2024 daemon.err gl_monitor[2842]: Configuration parsing error
+Tue Oct  1 14:17:12 2024 daemon.info dnsmasq[9736]: exiting on receipt of SIGTERM
+Tue Oct  1 14:17:12 2024 user.notice dnsmasq: DNS rebinding protection is active, will discard upstream RFC1918 responses!
+Tue Oct  1 14:17:12 2024 user.notice dnsmasq: Allowing 127.0.0.0/8 responses
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: started, version 2.80 cachesize 150
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: DNS service limited to local subnets
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: compile time options: IPv6 GNU-getopt no-DBus no-i18n no-IDN DHCP DHCPv6 no-Lua TFTP conntrack ipset auth DNSSEC no-ID loop-detect inotify dumpfile
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq-dhcp[10345]: DHCP, IP range 192.168.8.100 -- 192.168.8.249, lease time 12h
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain test
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain onion
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain localhost
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain local
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain invalid
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain bind
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain lan
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: reading /tmp/resolv.conf.auto
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain test
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain onion
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain localhost
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain local
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain invalid
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain bind
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using local addresses only for domain lan
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: using nameserver 192.168.12.1#53
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: read /etc/hosts - 4 addresses
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq[10345]: read /tmp/hosts/dhcp.cfg01411c - 2 addresses
+Tue Oct  1 14:17:13 2024 daemon.info dnsmasq-dhcp[10345]: read /etc/ethers - 0 addresses
