@@ -96,3 +96,7 @@ use-site-title: false
 ### Lecture 18: Introduction to Double Integrals
 
 - [Double integrals over rectangles](/files/integral.html)
+
+### Lecture 20: Triple Integrals
+
+- [Simple solids in Cartesian Coordinates](/files/tripleint.html)
