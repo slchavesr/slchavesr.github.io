@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Triple integrals in Cartesian coordinates</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+<div>
+<h3>Triple integrals in Cartesian coordinates </h3>
+<p>
+This applet helps to visualize simple solids \(E\) of type I:
+<ul>
+ <li> \( a \leq x \leq b\) </li>
+ <li> \( g_1(x) \leq y \leq g_2(y) \) </li>
+ <li> \( h_1(x,y) \leq z \leq h_2(x,y) \) </li>
+</ul>
+</p>
+Enter the corresponding bounds in the boxes, and use the buttons to see different projections of the solid.
+
+
+<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script type="text/javascript">
+
+
+var applet = new GGBApplet({
+    "filename": "tripleint.ggb",  
+    "showToolbar": false,
+    "showAlgebraInput": false,
+    "showMenuBar": false,
+	"showResetIcon": true,
+	"enableFullscreen": true,
+}, true);
+
+        window.addEventListener("load", function() {
+            applet.inject('applet_container');
+
+            // Adjust view after the applet is fully loaded
+            setTimeout(function() {
+                var api = applet.getAppletObject();
+
+                // Set the view to include all objects
+               // api.setCoordSystem(-15, 15, -15, 15);  // Example values; adjust as needed
+
+                // Optionally, you can auto-zoom to fit the objects
+            }, 1000);  // Delay to ensure the applet is fully initialized
+        });
+</script>
+
+
+<div id="applet_container" style="width: 140%; height: 800px; margin: 0 auto;"></div>
+
+
+</div>
+</body>
+
+</html>
