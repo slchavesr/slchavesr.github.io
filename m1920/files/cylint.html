@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Triple integrals in Cartesian coordinates</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+<div>
+<h3>Triple integrals in Cylindrical coordinates </h3>
+<p>
+This applet helps to visualize simple solids \(E\) in cylindrical coordinates of the following form:
+<ul>
+ <li> \( \alpha \leq \theta \leq \beta \) </li>
+ <li> \( r_1(\theta) \leq r \leq r_2(\theta) \) </li> 
+ <li> \( u_1(r,\theta) \leq z \leq u_2(r,\theta) \) </li>
+</ul>
+</p>
+So \( \theta \) is independent, \( r \) possibly depends on \( \theta \) and \( z \) possibly depends on both \(r,\theta \).
+
+Enter the corresponding bounds in the boxes, enter \(\theta \) as \( t \),  and use the buttons to see the projection on the $x,y$-plane.
+
+
+<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script type="text/javascript">
+
+
+var applet = new GGBApplet({
+    "filename": "cylint.ggb",  
+    "showToolbar": false,
+    "showAlgebraInput": false,
+    "showMenuBar": false,
+	"showResetIcon": true,
+	"enableFullscreen": true,
+}, true);
+
+        window.addEventListener("load", function() {
+            applet.inject('applet_container');
+
+            // Adjust view after the applet is fully loaded
+            setTimeout(function() {
+                var api = applet.getAppletObject();
+
+                // Set the view to include all objects
+               // api.setCoordSystem(-15, 15, -15, 15);  // Example values; adjust as needed
+
+                // Optionally, you can auto-zoom to fit the objects
+            }, 1000);  // Delay to ensure the applet is fully initialized
+        });
+</script>
+
+
+<div id="applet_container" style="width: 140%; height: 800px; margin: 0 auto;"></div>
+
+
+</div>
+</body>
+
+</html>

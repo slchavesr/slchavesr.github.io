@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Triple integrals in Spherical coordinates</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+<div>
+<h3>Triple integrals in Spherical coordinates </h3>
+<p>
+This applet helps to visualize simple solids \(E\) in spherical coordinates of the following form:
+<ul>
+ <li> \( \alpha \leq \phi \leq \beta \) </li>
+ <li> \( \theta_1(\phi) \leq \theta \leq \theta_2(\phi) \) </li> 
+ <li> \( \pho_1(\phi,\theta) \leq \rho \leq \pho_2(\phi,\theta) \) </li>
+</ul>
+</p>
+So \( \phi \) is independent, \( \theta \) possibly depends on \( \phi \) and \( \pho \) possibly depends on both \(\phi,\theta \).
+
+Enter the corresponding bounds in the boxes, enter \( \phi \) as \( 'p' \) \(\theta \) as \( 't' \).
+
+
+<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script type="text/javascript">
+
+
+var applet = new GGBApplet({
+    "filename": "sphint.ggb",  
+    "showToolbar": false,
+    "showAlgebraInput": false,
+    "showMenuBar": false,
+	"showResetIcon": true,
+	"enableFullscreen": true,
+}, true);
+
+        window.addEventListener("load", function() {
+            applet.inject('applet_container');
+
+            // Adjust view after the applet is fully loaded
+            setTimeout(function() {
+                var api = applet.getAppletObject();
+
+                // Set the view to include all objects
+               // api.setCoordSystem(-15, 15, -15, 15);  // Example values; adjust as needed
+
+                // Optionally, you can auto-zoom to fit the objects
+            }, 1000);  // Delay to ensure the applet is fully initialized
+        });
+</script>
+
+
+<div id="applet_container" style="width: 140%; height: 800px; margin: 0 auto;"></div>
+
+
+</div>
+</body>
+
+</html>

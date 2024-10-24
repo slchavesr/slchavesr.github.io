@@ -100,3 +100,9 @@ use-site-title: false
 ### Lecture 20: Triple Integrals
 
 - [Simple solids in Cartesian Coordinates](/files/tripleint.html)
+
+### Lecture 21: Triple Integrals in Cylindrical and Spherical Coordinates
+
+- [Simple solids in Cylindrical Coordinates](/files/cylint.html)
+
+- [Simple solids in Spherical Coordinates](/files/sphint.html)
