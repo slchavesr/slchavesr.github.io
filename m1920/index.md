@@ -106,3 +106,8 @@ use-site-title: false
 - [Simple solids in Cylindrical Coordinates](/files/cylint.html)
 
 - [Simple solids in Spherical Coordinates](/files/sphint.html)
+
+### Lecture 23: General Change of coordinates
+
+- [Some videos showcasing change of coordinates](/files/changecoordex.html)
+
