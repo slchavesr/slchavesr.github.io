@@ -1,44 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Geometry of 2D vectors</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+<div>
+<h3>Vectors in the plane</h3>
+<p>This interactive applet describes the geometry and arithmetic of vectors in the plane</p>
+<p> Use the checkboxes at the bottom of the screen to activate the geometry of vectors, and to visualize the sum of vectors graphically </p>
+
 <script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
 <script type="text/javascript">
+
+
 var applet = new GGBApplet({
     "filename": "geom_2d_vec.ggb",  
     "showToolbar": false,
     "showAlgebraInput": false,
     "showMenuBar": false,
-    "showResetIcon": true,
-    "enableFullscreen": true,
+	"showResetIcon": true,
+    "showFullscreenButton": true,
 }, true);
 
-window.addEventListener("load", function() {
-    applet.inject('applet_container');
+        window.addEventListener("load", function() {
+            applet.inject('applet_container');
 
-    // Adjust view after the applet is fully loaded
-    setTimeout(function() {
-        var api = applet.getAppletObject();
+            // Adjust view after the applet is fully loaded
+            setTimeout(function() {
+                var api = applet.getAppletObject();
 
-        // Set the view to include all objects
-        api.setCoordSystem(-5, 5, -5, 5);  // Example values; adjust as needed
+                // Set the view to include all objects
+               api.setCoordSystem(-5, 5, -5, 5);  // Example values; adjust as needed
 
-        // Optionally, you can auto-zoom to fit the objects
-    }, 1000);  // Delay to ensure the applet is fully initialized
-});
-
-// Function to toggle fullscreen mode
-function toggleFullscreen() {
-    var elem = document.getElementById('applet_container');
-    if (elem.requestFullscreen) {
-        elem.requestFullscreen();
-    } else if (elem.mozRequestFullScreen) { // Firefox
-        elem.mozRequestFullScreen();
-    } else if (elem.webkitRequestFullscreen) { // Chrome, Safari and Opera
-        elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { // IE/Edge
-        elem.msRequestFullscreen();
-    }
-}
+                // Optionally, you can auto-zoom to fit the objects
+            }, 1000);  // Delay to ensure the applet is fully initialized
+        });
 </script>
 
-<!-- Fullscreen button -->
-<button onclick="toggleFullscreen()">Toggle Fullscreen</button>
 
 <div id="applet_container" style="width: 140%; height: 1000px; margin: 0 auto;"></div>
+
+
+</div>
+</body>
+
+</html>
