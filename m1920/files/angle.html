@@ -17,11 +17,13 @@
 
 var applet = new GGBApplet({
     "filename": "angle.ggb",  
-    "showToolbar": true,
+    "showToolbar": false,
     "showAlgebraInput": false,
     "showMenuBar": false,
 	"showResetIcon": true,
-	"enableFullscreen": true,
+    "showFullscreenButton": true,
+	"allowUpscale": true,
+	"scale":2,
 }, true);
 
         window.addEventListener("load", function() {
