@@ -32,7 +32,9 @@ use-site-title: false
 
 ### Lecture 2: Dot Product
 
-- [The angle between two vectors in the space](/files/angle.html)
+- [The dot product between vectors in the plane](/files/dotprod.html)
+
+- [The dot product between two vectors in the space](/files/angle.html)
 
 
 
