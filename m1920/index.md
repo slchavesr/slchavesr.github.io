@@ -22,6 +22,8 @@ use-site-title: false
 
 - [A vector in the space](/files/3dvector.html)
 
+- [Length of a vector in the space][/files/3dlength.html]
+
 - The coordinate planes [xy](/files/xy.html) [yz](/files/yz.html) [xz](/files/xz.html)
 
 ### Lecture 2: Lines and Dot Product
