@@ -20,6 +20,8 @@ use-site-title: false
 
 - [A point in the space](/files/3dpoint.html)
 
+- [A vector in the space](/files/3dvector.html)
+
 - The coordinate planes [xy](/files/xy.html) [yz](/files/yz.html) [xz](/files/xz.html)
 
 ### Lecture 2: Lines and Dot Product
