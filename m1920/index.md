@@ -28,7 +28,7 @@ use-site-title: false
 
 - [The equation of a line in the space](/files/lines.html)
 
-- [Skew lines in the space](/files/skew.html)
+- [Two lines in the space](/files/linespace.html)
 
 ### Lecture 2: Dot Product
 
