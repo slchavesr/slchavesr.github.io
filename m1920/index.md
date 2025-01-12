@@ -22,17 +22,19 @@ use-site-title: false
 
 - [A vector in the space](/files/3dvector.html)
 
-- [Length of a vector in the space][/files/3dlength.html]
+- [Length of a vector in the space](/files/3dlength.html)
 
 - [The coordinate planes](/files/coordplanes.html)
 
-### Lecture 2: Lines and Dot Product
+- [The equation of a line in the space](/files/lines.html)
+
+- [Skew lines in the space](/files/skew.html)
+
+### Lecture 2: Dot Product
 
 - [The angle between two vectors in the space](/files/angle.html)
 
-- [The equation of a line in the space](/files/lines.html)
 
-- [Slant lines in the space](/files/slant.html)
 
 ### Lecture 3: The cross Product
 
