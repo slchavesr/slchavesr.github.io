@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Activities for M1920
+title: Interactives for M1920
 use-site-title: false
 ---
 
@@ -10,7 +10,7 @@ use-site-title: false
 <a href="#" class="scrollUpButton">▲</a>
 </p>
 
-## Interactive elements
+
 
 ### Lecture 1: Vectors in the Plane and the Space
 
