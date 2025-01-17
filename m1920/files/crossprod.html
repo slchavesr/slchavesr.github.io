@@ -17,7 +17,7 @@
 
 var applet = new GGBApplet({
     "filename": "crossprod.ggb",  
-    "showToolbar": true,
+    "showToolbar": false,
     "showAlgebraInput": false,
     "showMenuBar": false,
 	"showResetIcon": true,
@@ -31,16 +31,13 @@ var applet = new GGBApplet({
             setTimeout(function() {
                 var api = applet.getAppletObject();
 
-                // Set the view to include all objects
-                api.setCoordSystem(-15, 15, -15, 15);  // Example values; adjust as needed
-
                 // Optionally, you can auto-zoom to fit the objects
             }, 1000);  // Delay to ensure the applet is fully initialized
         });
 </script>
 
 
-<div style="display:block" id="applet_container"></div>
+<div id="applet_container" style="width: 140%; height: 800px; margin: 0 auto;"></div>
 
 
 </div>
