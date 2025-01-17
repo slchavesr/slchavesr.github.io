@@ -28,7 +28,7 @@ use-site-title: false
 
 - [The equation of a line in the space](/files/lines.html)
 
-- [Two lines in the space](/files/linespace.html)
+- [Summary of two lines in the space](/files/linespace.html)
 
 ### Lecture 2: Dot Product
 
