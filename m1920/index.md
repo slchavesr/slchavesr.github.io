@@ -38,7 +38,7 @@ use-site-title: false
 
 
 
-### Lecture 3: The cross Product
+### Lecture 3: The Cross Product
 
 - [The cross product and area of a parallelogram](/files/crossprod.html)
 
