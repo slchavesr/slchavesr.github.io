@@ -44,6 +44,7 @@ use-site-title: false
 
 - [Parallelepiped formed by three vectors in the space](/files/parallelepiped.html)
 
+- [Volume of a parallelepiped using cross products](/files/parallelGeo.html)
 
 
 ### Lecture 4: Planes in the Space
