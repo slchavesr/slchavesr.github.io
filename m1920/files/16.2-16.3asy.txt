@@ -1,0 +1,365 @@
+16.2-16.3
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple P = (1,2,3);
+triple Q = (3,4,5);
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-1,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-1,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-1) -- (0,0,5), arrow=Arrow3);
+
+// Draw the points P and Q
+dot(P, red);
+dot(Q, red);
+label("$P$", P, NE,red);
+label("$Q$", Q, NE,red);
+
+// Draw the vector from P to Q
+draw(Label("$\overrightarrow{PQ}$", MidPoint), P--Q, arrow=Arrow3, p=blue+linewidth(1));
+
+draw( P -- (P.x, P.y, 0), p=dashed); 
+draw( Q -- (Q.x, Q.y, 0), p =dashed);
+
+
+triple f(pair t) {
+  return (t.x, t.y, 0);
+} 
+surface s = surface(f, (-1,-1), (5,5), 6, 6, Spline); draw(s, surfacepen=gray+opacity(0.2), meshpen=red+dashed, nolight, render(merge=true));
+
+___________________________________________________________________________________
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple P = (0,0,0);
+triple Q = (3,4,5);
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-1,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-1,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-1) -- (0,0,5), arrow=Arrow3);
+
+// Draw the points P and Q
+
+dot(Q);
+
+label("$P=(a,b,c)$", Q, NE);
+
+// Draw the vector from P to Q
+draw(Label("$\overrightarrow{v}$", MidPoint), P--Q, arrow=Arrow3, p=blue+linewidth(1));
+
+draw(Label("$b$",align = N, MidPoint), P -- (Q.x, Q.y, 0), p=dashed+darkgreen); 
+draw(Label("$h$", MidPoint), Q -- (Q.x, Q.y, 0), p =dashed+red);
+
+
+triple f(pair t) {
+  return (t.x, t.y, 0);
+} 
+surface s = surface(f, (-1,-1), (5,5), 6, 6, Spline); draw(s, surfacepen=gray+opacity(0.2), meshpen=dashed, nolight, render(merge=true));
+
+
+_________________________________________________________________________________________________________
+
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple O = (0,0,0);
+triple P = (1,0,0);
+triple Q = (0,1,0);
+triple R = (0,0,1);
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-0.5,0,0) -- (1.5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-0.5,0) -- (0,1.5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-0.5) -- (0,0,1.5), arrow=Arrow3);
+
+
+
+// Draw the vector from P to Q
+draw(Label("$\overrightarrow{i}$", MidPoint), O--P, arrow=Arrow3, p=blue+linewidth(1));
+
+draw(Label("$\overrightarrow{j}$", MidPoint), O--Q, arrow=Arrow3, p=red+linewidth(1));
+
+draw(Label("$\overrightarrow{k}$", MidPoint,E), O--R, arrow=Arrow3, p=darkgreen+linewidth(1));
+
+draw(Label("$1$", EndPoint),(1, 0,-0.1) -- (1, 0,0.1), black);
+
+draw(Label("$1$", EndPoint),(0, 1,-0.1) -- (0, 1,0.1), black);
+
+draw(Label("$1$", EndPoint,N),(-0.1, 0,1) -- (0.1, 0,1), black);
+
+
+_____________________________________
+
+import three;
+import solids;
+currentprojection=orthographic(3, 1, 1);
+currentlight=nolight;
+
+real RE=100, RS=0.7, inc=100, lat=45, lon=45, tlat=50, tlon=100;
+
+
+
+revolution Earth=sphere(O, RE, n=2*nslice);
+draw(surface(Earth), surfacepen=lightgrey+opacity(.5), meshpen=0.6*white);
+
+triple Q = (0,0,0);
+triple P = (25*sqrt(2), 25*sqrt(2), 50*sqrt(3));
+dot(Q,blue);
+dot(P,blue);
+
+label("$P=(h,k,\ell)$", Q, S,blue);
+label("$Q=(x,y,z)$", P, NE,blue);
+
+draw(Label("$r$", MidPoint), P--Q,  p=dashed+blue+linewidth(1));
+
+
+
+
+
+
+
+_________________________________________________________________
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple P = (1,2,4);
+triple Q = (1,1,1);
+
+
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-1,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-1,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-1) -- (0,0,5), arrow=Arrow3);
+
+// Draw the points P and Q
+
+
+dot(P,blue);
+dot(P+Q,blue);
+dot(P-Q,blue);
+dot(P+2*Q,blue);
+
+label("$P (t=0)$", P, N);
+label("$t=1$", P+Q, N,blue);
+label("$t=2$", P+2*Q, N,blue);
+label("$t=-1$", P-Q, N,blue);
+// Draw the vector from P to Q
+
+draw(Label("$\vec{v}$", EndPoint), O -- Q, red, arrow=Arrow3);
+draw( P-2*Q -- P+3*Q, blue);
+
+
+triple f(pair t) {
+  return (t.x, t.y, 0);
+} 
+surface s = surface(f, (-1,-1), (5,5), 6, 6, Spline); draw(s, surfacepen=gray+opacity(0.1), meshpen=dashed, nolight, render(merge=true));
+
+
+_________________________________
+
+//Skew lines in the space
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple P = (1,2,4);
+triple Q = (1,1,1);
+
+
+triple P1 = (2,0,0);
+triple R = (0,1,1);
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-2,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-2,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-2) -- (0,0,5), arrow=Arrow3);
+
+// Draw the points P and Q
+
+
+// Draw the vector from P to Q
+
+
+draw( P-3*Q -- P+3*Q, blue);
+draw( -2*P1+3R -- 2P1-R, red);
+
+triple f(pair t) {
+  return (t.x, t.y, 0);
+} 
+surface s = surface(f, (-2,-2), (5,5), 7, 7, Spline); draw(s, surfacepen=gray+opacity(0.1), meshpen=dashed, nolight, render(merge=true));
+
+
+_________________________
+
+// intersecting lines
+
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple P = (1,2,4);
+triple Q = (1,1,1);
+
+
+triple P1 = (2,0,0);
+triple R = (0,1,1);
+triple z = (0,0,-2);
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-2,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-2,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-2) -- (0,0,5), arrow=Arrow3);
+
+// Draw the points P and Q
+
+
+// Draw the vector from P to Q
+
+
+draw( P-3*Q+z -- P+3*Q+z, blue);
+draw( -2*P1+3R -- 2P1-R, red);
+
+triple f(pair t) {
+  return (t.x, t.y, 0);
+} 
+surface s = surface(f, (-2,-2), (5,5), 7, 7, Spline); draw(s, surfacepen=gray+opacity(0.1), meshpen=dashed, nolight, render(merge=true));
+_______________________________________________________________________________________________________________________________________________
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple P = (1,2,-0.5);
+triple Q = (3,2,1);
+
+
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-1,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-1,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-1) -- (0,0,5), arrow=Arrow3);
+
+// Draw the points P and Q
+
+
+
+draw(Label("$\vec{u}$", EndPoint), O -- 1.5*Q, red, arrow=Arrow3);
+
+draw(Label("$\vec{v}$", EndPoint), O -- P, blue, arrow=Arrow3);
+
+
+import graph;
+
+size(200);
+
+// Define the points P and Q in 2D
+pair P = (2, -0.5);
+pair Q = (2, 1);
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-3, 0) -- (5, 0), arrow=Arrow);
+draw(Label("$y$", EndPoint), (0, -3) -- (0, 5), arrow=Arrow);
+
+// Draw the vectors u and v
+draw(Label("$\vec{u}$", EndPoint), (0, 0) -- 1.5*Q, red, arrow=Arrow);
+draw(Label("$\vec{v}$", EndPoint), (0, 0) -- P, blue, arrow=Arrow);
+
+______________________
+// two perp directions
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple P = (2,1,1);
+triple Q = (1,3,2);
+triple R = (-1,-3,5);
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-1,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-1,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-1) -- (0,0,5), arrow=Arrow3);
+
+// Draw the vectors
+draw(Label("$\vec{u}$", EndPoint, S), O -- P, blue, arrow=Arrow3);
+draw(Label("$\vec{v}$", EndPoint), O -- Q, red, arrow=Arrow3);
+draw( O -- R, darkgreen, arrow=Arrow3);
+draw( O -- -0.5*R, magenta, arrow=Arrow3);
+
+triple f(pair t) { return (t.x, t.y, 0); } surface s = surface(f, (-2,-2), (5,5), 6, 6, Spline); draw(s, surfacepen=gray+opacity(0.1), meshpen=dashed, nolight, render(merge=true));
+
+______________________________________
+
+// parallelepiped
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple P = (3,1,1);
+triple Q = (1,4,2);
+triple R = (1,1,4);
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-1,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-1,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-1) -- (0,0,5), arrow=Arrow3);
+
+// Draw the vectors
+draw(Label("$\vec{u}$", EndPoint, S), O -- P, blue, arrow=Arrow3);
+draw(Label("$\vec{v}$", EndPoint), O -- Q, red, arrow=Arrow3);
+draw(Label("$\vec{w}$", EndPoint), O -- R, darkgreen, arrow=Arrow3);
+
+// Calculate the other vertices of the parallelepiped
+triple A = P + Q;
+triple B = P + R;
+triple C = Q + R;
+triple D = P + Q + R;
+
+// Draw the parallelepiped edges
+draw(P -- A, dashed);
+draw(P -- B, dashed);
+draw(Q -- A, dashed);
+draw(Q -- C, dashed);
+draw(R -- B, dashed);
+draw(R -- C, dashed);
+draw(A -- D, dashed);
+draw(B -- D, dashed);
+draw(C -- D, dashed);
+
+// Draw the parallelepiped faces
+draw(surface(P--A--D--B--cycle), surfacepen=gray+opacity(0.1));
+draw(surface(Q--A--D--C--cycle), surfacepen=gray+opacity(0.1));
+draw(surface(R--B--D--C--cycle), surfacepen=gray+opacity(0.1));
+
+triple f(pair t) { return (t.x, t.y, 0); } surface s = surface(f, (-2,-2), (5,5), 6, 6, Spline); draw(s, surfacepen=gray+opacity(0.1), meshpen=dashed, nolight, render(merge=true));

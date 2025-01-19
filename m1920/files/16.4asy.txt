@@ -1,0 +1,105 @@
+16.4
+
+\\ a plane
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-2,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-2,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-2) -- (0,0,5), arrow=Arrow3);
+
+// Draw the points P and Q
+
+
+// Draw the vector from P to Q
+
+
+
+triple f(pair t) {
+  return (t.x, t.y, 2-0.5*t.x-0.25*t.y);
+} 
+surface s = surface(f, (-2,-2), (5,5), 7, 7, Spline); draw(s, surfacepen=blue+opacity(0.3), meshpen=dashed, nolight, render(merge=true));
+
+
+
+______________
+
+// two parallel planes
+
+
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple N = (-1,-0.5,2);
+triple P = (1,1,4);
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-2,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-2,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-2) -- (0,0,5), arrow=Arrow3);
+
+// Draw the points P and Q
+
+
+// Draw the vector from P to Q
+
+
+
+triple f(pair t) {
+  return (t.x, t.y, 1+0.5*t.x+0.25*t.y);
+} 
+surface s = surface(f, (-2,-2), (5,5), 7, 7, Spline); draw(s, surfacepen=blue+opacity(0.3), meshpen=dashed, nolight, render(merge=true));
+
+triple f(pair t) {
+  return (t.x, t.y, 3+0.5*t.x+0.25*t.y);
+} 
+surface s = surface(f, (-2,-2), (5,5), 7, 7, Spline); draw(s, surfacepen=red+opacity(0.3), meshpen=dashed, nolight, render(merge=true));
+
+draw( -2N + P -- N + P, darkgreen, arrow=Arrow3);
+
+
+_______________________
+
+// 
+import three;
+import graph3;
+
+size(200);
+currentprojection = perspective(3,2,1);
+
+triple N = (-6,8,-1);
+triple P = (2,0,2);
+
+// Draw the coordinate axes with negative portions
+draw(Label("$x$", EndPoint), (-2,0,0) -- (5,0,0), arrow=Arrow3);
+draw(Label("$y$", EndPoint), (0,-2,0) -- (0,5,0), arrow=Arrow3);
+draw(Label("$z$", EndPoint), (0,0,-2) -- (0,0,5), arrow=Arrow3);
+
+// Draw the points P and Q
+
+
+// Draw the vector from P to Q
+
+
+
+triple f(pair t) {
+  return (t.x, t.y, 1+0.5*t.x+0.25*t.y);
+} 
+surface s = surface(f, (-2,-2), (5,5), 7, 7, Spline); draw(s, surfacepen=blue+opacity(0.3), meshpen=dashed, nolight, render(merge=true));
+
+triple f(pair t) {
+  return (t.x, t.y, 3 - 0.5*t.x-0.5*t.y);
+} 
+surface s = surface(f, (-2,-2), (5,5), 7, 7, Spline); draw(s, surfacepen=red+opacity(0.3), meshpen=dashed, nolight, render(merge=true));
+
+draw( -0.5*N + P -- 0.75*N + P, red);
