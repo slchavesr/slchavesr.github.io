@@ -71,7 +71,10 @@ use-site-title: false
 
 ### Lecture 7: Vector Valued Functions
 
-- [Vector valued curves grapher](/files/vectorcurves.html)
+
+- [Planar curves grapher](/files/curvesmov.html)
+
+- [Space curves grapher](/files/vectorcurves.html)
 
 
 ### Lecture 8: Derivatives of Vector Valued Functions
