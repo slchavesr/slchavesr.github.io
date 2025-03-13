@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remove Duplicate Rows</title>
+</head>
+<body>
+  <h1>Duplicate Row Remover</h1>
+  <p>Upload a file, process it to remove duplicates (keeping only the first occurrence), and download the result.</p>
+
+  <!-- File Upload Input -->
+  <input type="file" id="fileInput" accept=".txt">
+  <button onclick="processFile()">Process File</button>
+  <br><br>
+
+  <!-- Download Button -->
+  <button id="downloadButton" style="display:none;" onclick="downloadFile()">Download Processed File</button>
+  <h2>Processed Results:</h2>
+  <div id="outputArea" style="white-space: pre-wrap;"></div>
+
+  <script>
+    let processedContent = "";
+
+    function processFile() {
+      const fileInput = document.getElementById('fileInput');
+      const outputArea = document.getElementById('outputArea');
+
+      if (!fileInput.files.length) {
+        outputArea.textContent = 'Please upload a file.';
+        return;
+      }
+
+      const file = fileInput.files[0];
+      const reader = new FileReader();
+
+      reader.onload = function(event) {
+        const content = event.target.result.split('\n'); // Split lines
+        const seen = new Set();
+        const output = [];
+
+        content.forEach(line => {
+          const identifier = line.split(' ')[0]; // Extract first number
+          if (identifier && !seen.has(identifier)) {
+            seen.add(identifier); // Mark as seen
+            output.push(line); // Keep the first occurrence
+          }
+        });
+
+        processedContent = output.join('\n'); // Create processed content
+
+        // Display processed result
+        outputArea.textContent = `Processed File Content:\n${processedContent}`;
+
+        // Show download button
+        if (processedContent) {
+          document.getElementById('downloadButton').style.display = 'inline-block';
+        }
+      };
+
+      reader.readAsText(file);
+    }
+
+    function downloadFile() {
+      const blob = new Blob([processedContent], { type: 'text/plain' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'processed_file.txt';
+      link.click();
+    }
+  </script>
+</body>
+</html>
