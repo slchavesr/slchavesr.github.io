@@ -109,9 +109,13 @@ use-site-title: false
 
 - [Double integrals over rectangles](/files/integral.html)
 
+### Lecture 19: Double integrals over simple domains
+
+- [Double integrals over simple domains](/https://www.geogebra.org/classic/nfbgmxrf)
+
 ### Lecture 20: Triple Integrals
 
-- [Simple solids in Cartesian Coordinates](/files/tripleint.html)
+- [Simple solids in Cartesian Coordinates](https://www.geogebra.org/classic/krqnbu7t)
 
 ### Lecture 21: Triple Integrals in Cylindrical and Spherical Coordinates
 
