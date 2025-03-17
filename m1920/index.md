@@ -111,7 +111,7 @@ use-site-title: false
 
 ### Lecture 19: Double integrals over simple domains
 
-- [Double integrals over simple domains](/https://www.geogebra.org/classic/nfbgmxrf)
+- [Double integrals over simple domains](https://www.geogebra.org/classic/nfbgmxrf)
 
 ### Lecture 20: Triple Integrals
 
