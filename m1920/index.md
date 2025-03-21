@@ -113,15 +113,17 @@ use-site-title: false
 
 - [Double integrals over simple domains](https://www.geogebra.org/classic/nfbgmxrf)
 
-### Lecture 20: Triple Integrals
+### Lecture 20: Triple Integrals and Polar Integrals`
 
 - [Simple solids in Cartesian Coordinates](https://www.geogebra.org/classic/krqnbu7t)
 
+- [Double integrals over polar domains](https://www.geogebra.org/m/maqfy9yk)
+
 ### Lecture 21: Triple Integrals in Cylindrical and Spherical Coordinates
 
-- [Simple solids in Cylindrical Coordinates](/files/cylint.html)
+- [Simple solids in Cylindrical Coordinates](https://www.geogebra.org/classic/krzq3hzp)
 
-- [Simple solids in Spherical Coordinates](/files/sphint.html)
+- [Simple solids in Spherical Coordinates](https://www.geogebra.org/m/vh5dacpz)
 
 ### Lecture 23: General Change of coordinates
 
