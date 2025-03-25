@@ -131,6 +131,15 @@ use-site-title: false
 
 - [Tool to visualize transformation of quadrilaterals and triangles](/files/changecoords.html)
 
+### Lecture 24: Vector Fields in the Plane 
+
+- [Vector Fields in the Plane and Work along a curve](https://www.geogebra.org/m/s6rnfuqe)
+
+### Lecture 25: Line integrals of scalar Functions
+
+- [Visualizing line integrals in the Plane](https://www.geogebra.org/m/tfby6qwv)
+
+
 ### Lecture 28: Orientable Surfaces
 
 - [An orientable surface: Cylinder](/files/surfaceorient.html)
