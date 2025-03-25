@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blank
 title: Interactives for M1920
 use-site-title: false
 ---
