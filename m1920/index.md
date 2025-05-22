@@ -113,7 +113,7 @@ use-site-title: false
 
 - [Double integrals over simple domains](https://www.geogebra.org/classic/nfbgmxrf)
 
-### Lecture 20: Triple Integrals and Polar Integrals`
+### Lecture 20: Triple Integrals and Polar Integrals
 
 - [Simple solids in Cartesian Coordinates](https://www.geogebra.org/classic/krqnbu7t)
 
@@ -140,8 +140,15 @@ use-site-title: false
 - [Visualizing line integrals in the Plane](https://www.geogebra.org/m/tfby6qwv)
 
 
+
+
 ### Lecture 28: Orientable Surfaces
 
 - [An orientable surface: Cylinder](/files/surfaceorient.html)
 
 - [A non-orientable surface: Mobius strip](/files/mobius.html)
+
+### Lecture 30: Green's Theorem
+
+- [Significance of Curl and Divergence in the plane](https://www.geogebra.org/m/tqgtkk6v)
+
