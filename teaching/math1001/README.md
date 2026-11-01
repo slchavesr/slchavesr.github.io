@@ -1,20 +1,11 @@
-# MATH 1001 Practice Center
+# MATH 1001 Practice Center — Version 4
 
-A free, static, topic-based practice website. No student accounts, backend, tracking, or stored grades. Numerical answers are checked in the browser. Questions vary numerical parameters and contexts.
+Deploy all five site files (`index.html`, `style.css`, `script.js`, `formulas.html`, `exam.html`, `exam.js`) into the existing `teaching/math1001/` directory on your GitHub Pages site.
 
-## Publish on GitHub Pages
-1. Create a **public** repository named `math1001-practice`.
-2. Upload `index.html`, `style.css`, and `script.js` to the repository root.
-3. Go to **Settings → Pages**.
-4. Choose **Deploy from a branch**, branch `main`, folder `/ (root)`, then Save.
-5. Open `https://YOUR-USERNAME.github.io/math1001-practice/`.
-
-You can also open `index.html` locally to preview the site.
-
-## Notes for instructors
-- This is an **ungraded practice tool**, not a secure exam system.
-- Rounding: financial answers generally use a tolerance of a few cents. For total loan interest, the calculation uses the monthly payment rounded to cents.
-- The retirement savings exercise explicitly assumes equal **end-of-week** contributions.
-- Pie chart interaction uses sliders to set sectors; direct dragging is not yet implemented.
-- All questions and solutions are stored in public JavaScript, so students can inspect them. Do not use this for graded assessments.
-- These are newly authored practice variants inspired by the units and finance topics, not verbatim reproductions of the exam.
+- Topic practice has guided four-step explanations in Show Solution.
+- `exam.html` creates a single-page randomized 15-question practice exam, drawn from the existing practice bank, with 30+ numeric answer fields.
+- Before submission, there is no hint, answer, or feedback in the exam UI. After submission, each field is marked correct or incorrect, and incorrect fields show the correct value.
+- Every answer field counts equally (1 point), not every question. Blank answers count as wrong. No results are saved to a server.
+- Students can open the formula reference page while taking the practice exam.
+- This is self-assessment, not a secure assessment; all answers are in client-side JavaScript.
+- The exam structure is based on the existing topic bank and is not a verbatim copy of the instructor's exam.
