@@ -1,7 +1,7 @@
 // Core practice must work even when optional external math libraries are blocked.
 let ce=null;
 const engineReady=import('https://esm.sh/@cortex-js/compute-engine@0.30.2').then(m=>{ce=new m.ComputeEngine();}).catch(err=>{console.warn('Optional symbolic engine unavailable:',err);});
-const editorReady=import('https://esm.sh/mathlive@0.104.2').catch(err=>{console.warn('Optional math editor unavailable; text inputs remain available:',err);});
+const editorReady=import('https://cdn.jsdelivr.net/npm/mathlive@0.104.2/+esm').catch(err=>{console.warn('Optional math editor unavailable; text inputs remain available:',err);});
 
 const $=id=>document.getElementById(id), R=(a,b)=>Math.floor(Math.random()*(b-a+1))+a, pick=a=>a[R(0,a.length-1)], fmt=x=>Number.isInteger(x)?String(x):Number(x.toFixed(5)).toString();
 const T={graph:'Interpret graphs and derivatives',absolute:'Absolute extrema on closed intervals',analysis:'Increase, decrease, concavity and inflection',derivativeGraph:'Read the graph of a derivative',lhopital:'L’Hôpital’s Rule and indeterminate limits',rates:'Related rates',optimization:'Applied optimization',theorems:'Rolle’s and Mean Value Theorems'};
@@ -157,7 +157,13 @@ editorReady.then(async()=>{
     if(editor && fallback){
       editor.classList.remove('hidden');
       fallback.classList.add('hidden');
+      $('editorRetry').classList.add('hidden');
       $('formatHelp').textContent='Enter an exact value or expression. The math keyboard appears when you focus the field.';
     }
   }catch(e){console.warn('Math editor initialization skipped',e);}
+});
+
+// Allow the student to explicitly request the equation editor if the CDN was slow.
+document.getElementById('editorRetry')?.addEventListener('click',async()=>{
+ try{await import('https://esm.sh/mathlive@0.104.2');await customElements.whenDefined('math-field');document.getElementById('answer').classList.remove('hidden');document.getElementById('fallback').classList.add('hidden');document.getElementById('editorRetry').classList.add('hidden');}catch(e){document.getElementById('formatHelp').textContent='The visual editor could not load. You can still type expressions in the text field.';}
 });
