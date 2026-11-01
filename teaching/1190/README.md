@@ -12,3 +12,5 @@ Upload `index.html`, `app.js`, `advanced.js`, `extra.js`, and `style.css` to you
 
 ## Notes
 Existing practice-exam answer fields remain plain text. The separate practice-exam graph-construction activity still uses draggable controls; the new freehand sketchpad is in the formula-sketch topic. Tests performed: JavaScript syntax checks and ZIP integrity, not browser interaction.
+
+Version 6: Added labeled zoomable freehand graphing without reference overlay; additional function families; more related-rates, optimization, theorem and L’Hôpital generators. Upload more.js along with the existing site files.
