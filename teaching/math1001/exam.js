@@ -19,7 +19,7 @@ function newExam(){
   exam.push({topic,title,data:q.make()});
  }));
  document.querySelector('#exam-questions').innerHTML=exam.map((q,i)=>`<article class="card"><div class="question-points">Question ${i+1} · ${topics.find(t=>t[0]===q.topic)[1]} · ${q.data.answers.length} point${q.data.answers.length===1?'':'s'}</div><h3>${escapeHtml(q.title)}</h3><div class="prompt">${q.data.text}</div><div class="exam-grid">${q.data.fields.map((f,j)=>`<label for="ex-${i}-${j}">${escapeHtml(f)}<input id="ex-${i}-${j}" type="number" step="any" inputmode="decimal" autocomplete="off" placeholder="Your answer" /></label>`).join('')}</div></article>`).join('');
- document.querySelector('#exam-results').innerHTML='';document.querySelector('#submit-exam').disabled=false;document.querySelector('#submit-exam').textContent='Submit Exam';
+ typesetMath(document.querySelector('#exam-questions'));document.querySelector('#exam-results').innerHTML='';document.querySelector('#submit-exam').disabled=false;document.querySelector('#submit-exam').textContent='Submit Exam';
  window.scrollTo({top:0,behavior:'smooth'});
 }
 function gradeExam(e){
@@ -40,7 +40,7 @@ function gradeExam(e){
  });
  const pct=100*earned/all.length;
  document.querySelector('#exam-results').innerHTML=`<section class="card"><h2>Exam Results</h2><div class="exam-score">${earned} / ${all.length} points · ${pct.toFixed(1)}%</div><p class="exam-note">Each answer field earns one point. Unanswered fields count as incorrect. This score is not stored or reported.</p><h3>Correct and incorrect answers</h3>${lines.join('')}<p><button type="button" id="retry">Generate Another Exam</button></p></section>`;
- document.querySelector('#submit-exam').disabled=true;document.querySelector('#submit-exam').textContent='Exam Submitted';
+ typesetMath(document.querySelector('#exam-results'));document.querySelector('#submit-exam').disabled=true;document.querySelector('#submit-exam').textContent='Exam Submitted';
  document.querySelector('#retry').onclick=newExam;
  document.querySelector('#exam-results').scrollIntoView({behavior:'smooth',block:'start'});
 }
