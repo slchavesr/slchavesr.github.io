@@ -74,10 +74,83 @@ mortgage:[
 {title:"15-year versus 30-year mortgage",make(){let P=rnd(18,38)*10000,r=pick([4.8,5.4,6]),a=payment(P,r,180),b=payment(P,r,360),extra=(Math.round(b*100)/100)*360-(Math.round(a*100)/100)*180;return {text:`A buyer finances ${money(P)} at ${r}% nominal annual interest with monthly payments. Compare 15-year and 30-year mortgage payments and the extra total interest on the 30-year option. For total interest, use payments rounded to cents.`,fields:["15-year payment ($)","30-year payment ($)","Extra total interest ($)"],answers:[a,b,extra],hint:"Compute payments using 180 and 360 months. Compare total of payments.",solution:`15-year = ${money(a)}; 30-year = ${money(b)}; extra interest = ${money(extra)}.`};}}
 ]
 };
+
+// Convert unit names into consistent upright TeX labels.
+const unitTeX={pounds:'lb',kilograms:'kg',ounces:'oz',miles:'mi',feet:'ft',kilometers:'km',meters:'m',gallons:'gal',quarts:'qt',yards:'yd',seconds:'s',hours:'h',inches:'in'};
+function unitLabel(name){return `\\mathrm{${unitTeX[name]||name}}`;}
+function texBlock(tex){return `<div class="math-method">\\[${tex}\\]</div>`;}
+function unitCancellation(title,d){
+ const t=d.text;
+ if(title==='Weight conversion'){
+  const match=t.match(/weighs ([\d.]+) (pounds|kilograms)\. Convert its weight to (kilograms|pounds|ounces)/);
+  if(!match)return '';
+  const [,quantity,from,to]=match;
+  const f=from==='pounds'&&to==='kilograms'?'0.45359237':from==='kilograms'?'2.20462262':'16';
+  return `<p>To make the original unit disappear, place it in the denominator of the conversion fraction. The matching units cancel, so the answer is expressed in ${to}.</p>`+texBlock(`${quantity}\\,\\cancel{${unitLabel(from)}}\\times\\frac{${f}\\,${unitLabel(to)}}{1\\,\\cancel{${unitLabel(from)}}}\\approx ${Number(d.answers[0].toFixed(2))}\\,${unitLabel(to)}`);
+ }
+ if(title==='Multi-step conversion'){
+  const match=t.match(/measurement of ([\d.]+) (miles|kilometers|gallons)\. Express it in (feet|meters|quarts)/);
+  if(!match)return '';
+  const [,quantity,from,to]=match;const factor={miles:5280,kilometers:1000,gallons:4}[from];
+  return `<p>Write the conversion factor with ${from} in the denominator and ${to} in the numerator. Cancel the original unit before multiplying.</p>`+texBlock(`${quantity}\\,\\cancel{${unitLabel(from)}}\\times\\frac{${factor}\\,${unitLabel(to)}}{1\\,\\cancel{${unitLabel(from)}}}=${Number(d.answers[0].toFixed(2))}\\,${unitLabel(to)}`);
+ }
+ if(title==='Speed conversion'){
+  const match=t.match(/at ([\d.]+) miles per hour/);if(!match)return '';
+  const mph=Number(match[1]);
+  return `<p>Because the speed is in miles per hour, convert miles to feet and hours to seconds. Miles cancel between the original rate and the first fraction; hours cancel between the original rate and the second fraction.</p>`+texBlock(`\\frac{${mph}\\,\\cancel{\\mathrm{mi}}}{1\\,\\cancel{\\mathrm{h}}}\\times\\frac{5280\\,\\mathrm{ft}}{1\\,\\cancel{\\mathrm{mi}}}\\times\\frac{1\\,\\cancel{\\mathrm{h}}}{3600\\,\\mathrm{s}}\\approx ${d.answers[0].toFixed(2)}\\,\\frac{\\mathrm{ft}}{\\mathrm{s}}`);
+ }
+ if(title==='Area conversion'){
+  const match=t.match(/covers ([\d.]+) square feet/);if(!match)return '';
+  return `<p>Area units must be converted using the <em>square</em> of the length conversion. Since one yard is three feet, one square yard is nine square feet. The square-foot units cancel as follows.</p>`+texBlock(`${match[1]}\\,\\cancel{\\mathrm{ft}^2}\\times\\frac{1\\,\\mathrm{yd}^2}{9\\,\\cancel{\\mathrm{ft}^2}}=${d.answers[0]}\\,\\mathrm{yd}^2`);
+ }
+ if(title==='Unit rates'){
+  const match=t.match(/pays \$([\d,.]+) for ([\d.]+) (pounds|yards|gallons)/);if(!match)return '';
+  return `<p>A unit price is a ratio of dollars to the amount purchased. Dividing the total cost by the number of ${match[3]} gives the cost of one ${match[3].slice(0,-1)}.</p>`+texBlock(`\\frac{\\$${match[1]}}{${match[2]}\\,${unitLabel(match[3])}}\\approx \\$${d.answers[0].toFixed(2)}\\,/\\,${unitLabel(match[3])}`);
+ }
+ return '';
+}
+function naturalSolution(title,d){
+ const dimensional=unitCancellation(title,d);
+ if(dimensional)return dimensional+`<p>Therefore, the requested result is <strong>${d.answers.map((a,i)=>`${d.fields[i]}: ${Number(a.toFixed(d.decimals?.[i]??2)).toLocaleString('en-US')}`).join('; ')}</strong>. The units match what the question asks for.</p>`;
+ const formula=formulaBlock(title);
+ const prose={
+ 'Fahrenheit to Celsius':'To convert an absolute temperature from Fahrenheit to Celsius, first subtract 32 to account for the different starting points of the scales. Then multiply by five ninths.',
+ 'Celsius to Fahrenheit':'The Celsius and Fahrenheit scales have different degree sizes and different zero points. Multiply the Celsius reading by nine fifths and then add 32.',
+ 'Temperature changes and comparisons':'This is a change in temperature, not an absolute temperature. The 32-degree offset therefore does not apply: only the ratio of the degree sizes matters.',
+ 'Discount and sales tax':'The discount changes the price first, so the sales tax must be applied to the discounted amount, not the original price.',
+ 'Successive percentage increases':'Each percentage increase applies to the updated amount. Multiply the two growth factors instead of adding the two percentage rates.',
+ 'Reverse percentages':'The final amount represents only the fraction of the original amount remaining after the discount. Divide by that fraction to recover the starting value.',
+ 'Percent change':'A percentage change compares the difference between the new and old values with the original value. A negative result indicates a decrease.',
+ 'Markup versus profit margin':'Markup is calculated relative to the cost, while profit margin is calculated relative to the selling price. The denominators are different.',
+ 'Monthly budget categories':'Add the expense categories to find total spending, then subtract from income to find savings. A category percentage is measured against total income.',
+ 'Build a pie chart':'A pie chart divides the whole into sectors. The percentages must sum to 100%, with savings representing the part of income not spent.',
+ 'Simple-interest investment':'Simple interest is computed on the original principal throughout the term. Convert the annual rate to a decimal and express the time in years.',
+ 'Compound interest':'Compound interest adds earned interest to the balance each period. Convert the annual rate to a decimal and use the number of compounding periods per year.',
+ 'Retirement contributions':'First find the employee contribution and the employer match. Because contributions are deposited at the end of each week, use the future-value formula for an ordinary annuity.',
+ 'Simple versus compound':'Simple interest always uses the original principal. Compound interest instead earns interest on the growing balance, so the two final amounts differ.',
+ 'Time to reach a goal':'The unknown is time in the exponent of the compound-interest formula. Taking natural logarithms allows us to isolate time.',
+ 'Simple-interest installment financing':'For this full-interest plan, calculate the interest on the original amount for the entire term. Then divide the total owed by the number of installments.',
+ 'Amortized loan payment':'In an amortized loan, each payment covers interest on the outstanding balance and reduces principal. Use the periodic rate and the total number of payments.',
+ 'Credit-card repayment schedule':'Interest is charged on the balance at the beginning of the month. Subtract that interest from the payment to find how much principal is repaid.',
+ 'Two rows of amortization':'For each month, calculate interest from the opening balance, subtract the principal portion of the payment, and carry the remaining balance into the next month.',
+ 'Financing with down payment':'The down payment is paid immediately and is not part of the financed principal. Subtract it from the purchase price before applying the loan formula.',
+ 'Deferred student loan':'During the deferment period, interest accumulates on the original borrowed amount. When that interest is capitalized, the repayment balance increases.',
+ 'Mortgage and down payment':'Calculate the down payment first. The mortgage applies only to the financed portion, and the overall purchase cost includes both the down payment and all mortgage installments.',
+ 'Interest paid during school':'If accrued interest is paid before repayment begins, it is not added to the loan balance. The resulting lower principal produces a smaller monthly payment.',
+ '15-year versus 30-year mortgage':'A longer repayment period usually reduces the monthly payment but increases total interest. Compare both the monthly installments and the sums of all payments.'
+ };
+ const intro=prose[title]||'Identify the quantity being requested and choose a formula that relates it to the given information. Keep the intermediate values unrounded.';
+ const calculation=d.solution.replace(/\\\[/g,'').replace(/\\\]/g,'');
+ return `<p>${intro}</p>${formula}<p>Substituting the values from the question gives <strong>${calculation}</strong></p><p>${d.answers.length>1?'These results answer the requested parts in order.':'This gives the requested result.'} Check that the result has the appropriate units and round only as directed in the question.</p>`;
+}
 let current=null,instances=[];
 function renderTopics(){ $("#topics").innerHTML=topics.map(([id,name,desc])=>`<button class="topic ${id===current?"active":""}" data-topic="${id}" aria-pressed="${id===current}">${name}<span>${desc}</span></button>`).join("");document.querySelectorAll("[data-topic]").forEach(b=>b.onclick=()=>selectTopic(b.dataset.topic));}
 function selectTopic(id){current=id;instances=questions[id].map(q=>({q,data:q.make()}));renderTopics();$("#intro").hidden=true;$("#questions").innerHTML=`<h2>${topics.find(t=>t[0]===id)[1]}</h2><p class="muted">Round final numerical answers to two decimal places (including dollars and percentages), unless a question states otherwise. Keep full precision in intermediate calculations. Use New Version for another problem.</p>`+instances.map((_,i)=>`<article class="card" id="card-${i}"></article>`).join("");instances.forEach((_,i)=>renderCard(i));}
 function renderCard(i){let {q,data}=instances[i],el=document.getElementById(`card-${i}`);el.innerHTML=`<h3>${i+1}. ${q.title}</h3><div class="prompt">${data.text}</div>${q.pie?`<div class="pie" id="pie-${i}" role="img" aria-label="Pie chart preview"></div><div id="pie-controls-${i}"></div><div class="key" id="key-${i}"></div>`:`<div class="answers">${data.fields.map((f,j)=>`<label>${f}<input type="number" step="any" inputmode="decimal" id="answer-${i}-${j}" placeholder="Your answer"></label>`).join("")}</div>`}<div class="actions"><button class="primary" data-action="check">Check Answer</button><button data-action="hint">Hint</button><button data-action="solution">Show Solution</button><button data-action="new">New Version</button></div><div id="feedback-${i}" aria-live="polite"></div><div id="details-${i}"></div>`;el.querySelectorAll("[data-action]").forEach(b=>b.onclick=()=>act(i,b.dataset.action));if(q.pie)renderPie(i);typesetMath(el);}
 function renderPie(i){let d=instances[i].data,vals=instances[i].pieVals||[20,20,20,20,20],names=["Housing","Transport","Food","Other","Savings"],colors=["#2e6aa6","#e1a23c","#35a17b","#8a6ab8","#d76d6d"];if(!instances[i].pieVals)instances[i].pieVals=vals;let start=0,stops=vals.map((v,j)=>{let old=start;start+=v;return `${colors[j]} ${old}% ${start}%`});document.getElementById(`pie-${i}`).style.background=`conic-gradient(${stops.join(",")})`;document.getElementById(`pie-controls-${i}`).innerHTML=names.slice(0,4).map((n,j)=>`<div class="pie-control"><label>${n}: <strong>${vals[j]}%</strong><input type="range" min="0" max="${100-vals.slice(0,4).reduce((a,b,k)=>a+(k===j?0:b),0)}" value="${vals[j]}" data-pie="${j}"></label></div>`).join("")+`<p><strong>Savings:</strong> ${vals[4]}% (remaining)</p>`;document.getElementById(`key-${i}`).innerHTML=names.map((n,j)=>`<span><i class="swatch" style="background:${colors[j]}"></i>${n}</span>`).join("");document.querySelectorAll(`#pie-controls-${i} [data-pie]`).forEach(s=>s.oninput=()=>{let j=+s.dataset.pie;vals[j]=+s.value;vals[4]=100-vals.slice(0,4).reduce((a,b)=>a+b,0);renderPie(i);});}
-function act(i,action){let item=instances[i],d=item.data,f=document.getElementById(`feedback-${i}`),details=document.getElementById(`details-${i}`);if(action==="new"){item.data=item.q.make();delete item.pieVals;renderCard(i);return;}if(action==="hint"){details.innerHTML=`<div class="details"><strong>Hint:</strong> ${d.hint}</div>`;typesetMath(details);return;}if(action==="solution"){details.innerHTML=`<div class="details"><strong>Step-by-step explanation</strong><ol><li><strong>Understand the goal.</strong> ${d.text.replace(/<[^>]*>/g, "")}</li><li><strong>Select the method.</strong> ${d.hint}</li><li><strong>Substitute and calculate.</strong> ${formulaBlock(item.q.title)}<p>${d.solution}</p></li><li><strong>Check and interpret.</strong> Confirm the units and whether the result makes sense in the context. Round only the final answer to the precision requested.</li></ol></div>`;typesetMath(details);return;}if(action==="check"){let correct=false,partial=0;if(item.q.pie){let vals=item.pieVals;partial=vals.filter((v,j)=>v===d.pieParts[j]).length;correct=partial===5;}else{let inputs=d.answers.map((_,j)=>document.getElementById(`answer-${i}-${j}`).value);if(inputs.some(x=>x.trim()==="")){f.className="feedback bad";f.textContent="Please complete every answer field before checking.";return;}partial=inputs.filter((x,j)=>close(Number(x),d.answers[j], d.decimals?.[j] ?? (/number of/i.test(d.fields[j])?0:2))).length;correct=partial===d.answers.length;}f.className=`feedback ${correct?"good":"bad"}`;f.textContent=correct?"Correct! Great work.":`Not yet: ${partial} of ${item.q.pie?5:d.answers.length} parts correct. Try again or open the hint.`;if(!item.q.pie){d.answers.forEach((expected,j)=>{const v=document.getElementById(`answer-${i}-${j}`).value;const ok=v.trim()!==""&&close(Number(v),expected,d.decimals?.[j]??(/number of/i.test(d.fields[j])?0:2));const field=document.getElementById(`answer-${i}-${j}`);field.setAttribute("aria-invalid",String(!ok));field.parentElement.style.color=ok?"#126038":"#9b3c25";});}}}
+function act(i,action){let item=instances[i],d=item.data,f=document.getElementById(`feedback-${i}`),details=document.getElementById(`details-${i}`);if(action==="new"){item.data=item.q.make();delete item.pieVals;renderCard(i);return;}if(action==="hint"){details.innerHTML=`<div class="details"><strong>Hint:</strong> ${d.hint}</div>`;typesetMath(details);return;}if(action==="solution"){
+ const explanation=naturalSolution(item.q.title,d);
+ details.innerHTML=`<div class="details solution-prose"><strong>Worked explanation</strong>${explanation}</div>`;
+ typesetMath(details);return;
+}if(action==="check"){let correct=false,partial=0;if(item.q.pie){let vals=item.pieVals;partial=vals.filter((v,j)=>v===d.pieParts[j]).length;correct=partial===5;}else{let inputs=d.answers.map((_,j)=>document.getElementById(`answer-${i}-${j}`).value);if(inputs.some(x=>x.trim()==="")){f.className="feedback bad";f.textContent="Please complete every answer field before checking.";return;}partial=inputs.filter((x,j)=>close(Number(x),d.answers[j], d.decimals?.[j] ?? (/number of/i.test(d.fields[j])?0:2))).length;correct=partial===d.answers.length;}f.className=`feedback ${correct?"good":"bad"}`;f.textContent=correct?"Correct! Great work.":`Not yet: ${partial} of ${item.q.pie?5:d.answers.length} parts correct. Try again or open the hint.`;if(!item.q.pie){d.answers.forEach((expected,j)=>{const v=document.getElementById(`answer-${i}-${j}`).value;const ok=v.trim()!==""&&close(Number(v),expected,d.decimals?.[j]??(/number of/i.test(d.fields[j])?0:2));const field=document.getElementById(`answer-${i}-${j}`);field.setAttribute("aria-invalid",String(!ok));field.parentElement.style.color=ok?"#126038":"#9b3c25";});}}}
 renderTopics();

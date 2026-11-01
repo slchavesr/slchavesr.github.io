@@ -13,3 +13,10 @@ Deploy all five site files (`index.html`, `style.css`, `script.js`, `formulas.ht
 
 ## Version 5: LaTeX mathematics
 MathJax renders formulas on all three HTML pages. The formula reference uses display-style LaTeX, and topic solutions include a typeset formula followed by the numerical working. Dynamic math is re-typeset when solutions are opened or questions regenerated. MathJax is loaded from a CDN, so rendering requires an internet connection.
+
+
+## Version 6 changes
+- Worked explanations now read as connected paragraphs, with formulas and contextual interpretations.
+- Dimensional-analysis exercises display MathJax unit fractions with explicit cancellation. Requires the MathJax cancel package and internet access.
+- Practice exam follows the progression of the supplied October 20, 2026 MATH 1001 Exam 3: unit conversions, percentage changes, budgeting, interest, financing, amortization, student loans, and mortgages. It has 20 randomized prompts and suggests 70 minutes.
+- The practice exam remains an automatically scored approximation: it cannot assess drawn diagrams, pie-chart sketches, or written justifications as a paper exam does.

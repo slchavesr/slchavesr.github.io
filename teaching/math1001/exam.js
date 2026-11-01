@@ -1,14 +1,17 @@
 "use strict";
 // One representative question per selected skill, with deliberate extra coverage of finance.
+// Exam 3-style blueprint: 20 contextual, mostly open-response questions.
+// New versions randomize numerical values without copying the source exam.
 const blueprint=[
- ["units",["Fahrenheit to Celsius","Weight conversion","Speed conversion"]],
- ["percent",["Discount and sales tax","Successive percentage increases","Percent change"]],
+ ["units",["Multi-step conversion","Speed conversion","Area conversion","Unit rates","Weight conversion","Fahrenheit to Celsius"]],
+ ["percent",["Successive percentage increases","Reverse percentages"]],
  ["budget",["Monthly budget categories"]],
- ["interest",["Simple-interest investment","Compound interest","Retirement contributions"]],
- ["loans",["Simple-interest installment financing","Amortized loan payment","Credit-card repayment schedule"]],
- ["mortgage",["Deferred student loan","Mortgage and down payment"]]
+ ["interest",["Simple-interest investment","Time to reach a goal","Compound interest"]],
+ ["loans",["Financing with down payment","Simple-interest installment financing","Amortized loan payment","Two rows of amortization","Credit-card repayment schedule"]],
+ ["mortgage",["Deferred student loan","Interest paid during school","Mortgage and down payment"]]
 ];
 let exam=[];let submitted=false;
+const sectionNames={units:'Unit conversions and rates',percent:'Percentages and inflation',budget:'Budgeting',interest:'Interest and investments',loans:'Financing and amortization',mortgage:'Student loans and mortgages'};
 const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]));
 function newExam(){
  if(!submitted&&exam.length&&document.querySelector('#exam-form input')?.value.trim()&&!confirm('Generate a different exam? Current answers will be lost.'))return;
@@ -18,7 +21,7 @@ function newExam(){
   if(!q||q.pie)throw new Error('Missing numeric exam question: '+title);
   exam.push({topic,title,data:q.make()});
  }));
- document.querySelector('#exam-questions').innerHTML=exam.map((q,i)=>`<article class="card"><div class="question-points">Question ${i+1} · ${topics.find(t=>t[0]===q.topic)[1]} · ${q.data.answers.length} point${q.data.answers.length===1?'':'s'}</div><h3>${escapeHtml(q.title)}</h3><div class="prompt">${q.data.text}</div><div class="exam-grid">${q.data.fields.map((f,j)=>`<label for="ex-${i}-${j}">${escapeHtml(f)}<input id="ex-${i}-${j}" type="number" step="any" inputmode="decimal" autocomplete="off" placeholder="Your answer" /></label>`).join('')}</div></article>`).join('');
+ document.querySelector('#exam-questions').innerHTML=exam.map((q,i)=>`${i===0||exam[i-1].topic!==q.topic?`<h2 class="exam-section-heading">${sectionNames[q.topic]}</h2>`:''}<article class="card"><div class="question-points">Question ${i+1} · ${topics.find(t=>t[0]===q.topic)[1]} · ${q.data.answers.length} answer${q.data.answers.length===1?'':'s'}</div><h3>${escapeHtml(q.title)}</h3><div class="prompt">${q.data.text}</div><div class="exam-grid">${q.data.fields.map((f,j)=>`<label for="ex-${i}-${j}">${escapeHtml(f)}<input id="ex-${i}-${j}" type="number" step="any" inputmode="decimal" autocomplete="off" placeholder="Your answer" /></label>`).join('')}</div></article>`).join('');
  typesetMath(document.querySelector('#exam-questions'));document.querySelector('#exam-results').innerHTML='';document.querySelector('#submit-exam').disabled=false;document.querySelector('#submit-exam').textContent='Submit Exam';
  window.scrollTo({top:0,behavior:'smooth'});
 }
