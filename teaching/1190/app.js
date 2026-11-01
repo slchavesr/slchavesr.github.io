@@ -44,8 +44,15 @@ const types=Object.keys(T);let current=null,exam=[],examStarted=0,examTimer=null
 function renderMath(node){if(window.MathJax?.typesetPromise)window.MathJax.typesetPromise([node]).catch(()=>{});}
 function generate(type){return gens[type]();}
 function setTab(tab){for(const name of ['practice','exam','guide','lab']){$(name+'Panel').classList.toggle('hidden',name!==tab);$(name+'Tab').classList.toggle('active',name===tab);}renderMath(document.querySelector('main'));}
-for(const type of types){let o=document.createElement('option');o.value=type;o.textContent=T[type];$('topic').append(o);let p=document.createElement('p');p.textContent='• '+T[type];$('topicGuide').append(p);}
-function next(){current=generate($('topic').value);$('problemMeta').textContent=T[current.topic];$('prompt').innerHTML=current.prompt;$('graph').innerHTML=current.graph??'';$('feedback').innerHTML='';$('hintBox').classList.add('hidden');$('solutionBox').classList.add('hidden');$('answer').value='';$('fallback').value='';renderMath($('practicePanel'));}
+for(const type of types){
+ let o=document.createElement('option');o.value=type;o.textContent=T[type];$('topic').append(o);
+ let p=document.createElement('p');p.textContent='• '+T[type];$('topicGuide').append(p);
+ let b=document.createElement('button');b.type='button';b.className='topic';b.dataset.topic=type;
+ b.innerHTML='<strong>'+T[type]+'</strong><span>Generate randomized practice questions</span>';
+ b.addEventListener('click',()=>{$('topic').value=type;next();$('practicePanel').scrollIntoView({block:'start',behavior:'smooth'});});
+ $('topics').append(b);
+}
+function next(){current=generate($('topic').value);document.querySelectorAll('#topics .topic').forEach(b=>b.classList.toggle('active',b.dataset.topic===$('topic').value));$('problemMeta').textContent=T[current.topic];$('prompt').innerHTML=current.prompt;$('graph').innerHTML=current.graph??'';$('feedback').innerHTML='';$('hintBox').classList.add('hidden');$('solutionBox').classList.add('hidden');$('answer').value='';$('fallback').value='';renderMath($('practicePanel'));}
 $('newProblem').onclick=next;$('topic').onchange=next;$('check').onclick=()=>{let value=$('fallback').value||$('answer').value;let res=mathCheck(value,current);$('feedback').className=res.status==='correct'?'success':res.status==='incorrect'?'error':'review';$('feedback').textContent=res.status==='correct'?'Correct!':res.status==='incorrect'?'Not quite. Try again.':res.message;};$('hint').onclick=()=>{$('hintBox').innerHTML='<b>Hint</b><p>'+current.hint+'</p>';$('hintBox').classList.remove('hidden');renderMath($('hintBox'));};$('solution').onclick=()=>{$('solutionBox').innerHTML='<b>Worked explanation</b><p>'+current.explanation+'</p>';$('solutionBox').classList.remove('hidden');renderMath($('solutionBox'));};
 for(const name of ['practice','exam','guide','lab'])$(name+'Tab').onclick=()=>setTab(name);
 
