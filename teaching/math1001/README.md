@@ -20,3 +20,6 @@ MathJax renders formulas on all three HTML pages. The formula reference uses dis
 - Dimensional-analysis exercises display MathJax unit fractions with explicit cancellation. Requires the MathJax cancel package and internet access.
 - Practice exam follows the progression of the supplied October 20, 2026 MATH 1001 Exam 3: unit conversions, percentage changes, budgeting, interest, financing, amortization, student loans, and mortgages. It has 20 randomized prompts and suggests 70 minutes.
 - The practice exam remains an automatically scored approximation: it cannot assess drawn diagrams, pie-chart sketches, or written justifications as a paper exam does.
+
+## Version 7: worked solutions
+All 31 randomized question types now have topic-specific narrative explanations, with the actual generated numbers and mathematical displays. Unit conversions use fractions and explicit MathJax unit cancellation. The exam generator and answer checking remain unchanged.
