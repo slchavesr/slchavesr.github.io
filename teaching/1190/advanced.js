@@ -153,4 +153,5 @@ const originalAdvancedNext=advancedNext;
 advancedNext=()=>{document.querySelector('#practicePanel article.problem').classList.remove('hidden');$('labPanel').classList.add('hidden');originalAdvancedNext();};
 // Existing topic buttons call the reassigned next(), so they continue to work.
 advancedNext();
+window.math1190AdvancedNext=advancedNext;
 })();
