@@ -14,3 +14,5 @@ Upload `index.html`, `app.js`, `advanced.js`, `extra.js`, and `style.css` to you
 Existing practice-exam answer fields remain plain text. The separate practice-exam graph-construction activity still uses draggable controls; the new freehand sketchpad is in the formula-sketch topic. Tests performed: JavaScript syntax checks and ZIP integrity, not browser interaction.
 
 Version 6: Added labeled zoomable freehand graphing without reference overlay; additional function families; more related-rates, optimization, theorem and L’Hôpital generators. Upload more.js along with the existing site files.
+
+Version 7: new extrema families (radical, rational, logarithmic, exponential, cosine, absolute value); written theorem explanations; formula-sketch ordinary points plotted live; more derivative-graph families; optional MathLive in multipart answers. For non-quadratic derivative graphs the cubic-only draggable sketch is disabled rather than falsely graded.
