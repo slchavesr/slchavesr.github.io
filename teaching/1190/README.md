@@ -1,18 +1,14 @@
-# MATH 1190 Exam 3 Practice Center — Version 5
+# MATH 1190 Exam 3 Practice Center — Version 8
 
-Upload `index.html`, `app.js`, `advanced.js`, `extra.js`, and `style.css` to your GitHub Pages folder `teaching/1190/`.
+Upload index.html, style.css, app.js, advanced.js, extra.js, more.js, and fixes.js to teaching/1190/ in your GitHub Pages repository.
 
-## Changes
-- Formula sketching: draw directly on a graph with mouse, touch, or stylus; the path is smoothed using Catmull–Rom interpolation. Undo, clear, and compare with reference. The drawn sketch is **not automatically graded**; feature-point coordinates are checked.
-- Derivative graph investigation is accessible from the topic grid, not a separate top navigation tab.
-- MathLive uses a second CDN; an explicit "Use equation editor" button retries another provider. Plain text remains a fallback. Requires network access to load.
-- Related-rates additions: sliding ladder, growing oil spill, perpendicular boats, and searchlight at π/6, π/4, or π/3.
-- Optimization additions: rectangular garden, closed can, three-sided enclosure, and a cost-minimization model.
-- New exponential and logarithmic limits; formula sketching includes sine and rational functions.
+## Navigation fixes
+- Topic selection uses cards only; the old topic dropdown is hidden.
+- Topic cards highlight on selection and request a new problem from the corresponding generator.
+- Graph investigation lives within Topic practice; New graph investigation requests another derivative graph.
+- A freehand sketch area appears for non-quadratic derivative graphs, instead of the unsupported four-handle cubic model.
+- Practice exam start uses an explicit click handler with error reporting.
+- The Study guide & instructions tab has been removed.
+- A keyboard icon beside answer inputs attempts to load MathLive on demand. If the CDN is blocked, the text field remains usable.
 
-## Notes
-Existing practice-exam answer fields remain plain text. The separate practice-exam graph-construction activity still uses draggable controls; the new freehand sketchpad is in the formula-sketch topic. Tests performed: JavaScript syntax checks and ZIP integrity, not browser interaction.
-
-Version 6: Added labeled zoomable freehand graphing without reference overlay; additional function families; more related-rates, optimization, theorem and L’Hôpital generators. Upload more.js along with the existing site files.
-
-Version 7: new extrema families (radical, rational, logarithmic, exponential, cosine, absolute value); written theorem explanations; formula-sketch ordinary points plotted live; more derivative-graph families; optional MathLive in multipart answers. For non-quadratic derivative graphs the cubic-only draggable sketch is disabled rather than falsely graded.
+This is a functional repair of v7; the question bank is retained. JavaScript syntax and ZIP integrity have been checked. Full browser interaction testing was not possible in the current environment; test on GitHub Pages before assigning to students.
