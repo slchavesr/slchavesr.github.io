@@ -1,0 +1,93 @@
+/* Version 13: one graph editor and one exam assessment engine. */
+(()=>{'use strict';
+const $=id=>document.getElementById(id),NS='http://www.w3.org/2000/svg';
+const boards=new WeakMap();let examData=[];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const names={graph:'Interpret graphs',absolute:'Absolute extrema',analysis:'Curve analysis',derivativeGraph:'Derivative graphs',lhopital:'L’Hôpital',rates:'Related rates',optimization:'Optimization',theorems:'Theorems',formulaSketch:'Sketch from a formula',investigation:'Graph investigation from f′'};
+function board(host,opts={}){
+ if(!host)return null;
+ const domain=opts.domain||[-4,4],range=opts.range||[-8,8];let centerX=0,centerY=0;
+ let unit=Math.min(580/(domain[1]-domain[0]),320/(range[1]-range[0]));unit=Math.min(90,Math.max(8,unit));
+ let tool='draw',strokes=[],marks=[],active=null,readonly=false,reference=false;
+ host.innerHTML=`<div class="graph-tools"><label>Tool <select class="graph-tool"><option value="draw">Draw curve</option><option value="pan">Pan / drag grid</option><option value="point">Ordinary point</option><option value="open">Open circle</option><option value="closed">Closed circle</option><option value="critical">Extremum</option><option value="inflection">Inflection point</option></select></label><button type="button" class="graph-zoom-in secondary">Zoom +</button><button type="button" class="graph-zoom-out secondary">Zoom −</button><button type="button" class="graph-reset secondary">Reset view</button><button type="button" class="graph-undo secondary">Undo</button><button type="button" class="graph-clear secondary">Clear</button></div><svg class="unified-graph" viewBox="0 0 700 390" aria-label="Interactive coordinate graph; select draw, point, or pan tools" style="display:block;width:100%;max-width:900px;touch-action:none;cursor:crosshair;border:1px solid #b9c6d4;border-radius:8px;background:#fff"></svg><p class="muted small">Draw curves or place labeled point types. Select Pan to drag the view; zoom and pan preserve coordinates. The origin is at the intersection of the axes, with the background grid offset by half a cell.</p>`;
+ const svg=host.querySelector('svg'),toolEl=host.querySelector('.graph-tool');
+ function el(tag,attrs,parent=svg){const n=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v);parent.append(n);return n;}
+ const px=x=>350+(x-centerX)*unit,py=y=>195-(y-centerY)*unit;
+ const coord=(x,y)=>({x:centerX+(x-350)/unit,y:centerY+(195-y)/unit});
+ function eventXY(e){let r=svg.getBoundingClientRect();return {x:(e.clientX-r.left)*700/r.width,y:(e.clientY-r.top)*390/r.height};}
+ function draw(){svg.replaceChildren();const clip=el('clipPath',{id:'clip-'+(svg.dataset.uid||'graph')},el('defs',{}));el('rect',{x:35,y:20,width:630,height:345},clip);el('rect',{x:35,y:20,width:630,height:345,fill:'#fff'});
+ const step=Math.pow(10,Math.floor(Math.log10(52/unit)));const gridStep=step*(52/(unit*step)>5?10:52/(unit*step)>2?5:52/(unit*step)>1?2:1);
+ const minX=centerX-315/unit,maxX=centerX+315/unit,minY=centerY-170/unit,maxY=centerY+175/unit;
+ // Offset grid by half a unit: (0,0) lies inside a grid rectangle, never at a background-grid intersection.
+ for(let n=Math.ceil(minX/gridStep-.5);n*gridStep+gridStep/2<=maxX;n++){let x=px((n+.5)*gridStep);el('line',{x1:x,x2:x,y1:20,y2:365,stroke:'#e0e7ef'});}
+ for(let n=Math.ceil(minY/gridStep-.5);n*gridStep+gridStep/2<=maxY;n++){let y=py((n+.5)*gridStep);el('line',{x1:35,x2:665,y1:y,y2:y,stroke:'#e0e7ef'});}
+ const x0=px(0),y0=py(0);if(x0>=35&&x0<=665)el('line',{x1:x0,x2:x0,y1:20,y2:365,stroke:'#334155','stroke-width':2});if(y0>=20&&y0<=365)el('line',{x1:35,x2:665,y1:y0,y2:y0,stroke:'#334155','stroke-width':2});
+ for(let n=Math.ceil(minX/gridStep);n*gridStep<=maxX;n++){let x=n*gridStep;if(Math.abs(x)<1e-8)continue;let sx=px(x);if(y0>=20&&y0<=365)el('text',{x:sx+2,y:Math.min(378,Math.max(34,y0+15)),'font-size':11,fill:'#475569'}).textContent=+x.toFixed(3);}
+ for(let n=Math.ceil(minY/gridStep);n*gridStep<=maxY;n++){let y=n*gridStep;if(Math.abs(y)<1e-8)continue;let sy=py(y);if(x0>=35&&x0<=665)el('text',{x:Math.min(642,Math.max(5,x0+4)),y:sy-3,'font-size':11,fill:'#475569'}).textContent=+y.toFixed(3);}
+ const content=el('g',{'clip-path':'url(#clip-'+(svg.dataset.uid||'graph')+')'});
+ function path(points,color='#2563eb',dash=''){if(points.length<2)return;let d=points.map((p,i)=>(i?'L':'M')+px(p.x).toFixed(2)+','+py(p.y).toFixed(2)).join(' ');el('path',{d,fill:'none',stroke:color,'stroke-width':3,'stroke-linecap':'round','stroke-linejoin':'round',...(dash?{'stroke-dasharray':dash}:{})},content);}
+ for(const stroke of strokes)path(stroke);if(active?.mode==='draw')path(active.points);
+ for(const m of marks){const x=px(m.x),y=py(m.y);el('circle',{cx:x,cy:y,r:m.type==='critical'||m.type==='inflection'?7:5,fill:m.type==='open'?'white':m.type==='inflection'?'#a855f7':m.type==='critical'?'#dc2626':'#2563eb',stroke:'#1d4ed8','stroke-width':2},content);if(m.type==='critical'||m.type==='inflection')el('text',{x:x+8,y:y-8,'font-size':11,fill:'#334155'},content).textContent=m.type==='critical'?'extremum':'inflection';}
+ if(reference&&typeof opts.fn==='function'){let seg=[];for(let i=0;i<=700;i++){const x=minX+(maxX-minX)*i/700,y=opts.fn(x);if(!Number.isFinite(y)||Math.abs(y)>1e6){path(seg,'#16a34a');seg=[];continue;}seg.push({x,y});}path(seg,'#16a34a');}
+ }
+ svg.dataset.uid='g'+Math.random().toString(36).slice(2);toolEl.onchange=()=>{tool=toolEl.value;svg.style.cursor=tool==='pan'?'grab':'crosshair';};
+ svg.addEventListener('pointerdown',e=>{if(readonly)return;const pos=eventXY(e);if(pos.x<35||pos.x>665||pos.y<20||pos.y>365)return;svg.setPointerCapture(e.pointerId);if(tool==='pan')active={mode:'pan',pos,ox:centerX,oy:centerY};else if(tool==='draw')active={mode:'draw',points:[coord(pos.x,pos.y)]};else{marks.push({...coord(pos.x,pos.y),type:tool});active=null;draw();}});
+ svg.addEventListener('pointermove',e=>{if(!active)return;const pos=eventXY(e);if(active.mode==='pan'){centerX=active.ox-(pos.x-active.pos.x)/unit;centerY=active.oy+(pos.y-active.pos.y)/unit;}else active.points.push(coord(pos.x,pos.y));draw();});
+ const end=()=>{if(active?.mode==='draw'&&active.points.length>1)strokes.push(active.points);active=null;draw();};svg.addEventListener('pointerup',end);svg.addEventListener('pointercancel',end);
+ host.querySelector('.graph-zoom-in').onclick=()=>{unit=Math.min(500,unit*1.35);draw();};host.querySelector('.graph-zoom-out').onclick=()=>{unit=Math.max(5,unit/1.35);draw();};host.querySelector('.graph-reset').onclick=()=>{centerX=0;centerY=0;unit=Math.min(90,Math.max(8,Math.min(580/(domain[1]-domain[0]),320/(range[1]-range[0]))));draw();};host.querySelector('.graph-undo').onclick=()=>{if(marks.length)marks.pop();else strokes.pop();draw();};host.querySelector('.graph-clear').onclick=()=>{marks=[];strokes=[];draw();};draw();
+ const api={get strokes(){return strokes},get marks(){return marks},get hasWork(){return strokes.length>0||marks.length>0},showReference(){reference=true;draw();},lock(){readonly=true;},get score(){return gradeDrawing(api,opts)}};boards.set(host,api);return api;
+}
+function gradeDrawing(b,o){if(!b?.hasWork)return {score:0,total:1,detail:'No sketch submitted'};
+ if(typeof o.fn!=='function')return {score:0,total:0,detail:'Sketch cannot be reliably scored without a reference function'};
+ const all=b.strokes.flat();if(all.length<10)return {score:0,total:1,detail:'Sketch too short to assess'};
+ const dom=o.domain||[-4,4],range=o.range||[-8,8],scale=Math.max(1,(range[1]-range[0])*.10);let matches=0,count=0;
+ for(let i=0;i<=30;i++){let x=dom[0]+(dom[1]-dom[0])*i/30,expected=o.fn(x);if(!Number.isFinite(expected)||expected<range[0]||expected>range[1])continue;count++;if(all.some(p=>Math.abs(p.x-x)<(dom[1]-dom[0])/18&&Math.abs(p.y-expected)<scale))matches++;}
+ return {score:count&&matches/count>=.68?1:0,total:1,detail:`Approximate curve coverage: ${count?Math.round(100*matches/count):0}%. This is a formative geometric estimate, not proof of calculus properties.`};}
+function referenceGraph(q){const div=document.createElement('div');div.className='solution-reference';div.innerHTML='<h3>Reference graph of f</h3><div class="solution-graph"></div>';
+ const fn=q.fn||q.referenceFn;if(typeof fn==='function'){const b=board(div.querySelector('.solution-graph'),{fn,domain:q.domain||q.referenceDomain||[-4,4],range:q.range||[-30,30]});b.showReference();b.lock();}else if(q.sketch){div.querySelector('.solution-graph').innerHTML=q.sketch;}else div.querySelector('.solution-graph').textContent='Reference curve unavailable for this question.';return div;}
+function normalize(s){return String(s??'').trim().toLowerCase().replace(/\s+/g,'').replace(/−/g,'-').replace(/\\cup|∪/g,'u').replace(/\\infty|∞/g,'infinity');}
+function number(s){s=String(s??'').trim().replace(/π/g,'pi');if(!/^[-+\d.\s*/()pi]+$/.test(s))return NaN;try{return Function('"use strict";return ('+s.replace(/pi/g,'Math.PI')+')')();}catch{return NaN;}}
+function equal(a,b){const x=number(a),y=number(b);return Number.isFinite(x)&&Number.isFinite(y)?Math.abs(x-y)<.075:normalize(a)===normalize(b);}
+function examResponse(q,i){const pref='v13-'+i,inp=(label,answer,id)=>`<label class="part">${label}<input class="exam-input" data-answer="${esc(answer)}" data-question="${i}" id="${id}" placeholder="Enter your answer" autocomplete="off"></label>`;
+ if(q.topic==='graph'&&q.rows)return `<table class="answers-table"><thead><tr><th>Point</th><th>f</th><th>f′</th><th>f″</th></tr></thead><tbody>${q.rows.map((r,j)=>`<tr><th>${esc(r.label)}</th>${r.answers.map((a,k)=>`<td>${selectAnswer(a,i,`${pref}-${j}-${k}`,['positive','negative','zero'])}</td>`).join('')}</tr>`).join('')}</tbody></table>`;
+ if(q.topic==='absolute'&&q.rows)return `<p>Enter the extrema as coordinates and classification.</p>${q.rows.map((r,j)=>inp(`${r.type}: x-coordinate`,r.x,`${pref}-x-${j}`)+inp(`${r.type}: y-coordinate`,r.y,`${pref}-y-${j}`)).join('')}`;
+ if(q.topic==='analysis'&&q.rows)return q.rows.map((r,j)=>inp(r.label,r.answer,`${pref}-${j}`)).join('')+q.crit.map((r,j)=>inp(`Critical point ${j+1} (${r.type}): x`,r.x,`${pref}-crit-${j}`)).join('');
+ if(q.topic==='derivativeGraph'&&q.segments)return q.segments.map((r,j)=>selectAnswer(r.answer,i,`${pref}-seg-${j}`,['increasing','decreasing'],`On ${r.label}, f is`)).join('')+q.points.map((r,j)=>selectAnswer(r.type,i,`${pref}-point-${j}`,['local maximum','local minimum','neither'],`At x≈${Number(r.x).toFixed(2)}`)).join('')+inp('Inflection x-values, comma-separated (or none)',q.turns.length?q.turns.map(v=>Number(v).toFixed(2)).join(','):'none',`${pref}-turns`);
+ if(q.topic==='investigation')return q.parts.map((r,j)=>inp(`(${String.fromCharCode(97+j)}) ${r.label}`,r.answer,`${pref}-${j}`)).join('')+sketchResponse(q,i);
+ if(q.topic==='formulaSketch')return q.expected.map((r,j)=>inp(`${r.type} ${j+1} — x-coordinate`,r.x,`${pref}-x-${j}`)+inp(`${r.type} ${j+1} — y-coordinate`,r.y,`${pref}-y-${j}`)).join('')+sketchResponse(q,i);
+ return inp('Answer',q.answer,`${pref}-answer`);
+}
+function selectAnswer(a,i,id,options,label=''){return `<label class="part">${label}<select id="${id}" class="exam-input" data-answer="${esc(a)}" data-question="${i}"><option value="">Choose…</option>${options.map(o=>`<option value="${o}">${o}</option>`).join('')}</select></label>`;}
+function sketchResponse(q,i){return `<h3>Sketch a possible graph of f</h3><div id="v13-board-${i}"></div>`;}
+function generateExam(){const topics=['graph','absolute','analysis','derivativeGraph','lhopital','rates','optimization','theorems','formulaSketch','investigation'];examData=topics.map(t=>({... (t==='investigation'?graphInvestigation():window.math1190AdvancedFactory?.[t]?window.math1190AdvancedFactory[t]():generate(t)),topic:t}));
+ window.math1190GetExam=()=>examData.slice();$('examResults').innerHTML='';$('examQuestions').innerHTML=examData.map((q,i)=>`<article class="problem" data-exam-index="${i}"><div class="eyebrow">Question ${i+1} · ${names[q.topic]||names[['graph','absolute','analysis','derivativeGraph','lhopital','rates','optimization','theorems','formulaSketch','investigation'][i]]}</div><div>${q.prompt}</div><div>${q.graph||q.svg&&q.topic!=='graph'?q.graph||q.svg:''}</div>${examResponse(q,i)}<div class="exam-result" id="v13-result-${i}"></div></article>`).join('');
+ examData.forEach((q,i)=>{if(q.topic==='investigation'||q.topic==='formulaSketch')board($('v13-board-'+i),{fn:q.fn||q.referenceFn,domain:q.domain||q.referenceDomain||[-4,4],range:q.range||[-30,30]});});
+ $('submitExam').classList.remove('hidden');$('timer').textContent='10 questions · suggested 70 minutes';renderMath($('examQuestions'));
+}
+function gradeExam(){if(!examData.length)return;let earned=0,total=0,unanswered=0,review=0;const summaries=[];
+ examData.forEach((q,i)=>{let yes=0,n=0,blank=0;const article=document.querySelector(`[data-exam-index="${i}"]`);article.querySelectorAll('[data-answer]').forEach(input=>{n++;const v=input.value,a=input.dataset.answer;if(!v.trim()){blank++;input.classList.add('exam-empty');}else if(equal(v,a)){yes++;input.classList.add('exam-correct');}else input.classList.add('exam-incorrect');input.disabled=true;});
+ const host=$('v13-board-'+i);if(host){const b=boards.get(host),g=b.score;b.lock();if(g.total){n+=g.total;yes+=g.score;if(!b.hasWork)blank++;}else review++;}
+ earned+=yes;total+=n;unanswered+=blank;const pct=n?Math.round(100*yes/n):0;summaries.push({topic:names[q.topic]||q.topic,yes,n,pct});const result=$('v13-result-'+i);result.innerHTML=`<div class="info"><strong>${yes} / ${n} assessed items correct (${pct}%)</strong><p>${q.solution||q.explanation||''}</p></div>`;if(host){const g=boards.get(host).score;result.querySelector('.info').insertAdjacentHTML('beforeend',`<p class="muted">Sketch assessment: ${esc(g.detail)}</p>`);result.append(referenceGraph(q));}
+ });const percent=total?Math.round(100*earned/total):0;$('examResults').innerHTML=`<div class="info"><h2>Practice exam results</h2><p><strong>${earned} / ${total} (${percent}%)</strong> assessed items correct. ${unanswered} unanswered; ${review} sketch(es) need manual review.</p><table class="answers-table"><thead><tr><th>Topic</th><th>Correct</th><th>Score</th></tr></thead><tbody>${summaries.map(r=>`<tr><td>${r.topic}</td><td>${r.yes}/${r.n}</td><td>${r.pct}%</td></tr>`).join('')}</tbody></table><p class="muted">This is formative scoring. Freehand sketches are evaluated approximately where a reference function is available; visually plausible curves can still require instructor review.</p></div>`;$('submitExam').classList.add('hidden');renderMath($('examPanel'));}
+// Capture on document to supersede older capture-phase handlers without modifying the established layout.
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='startExam'){e.preventDefault();e.stopImmediatePropagation();try{generateExam();}catch(err){console.error(err);$('examResults').textContent='Exam generation error: '+err.message;}}
+ if(b.id==='submitExam'){e.preventDefault();e.stopImmediatePropagation();gradeExam();}
+ if(b.matches('.mathpart-button,.inline-editor,#derivativeEditorToggle')){e.preventDefault();e.stopImmediatePropagation();const id=b.dataset.input, input=id?$(id):b.classList.contains('inline-editor')?b.parentElement.querySelector('input'):b.parentElement.querySelector('input');if(input){input.focus();window.mathVirtualKeyboard?.show?.();}}
+ if(b.closest('.math-input-wrap')&&b.textContent.trim()==='⌨'){
+  e.preventDefault();e.stopImmediatePropagation();const wrap=b.closest('.math-input-wrap'),input=wrap.querySelector('input');
+  if(input){if(wrap.querySelector('math-field')){wrap.querySelector('math-field').focus();window.mathVirtualKeyboard?.show?.();return;}
+   if(customElements.get('math-field')){const mf=document.createElement('math-field');mf.setAttribute('math-virtual-keyboard-policy','manual');mf.value=input.value;mf.style.cssText='flex:1;min-width:0';input.style.display='none';wrap.insertBefore(mf,b);mf.addEventListener('input',()=>{input.value=mf.value;input.dispatchEvent(new Event('input',{bubbles:true}));});mf.focus();window.mathVirtualKeyboard?.show?.();}
+   else input.focus();}return;
+ }
+ if(b.id==='labSolution'){setTimeout(()=>{const q=window.math1190CurrentLab?.();if(q)$('labExplanation').append(referenceGraph(q));},0);}
+ if(b.id==='solution'&&$('topic').value==='formulaSketch'){setTimeout(()=>{const q=window.math1190GetPracticeAdvanced?.();if(q)$('solutionBox').append(referenceGraph(q));},0);}
+},true);
+// Replace old graph editors after their DOM nodes are created.
+function upgrade(){const lab=$('labSketch');if(lab&&!lab.querySelector('.unified-graph')&&!$('labPanel').classList.contains('hidden'))board(lab,{fn:window.math1190CurrentLab?.()?.referenceFn,domain:[-4,4],range:[-30,30]});const formula=$('constructedGraph');if(formula&&$('topic').value==='formulaSketch'&&!formula.querySelector('.unified-graph'))board(formula,{fn:window.math1190GetPracticeAdvanced?.()?.fn,domain:window.math1190GetPracticeAdvanced?.()?.domain,range:window.math1190GetPracticeAdvanced?.()?.range});}
+let pending=false;new MutationObserver(()=>{if(pending)return;pending=true;queueMicrotask(()=>{pending=false;upgrade();});}).observe($('practicePanel'),{childList:true,subtree:true});
+// Lab is outside practicePanel, and is rebuilt on topic navigation.
+new MutationObserver(()=>{if(pending)return;pending=true;queueMicrotask(()=>{pending=false;upgrade();});}).observe($('labPanel'),{childList:true,subtree:true});
+const style=document.createElement('style');style.textContent=`.graph-tools{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin:10px 0}.graph-tools button{font-size:.85rem;padding:8px 10px}.graph-tools select{padding:8px}.exam-correct{border-color:#16a34a!important}.exam-incorrect{border-color:#dc2626!important}.exam-empty{border-color:#f59e0b!important}.exam-result{margin-top:14px}.solution-reference{margin-top:14px}.mathpart-button,.inline-editor,#derivativeEditorToggle{display:none!important}`;document.head.append(style);
+// Hide the old second MathLive field in favor of the consistent answer input.
+const oldEditor=$('answer');if(oldEditor)oldEditor.style.display='none';
+})();
