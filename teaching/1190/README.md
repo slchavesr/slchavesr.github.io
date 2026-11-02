@@ -1,5 +1,3 @@
-MATH 1190 Practice Center v9
+MATH 1190 Practice Center v11 — restored exact Version 9 visual design.
 
-Fixes: navigation uses the advanced generator exported explicitly; graph investigation uses one New problem button and a freehand canvas for all derivative families; exam generation avoids incompatible cubic-only sketch handling.
-
-Upload all HTML/CSS/JS files into teaching/1190/ on GitHub Pages. Refresh with Ctrl+Shift+R.
+Upload ALL ten files to teaching/1190/ (do not mix versions). Every script uses v11 cache busting. Exam generation uses the Version 9 handler. PDF export reads the exact generated exam via a supported accessor and reports loading failures. PDF libraries require internet access.

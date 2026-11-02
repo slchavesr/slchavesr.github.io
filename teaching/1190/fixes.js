@@ -57,6 +57,7 @@ function makeExam(){
   }
   return generate(type);
  });
+ window.math1190GetExam=()=>exam.slice();
  examStarted=Date.now();$('examResults').innerHTML='';
  $('examQuestions').innerHTML=exam.map((q,i)=>`<article class="problem"><div class="eyebrow">Question ${i+1} · ${T[q.topic]||q.topic}</div><div>${q.prompt}</div>${q.graph||''}<label class="answer-label" for="exam-${i}">Answer</label><input id="exam-${i}" class="exam-input" autocomplete="off" placeholder="Enter your answer"><div id="result-${i}"></div></article>`).join('');
  $('submitExam').classList.remove('hidden');$('timer').textContent='Suggested time limit: 70 minutes';renderMath($('examQuestions'));
