@@ -57,13 +57,13 @@ function questionDerivative(){let family=choice(['quadratic','cubic','quartic','
  let points=roots.filter(x=>x>-4&&x<4).map(x=>{let e=.01,l=sample(x-e),r=sample(x+e);return {x,type:l>0&&r<0?'Local maximum':l<0&&r>0?'Local minimum':'Neither'};});
  return {kind:'derivativeGraph',prompt:'The graph shown is <b>y = f′(x)</b>. Determine whether f increases or decreases on each indicated interval, classify each zero of f′, and identify where the concavity of f changes.',svg:graph(fn,roots.filter(x=>x>=-4&&x<=4).map((x,i)=>({x,y:0,label:String.fromCharCode(65+i)})),domain,yr,true),segments,points,turns,solution:'The sign of f′ determines increasing and decreasing intervals. A change of f′ from positive to negative gives a local maximum of f, while a change from negative to positive gives a local minimum. The concavity of f changes at a local turning point of the graph of f′ (provided its monotonicity changes).'};
 }
-function questionFormula(){let family=choice(['cubic','quartic','quadratic','trigonometric','rational']),fn,crit,infl=[],formula,domain=[-3,3],range=[-12,12];
+function questionFormula(){let family=choice(['cubic','quartic','rational']),fn,crit,infl=[],formula,domain=[-3,3],range=[-12,12];
  if(family==='cubic'){let a=choice([-2,-1]),b=choice([1,2]),c=rnd(-2,2);fn=x=>x*x*x/3-(a+b)*x*x/2+a*b*x+c;crit=[a,b];infl=[(a+b)/2];formula=`\\frac{x^3}{3}-\\frac{${a+b}x^2}{2}+${a*b}x${c>=0?'+':''}${c}`;}
  else if(family==='quartic'){let a=choice([1,2]),c=rnd(-2,2);fn=x=>(x*x-a*a)**2+c;crit=[-a,0,a];infl=[-a/Math.sqrt(3),a/Math.sqrt(3)];formula=`(x^2-${a*a})^2${c>=0?'+':''}${c}`;range=[-8,40];}
  else if(family==='trigonometric'){let k=choice([1,2]),c=rnd(-2,2);fn=x=>k*Math.sin(x)+c;crit=[-Math.PI/2,Math.PI/2];infl=[0];formula=`${k}\\sin(x)${c>=0?'+':''}${c}`;domain=[-Math.PI,Math.PI];range=[-5,5];}
  else if(family==='rational'){fn=x=>x/(1+x*x);crit=[-1,1];infl=[-Math.sqrt(3),0,Math.sqrt(3)];formula=`\\frac{x}{1+x^2}`;domain=[-3,3];range=[-1.5,1.5];}
  else{let a=choice([-2,-1,1,2]),k=choice([-2,-1,1,2]),c=rnd(-3,3);fn=x=>k*(x-a)**2+c;crit=[a];formula=`${k}(x-${a})^2${c>=0?'+':''}${c}`;}
- if(Math.random()<.48){let family2=choice(['radical','logarithmic','exponential','rational2','trig2']);infl=[];
+ if(Math.random()<.48){let family2=choice(['radical','logarithmic','exponential','rational2']);infl=[];
  if(family2==='radical'){let a=choice([2,3,4]);fn=x=>x*Math.sqrt(a-x);crit=[2*a/3];formula=`x\\sqrt{${a}-x}`;domain=[-3,a];range=[-8,8];}
  if(family2==='logarithmic'){let a=choice([1,2,3]);fn=x=>Math.log(x)-x/a;crit=[a];formula=`\\ln(x)-\\frac{x}{${a}}`;domain=[.15,Math.max(5,a+3)];range=[-5,2];}
  if(family2==='exponential'){let a=choice([1,2,3]);fn=x=>Math.exp(x)-a*x;crit=[Math.log(a)];formula=`e^x-${a}x`;domain=[-2,2];range=[-4,9];}
@@ -71,7 +71,7 @@ function questionFormula(){let family=choice(['cubic','quartic','quadratic','tri
  if(family2==='trig2'){let a=choice([1,2]);fn=x=>a*Math.cos(x);crit=[-Math.PI,0,Math.PI];infl=[-Math.PI/2,Math.PI/2];formula=`${a}\\cos(x)`;domain=[-Math.PI,Math.PI];range=[-3,3];}
  }
  let expected=[...crit.map(x=>({x,y:fn(x),type:'Critical point'})),...infl.map(x=>({x,y:fn(x),type:'Inflection point'}))];return {kind:'formulaSketch',prompt:`For \\(f(x)=${formula}\\), enter the coordinates of its critical and inflection points. Then open the freehand sketchpad and draw your own graph. Your strokes are smoothed automatically; use the labeled grid and zoom controls to refine your sketch.`,fn,expected,domain,range,solution:`Differentiate the given function, solve f′(x)=0 for stationary points, and solve f″(x)=0 for possible inflection points. Check for sign changes. The expected feature points are ${expected.map(p=>`${p.type} (${fnum(p.x)}, ${fnum(p.y)})`).join('; ')}.`};}
-const factory={graph:questionGraph,absolute:questionAbsolute,analysis:questionAnalysis,derivativeGraph:questionDerivative,formulaSketch:questionFormula};
+const factory={graph:questionGraph,absolute:questionAbsolute,analysis:questionAnalysis,derivativeGraph:questionDerivative,formulaSketch:questionFormula};window.math1190AdvancedFactory=factory;window.math1190GetPracticeAdvanced=()=>q;
 let q=null;
 function typeset(){renderMath($('practicePanel'));}
 function select(options,cls='adv-select'){return `<select class="${cls}">${options.map(v=>`<option value="${v}">${v}</option>`).join('')}</select>`;}
