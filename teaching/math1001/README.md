@@ -26,3 +26,9 @@ All 31 randomized question types now have topic-specific narrative explanations,
 
 
 Version 8 adds three randomized currency-exchange practice types (USD to foreign currency, foreign currency to USD, and cross-country price comparisons). Two exchange-rate questions appear in each 20-question practice exam. Rates are hypothetical values supplied in the questions, not live market quotations.
+
+
+## Version 9: exam topic balance and unit-price comparison
+- Every 20-question exam includes exactly one currency-exchange question, one Fahrenheit-to-Celsius question, and one comparison of prices for the same item sold in different units.
+- Topic practice adds randomized comparisons of the same item sold in kilograms versus pounds or liters versus gallons, with three answer fields (two unit prices and the difference).
+- All exchange rates and unit conversion factors are stated in the question; numerical values are randomized.

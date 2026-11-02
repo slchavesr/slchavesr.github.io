@@ -3,7 +3,7 @@
 // Exam 3-style blueprint: 20 contextual, mostly open-response questions.
 // New versions randomize numerical values without copying the source exam.
 const blueprint=[
- ["units",["Multi-step conversion","Speed conversion","Area conversion","Currency exchange: dollars to foreign currency","Currency exchange: foreign currency to dollars","Weight conversion"]],
+ ["units",["Multi-step conversion","Speed conversion","Area conversion","Currency exchange: dollars to foreign currency","Fahrenheit to Celsius","Compare prices in different units"]],
  ["percent",["Successive percentage increases","Reverse percentages"]],
  ["budget",["Monthly budget categories"]],
  ["interest",["Simple-interest investment","Time to reach a goal","Compound interest"]],
