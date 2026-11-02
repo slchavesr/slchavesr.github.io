@@ -154,4 +154,5 @@ advancedNext=()=>{document.querySelector('#practicePanel article.problem').class
 // Existing topic buttons call the reassigned next(), so they continue to work.
 advancedNext();
 window.math1190AdvancedNext=advancedNext;
+window.math1190FormulaQuestion=questionFormula;
 })();

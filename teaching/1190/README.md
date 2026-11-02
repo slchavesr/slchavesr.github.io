@@ -1,3 +1,3 @@
-MATH 1190 Practice Center v11 — restored exact Version 9 visual design.
+MATH 1190 Exam 3 Practice Center v12
 
-Upload ALL ten files to teaching/1190/ (do not mix versions). Every script uses v11 cache busting. Exam generation uses the Version 9 handler. PDF export reads the exact generated exam via a supported accessor and reports loading failures. PDF libraries require internet access.
+Preserves v9 layout. Fixed 10-question practice exam covering all eight non-sketch topics plus sketch from formula and graph investigation from derivative. Online freehand sketchpads for both sketch questions. PDF question and solution exports keep each complete question and graph on one page. PDF requires internet access for jsPDF/html2canvas. Replace ALL files in teaching/1190/.
