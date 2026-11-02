@@ -1,7 +1,7 @@
 
 "use strict";
 const topics=[
-["units","Units & Conversions","Conversions and unit rates"],
+["units","Units & Conversions","Conversions, exchange rates and unit rates"],
 ["percent","Percentages","Discounts, inflation and markups"],
 ["budget","Budgeting & Graphs","Expense categories and pie charts"],
 ["interest","Interest & Investments","Simple and compound growth"],
@@ -38,6 +38,21 @@ units:[
 {title:"Multi-step conversion",make(){let c=pick([{name:"A delivery van",start:"miles",target:"feet",factor:5280},{name:"A hiking trail",start:"kilometers",target:"meters",factor:1000},{name:"A water tank",start:"gallons",target:"quarts",factor:4}]);let x=rnd(3,24);return {text:`${c.name} has a measurement of ${x} ${c.start}. Express it in ${c.target}.`,fields:[`Number of ${c.target}`],answers:[x*c.factor],hint:`Multiply by ${c.factor} ${c.target} per ${c.start}.`,solution:`${x} × ${c.factor} = ${num(x*c.factor)} ${c.target}.`};}},
 {title:"Unit rates",make(){let c=pick([{item:"apples",unit:"pounds",cost:1.7},{item:"fabric",unit:"yards",cost:3.4},{item:"fuel",unit:"gallons",cost:2.8}]);let q=rnd(4,15),p=Math.round(q*c.cost*100)/100;return {text:`A customer pays ${money(p)} for ${q} ${c.unit} of ${c.item}. What is the price per ${c.unit}?`,fields:["Unit price ($)"],answers:[p/q],tol:.015,hint:"Divide the total price by the quantity.",solution:`${money(p)} ÷ ${q} = ${money(p/q)} per ${c.unit}.`};}},
 {title:"Speed conversion",make(){let mph=rnd(25,75);return {text:`A delivery vehicle travels at ${mph} miles per hour. Convert this speed to feet per second. Round to two decimal places.`,fields:["Speed (feet per second)"],answers:[mph*5280/3600],hint:"Multiply miles by 5280 feet and divide hours by 3600 seconds.",solution:`${mph} × 5280 ÷ 3600 = ${(mph*5280/3600).toFixed(2)} feet per second.`};}},
+{title:"Currency exchange: dollars to foreign currency",make(){
+ const c=pick([{name:"euros",symbol:"€",code:"EUR",rate:0.92},{name:"Canadian dollars",symbol:"C$",code:"CAD",rate:1.37},{name:"Mexican pesos",symbol:"MX$",code:"MXN",rate:17.85},{name:"British pounds",symbol:"£",code:"GBP",rate:0.79}]);
+ const amount=rnd(12,90)*10, rate=Number((c.rate*(rnd(94,106)/100)).toFixed(4)),converted=amount*rate;
+ return {text:`A traveler exchanges $${amount} US dollars. The posted rate is 1 USD = ${rate} ${c.code}. How many ${c.name} will the traveler receive? Ignore transaction fees and round to two decimals.`,fields:[`Amount (${c.code})`],answers:[converted],hint:`Multiply the number of US dollars by ${rate} ${c.code} per USD.`,authoredSolution:`<p>The rate tells us how many ${c.name} correspond to each US dollar. Multiplying by the rate cancels the USD units and leaves ${c.code}.</p><div class="math-method">\[${amount}\,\cancel{\mathrm{USD}}\times\frac{${rate}\,\mathrm{${c.code}}}{1\,\cancel{\mathrm{USD}}}=${converted.toFixed(2)}\,\mathrm{${c.code}}\]</div><p>The traveler receives <strong>${converted.toFixed(2)} ${c.code}</strong>, before fees.</p>`};
+}},
+{title:"Currency exchange: foreign currency to dollars",make(){
+ const c=pick([{name:"euros",code:"EUR",rate:0.92},{name:"Canadian dollars",code:"CAD",rate:1.37},{name:"Mexican pesos",code:"MXN",rate:17.85},{name:"British pounds",code:"GBP",rate:0.79}]);
+ const rate=Number((c.rate*(rnd(94,106)/100)).toFixed(4)),amount=rnd(15,90)*10,usd=amount/rate;
+ return {text:`A store lists an item for ${amount} ${c.code}. The exchange rate is 1 USD = ${rate} ${c.code}. What is the equivalent price in US dollars? Ignore fees and round to two decimals.`,fields:["Equivalent price (USD)"],answers:[usd],hint:`Since one US dollar buys ${rate} ${c.code}, divide ${amount} by ${rate}.`,authoredSolution:`<p>Here the exchange rate is expressed as foreign currency per US dollar. To find the dollar price, we divide the foreign-currency amount by that rate, rather than multiplying.</p><div class="math-method">\[${amount}\,\cancel{\mathrm{${c.code}}}\times\frac{1\,\mathrm{USD}}{${rate}\,\cancel{\mathrm{${c.code}}}}\approx ${usd.toFixed(2)}\,\mathrm{USD}\]</div><p>The equivalent price is <strong>$${usd.toFixed(2)}</strong>.</p>`};
+}},
+{title:"Currency exchange: compare two prices",make(){
+ const c=pick([{code:"EUR",rate:0.92},{code:"CAD",rate:1.37},{code:"GBP",rate:0.79}]);
+ const rate=Number((c.rate*(rnd(94,106)/100)).toFixed(4)),us=rnd(40,120)*5,foreign=Math.round(us*rate*(rnd(85,115)/100)),converted=foreign/rate,difference=Math.abs(us-converted);
+ return {text:`A jacket costs $${us} in a US shop or ${foreign} ${c.code} in an overseas shop. The exchange rate is 1 USD = ${rate} ${c.code}. Ignoring shipping, tax and fees, what is the overseas price in USD, and how much cheaper is the less expensive option? Round both answers to two decimals.`,fields:["Overseas price (USD)","Savings choosing the cheaper option (USD)"],answers:[converted,difference],hint:`Convert ${foreign} ${c.code} into USD by dividing by ${rate}, then subtract the smaller dollar price from the larger.`,authoredSolution:`<p>To compare prices fairly, both must be expressed in the same currency. The overseas price in US dollars is ${foreign} divided by ${rate}.</p><div class="math-method">\[\frac{${foreign}\,\mathrm{${c.code}}}{${rate}\,\mathrm{${c.code}/USD}}\approx\$${converted.toFixed(2)}\]</div><p>The US shop charges $${us.toFixed(2)}, while the overseas shop charges approximately $${converted.toFixed(2)}. The ${converted<us?'overseas':'US'} shop is cheaper, and the difference is <strong>$${difference.toFixed(2)}</strong>.</p>`};
+}},
 {title:"Area conversion",make(){let feet=rnd(3,25)*9;return {text:`A rectangular garden covers ${feet} square feet. How many square yards is this?`,fields:["Area (square yards)"],answers:[feet/9],hint:"One square yard contains 9 square feet.",solution:`${feet} ÷ 9 = ${feet/9} square yards.`};}}
 ],
 percent:[
@@ -111,6 +126,7 @@ function unitCancellation(title,d){
 }
 // Each explanation is generated from the same randomized problem instance as the answer checker.
 function naturalSolution(title,d){
+ if(d.authoredSolution)return d.authoredSolution;
  const t=d.text, a=d.answers, m=(n)=>money(n), f=(n,k=2)=>Number(n).toFixed(k), n=(n)=>num(n);
  const T=(s)=>`<div class="math-method">\\[${s}\\]</div>`;
  const P=(s)=>`<p>${s}</p>`;
