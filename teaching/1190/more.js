@@ -20,3 +20,39 @@ if(t===1)return make('lhopital',`Evaluate ${disp(`\\lim_{x\\to0^+}x^{${k}x}`)}. 
 if(t===2)return make('lhopital',`Evaluate ${disp(`\\lim_{x\\to\\infty}x^{${k}}e^{-x}`)}.`,0,`Rewrite the product as ${tex(`\\frac{x^{${k}}}{e^x}`)}, an infinity-over-infinity form. Apply L'Hôpital's Rule ${k} times: the numerator becomes a constant while the exponential denominator keeps growing. Thus the limit is zero.`,`Rewrite the product as a quotient before applying L'Hôpital.`,{kind:'numeric'});
 return make('lhopital',`Evaluate ${disp(`\\lim_{x\\to0}\\frac{\\arctan(${k}x)}{x}`)}.`,k,`The quotient is 0/0. Differentiating numerator and denominator gives ${tex(`\\frac{${k}}{1+${k*k}x^2}`)}, which approaches ${tex(k)}.`,`Differentiate arctan(kx) using the chain rule.`,{kind:'numeric'});};
 })();
+
+/* Exam 3: variable-exponent 0/0 limits. Keep all existing L'Hopital families. */
+(()=>{
+'use strict';
+const previous=gens.lhopital;
+const choose=a=>a[Math.floor(Math.random()*a.length)];
+const F=n=>Number(n.toFixed(4));
+const exponents=[
+ {latex:'\\sin x',at1:Math.sin(1),name:'sin x'},
+ {latex:'\\cos x',at1:Math.cos(1),name:'cos x'},
+ {latex:'\\tan x',at1:Math.tan(1),name:'tan x'},
+ {latex:'\\sec x',at1:1/Math.cos(1),name:'sec x'},
+ {latex:'e^x',at1:Math.E,name:'e^x'},
+ {latex:'\\ln(1+x)',at1:Math.log(2),name:'ln(1+x)'},
+ {latex:'\\sqrt{x+3}',at1:2,name:'sqrt(x+3)'},
+ {latex:'\\frac{1}{x+1}',at1:.5,name:'1/(x+1)'},
+ {latex:'x^2+1',at1:2,name:'x²+1'},
+ {latex:'2+\\sin x',at1:2+Math.sin(1),name:'2+sin x'},
+ {latex:'1+\\ln x',at1:1,name:'1+ln x'},
+ {latex:'x^2',at1:1,name:'x²'},
+ {latex:'\\ln x',at1:0,name:'ln x'}
+];
+gens.lhopital=function(){
+ if(Math.random()>=.68)return previous();
+ const g=choose(exponents),m=choose([2,3,4,5]);
+ const denominator=choose([
+  {latex:`x^{${m}}-1`,slope:m},
+  {latex:'\\ln x',slope:1},
+  {latex:'x-1',slope:1}
+ ]);
+ const ans=g.at1/denominator.slope;
+ const numerator=`x^{${g.latex}}-1`;
+ const explanation=`As x approaches 1, the expression is 0/0. For a differentiable exponent g(x), logarithmic differentiation gives ${tex("\\frac{d}{dx}x^{g(x)}=x^{g(x)}\\left(g'(x)\\ln x+\\frac{g(x)}{x}\\right)")}. At x=1, ln(1)=0, so the numerator derivative equals g(1)=${tex(g.name==='ln x'?'0':String(F(g.at1)))}. The denominator derivative at x=1 is ${denominator.slope}. L'Hôpital's Rule gives ${tex(String(F(ans)))}.`;
+ return make('lhopital',`Evaluate ${disp(`\\lim_{x\\to1}\\frac{${numerator}}{${denominator.latex}}`)}. Round to four decimal places if needed.`,F(ans),explanation,`First verify the 0/0 form. Differentiate x raised to a function using logarithmic differentiation, then substitute x=1.`,{kind:'numeric',tolerance:.001});
+};
+})();
