@@ -4,15 +4,38 @@
 const $=id=>document.getElementById(id);
 const LIMIT=70*60*1000;
 const KEY='math1190-tracked-result';
-let state='ready',username='',started=0,clock=null,passStart=false,passSubmit=false;
+let state='ready',username='',started=0,clock=null,passStart=false,passSubmit=false,examSnapshot='';
 const start=$('startExam'),submit=$('submitExam'),warning=$('trackedWarning');
 function elapsed(){return started?Math.max(0,Math.floor((Date.now()-started)/1000)):0;}
 function time(s){return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;}
 function notify(msg){warning.textContent=msg;warning.classList.remove('hidden');}
 function saveAndRedirect(status,score,reason=''){
- const data={username,score,status,reason,seconds:elapsed(),minutes:Number((elapsed()/60).toFixed(2)),at:new Date().toISOString()};
+ const data={username,score,status,reason,seconds:elapsed(),minutes:Number((elapsed()/60).toFixed(2)),at:new Date().toISOString(),examHtml:examSnapshot};
  sessionStorage.setItem(KEY,JSON.stringify(data));
  window.location.replace('exam-results.html');
+}
+function captureExam(){
+ const source=$('examQuestions');
+ const clone=source.cloneNode(true);
+ const originals=source.querySelectorAll('input,select,textarea');
+ const copies=clone.querySelectorAll('input,select,textarea');
+ originals.forEach((el,i)=>{
+   const cp=copies[i];if(!cp)return;
+   const answer=document.createElement('span');answer.className='student-answer';
+   answer.textContent=el.value.trim()||'(blank)';
+   cp.replaceWith(answer);
+ });
+ // Preserve hand-drawn graphs stored in canvas elements, if any.
+ const originalCanvases=source.querySelectorAll('canvas');
+ const clonedCanvases=clone.querySelectorAll('canvas');
+ originalCanvases.forEach((canvas,i)=>{
+   try{const img=document.createElement('img');img.src=canvas.toDataURL('image/png');
+     img.alt='Student graph';img.style.maxWidth='100%';clonedCanvases[i]?.replaceWith(img);}catch(e){}
+ });
+ clone.querySelectorAll('button,.exam-result,script').forEach(el=>el.remove());
+ clone.querySelectorAll('[data-answer]').forEach(el=>el.removeAttribute('data-answer'));
+ clone.querySelectorAll('[id]').forEach(el=>el.removeAttribute('id'));
+ return clone.innerHTML;
 }
 function grade(){
  // Existing exam grader handles blank fields as unanswered (zero points).
@@ -27,6 +50,7 @@ function grade(){
 function end(status,reason=''){
  if(state!=='running')return;
  state='ending';clearInterval(clock);
+ try{examSnapshot=captureExam();}catch(e){examSnapshot='';}
  let score=null;
  try{score=grade();}catch(e){reason+=` Grading issue: ${e.message}`;}
  if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});

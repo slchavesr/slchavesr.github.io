@@ -1,7 +1,6 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MATH 1190 — Exam Results</title><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap"><div class="eyebrow">KENNESAW STATE UNIVERSITY · MATH 1190</div><h1>Exam 3 · Results and Submission</h1></div></header><main class="wrap"><article class="problem"><h2>Exam summary</h2><div id="summary" aria-live="polite"></div><p><strong>Submit your result to the instructor.</strong> The Microsoft Form is a separate service. Opening it does not submit your result; you must click Submit on the form.</p><button id="send">Submit result to instructors</button><p class="muted small">Your username, score, and time will be prefilled in Microsoft Forms. Review the values and click Submit in Microsoft Forms to send them to the instructor. Closing the form without submitting does not send results.</p><p id="copyStatus" aria-live="polite"></p></article></main><script>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MATH 1190 — Exam Results</title><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap"><div class="eyebrow">KENNESAW STATE UNIVERSITY · MATH 1190</div><h1>Exam 3 · Results and Submission</h1></div></header><main class="wrap"><article class="problem"><h2>Exam summary</h2><div id="summary" aria-live="polite"></div><p><strong>Submit your result to the instructor.</strong> The Microsoft Form is a separate service. Opening it does not submit your result; you must click Submit on the form.</p><button id="send">Submit result to instructors</button> <button id="downloadExam" type="button" class="secondary">Download exam and answers</button><p class="muted small">The form currently opens without prefilled fields. For automatic prefilling, the instructor must supply the Microsoft Forms “Get pre-filled URL” link. Browser-only pages cannot force a Microsoft Form to submit or verify that it was submitted.</p><p id="copyStatus" aria-live="polite"></p></article></main><script>
 (()=>{
-const form='https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=5W7yRTTxnkO8k-bH4z1hwqJiIQk7JLZEjnEGQrUhu5dUM1pPTjhVMkJDRzlUUDYwMk9EVTdSRllGMC4u';
-const fields={username:'rbbfb4de5115340f285e9e06054b89241',score:'rb1a11026521f4212b203255511ff697a',minutes:'ra5af1b324c464b38a8dfbbedf153b284'};
+const form='https://forms.cloud.microsoft/r/XLQBFVSk82';
 let data;try{data=JSON.parse(sessionStorage.getItem('math1190-tracked-result')||'null')}catch(e){}
 const box=document.getElementById('summary');
 if(!data){box.textContent='No exam result is available in this browser session.';document.getElementById('send').disabled=true;return;}
@@ -10,12 +9,23 @@ const table=document.createElement('table');table.className='answers-table';
 for(const [k,v] of rows){const tr=document.createElement('tr');const th=document.createElement('th');th.textContent=k;const td=document.createElement('td');td.textContent=String(v);tr.append(th,td);table.append(tr);}
 box.append(table);
 document.getElementById('send').onclick=()=>{
- const url=new URL(form);
- url.searchParams.set(fields.username,data.username);
- url.searchParams.set(fields.score,data.score===null?'':String(data.score));
- url.searchParams.set(fields.minutes,String(data.minutes));
- window.open(url.toString(),'_blank','noopener,noreferrer');
- document.getElementById('copyStatus').textContent='Microsoft Forms opened with your result details. You must click Submit there to send them to your instructor.';
+ const message=`Username: ${data.username}\nScore (%): ${data.score===null?'Not graded':data.score}\nTime used (minutes): ${data.minutes}\nStatus: ${data.status}`;
+ if(navigator.clipboard?.writeText){navigator.clipboard.writeText(message).then(()=>{document.getElementById('copyStatus').textContent='Result details copied. Paste them into Microsoft Forms and click Submit.';}).catch(()=>{});}
+ window.open(form,'_blank','noopener,noreferrer');
 };
+})();
+</script><script>
+(()=>{
+const btn=document.getElementById('downloadExam');
+if(!btn)return;
+let d;try{d=JSON.parse(sessionStorage.getItem('math1190-tracked-result')||'null')}catch(e){}
+if(!d||!d.examHtml){btn.disabled=true;btn.title='Exam questions were not saved for this attempt';return;}
+btn.addEventListener('click',()=>{
+ const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const details=`<h1>MATH 1190 — Exam 3 Student Attempt</h1><p><b>Username:</b> ${escape(d.username)} &nbsp; <b>Status:</b> ${escape(d.status)} &nbsp; <b>Score:</b> ${d.score==null?'Not available':escape(d.score)+'%'} &nbsp; <b>Time used:</b> ${escape(d.minutes)} minutes</p><p><b>Date:</b> ${escape(new Date(d.at).toLocaleString())}</p>`;
+ const doc=`<!doctype html><html lang="en"><head><meta charset="utf-8"><title>MATH 1190 Exam 3 — ${escape(d.username)}</title><style>body{font:16px/1.5 system-ui,Arial,sans-serif;max-width:900px;margin:30px auto;padding:0 20px;color:#17212b}article.problem{border:1px solid #ccc;border-radius:8px;padding:18px;margin:20px 0;break-inside:avoid}.student-answer{display:inline-block;border-bottom:1px solid #777;padding:3px 8px;white-space:pre-wrap;font-weight:600;color:#123c62}svg,img,canvas{max-width:100%;height:auto}table{border-collapse:collapse}td,th{border:1px solid #bbb;padding:6px}button{display:none}@media print{body{margin:0;max-width:none}article.problem{break-inside:avoid}}</style></head><body>${details}<h2>Questions and entered answers</h2>${d.examHtml}<p>Answers shown are the student's entries at the time the attempt ended. The automatically calculated score may not reflect instructor review of sketches.</p></body></html>`;
+ const blob=new Blob([doc],{type:'text/html;charset=utf-8'});
+ const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`MATH1190_Exam3_${String(d.username).replace(/[^a-z0-9_-]/gi,'_')}_${new Date(d.at).toISOString().slice(0,10)}.html`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),3000);
+});
 })();
 </script></body></html>
