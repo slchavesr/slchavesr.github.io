@@ -86,6 +86,11 @@ document.addEventListener('fullscreenchange',()=>{
 document.addEventListener('visibilitychange',()=>{
  if(state==='running'&&document.hidden)end('Terminated','Switched away from the exam tab');
 });
+// Switching to another app/window can leave the tab visible and fullscreen.
+// Window blur catches Alt+Tab in browsers that dispatch this event.
+window.addEventListener('blur',()=>{
+ if(state==='running')end('Terminated','Exam window lost focus (possible Alt+Tab or window switch)');
+});
 window.addEventListener('beforeunload',e=>{
  if(state==='running'){e.preventDefault();e.returnValue='';}
 });
