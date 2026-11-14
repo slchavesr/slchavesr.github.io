@@ -4,13 +4,26 @@
 const $=id=>document.getElementById(id);
 const LIMIT=70*60*1000;
 const KEY='math1190-tracked-result';
-let state='ready',username='',started=0,clock=null,passStart=false,passSubmit=false,examSnapshot='';
+const params=new URLSearchParams(window.location.search);
+const suppliedUsername=(params.get('username')||'').trim();
+const suppliedAttempt=(params.get('attempt')||'').trim();
+const validUsername=/^[a-zA-Z0-9._-]{2,80}$/.test(suppliedUsername);
+const validAttempt=/^[1-3]$/.test(suppliedAttempt);
+let state='ready',username='',attempt=null,started=0,clock=null,passStart=false,passSubmit=false,examSnapshot='';
 const start=$('startExam'),submit=$('submitExam'),warning=$('trackedWarning');
+const usernameField=$('trackedUsername'),attemptInfo=$('trackedAttemptInfo');
+usernameField.readOnly=true;
+usernameField.value=validUsername?suppliedUsername:'';
+if(validAttempt)attemptInfo.textContent=`Attempt ${suppliedAttempt} of 3`;
+if(!validUsername||!validAttempt){
+ start.disabled=true;
+ $('trackedEntryHelp').textContent='Access this exam through the Start Exam button in Power Apps. A valid username and attempt number are required.';
+}
 function elapsed(){return started?Math.max(0,Math.floor((Date.now()-started)/1000)):0;}
 function time(s){return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;}
 function notify(msg){warning.textContent=msg;warning.classList.remove('hidden');}
 function saveAndRedirect(status,score,reason=''){
- const data={username,score,status,reason,seconds:elapsed(),minutes:Number((elapsed()/60).toFixed(2)),at:new Date().toISOString(),examHtml:examSnapshot};
+ const data={username,attempt,score,status,reason,seconds:elapsed(),minutes:Number((elapsed()/60).toFixed(2)),at:new Date().toISOString(),examHtml:examSnapshot};
  sessionStorage.setItem(KEY,JSON.stringify(data));
  window.location.replace('exam-results.html');
 }
@@ -39,7 +52,6 @@ function captureExam(){
 }
 function grade(){
  // Existing exam grader handles blank fields as unanswered (zero points).
- // Trigger it via the same submission event students use.
  passSubmit=true;
  try{submit.click();}finally{passSubmit=false;}
  const text=$('examResults').textContent;
@@ -64,14 +76,26 @@ function tick(){
 }
 async function begin(){
  if(state!=='ready')return;
- const value=$('trackedUsername').value.trim();
- if(!/^[a-zA-Z0-9._-]{2,80}$/.test(value)){notify('Enter a valid KSU username.');return;}
+ if(!validUsername||!validAttempt){notify('Please enter the exam through Power Apps.');return;}
  if(!document.documentElement.requestFullscreen){notify('This browser does not support required fullscreen mode.');return;}
- try{await document.documentElement.requestFullscreen();}catch(e){notify('Fullscreen permission is required to start.');return;}
- username=value;started=Date.now();state='running';warning.classList.add('hidden');
- $('trackedUsername').disabled=true;
+ state='starting';
+ try{
+   await document.documentElement.requestFullscreen();
+ }catch(e){state='ready';notify('Fullscreen permission is required to start. Click the button again and allow fullscreen.');return;}
+ username=suppliedUsername;attempt=Number(suppliedAttempt);
+ warning.classList.add('hidden');
  passStart=true;
- try{start.click();}catch(e){state='ready';notify('Unable to generate the exam: '+e.message);return;}finally{passStart=false;}
+ try{
+   start.click();
+ }catch(e){
+   state='ready';
+   if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});
+   notify('Unable to generate the exam: '+e.message);
+   return;
+ }finally{passStart=false;}
+ // Begin timing only after the existing exam engine has received its start click.
+ started=Date.now();state='running';
+ usernameField.disabled=true;
  start.disabled=true;start.classList.add('hidden');
  tick();clock=setInterval(tick,250);
 }
@@ -86,8 +110,6 @@ document.addEventListener('fullscreenchange',()=>{
 document.addEventListener('visibilitychange',()=>{
  if(state==='running'&&document.hidden)end('Terminated','Switched away from the exam tab');
 });
-// Switching to another app/window can leave the tab visible and fullscreen.
-// Window blur catches Alt+Tab in browsers that dispatch this event.
 window.addEventListener('blur',()=>{
  if(state==='running')end('Terminated','Exam window lost focus (possible Alt+Tab or window switch)');
 });
