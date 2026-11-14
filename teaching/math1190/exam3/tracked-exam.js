@@ -59,7 +59,7 @@ function end(status,reason=''){
 function tick(){
  if(state!=='running')return;
  const remain=Math.max(0,Math.ceil((LIMIT-(Date.now()-started))/1000));
- $('timer').textContent=`Time remaining: ${time(remain)} · Zero violations allowed`;
+ $('timer').textContent=`Time remaining: ${time(remain)} · Do not exit fullscreen or change tabs or windows; otherwise, the exam will close immediately.`;
  if(remain===0)end('Time expired','70-minute time limit reached');
 }
 async function begin(){
