@@ -20,7 +20,7 @@ function displaySubmission(score, status){
   results.innerHTML='';
   const title=document.createElement('h2');title.textContent=status==='Completed'?'Submit your results':'Attempt ended';
   const p=document.createElement('p');
-  p.textContent=`Username: ${username} · Score: ${score===null?'Not graded':score+'%'} · Time used: ${(elapsed()/60).toFixed(2)} minutes.`;
+  p.textContent=`Username: ${username} · Automatically checked score: ${score===null?'Not graded':score+'% (excludes written/sketch questions)'} · Time used: ${(elapsed()/60).toFixed(2)} minutes.`;
   results.append(title,p);
   const note=document.createElement('p');
   note.textContent=status==='Completed'?'To record your results, open the KSU Microsoft Form and enter the displayed values. The form requires a separate submission; it is not automatic.':'This local attempt was terminated. No result has been automatically sent to the instructor.';
@@ -69,8 +69,8 @@ function finish(){
   allowFinish=true;finishBtn.click();allowFinish=false;
   // The v16 grader prints "(NN%)" in its results heading.
   const content=$('examResults').textContent;
-  const match=content.match(/\(\s*(\d+(?:\.\d+)?)\s*%\s*\)/);
-  const score=match?Number(match[1]):null;
+  const match=content.match(/(\d+)\s+of\s+(\d+)\s+automatically/i);
+  const score=match&&Number(match[2])>0?Math.round(100*Number(match[1])/Number(match[2])*100)/100:null;
   disableExam();
   $('timer').textContent=`Finished · elapsed ${fmt(elapsed())}`;
   displaySubmission(score,'Completed');
