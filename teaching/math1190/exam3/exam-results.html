@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MATH 1190 — Exam Results</title><link rel="stylesheet" href="style.css"></head><body><header><div class="wrap"><div class="eyebrow">KENNESAW STATE UNIVERSITY · MATH 1190</div><h1>Exam 3 · Results and Submission</h1></div></header><main class="wrap"><article class="problem"><h2>Exam summary</h2><div id="summary" aria-live="polite"></div><p><strong>Submit your result to the instructor.</strong> The Microsoft Form is a separate service. Opening it does not submit your result; you must click Submit on the form.</p><button id="send">Submit result to instructors</button><p class="muted small">The form currently opens without prefilled fields. For automatic prefilling, the instructor must supply the Microsoft Forms “Get pre-filled URL” link. Browser-only pages cannot force a Microsoft Form to submit or verify that it was submitted.</p><p id="copyStatus" aria-live="polite"></p></article></main><script>
+(()=>{
+const form='https://forms.cloud.microsoft/r/XLQBFVSk82';
+let data;try{data=JSON.parse(sessionStorage.getItem('math1190-tracked-result')||'null')}catch(e){}
+const box=document.getElementById('summary');
+if(!data){box.textContent='No exam result is available in this browser session.';document.getElementById('send').disabled=true;return;}
+const rows=[['KSU username',data.username],['Attempt status',data.status],['Score',data.score===null?'Not available':data.score+'%'],['Time used',data.minutes+' minutes'],['Date',new Date(data.at).toLocaleString()],['Reason',data.reason||'—']];
+const table=document.createElement('table');table.className='answers-table';
+for(const [k,v] of rows){const tr=document.createElement('tr');const th=document.createElement('th');th.textContent=k;const td=document.createElement('td');td.textContent=String(v);tr.append(th,td);table.append(tr);}
+box.append(table);
+document.getElementById('send').onclick=()=>{
+ const message=`Username: ${data.username}\nScore (%): ${data.score===null?'Not graded':data.score}\nTime used (minutes): ${data.minutes}\nStatus: ${data.status}`;
+ if(navigator.clipboard?.writeText){navigator.clipboard.writeText(message).then(()=>{document.getElementById('copyStatus').textContent='Result details copied. Paste them into Microsoft Forms and click Submit.';}).catch(()=>{});}
+ window.open(form,'_blank','noopener,noreferrer');
+};
+})();
+</script></body></html>
