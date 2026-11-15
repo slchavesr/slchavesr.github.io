@@ -5,3 +5,8 @@
 .subpart math-field.answer-math:focus-within{outline:2px solid #4986b9;outline-offset:1px}
 
 .math-entry{max-width:540px}.math-entry .answer-fallback{display:block;box-sizing:border-box;width:100%;max-width:540px;min-height:52px}.math-entry .math-toggle{margin-top:8px;font-size:.88rem;padding:7px 12px}.math-entry .math-toggle[hidden]{display:none}
+
+/* MathLive is the primary answer editor. Plain text is an explicit fallback. */
+.math-entry .answer-fallback[hidden]{display:none!important}
+.math-entry math-field.answer-math{display:block;min-height:60px;cursor:text}
+.math-entry math-field.answer-math:focus{border-color:#287db4;box-shadow:0 0 0 3px #d7eaf8}
