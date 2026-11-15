@@ -1,0 +1,1 @@
+Exam 4 Practice: upload index.html, exam4.js, exam4.css, style.css together. MathLive and math.js require internet access. MathLive editor is primary once its module loads; plain text is available as fallback. Test in browser before publishing.
