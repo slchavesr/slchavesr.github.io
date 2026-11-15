@@ -29,16 +29,36 @@ function svgPlot(curves,a,b,{rects=null,fill=null,zero=true}={}){
  s+=`<line x1="${L}" y1="${y0}" x2="${W-Q}" y2="${y0}" stroke="#43556a" stroke-width="1.6"/><line x1="${X(0)}" y1="${T}" x2="${X(0)}" y2="${H-B}" stroke="#43556a" stroke-width="1.6"/>`;
  curves.forEach((c,j)=>{let pts=[];for(let i=0;i<=420;i++){let x=a+(b-a)*i/420,y=c.fn(x);if(Number.isFinite(y))pts.push(`${X(x)},${Y(y)}`)}s+=`<polyline points="${pts.join(' ')}" fill="none" stroke="${c.color||['#17558c','#d36c35'][j%2]}" stroke-width="3" stroke-linejoin="round"/>`});return s+'</svg>';
 }
-function input(label,id,type='text',opts=[]){return `<div class="subpart"><label for="${id}">${label}</label>${type==='select'?`<select id="${id}"><option value="">Choose an answer</option>${opts.map(o=>`<option>${o}</option>`).join('')}</select>`:`<math-field id="${id}" class="answer-math" virtual-keyboard-mode="onfocus" aria-label="${label.replace(/<[^>]*>/g,'')}" placeholder="\\text{Enter your answer}"></math-field>`}<div class="feedback" id="fb-${id}" aria-live="polite"></div></div>`}
+function input(label,id,type='text',opts=[]){return `<div class="subpart"><label for="${id}">${label}</label>${type==='select'?`<select id="${id}"><option value="">Choose an answer</option>${opts.map(o=>`<option>${o}</option>`).join('')}</select>`:`<div class="math-entry"><input id="${id}" class="answer-fallback" type="text" autocomplete="off" spellcheck="false" placeholder="Enter your mathematical answer" aria-label="${label.replace(/<[^>]*>/g,'')}"/><button type="button" class="secondary math-toggle" data-editor="${id}" hidden>Use math keyboard</button></div>`}<div class="feedback" id="fb-${id}" aria-live="polite"></div></div>`}
+function enableMathEditors(){
+ if(!window.customElements?.get('math-field'))return;
+ document.querySelectorAll('.math-entry').forEach(w=>{
+  if(w.querySelector('math-field'))return;
+  const original=w.querySelector('input'),toggle=w.querySelector('.math-toggle');
+  const field=document.createElement('math-field');field.className='answer-math';
+  field.setAttribute('aria-label',original.getAttribute('aria-label'));
+  field.setAttribute('virtual-keyboard-mode','onfocus');
+  field.setAttribute('math-virtual-keyboard-policy','auto');
+  field.style.display='none';w.insertBefore(field,original);
+  toggle.hidden=false;toggle.textContent='Use math keyboard';
+  toggle.onclick=()=>{
+   const show=field.style.display==='none';
+   if(show){field.style.display='block';original.style.display='none';field.value=original.value||'';field.focus();toggle.textContent='Use text input';}
+   else{original.value=field.getValue('ascii-math')||field.value||'';field.style.display='none';original.style.display='block';original.focus();toggle.textContent='Use math keyboard';}
+  };
+ });
+}
+
 function card(i,title,body,solution){return `<article class="exam-card" id="p${i}"><span class="tag">PROBLEM ${i}</span><h2>${title}</h2>${body}<div class="actions"><button type="button" data-check="${i}">Check answers</button><button type="button" class="secondary" data-solution="${i}">Show worked solution</button></div><section class="solution" id="sol${i}" hidden><h3>Worked solution</h3>${solution}</section></article>`}
 function add(id,answer,mode='num',tol=.005,group=0){tasks.push({id,answer,mode,tol,group})}
 function numeric(s){if(!s.trim())return NaN;try{if(window.math){let v=math.evaluate(s.replace(/π/g,'pi'));return typeof v==='number'?v:NaN}return Number(s)}catch{return NaN}}
 function derivativeEquivalent(str,expected){if(!window.math)return null;try{let user=str.replace(/\+\s*C\b/gi,'').replace(/π/g,'pi').replace(/\^/g,'^');let d=math.derivative(user,'x').compile();let target=math.parse(expected).compile();return [.45,.8,1.2,1.7,2.4].every(x=>{let a=d.evaluate({x}),b=target.evaluate({x});return Number.isFinite(a)&&Number.isFinite(b)&&Math.abs(a-b)<.001*Math.max(1,Math.abs(b))})}catch{return false}}
 function expressionEquivalent(str,expected){if(!window.math)return null;try{let u=math.parse(str.replace(/π/g,'pi')).compile(),v=math.parse(expected).compile();return [.4,.7,1.2,1.8,2.2].every(x=>{let a=u.evaluate({x}),b=v.evaluate({x});return Number.isFinite(a)&&Number.isFinite(b)&&Math.abs(a-b)<.002*Math.max(1,Math.abs(b))})}catch{return false}}
 function answerText(el){
- if(el.tagName.toLowerCase()!=='math-field')return el.value.trim();
- let v='';
- try{v=el.getValue('ascii-math')}catch(e){v=el.value||''}
+ if(el.tagName.toLowerCase()!=='input')return (el.value||'').trim();
+ const field=el.parentElement?.querySelector('math-field');
+ if(!field||field.style.display==='none')return el.value.trim();
+ let v='';try{v=field.getValue('ascii-math')}catch(e){v=field.value||''}
  return String(v).replace(/\\operatorname\{([^}]+)\}/g,'$1').replace(/\\pi/g,'pi').replace(/\\cdot/g,'*').replace(/\\left|\\right/g,'').replace(/\\,/g,'').replace(/\\infty/g,'Infinity').replace(/\s+/g,' ').trim();
 }
 function check(group){let n=0,ok=0;for(let t of tasks.filter(t=>group===0||t.group===group)){let el=$(t.id),str=answerText(el),pass=false,unknown=false;if(!str){$('fb-'+t.id).textContent='Enter an answer first.';continue}if(t.mode==='choice')pass=str===t.answer;else if(t.mode==='num')pass=Math.abs(numeric(str)-t.answer)<=t.tol*Math.max(1,Math.abs(t.answer));else if(t.mode==='expr'){let res=expressionEquivalent(str,t.answer);unknown=res===null;pass=res===true}else if(t.mode==='anti'){let res=derivativeEquivalent(str,t.answer);unknown=res===null;pass=res===true&&/\+\s*C\b/i.test(str)}else if(t.mode==='points'){let vals=str.split(',').map(x=>numeric(x)).sort((a,b)=>a-b);pass=vals.length===t.answer.length&&vals.every((x,i)=>Math.abs(x-t.answer[i])<.01)}n++;if(pass)ok++;let fb=$('fb-'+t.id);fb.className='feedback '+(pass?'good':'bad');fb.textContent=unknown?'Symbolic checking unavailable offline; compare with worked solution.':pass?'Correct.':'Not quite. Review your calculation or reveal the solution.'}if(group===0)$('summary').textContent=`${ok} of ${n} entered answers correct`}
@@ -63,12 +83,21 @@ let signed=0,total=0,roots=[];for(let i=0;i<5;i++){let v=ys[i],w=ys[i+1];signed+
 let id='p4g',id2='p4crit',id3='p4total';add(id,signed,'num',.001,4);add(id2,roots,'points',0,4);add(id3,total,'num',.001,4);
 let body=`<p>Let ${tex('g(x)=\\int_0^x f(t)\\,dt')}, where ${tex('f')} is the continuous piecewise-linear function shown. Use signed areas of triangles and trapezoids; briefly explain your reasoning.</p><div class="graph-wrap">${svgPlot([{fn}],0,5)}</div>${input('(a) Find g(5)',id)}${input('(b) Find all critical numbers of g on (0,5), separated by commas',id2)}${input('(c) Find the total geometric area between f and the x-axis on [0,5]',id3)}`;
 let terms=ys.slice(0,-1).map((v,i)=>`(${v}+${ys[i+1]})/2`);let sol=`<p>Each segment has width 1. Signed area is positive above the axis and negative below.</p><p>${tex(`g(5)=\\sum_{i=0}^{4}\\frac{f(i)+f(i+1)}{2}=${fmt(signed)}`)}.</p><p>By the Fundamental Theorem of Calculus, ${tex("g'(x)=f(x)")}. Interior critical numbers occur where the graph of ${tex('f')} crosses the horizontal axis: <strong>${roots.map(fmt).join(', ')}</strong>.</p><p>The total geometric area counts both positive and negative regions positively: <strong>${fmt(total)}</strong>.</p><p class="note">Vertices: ${ys.map((y,i)=>`(${i}, ${y})`).join(', ')}. Break each crossing segment into two triangles when finding absolute area.</p>`;return card(4,'Accumulated signed area',body,sol)}
-function make5(){let m=pick([2,3,4,5]),n=pick([2,3,4,5,6]),scale=pick([1,2,3]),hi=pick([1,2,3]); // curves meet at 0 and hi; scaled to preserve equality
-let f=x=>scale*hi*Math.pow(x/hi,1/m),g=x=>scale*hi*Math.pow(x/hi,n);let area=scale*hi*hi*(m/(m+1)-1/(n+1));let id='p5area';add(id,area,'num',.001,5);
-let body=`<p>The curves ${tex(`y=${scale}\\,${hi}^{1-1/${m}}x^{1/${m}}`)} and ${tex(`y=${scale}\\,${hi}^{1-${n}}x^{${n}}`)} intersect at ${tex('x=0')} and ${tex(`x=${hi}`)}. Their graphs are shown <strong>without shading</strong>. Shade the enclosed region on your own sketch (not graded), then calculate its exact area.</p><div class="graph-wrap">${svgPlot([{fn:f,color:'#17558c'},{fn:g,color:'#d36c35'}],0,hi)}</div>${input('Enclosed area (exact fraction or decimal accepted)',id)}`;
-let sol=`<p>On ${tex(`0<x<${hi}`)}, the fractional-power curve lies above the higher-power curve. The area is the integral of upper minus lower.</p><p>${tex(`A=\\int_0^{${hi}}\\left(${scale}\\,${hi}^{1-1/${m}}x^{1/${m}}-${scale}\\,${hi}^{1-${n}}x^{${n}}\\right)dx`)}</p><p>${tex(`A=${scale}\\cdot${hi}^2\\left(\\frac{${m}}{${m+1}}-\\frac{1}{${n+1}}\\right)=${fmt(area)}`)}</p><div class="graph-wrap">${svgPlot([{fn:f,color:'#17558c'},{fn:g,color:'#d36c35'}],0,hi,{fill:{f,g,lo:0,hi}})}</div><p class="note">The green region is the area enclosed between the two curves.</p>`;return card(5,'Area between power curves',body,sol)}
+function make5(){
+ // Keep coefficients natural: the curves intersect at x=0 and x=1.
+ // One curve uses a radical; the other is an integer power.
+ let m=pick([2,3,4,5]),n=pick([2,3,4,5,6]),scale=pick([1,2,3,4]);
+ let f=x=>scale*Math.pow(x,1/m),g=x=>scale*Math.pow(x,n);
+ let area=scale*(m/(m+1)-1/(n+1)),id='p5area';add(id,area,'num',.001,5);
+ const coefficient=scale===1?'':String(scale);
+ const radical=m===2?`\\sqrt{x}`:`\\sqrt[${m}]{x}`;
+ const first=`${coefficient}${radical}`,second=`${coefficient}x^{${n}}`;
+ let body=`<p>The curves ${tex(`y=${first}`)} and ${tex(`y=${second}`)} intersect at ${tex('x=0')} and ${tex('x=1')}. Their graphs are shown <strong>without shading</strong>. Shade the enclosed region on your own sketch (not graded), then calculate its exact area.</p><div class="graph-wrap">${svgPlot([{fn:f,color:'#17558c'},{fn:g,color:'#d36c35'}],0,1)}</div>${input('Enclosed area (exact fraction or decimal accepted)',id)}`;
+ let sol=`<p>On ${tex('0<x<1')}, the radical curve lies above the polynomial curve. Integrate upper minus lower.</p><p>${tex(`A=\\int_0^1\\left(${first}-${second}\\right)\\,dx`)}</p><p>${tex(`A=${scale}\\left(\\frac{${m}}{${m+1}}-\\frac{1}{${n+1}}\\right)=${fmt(area)}`)}</p><div class="graph-wrap">${svgPlot([{fn:f,color:'#17558c'},{fn:g,color:'#d36c35'}],0,1,{fill:{f,g,lo:0,hi:1}})}</div><p class="note">The shaded region appears only in the worked solution.</p>`;
+ return card(5,'Area between power curves',body,sol)
+}
 function typeset(){if(window.MathJax?.typesetPromise)MathJax.typesetPromise().catch(()=>{})}
-function generate(){tasks=[];serial++;$('exam').innerHTML=make1()+make2()+make3()+make4()+make5();$('summary').textContent='';typeset()}
+function generate(){tasks=[];serial++;$('exam').innerHTML=make1()+make2()+make3()+make4()+make5();$('summary').textContent='';enableMathEditors();typeset()}
 document.addEventListener('click',e=>{let b=e.target.closest('button');if(!b)return;if(b.dataset.check)check(Number(b.dataset.check));if(b.dataset.solution){let s=$('sol'+b.dataset.solution);s.hidden=!s.hidden;b.textContent=s.hidden?'Show worked solution':'Hide worked solution';if(!s.hidden)typeset()}});
 $('generate').onclick=generate;$('checkAll').onclick=()=>check(0);$('showAll').onclick=()=>{for(let i=1;i<=5;i++)$('sol'+i).hidden=false;document.querySelectorAll('[data-solution]').forEach(b=>b.textContent='Hide worked solution');typeset()};generate();
 })();

@@ -3,3 +3,5 @@
 /* Formatted mathematical answer fields */
 .subpart math-field.answer-math{display:block;box-sizing:border-box;width:100%;max-width:540px;min-height:58px;padding:11px 14px;border:1.5px solid #a8b8c8;border-radius:10px;background:#fff;color:#182b42;font-size:1.25rem;--caret-color:#174c77;--selection-background-color:#d8eafb;box-shadow:0 2px 5px #142c4308}
 .subpart math-field.answer-math:focus-within{outline:2px solid #4986b9;outline-offset:1px}
+
+.math-entry{max-width:540px}.math-entry .answer-fallback{display:block;box-sizing:border-box;width:100%;max-width:540px;min-height:52px}.math-entry .math-toggle{margin-top:8px;font-size:.88rem;padding:7px 12px}.math-entry .math-toggle[hidden]{display:none}
