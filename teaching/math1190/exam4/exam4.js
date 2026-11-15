@@ -15,14 +15,23 @@ const areaF=[
  {t:'\\sqrt{1+t^4}',expr:x=>`sqrt(1+(${x})^4)`,fn:x=>Math.sqrt(1+x**4)},
  {t:'e^{\\sin t}',expr:x=>`exp(sin(${x}))`,fn:x=>Math.exp(Math.sin(x))}
 ];
-function svgPlot(curves,a,b,{rects=null,fill=null,zero=true,minimal=false}={}){
+function svgPlot(curves,a,b,{rects=null,fill=null,zero=true,minimal=false,integerGrid=false}={}){
  const W=740,H=340,L=52,T=24,B=38,Q=20, yvals=[];
  for(const c of curves)for(let i=0;i<=280;i++){let y=c.fn(a+(b-a)*i/280);if(Number.isFinite(y))yvals.push(y)}
  if(rects)rects.forEach(r=>yvals.push(r.h));yvals.push(0);
  let ymin=Math.min(...yvals),ymax=Math.max(...yvals),pad=Math.max(.3,(ymax-ymin)*.15);ymin-=pad;ymax+=pad;
  const X=x=>L+(x-a)/(b-a)*(W-L-Q),Y=y=>T+(ymax-y)/(ymax-ymin)*(H-T-B), y0=Y(0);
  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Function graph with axes${rects?' and Riemann rectangles':''}"><rect width="${W}" height="${H}" fill="white"/>`;
- if(!minimal){
+ if(integerGrid){
+  const xStart=Math.ceil(a),xEnd=Math.floor(b);
+  for(let x=xStart;x<=xEnd;x++){
+   s+=`<line x1="${X(x)}" y1="${T}" x2="${X(x)}" y2="${H-B}" stroke="#e8edf2"/><text x="${X(x)}" y="${H-13}" font-size="12" fill="#53667b" text-anchor="middle">${x}</text>`;
+  }
+  const yStart=Math.ceil(ymin),yEnd=Math.floor(ymax);
+  for(let y=yStart;y<=yEnd;y++){
+   s+=`<line x1="${L}" y1="${Y(y)}" x2="${W-Q}" y2="${Y(y)}" stroke="#e8edf2"/><text x="${L-8}" y="${Y(y)+4}" font-size="12" fill="#53667b" text-anchor="end">${y}</text>`;
+  }
+ }else if(!minimal){
  for(let i=0;i<=8;i++){let x=a+(b-a)*i/8;s+=`<line x1="${X(x)}" y1="${T}" x2="${X(x)}" y2="${H-B}" stroke="#e8edf2"/><text x="${X(x)}" y="${H-13}" font-size="11" fill="#53667b" text-anchor="middle">${fmt(x)}</text>`}
  for(let i=0;i<=5;i++){let y=ymin+(ymax-ymin)*i/5;s+=`<line x1="${L}" y1="${Y(y)}" x2="${W-Q}" y2="${Y(y)}" stroke="#e8edf2"/><text x="${L-8}" y="${Y(y)+4}" font-size="11" fill="#53667b" text-anchor="end">${fmt(y)}</text>`}
  }else{
@@ -122,7 +131,7 @@ function make4(){
   else total+=(v*v+w*w)/(2*(Math.abs(v)+Math.abs(w)));
  }
  let id='p4g',id2='p4crit',id3='p4total';add(id,signed,'num',.001,4);add(id2,roots.sort((a,b)=>a-b),'points',0,4);add(id3,total,'num',.001,4);
- let body=`<p>Let ${tex('g(x)=\\int_0^x f(t)\\,dt')}, where ${tex('f')} is the continuous piecewise-linear function shown. Use signed areas of triangles and trapezoids; briefly explain your reasoning.</p><div class="graph-wrap">${svgPlot([{fn}],0,N)}</div>${input(`(a) Find g(${N})`,id)}${input(`(b) Find all critical numbers of g on (0,${N}), separated by commas`,id2)}${input(`(c) Find the total geometric area between f and the x-axis on [0,${N}]`,id3)}`;
+ let body=`<p>Let ${tex('g(x)=\\int_0^x f(t)\\,dt')}, where ${tex('f')} is the continuous piecewise-linear function shown. Use signed areas of triangles and trapezoids; briefly explain your reasoning.</p><div class="graph-wrap">${svgPlot([{fn}],0,N,{integerGrid:true})}</div>${input(`(a) Find g(${N})`,id)}${input(`(b) Find all critical numbers of g on (0,${N}), separated by commas`,id2)}${input(`(c) Find the total geometric area between f and the x-axis on [0,${N}]`,id3)}`;
  let sol=`<p>Each segment has width 1. Signed area is positive above the axis and negative below.</p><p>${tex(`g(${N})=${fmt(signed)}`)}.</p><p>By the Fundamental Theorem of Calculus, ${tex("g'(x)=f(x)")}. Interior critical numbers occur where ${tex('f(x)=0')}: <strong>${roots.map(fmt).join(', ')}</strong>.</p><p>The total geometric area counts both positive and negative regions positively: <strong>${fmt(total)}</strong>.</p><p class="note">Vertices: ${ys.map((y,i)=>`(${i}, ${y})`).join(', ')}. Split any segment crossing the axis into two triangles.</p>`;
  return card(4,'Accumulated signed area',body,sol)
 }
