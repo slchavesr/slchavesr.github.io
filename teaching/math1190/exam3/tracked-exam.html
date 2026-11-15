@@ -87,11 +87,33 @@ window.MathJax = {
 }
 
 #trackedAttemptInfo {
-  font-size: 1rem;
+  font-size: .95rem;
   font-weight: 600;
   color: #475569;
   margin: 0 0 14px;
 }
+
+/* Styled student sign-in, matching the existing exam design */
+.student-identity { align-items: stretch; flex-direction: column; gap: 7px; }
+.student-identity label { font-weight: 800; color: #334155; }
+.student-identity .identity-help { color: #64748b; font-size: .92rem; margin: 0; }
+#trackedUsername {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 420px;
+  padding: 12px 14px;
+  border: 1px solid #94a3b8;
+  border-radius: 9px;
+  background: #fff;
+  color: #0f172a;
+  font: inherit;
+  font-size: 1.08rem;
+}
+#trackedUsername:focus { outline: 3px solid #bfdbfe; border-color: #2563eb; }
+#trackedUsernameDisplay { font-size: .93rem; font-weight: 600; }
+#trackedUsernameDisplay:empty { display: none; }
+#trackedUsernameError { color: #b91c1c; font-weight: 650; margin: 0; }
+#trackedUsernameError:empty { display: none; }
 
 @media (max-width: 600px) {
   #examPanel > .toolbar {
@@ -113,7 +135,7 @@ window.MathJax = {
     <div class="eyebrow">
       KENNESAW STATE UNIVERSITY · MATH 1190
     </div>
-    <h1>Calculus I · Tracked Exam</h1>
+    <h1>Calculus I · Practice Exam</h1>
   </div>
 </header>
 
@@ -279,40 +301,23 @@ window.MathJax = {
         Enter Fullscreen &amp; Begin Exam
       </button>
 
-      <button id="downloadExamPdf"
-              type="button"
-              class="secondary hidden">
-        Download exam PDF
-      </button>
-
-      <button id="downloadKeyPdf"
-              type="button"
-              class="secondary hidden">
-        Download solutions PDF
-      </button>
-
       <span id="timer" class="muted"></span>
     </div>
 
     <div class="info" id="trackedInstructions">
 
-      <!-- Username displayed as text -->
       <div class="student-identity">
-        <strong>KSU username:</strong>
-        <span id="trackedUsernameDisplay">
-          Loading...
-        </span>
+        <label for="trackedUsername">KSU username</label>
+        <p class="identity-help">Enter your KSU username (without @students.kennesaw.edu) before starting the exam.</p>
+        <input id="trackedUsername" type="text" inputmode="text"
+               autocomplete="username" autocapitalize="none" spellcheck="false"
+               placeholder="e.g. jstudent12" maxlength="80" required
+               aria-describedby="trackedUsernameError">
+        <span id="trackedUsernameDisplay" aria-live="polite"></span>
+        <p id="trackedUsernameError" role="alert" aria-live="polite"></p>
       </div>
 
-      <!-- Hidden value used by existing JavaScript -->
-      <input
-        id="trackedUsername"
-        type="hidden"
-        value=""
-      >
-
-      <!-- Attempt number -->
-      <p id="trackedAttemptInfo"></p>
+      <p id="trackedAttemptInfo">Unlimited practice attempts · Results submitted through Microsoft Forms</p>
 
       <p>
         70-minute time limit. Fullscreen required.
@@ -320,10 +325,10 @@ window.MathJax = {
         the browser counts as a violation.
         There are no warnings: the first detected
         fullscreen exit or tab switch terminates
-        this attempt.
+        the current exam session.
 
         The site cannot prevent you from leaving
-        or guarantee that a terminated attempt is reported.
+        or guarantee that a terminated session is reported.
 
         Your results are self-reported through
         Microsoft Forms.
@@ -424,58 +429,51 @@ window.MathJax = {
 <script src="unified-v13.js?v=16" defer></script>
 <script src="exam3-v15.js?v=16" defer></script>
 <script src="exam3-v16.js?v=16" defer></script>
-<script src="tracked-exam.js?v=5" defer></script>
+<script src="tracked-exam.js?v=6" defer></script>
 
-<!-- Initialize student identity -->
+<!-- Validate username without requiring Power Apps or attempt parameters. -->
 <script>
 (function () {
   const params = new URLSearchParams(window.location.search);
+  const input = document.getElementById('trackedUsername');
+  const display = document.getElementById('trackedUsernameDisplay');
+  const error = document.getElementById('trackedUsernameError');
+  const start = document.getElementById('startExam');
+  const initial = params.get('username') || '';
+  const valid = name => /^[a-zA-Z0-9._-]{2,80}$/.test(name);
 
-  const username = params.get("username");
-  const attempt = params.get("attempt");
+  // Optional old bookmarked username links still populate the field.
+  if (valid(initial)) input.value = initial;
 
-  const usernameInput =
-    document.getElementById("trackedUsername");
-
-  const usernameDisplay =
-    document.getElementById("trackedUsernameDisplay");
-
-  const attemptInfo =
-    document.getElementById("trackedAttemptInfo");
-
-  const startButton =
-    document.getElementById("startExam");
-
-  const validUsername =
-    username &&
-    /^[a-zA-Z0-9._-]{2,80}$/.test(username);
-
-  const validAttempt =
-    /^[1-3]$/.test(attempt || "");
-
-  if (validUsername) {
-    usernameInput.value = username;
-    usernameDisplay.textContent = username;
-  } else {
-    usernameDisplay.textContent =
-      "Username unavailable";
+  function refresh() {
+    const name = input.value.trim();
+    const ok = valid(name);
+    start.disabled = !ok;
+    display.textContent = ok ? 'Ready to begin, ' + name : '';
+    error.textContent = name && !ok
+      ? 'Enter a valid KSU username using letters, numbers, dots, underscores or hyphens.'
+      : '';
+    return ok;
   }
 
-  if (validAttempt) {
-    attemptInfo.textContent =
-      "Attempt " + attempt + " of 3";
-  } else {
-    attemptInfo.textContent =
-      "Attempt number unavailable";
-  }
-
-  if (!validUsername || !validAttempt) {
-    startButton.disabled = true;
-    attemptInfo.textContent =
-      "A valid username and attempt number are required.";
-  } else {
-    startButton.disabled = false;
-  }
+  input.addEventListener('input', refresh);
+  input.addEventListener('change', refresh);
+  // Capture before the existing tracked-exam.js start handler.
+  start.addEventListener('click', function (event) {
+    if (!refresh()) {
+      event.preventDefault();
+      event.stopImmediatePropagation();
+      input.focus();
+      return;
+    }
+    // Keep the entered username available to existing URL-based integrations.
+    // No attempt number or attempt restriction is imposed by this page.
+    params.set('username', input.value.trim());
+    params.delete('attempt');
+    params.delete('autostart');
+    history.replaceState(null, '', location.pathname + '?' + params.toString() + location.hash);
+  }, true);
+  refresh();
 })();
 </script>
 

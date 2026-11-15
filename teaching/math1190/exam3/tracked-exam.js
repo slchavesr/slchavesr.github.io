@@ -1,44 +1,32 @@
-/* MATH 1190 tracked exam. Original exam question bank and grading are reused. */
+/* MATH 1190 tracked exam. Original question bank and grading are reused. */
 (()=>{
 'use strict';
 const $=id=>document.getElementById(id);
 const LIMIT=70*60*1000;
 const KEY='math1190-tracked-result';
 const params=new URLSearchParams(window.location.search);
-const suppliedUsername=(params.get('username')||'').trim();
-const suppliedAttempt=(params.get('attempt')||'').trim();
-const validUsername=/^[a-zA-Z0-9._-]{2,80}$/.test(suppliedUsername);
-const validAttempt=/^[1-3]$/.test(suppliedAttempt);
-let state='ready',username='',attempt=null,started=0,clock=null,passStart=false,passSubmit=false,examSnapshot='';
+let state='ready',username='',started=0,clock=null,passStart=false,passSubmit=false,examSnapshot='';
 const start=$('startExam'),submit=$('submitExam'),warning=$('trackedWarning');
-const usernameField=$('trackedUsername'),attemptInfo=$('trackedAttemptInfo');
-usernameField.readOnly=true;
-usernameField.value=validUsername?suppliedUsername:'';
-if(validAttempt)attemptInfo.textContent=`Attempt ${suppliedAttempt} of 3`;
-if(!validUsername||!validAttempt){
- start.disabled=true;
- $('trackedEntryHelp').textContent='Access this exam through the Start Exam button in Power Apps. A valid username and attempt number are required.';
-}
+const usernameField=$('trackedUsername');
+const validUsername=name=>/^[a-zA-Z0-9._-]{2,80}$/.test(name);
+if(validUsername(params.get('username')||'')) usernameField.value=params.get('username');
 function elapsed(){return started?Math.max(0,Math.floor((Date.now()-started)/1000)):0;}
 function time(s){return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`;}
 function notify(msg){warning.textContent=msg;warning.classList.remove('hidden');}
 function saveAndRedirect(status,score,reason=''){
- const data={username,attempt,score,status,reason,seconds:elapsed(),minutes:Number((elapsed()/60).toFixed(2)),at:new Date().toISOString(),examHtml:examSnapshot};
- sessionStorage.setItem(KEY,JSON.stringify(data));
+ const data={username,score,status,reason,seconds:elapsed(),minutes:Number((elapsed()/60).toFixed(2)),at:new Date().toISOString(),examHtml:examSnapshot};
+ try{sessionStorage.setItem(KEY,JSON.stringify(data));}catch(e){notify('Could not save exam results in this browser. Please enable session storage.');return;}
  window.location.replace('exam-results.html');
 }
 function captureExam(){
- const source=$('examQuestions');
- const clone=source.cloneNode(true);
+ const source=$('examQuestions');const clone=source.cloneNode(true);
  const originals=source.querySelectorAll('input,select,textarea');
  const copies=clone.querySelectorAll('input,select,textarea');
  originals.forEach((el,i)=>{
    const cp=copies[i];if(!cp)return;
    const answer=document.createElement('span');answer.className='student-answer';
-   answer.textContent=el.value.trim()||'(blank)';
-   cp.replaceWith(answer);
+   answer.textContent=el.value.trim()||'(blank)';cp.replaceWith(answer);
  });
- // Preserve hand-drawn graphs stored in canvas elements, if any.
  const originalCanvases=source.querySelectorAll('canvas');
  const clonedCanvases=clone.querySelectorAll('canvas');
  originalCanvases.forEach((canvas,i)=>{
@@ -51,7 +39,6 @@ function captureExam(){
  return clone.innerHTML;
 }
 function grade(){
- // Existing exam grader handles blank fields as unanswered (zero points).
  passSubmit=true;
  try{submit.click();}finally{passSubmit=false;}
  const text=$('examResults').textContent;
@@ -76,26 +63,20 @@ function tick(){
 }
 async function begin(){
  if(state!=='ready')return;
- if(!validUsername||!validAttempt){notify('Please enter the exam through Power Apps.');return;}
+ const name=usernameField.value.trim();
+ if(!validUsername(name)){notify('Enter your KSU username before starting the exam.');usernameField.focus();return;}
  if(!document.documentElement.requestFullscreen){notify('This browser does not support required fullscreen mode.');return;}
  state='starting';
- try{
-   await document.documentElement.requestFullscreen();
- }catch(e){state='ready';notify('Fullscreen permission is required to start. Click the button again and allow fullscreen.');return;}
- username=suppliedUsername;attempt=Number(suppliedAttempt);
+ try{await document.documentElement.requestFullscreen();}
+ catch(e){state='ready';notify('Fullscreen permission is required to start. Click the button again and allow fullscreen.');return;}
+ username=name;
  warning.classList.add('hidden');
  passStart=true;
- try{
-   start.click();
- }catch(e){
-   state='ready';
-   if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});
-   notify('Unable to generate the exam: '+e.message);
-   return;
- }finally{passStart=false;}
- // Begin timing only after the existing exam engine has received its start click.
+ try{start.click();}
+ catch(e){state='ready';if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});notify('Unable to generate the exam: '+e.message);return;}
+ finally{passStart=false;}
  started=Date.now();state='running';
- usernameField.disabled=true;
+ usernameField.readOnly=true;
  start.disabled=true;start.classList.add('hidden');
  tick();clock=setInterval(tick,250);
 }
