@@ -16,3 +16,5 @@
 .exam-correct{border-left:4px solid #17803d}.exam-incorrect{border-left:4px solid #ba5139}.result-line summary{cursor:pointer;padding:12px 0}.result-line .details{margin-bottom:12px}
 @media print{header{background:white;color:black;padding:10px 0}header p,.actions,.back-link,footer,#submit-exam,.notice,#exam-results{display:none!important}.card{box-shadow:none;break-inside:avoid;padding:10px;margin:8px 0}.exam-section-heading{break-after:avoid}}
 .venn-picture{width:min(450px,100%);display:block;margin:10px auto}
+
+.dataset{background:#f0f5fa;border:1px solid #d7e2ee;padding:12px;border-radius:8px;line-height:2;overflow-wrap:anywhere}.formula-item{padding:12px 0;border-bottom:1px solid #e2e8f0}.formula-item h3{margin:4px 0;font-size:1rem}.formula-math{overflow-x:auto}.static-scatter{text-align:center}.reference-page .formula-item p{color:#52657a}.diagram-host{overflow-x:auto}@media print{.reference-page{break-inside:avoid}.formula-item{break-inside:avoid}}
