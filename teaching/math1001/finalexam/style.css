@@ -18,3 +18,4 @@
 .venn-picture{width:min(450px,100%);display:block;margin:10px auto}
 
 .dataset{background:#f0f5fa;border:1px solid #d7e2ee;padding:12px;border-radius:8px;line-height:2;overflow-wrap:anywhere}.formula-item{padding:12px 0;border-bottom:1px solid #e2e8f0}.formula-item h3{margin:4px 0;font-size:1rem}.formula-math{overflow-x:auto}.static-scatter{text-align:center}.reference-page .formula-item p{color:#52657a}.diagram-host{overflow-x:auto}@media print{.reference-page{break-inside:avoid}.formula-item{break-inside:avoid}}
+.table-work{margin:16px 0;overflow-x:auto}.table-entry{width:92px;max-width:100%;padding:7px;border:2px solid #94a3b8;border-radius:5px}.table-entry.cell-correct{border-color:#15803d;background:#f0fdf4}.table-entry.cell-incorrect{border-color:#b91c1c;background:#fef2f2}.table-work th,.table-work td{text-align:center}
