@@ -10,3 +10,6 @@
 .math-entry .answer-fallback[hidden]{display:none!important}
 .math-entry math-field.answer-math{display:block;min-height:60px;cursor:text}
 .math-entry math-field.answer-math:focus{border-color:#287db4;box-shadow:0 0 0 3px #d7eaf8}
+
+/* Exam mode controls and score report */
+.mode-picker{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 8px}.mode-picker .mode-active{background:#174c77;color:#fff;border-color:#174c77}.mode-description{margin:0 0 14px;color:#526578}.hint-area{margin-top:12px}.hint-text{background:#fff9e8;border-left:4px solid #d6a53e;padding:12px 14px;border-radius:5px}.hint-text[hidden],.exam-results[hidden]{display:none}.exam-results{flex-basis:100%;background:white;border:1px solid #b9d3e9;border-radius:12px;padding:20px;margin-top:10px}.exam-results h2{margin-top:0}.score-line{font-size:1.5rem;font-weight:700;color:#174c77}.score-table{width:100%;border-collapse:collapse;max-width:680px}.score-table th,.score-table td{text-align:left;padding:9px;border-bottom:1px solid #dce4ed}.score-table th:last-child,.score-table td:last-child{text-align:right}button[hidden]{display:none!important}
